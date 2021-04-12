@@ -1,18 +1,18 @@
 ---
 layout: custody_child
-title: IT - Transparency
-header: Custody / Transparency
-tag: transparency
-uid: transparency
+title: IT - Consulting
+header: Professional Services / Consulting
+tag: consulting
+uid: consulting
 locale: it
-page-category: custody
+page-category: professional-services
 page-tag: secmid
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_transparency.svg
 slider: /assets/img/custody/header_transparency.jpg
 sub-header: /assets/img/custody/img_bitcoin.jpg
-permalink: /it/custody/trasparency.html
+permalink: /it/professional-services/consulting.html
 class: middle-home
 sort_ranking: 1000
 ---

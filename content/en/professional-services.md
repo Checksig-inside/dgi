@@ -1,10 +1,10 @@
 ---
 layout: custody
-title: Transparent Bitcoin Custody
-header: Custody
+title: Professional services
+header: Professional services
 locale: en
-uid: custody
-permalink: /custody.html
+uid: professional-services
+permalink: /professional-services.html
 slider: /assets/img/custody/header_custody.jpg
 slider-home: /assets/img/home/header_homepage.jpg
 page-tag: sectop

@@ -1,7 +1,7 @@
         
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for item in folder1 %}
-		{% if item.locale == page.locale and item.page-category == 'custody' %} 
+		{% if item.locale == page.locale and item.page-category == 'professional-services' %} 
 		<div class="container back-{{ item.uid }}">
 		<p class="dotline"><img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/img/custody/ico_dot.png"  alt="dotline"/></p>
 		<div class="row padding back-{{ item.uid }}" style="padding:20px;">

@@ -6,19 +6,21 @@ disqus:
 menu:
   en: 
   - {uid: 'home', path: 'en', url: 'index.html'}
-  - {uid: 'custody', path: 'en', url: 'custody.html'}
-  - {uid: 'institutions', path: 'en', url: 'institutions.html'}
-  - {uid: 'why-bitcoin', path: 'en', url: 'why-bitcoin.html'}
-  - {uid: 'support', path: 'en', url: 'support.html'}
-  - {uid: 'company', path: 'en', url: 'company.html'}
+  - {uid: 'professional-services', path: 'en', url: 'professional-services.html'}
+  - {uid: 'industries', path: 'en', url: 'institutions.html'}
+  - {uid: 'r-d', path: 'en', url: 'r-d.html'}
+  - {uid: 'crypto-insights', path: 'en', url: 'crypto-insights.html'}
+  - {uid: 'about-dgi', path: 'en', url: 'about-dgi.html'}
+  - {uid: 'institute-insights', path: 'en', url: 'institute-insights.html'}
   - {uid: 'contact', path: 'en', url: 'contact.html'}
   it:
   - {uid: 'home', path: 'it', url: 'it/index.html'}
-  - {uid: 'custody', path: 'it', url: 'it/custody.html'}
-  - {uid: 'institutions', path: 'it', url: 'it/institutions.html'}
-  - {uid: 'why-bitcoin', path: 'it', url: 'it/why-bitcoin.html'}
-  - {uid: 'support', path: 'it', url: 'it/support.html'}
-  - {uid: 'company', path: 'it', url: 'it/company.html'}
+  - {uid: 'professional-services', path: 'it', url: 'it/professional-services.html'}
+  - {uid: 'industries', path: 'it', url: 'it/industries.html'}
+  - {uid: 'r-d', path: 'it', url: 'it/r-d.html'}
+  - {uid: 'crypto-insights', path: 'it', url: 'it/crypto-insights.html'}
+  - {uid: 'about-dgi', path: 'it', url: 'it/about-dgi.html'}
+  - {uid: 'institute-insights', path: 'it', url: 'it/institute-insights.html'}
   - {uid: 'contact', path: 'it', url: 'it/contact.html'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer

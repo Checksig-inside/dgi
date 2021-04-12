@@ -1,16 +1,16 @@
 ---
 layout: custody_child
-title: Technology
-header: Custody / Technology IT
-tag: technology/
-uid: technology
+title: Empowring know-how/understanding
+header: Custody / Empowring know-how/understanding IT
+tag: empowering/
+uid: empowering
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem IT - ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/custody/header_transparency.jpg
 locale: it
-page-category: custody
-permalink: /it/custody/technology.html
+page-category: professional-services
+permalink: /it/professional-services/empowering.html
 sort_ranking: 800
 ---
 
