@@ -10,7 +10,7 @@ highlighter:         rouge
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
 #  path: rss-feed.xml
-baseurl: "/multilangsite" # the subpath of your site, e.g. /blog
+baseurl: "/dgi" # the subpath of your site, e.g. /blog
 url: "checksig-inside.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # multiple language
