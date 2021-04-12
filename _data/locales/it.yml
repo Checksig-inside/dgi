@@ -7,11 +7,12 @@ blog:
 
 menu: 
   professional-services: Professional services IT
-  institutions: Industries
-  why-bitcoin: R&D
-  support: Crypto insights
-  company: About DGI
-  contact: Insititute Insights
+  industries: Industries
+  r-d: R&D
+  crypto-insights: Crypto insights
+  about-dgi: About DGI
+  institute-insights: Institute Insights
+  contact: Contact
 page:
   next: Newer
   prev: Older

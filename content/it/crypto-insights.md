@@ -1,10 +1,10 @@
 ---
-layout: support
-title: IT - Support
-header: IT - Support
+layout: crypto-insights
+title: IT - Crypto insights
+header: IT - Crypto insights
 locale: it
-uid: support
-permalink: /it/support.html
+uid: crypto-insights
+permalink: /it/crypto-insights.html
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250

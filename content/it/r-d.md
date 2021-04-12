@@ -1,10 +1,10 @@
 ---
-layout: bitcoin
-title: IT - Why Bitcoin
-header: IT - Why Bitcoin
+layout: r-d
+title: IT - R&D
+header: IT - R&D
 locale: it
-uid: why-bitcoin
-permalink: /it/why-bitcoin.html
+uid: r-d
+permalink: /it/r-d.html
 page-tag: secbtm
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
