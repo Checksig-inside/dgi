@@ -10,6 +10,7 @@ img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/custody/header_transparency.jpg
 permalink: /professional-services/empowering/
 locale: en
+page-tag: secmid
 page-category: professional-services
 sort_ranking: 800
 ---

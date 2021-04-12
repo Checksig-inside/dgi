@@ -4,6 +4,7 @@ title: Empowring know-how/understanding
 header: Custody / Empowring know-how/understanding IT
 tag: empowering/
 uid: empowering
+page-tag: secmid
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem IT - ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
