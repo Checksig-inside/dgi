@@ -1,0 +1,127 @@
+<!-- Footer -->
+<footer> 
+<section id="footer" class="footer">
+	<div class="container">
+		<div class="row padding">
+			<div class="col-lg-6 col-md-6 text-left">
+				<img class="logo" style="width:200px" src="/multilangsite/assets/img/home/logo_menu.svg" alt="Dgi">
+				{% include social-icons.html %}
+			</div>
+			<div class="col-lg-6 col-md-6 text-right">
+				<p class="textlink"><a href="#">Privacy policy</a></p>
+				<p class="textlink"><a href="#">Company Info</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row padding">
+			<div class="col-lg-2 col-md-2 text-left">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="/">About</a>
+						<ul>
+									<li>{{site.data.settings.info.company}}</li>
+									<li>{{site.data.settings.info.address}}</li>
+									<li>{{site.data.settings.info.region}} {{site.data.settings.info.country}}</li>
+									<li>email: {{site.data.settings.info.mail}}</li>
+						</ul>
+					</li>
+				</ul> 
+			</div>
+			<div class="col-lg-10 col-md-10 text-left">
+				<ul class="nav navbar-nav  navcategory">
+					{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+					{% for item in site.data.settings.menu[page.locale] %}
+					<li>
+					{% if page.locale == 'en' %} 
+						<a href="{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
+					{% else if %} 
+						<a href="{{ '/' | append: item.url | relative_url}}">{{ site.data.locales[page.locale].menu[item.uid] }}</a>
+					{% endif %} 
+						<ul>
+							{% for subitem in folder1 %}
+							{% if subitem.locale == page.locale and subitem.page-category == item.uid %} 
+									<li><a href="{{ site.baseurl }}{{ subitem.permalink }}">{{ subitem.title }}</a></li>
+							{% endif %} 
+							{% endfor %}
+						</ul>
+					</li>
+					{% endfor %}
+				</ul> 
+			</div>
+		</div>
+	</div>
+</section>
+</footer>
+<script>
+$(document).ready(function(){
+  $("#show").click(function(){
+    $(".alert").toggle();
+  });
+    $( "a.scrollLink" ).click(function( event ) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
+    });
+	$( ".btn-info" ).click(function() {
+  $( this ).parent().find('.description').toggle();
+  $( this ).parent().toggleClass( "active" );
+});
+
+$('#form').submit(function(event) {
+   var field1 = $('#firstname').val();
+   var field2 = $('#lastname').val();
+   var field3 = $('#email').val();
+   var field4 = $('#phone').val();
+   var field5 = $('#company').val();
+   var field6 = $('#message').val();
+   var field7 = $("#privacy").val();
+  event.preventDefault();
+  console.log('submit');
+  $('#feedback').html('');
+  setTimeout(function() {
+  	// Get data
+    var data = {
+       "entry.2005620554": field1,
+       "entry.449231263": field2,
+       "entry.1045781291": field3,
+       "entry.1166974658": field4,
+       "entry.1851324921": field5,
+       "entry.839337160": field6
+    };
+  console.log(data);
+    // Validate form
+    var formSuccess = true;
+    Object.keys(data).forEach(function(key, index) {
+      if (!data[key]) {
+        formSuccess = false;
+        $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
+      }
+    });
+
+    if (formSuccess) {
+	console.log('submit');
+      // Send request
+      $.ajax({
+        url: 'https://docs.google.com/forms/d/e/1dUs7ZZ1zgyMgkZTtN2EIZuErTvYJapgXqkLymeWNf2w/formResponse',
+        type: 'POST',
+        crossDomain: true,
+        dataType: "xml",
+        data: data,
+        success: function(jqXHR, textStatus, errorThrown) {
+          console.log('Enter on success');
+          $('#feedback').html('<label class="text-success">Message sent!</label>');
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.log('Enter on error');
+          $('#feedback').html('<label class="text-success">Message sent!</label>');
+        }
+      });
+    }
+  }, 300);
+});
+
+});
+
+
+
+</script>

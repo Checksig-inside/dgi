@@ -1,0 +1,33 @@
+.language-selector {
+    float: right;
+}
+  
+.language-selector a {
+    color: #777;
+    font-size: 0.8rem;
+}
+
+.en:lang(en), .zh:lang(zh){
+    color: #FFFEEE;
+}
+
+.no-padding a {
+    padding: 0;
+    color: #555;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.no-padding a:hover {
+    text-decoration: none;
+}
+
+.image-info {
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+.post-content h1 {
+    text-align: center;
+    padding: 8px 0;
+}

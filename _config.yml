@@ -1,0 +1,66 @@
+
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+
+
+# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml
+baseurl: "/multilangsite" # the subpath of your site, e.g. /blog
+url: "checksig-inside.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# multiple language
+defaults:
+  # default en
+  - values:
+      locale: en
+  # config posts
+  - scope:
+      path: content/en/_posts/**
+      type: posts
+    values:
+      layout: post
+      locale: en
+      permalink: /posts/:title
+  - scope:
+      path: content/it/_posts/**
+      type: posts
+    values:
+      layout: post
+      locale: it
+      permalink: /it/posts/:title
+  # config pages
+  - scope: 
+      path: content/en/**
+      type: pages
+    values: 
+      locale: en
+      permalink: /
+  - scope: 
+      path: content/it/**
+      type: pages
+    values: 
+      locale: it   
+      permalink: it/
+  # config collections 
+  - scope:
+      path: content/en/custody/**
+      type: custody
+    values:
+      layout: custody
+      locale: en
+      permalink: "/:collection/:path/"
+  - scope:
+      path: content/it/_custody/**
+      type: custody
+    values:
+      layout: custody
+      locale: it
+      permalink: "it/:collection/:path/"
+            
+
+github: [metadata]

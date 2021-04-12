@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+  <!-- Begin #title-section -->
+  <section id="title" class="section-global-wrapper">
+    <div class="container-fluid-kamn">
+      <div class="row">
+        <div class="it-hero-wrapper it-dark it-overlay">
+          <!-- - img-->
+          <div class="img-responsive-wrapper">
+            <div class="img-responsive">
+              <div class="it-hero-text-wrapper bg-dark" style="padding:120px 0px; max-width:800px; margin:0px auto;">
+                <h1 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h1>
+                <p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- institutions -->
+  <section id="description" class="institution">
+    <div class="container">
+      <span class="alert">[description]</span>{{ page.description }}
+      <br>
+    </div>
+  </section>
+
+  <span class="alert">[contenuto della pagina]</span>{{ content }}
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

@@ -1,0 +1,43 @@
+- name: Ferdinando M. Ametrano
+  role: Founder, Executive Director
+  photo: img/team/Ametrano_bw.png
+  photo_name: Ametrano
+  desc: <a href="http://dgi.io/">Digital Gold Institute</a> executive director,</br> <a href="http://ametrano.net/bbt/">Bitcoin and Blockchain Technology</a> adjunct <a href="http://www.unimib.it/ferdinando-maria-ametrano">professor at the University of Milano-Bicocca, <a href="http://cryptoassetlab.diseade.unimib.it/">Crypto Asset Lab</a> scientific director, <a href="http://ssrn.com/abstract=2425270">Hayek Money</a> promoter. Formerly Head of Blockchain & Virtual Currencies at Intesa Sanpaolo, Scaling Bitcoin Planning Committee member.
+  social_1: fa fa-twitter
+  social_1_link: http://twitter.com/Ferdinando1970
+  social_2: fa fa-linkedin
+  social_2_link: http://linkedin.com/in/ferdinandoametrano/
+  social_3: fa fa-github
+  social_3_link: http://github.com/fametrano
+
+- name: Paolo Mazzocchi
+  role: Founder, Operating Officer
+  photo: img/team/Mazzocchi_bw.png
+  photo_name: Mazzocchi
+  desc: <a href="http://dgi.io/">Digital Gold Institute</a> operating officer,</br> <a href="http://cryptoassetlab.diseade.unimib.it/">Crypto Asset Lab</a> faculty member,</br> <a href="http://ametrano.net/ird/">Interest Rate Derivatives</a> assistant lecturer at the University of Milano-Bicocca.</br> Formerly Quantitative Finance consultant in Deloitte for 5 years, Master's degree in Mathematical Engineering at Politecnico di Milano. 
+  social_1: fa fa-twitter
+  social_1_link: https://twitter.com/MazzocchiPaolo
+  social_2: fa fa-linkedin
+  social_2_link: https://www.linkedin.com/in/paolo-mazzocchi-6672a591/
+  social_3: fa fa-github
+  social_3_link: https://github.com/pmazzocchi
+
+- name: Lucia Mandelli
+  role: Business Developer
+  photo: img/team/Mandelli_bw.png
+  photo_name: Mandelli
+  desc: <a href="http://dgi.io/">Digital Gold Institute</a> business developer,</br> Formerly 8 years of hands on entrepreneurial experience and Vice President of <a href="http://www.upi.pr.it/unione-parmense-degli-industriali/gruppo-giovani/index.jsp">“Giovani Imprenditori di Confindustria Parma”</a> 
+  social_1: fa fa-twitter
+  social_1_link: https://twitter.com/luciamandelli
+  social_2: fa fa-linkedin
+  social_2_link: https://www.linkedin.com/in/luciamandelli/
+  social_3: fa fa-github
+  social_3_link: https://github.com/lmandelli
+
+- name: Diego Giubertoni
+  role: Security Officer
+  photo: img/team/Giubertoni_bw.png
+  photo_name: Giubertoni
+  desc: Formerly 10 years in cyber security R&D and consultancy,<br>Master's degree in Computer Science at Università degli Studi di Milano
+  social_1: fa fa-linkedin
+  social_1_link: https://www.linkedin.com/in/diego-giubertoni-0a843951/

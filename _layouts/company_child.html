@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+	<!-- Begin #title-section -->
+	<section id="title-child-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs "><span>COMPANY / </span><span>{{ page.title }}</span></div>
+			</div>
+			<div class="row" style="background:#ccc;">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; background-color: #67A2BF;     background-position: center; background-repeat: no-repeat">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark header-child ">
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row celeste">
+			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+			</div>
+		</div>
+	</section>
+	<!-- institutions -->
+	<section id="institution" class="institution">
+		{% if page.sub-header %} 
+		<div class="container container-image">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ site.baseurl }}{{ page.sub-header }})">	
+				</div>
+			</div>
+		</div>
+		{% endif %}
+		<div class="container" id="top">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light"
+								style="padding:50px 0px; margin:0px auto;">
+								<h2 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h2>
+								<span class="alert">[description]</span>{{ page.description }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<br>
+		</div>
+	</section>
+{% if page.uid == 'research' %} 
+ <section id="research" class="vision"><span class="alert">contenuto da modificare in collection _data/research.yml</span>
+    <div class="container">
+			{% include company/research.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'about' %} 
+ <section id="vision" class="vision"><span class="alert">contenuto da modificare in collection _data/vision.yml</span>
+    <div class="container">
+			{% include company/vision.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'about' %} 
+<section id="team" class="team"><span class="alert">contenuto da modificare in collection _data/team.yml</span>
+    <div class="contain bxslider">
+			{% include company/team.html %}
+    </div>
+</section>	
+{% endif %} 
+{% if page.uid == 'research' %} <span class="alert">contenuto da modificare in collection _data/moduli.yml filtrati per [type] e [locale] </span>
+<section id="research" class="research">
+    <div class="contain bxslider">
+			{% include company/company-moduli.html %}
+    </div>
+</section>
+<section id="dgi-section" class="section-global-wrapper"><span class="alert">sezione per link a dgi.it - in implementazione </span>
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light" style="padding:50px 0px; max-width:800px; margin:0px auto;text-align: center;">
+								<h1 class="no_toc">Digital Gold Insitute</h1>
+								<p class="d-none d-lg-block" style="margin: 25px 0px;">{{ site.data.locales[page.locale].glossary['dgi']}}</p>
+								<div class="it-btn-container text-link"><a class="btn" href="#">{{ site.data.locales[page.locale].glossary['go']}}</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}
+{% if page.uid == 'referral-program' %} 
+ <section id="referral" class="referral"><span class="alert">contenuto da modificare in collection _data/referral.yml distinti per [locale]</span>
+    <div class="container">
+			{% include company/referral.html %}
+    </div>
+</section>
+{% endif %} 
+{% if page.uid == 'our-partners' %} 
+ <section id="partners" class="partners"><span class="alert">contenuto da modificare in collection _data/partner.yml distinti per [locale] e [tag] </span>
+    <div class="container">
+			{% include company/partners.html %}
+    </div>
+</section>
+{% endif %} 
+	<!-- Begin #company-section -->
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
+		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light  box-inner">
+								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
+								<p class="d-none d-lg-block">{% include form.html %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

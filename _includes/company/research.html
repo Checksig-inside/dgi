@@ -1,0 +1,19 @@
+	{% for modulo in site.data.research | sort: 'sort_ranking' | reverse %}
+	{% if modulo.locale == page.locale and modulo.tag == page.uid %}
+	<div class="row padding">
+		<div class="col-lg-4 col-md-4 text-center">
+			<div class="module-research">
+			<h4>{{ modulo.name }}</h4>
+			<p>{{ modulo.sub-description }}</p>
+			<p style="display:none">{{ modulo.description }}</p>
+			</div>
+		</div>
+		<div class="col-lg-8 col-md-8 text-center">
+			<div class="module-research" style="height:300px;background-image:url({{ site.baseurl }}{{ modulo.img }}); background-size:cover;">
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+
+

@@ -1,0 +1,36 @@
+# Change 'comments' to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'diabled-disqus'
+
+menu:
+  en: 
+  - {uid: 'home', path: 'en', url: 'index.html'}
+  - {uid: 'custody', path: 'en', url: 'custody.html'}
+  - {uid: 'institutions', path: 'en', url: 'institutions.html'}
+  - {uid: 'why-bitcoin', path: 'en', url: 'why-bitcoin.html'}
+  - {uid: 'support', path: 'en', url: 'support.html'}
+  - {uid: 'company', path: 'en', url: 'company.html'}
+  - {uid: 'contact', path: 'en', url: 'contact.html'}
+  it:
+  - {uid: 'home', path: 'it', url: 'it/index.html'}
+  - {uid: 'custody', path: 'it', url: 'it/custody.html'}
+  - {uid: 'institutions', path: 'it', url: 'it/institutions.html'}
+  - {uid: 'why-bitcoin', path: 'it', url: 'it/why-bitcoin.html'}
+  - {uid: 'support', path: 'it', url: 'it/support.html'}
+  - {uid: 'company', path: 'it', url: 'it/company.html'}
+  - {uid: 'contact', path: 'it', url: 'it/contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {show: true, icon: 'github', link: 'https://'}
+- {show: true, icon: 'twitter', link: 'https://'}
+- {show: true, icon: 'linkedin', link: 'https:'}
+
+info:
+    company: Checksig s.r.l. 
+    address: Corso di Porta Romana 61
+    region: 20122 Milano (MI)
+    country: ITALY
+    mail: info@checksig.io
+    phone:

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+	<!-- Begin #title-section -->
+	<section id="title-child-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper"
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; height: 400px; background-position: center;">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light"
+								style="padding:120px 0px; margin:0px auto;">{{ page.subdesc }}
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

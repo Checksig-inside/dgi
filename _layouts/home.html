@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+  {% include head-checksig.html %}
+  {% include header-home-checksig.html %}
+  {% include script-checksig.html %}
+
+  <body>
+    <!-- Begin #title-section -->
+    <section id="title" class="section-global-wrapper" style="top:-85px;"> 
+        <div class="container-fluid-kamn">
+			{% include home/section-home.html %}
+        </div>
+    </section>
+<!-- institutions -->
+<section id="institution-sections" class="institutions"><span class="alert">contenuto da modificare in content/{{ page.locale }}/institutions</span>
+    <div class="contain bxslider">
+			{% include institutions/institutions-slider.html %}
+        <br>
+    </div>
+</section>		
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
+<!-- Begin #company-section -->
+<section id="form-section" class="form-section section-global-wrapper"> 
+	<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+	<div class="container-fluid-kamn">
+		<div class="row">
+			<div class="it-hero-wrapper it-dark it-overlay">
+			  <!-- - img-->
+			  <div class="img-responsive-wrapper">
+				<div class="img-responsive">
+					<div class="it-hero-text-wrapper bg-light box-inner">
+						  <h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
+						  <p class="d-none d-lg-block">{% include form.html %}</p>
+					 </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+</section>
+</body>
+
+  {% include footer-checksig.html %}
+</html>

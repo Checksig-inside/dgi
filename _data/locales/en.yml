@@ -1,0 +1,32 @@
+name: EN
+
+blog:
+  title: Checksig EN
+  description:  Lorem impsum Checksig EN
+  author: Dgi
+
+menu: 
+  custody: Custody
+  institutions: Institutions
+  why-bitcoin: Why Bitcoin
+  support: Support
+  company: Company
+  contact: Contacts
+page:
+  next: Newer
+  prev: Older
+
+post:
+  related: "You may also enjoy:"
+  date_prefix: Written on
+
+glossary:
+  readmore: Read more
+  go: Go now
+  discover: Discover
+  fill: Fill in the form
+  moreinfo: for further information
+  request: Assistance request
+  completaform: complete the form
+  readalso: Read also
+  dgi: Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus.

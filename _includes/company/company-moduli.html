@@ -1,0 +1,19 @@
+<!-- team -->
+<section id="team" class="team">
+    <div class="container">
+        <div class="row padding">
+            {% for modulo in site.data.moduli  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale and modulo.type == page.uid %}
+            <div class="col-lg-6 col-md-6 text-center">
+				<div class="module-custody">
+                <h4>{{ modulo.name }}</h4>
+				<p>{{ modulo.sub-description }}</p>
+				<p>{{ modulo.description }}</p>
+                </div>
+            </div>
+			{% endif %}
+            {% endfor %}
+        </div>
+        <br>
+    </div>
+</section>

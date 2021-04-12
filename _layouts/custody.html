@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+	<!-- Begin #title-section -->
+	<section id="title" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs "><span>CUSTODY /</span></div>
+			</div>
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper"
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; padding: 120px 0px; background-position: center;">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="margin:0px auto;">
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Begin #title-section -->
+	<section id="content" class="content">
+		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+		<div class="container">
+			<div class="row" id="top">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light box-inner"
+								style="padding:50px 0px; margin:0px auto;">
+								<h2><span class="alert">[title]</span>{{ page.title }}</h2>
+								<p><span class="alert">[description]</span>{{ page.description }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container container-content">
+			<div class="row">
+				<div class="text-link"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
+			</div>
+		</div>
+	</section>
+	<!-- institutions -->
+	<section id="custody" class="custody"><span class="alert">contenuto da modificare in content/{{ page.locale }}/custody </span>
+			{% include custody/custody.html %}
+	</section>
+	<section id="learn-more" class="learn-more">
+		<p class="scrolldown"><a href="#learn-more" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+		<div class="container">
+			{% include custody/custody-module.html %}
+			<br>
+		</div>
+	</section>
+	<section id="solutions" class="solutions"><span class="alert">contenuto da modificare in collection _data/solutions-yml filtrati per [page-category] e [locale]</span>
+		<div class="contain">
+			{% include solutions/solutions.html %}
+		</div>
+	</section>
+	<!-- Begin #company-section -->
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
+		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light box-inner">
+								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
+								<p class="d-none d-lg-block">{% include form.html %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
+
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

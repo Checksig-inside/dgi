@@ -1,0 +1,72 @@
+[{
+  "uid":"home",
+  "title":"Home",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"custody",
+  "title":"Custody",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"institutions",
+  "title":"Institutions",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"why-bitcoin",
+  "title":"Why bitcoin",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"company",
+  "title":"Company",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"contacts",
+  "title":"Contacts",
+  "description":"EN -Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"home",
+  "title":"Home",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"custody",
+  "title":"Custody",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"institutions",
+  "title":"Institutions",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"why-bitcoin",
+  "title":"Why bitcoin",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"company",
+  "title":"Company",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"contacts",
+  "title":"Contacts",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+}]

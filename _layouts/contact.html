@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-checksig.html %}
+{% include header-checksig.html %}
+{% include script-checksig.html %}
+
+<body>
+  <!-- Begin #title-section -->
+	<section id="title" class="section-global-wrapper contact-header">
+		<div class="container-fluid-kamn" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; height: 250px; background-position: center;">
+			<div class="row" style="height: 200px;">
+				<div class="col-lg-4 col-md-4">
+				<div class="content">
+					<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+					<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+				</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+				<div class="content-c">
+					<h5>{{site.data.settings.info.company}}</h5>
+					<p class="textdescription">{{site.data.settings.info.address}}<br>{{site.data.settings.info.region}}<br>{{site.data.settings.info.country}}</p>
+				</div>
+				</div>
+				<div class="col-lg-4 col-md-4">
+				<div class="content-c">
+					<h5>Mail us</h5>
+					<p class="textdescription">email: <a href="mailto:{{site.data.settings.info.mail}}">{{site.data.settings.info.mail}}</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- institutions -->
+	<section id="content" class="content" style="display:none">
+		<div class="container">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light"
+								style="padding:50px 0px; margin:0px auto;">
+								<h2><span class="alert">[title]</span>{{ page.title }}</h2>
+								<p><span class="alert">[description]</span>{{ page.description }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container container-content">
+			<div class="row">
+				<div class="text-link"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
+			</div>
+		</div>
+	</section>
+	<section id="info" class="info" style="display:none">
+	<div class="container">
+		<div class="row padding" style="background:#ddd;padding:20px;">
+			<div class="col-lg-6 col-md-6 text-center">
+			<div class="content-inner">
+				<h5>CHECKSIG S.R.L.</h5>
+				<p class="text-description">Corso di Porta Romana 61,<br>20122 Milano (MI)<br>ITALY</p>
+			</div>
+			</div>
+			<div class="col-lg-6 col-md-6 text-center">
+			<div class="content-inner">
+				<h5>Mail us</h5>
+				<p class="text-description">email: <a href="mailto:info@checksig.io">info@checksig.io</a></p>
+			</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section id="map" class="map">
+	<p class="scrolldown"><a href="#map" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+	<div class="container">
+		<div class="row padding" style="background:#ddd;padding:20px;">
+			<div class="col-lg-12 col-md-12 text-center">
+			<div class="content-inner">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.6498410424847!2d9.192909415207204!3d45.4567118419646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c505641839e3%3A0x901e38a618580679!2sCheckSig!5e0!3m2!1sit!2sit!4v1607418782846!5m2!1sit!2sit" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	
+			</div>
+			</div>
+		</div>
+	</div>
+	</section> 
+	<!-- Begin #company-section -->
+	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
+		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+		<div class="container-fluid-kamn">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light  box-inner">
+								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
+								<p class="d-none d-lg-block">{% include form.html %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
+</body>
+
+{% include footer-checksig.html %}
+
+</html>

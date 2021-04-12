@@ -1,0 +1,22 @@
+<div class="container" id="bitcoins"> 
+	{% for wb in site.data.bitcoins | sort: 'sort_ranking' | reverse %} 
+	{% if wb.locale == page.locale %}
+		<div class="container">
+				<div class="row padding">
+					<div class="col-lg-6 col-md-6 text-center">
+					<div class="inner-content" style="height:400px; background-size:cover; background-image: url({{ site.baseurl }}{{ wb.img }})">
+						
+					</div>
+					</div>
+					<div class="col-lg-6 col-md-6 text-center">
+						<div class="inner-content-dx">
+						<h3>{{ wb.title }}</h3>
+						<p class="text-subdescription">{{ wb.subdesc }}</p>
+						<p class="textdescription">{{ wb.description }}</p>
+						</div>
+					</div>
+				</div>
+		</div>
+	{% endif %}
+	{% endfor %}
+</div>

@@ -1,0 +1,75 @@
+# Collections Custody - EN
+- name: Transparency
+  photo: https://via.placeholder.com/250x250
+  title: Transparency
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/transparency.html
+- name: Technology
+  photo: https://via.placeholder.com/250x250
+  title: Technology
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/technology.html
+- name: Certifications
+  photo: https://via.placeholder.com/250x250
+  title: Certifications
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/certifications.html
+- name: Insurance coverage
+  photo: https://via.placeholder.com/250x250
+  title: insurance-coverage
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/insurance-coverage.html
+- name: Patent
+  photo: https://via.placeholder.com/250x250
+  title: insurance-coverage
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/insurance-coverage.html
+- name: Security
+  photo: https://via.placeholder.com/250x250
+  title: security
+  lang: en
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/security.html
+  
+# Collections Custody - IT
+- name: Transparency
+  photo: https://via.placeholder.com/250x250
+  title: Transparency
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: it/custody/transparency.html
+- name: Technology
+  photo: https://via.placeholder.com/250x250
+  title: Technology
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: it/custody/technology.html
+- name: Certifications
+  photo: https://via.placeholder.com/250x250
+  title: Certifications
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/certifications.html
+- name: Insurance coverage
+  photo: https://via.placeholder.com/250x250
+  title: insurance-coverage
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/insurance-coverage.html
+- name: Patent
+  photo: https://via.placeholder.com/250x250
+  title: insurance-coverage
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: en/custody/insurance-coverage.html
+- name: Security
+  photo: https://via.placeholder.com/250x250
+  title: security
+  lang: it
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  permalink: it/custody/security.html

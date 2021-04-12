@@ -1,0 +1,30 @@
+{% assign uid = include.uid %}
+
+{% unless uid %}
+{% assign uid = page.uid %}
+{% assign show = true %}
+{% endunless %}
+
+{% assign cta = site.data.cta[uid]%}
+{% if cta %}
+	{% assign folder1 = site.pages%}
+	{% for item in folder1 %}
+	{% if item.locale == page.locale and item.uid == cta.cta.uid %} 
+	<section id="cta-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row {{ cta.cta.class }}" style="background-image:url({{ site.baseurl }}{{ item.slider }});background-size: auto 100%;     padding: 50px 0px; background-position: center;">
+				<div class="col-lg-12 col-md-12 text-center">
+				<div class="content-inner">
+					<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['readalso']}}</h4>
+					<h2>{{ item.title }}</h2>
+					</a>
+					<p class="text-description">{{ item.subdesc }}</p>
+					<p class="text-link"><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endif %} 
+	{% endfor %}
+{% endif %}

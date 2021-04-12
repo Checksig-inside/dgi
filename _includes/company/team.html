@@ -1,0 +1,74 @@
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading">Team</h2>
+	</div>
+</div>
+<div class="row padding">
+	{% for member in site.data.team | sort: 'sort_ranking' | reverse %}
+	<div class="col-lg-6 col-md-6 text-center flexrow">
+		<div class="panel-sx">
+		<img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/{{ member.photo }}"
+			alt="{{ member.photo_name }}" width=130>
+		{% if member.social_1 %}
+		<ul class="list-inline social-buttons">
+			<li class="list-inline-item">
+				<a href="{{ member.social_1_link }}">
+					<i class="{{ member.social_1 }}"></i>
+				</a>
+			</li>
+			{% if member.social_2 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_2_link }}">
+					<i class="{{ member.social_2 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_3 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_3_link }}">
+					<i class="{{ member.social_3 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_4 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_4_link }}">
+					<i class="{{ member.social_4 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_5 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_5_link }}">
+					<i class="{{ member.social_5 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_6 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_6_link }}">
+					<i class="{{ member.social_6 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_7 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_7_link }}">
+					<i class="{{ member.social_7 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+		</ul>
+		{% endif %} 	
+			
+		</div>
+		<div class="panel-dx">
+		<h3>{{ member.name }}</h3>
+		<h4 class="text-muted">{{ member.role }}</h4>
+		<p class="text-team text-small">
+			{{ member.desc }}
+		</p>
+		</div>
+	</div>
+	{% endfor %}
+</div>
