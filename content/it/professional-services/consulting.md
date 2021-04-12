@@ -1,5 +1,5 @@
 ---
-layout: custody_child
+layout: professional-services_child
 title: IT - Consulting
 header: Professional Services / Consulting
 tag: consulting

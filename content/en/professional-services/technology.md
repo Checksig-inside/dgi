@@ -1,16 +1,16 @@
 ---
-layout: custody_child
-title: EN -Technology
-header: Custody / Technology
-tag: technology
-uid: technology
+layout: professional-services_child
+title: EN -Empowering
+header: Professional services / Empowering
+tag: empowering
+uid: empowering
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/custody/header_transparency.jpg
-permalink: /custody/technology/
+permalink: /professional-services/empowering/
 locale: en
-page-category: custody
+page-category: professional-services
 sort_ranking: 800
 ---
 
