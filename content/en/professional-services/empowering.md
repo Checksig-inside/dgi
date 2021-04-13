@@ -1,5 +1,5 @@
 ---
-layout: professional-services_child
+layout: professional-services_empowering
 title: EN -Empowering
 header: Professional services / Empowering
 tag: empowering
