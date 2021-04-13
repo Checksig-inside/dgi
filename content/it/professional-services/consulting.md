@@ -1,5 +1,5 @@
 ---
-layout: professional-services_child
+layout: professional-services_consulting
 title: IT - Consulting
 header: Professional Services / Consulting
 tag: consulting
