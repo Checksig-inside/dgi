@@ -12,7 +12,11 @@ subtitle: How we work with our clients
 subheader: How we work with our clients Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
+titleform1:Book a meeting
+titleform2:Request information
 img: /assets/img/custody/ico_transparency.svg
+img-form1: /assets/img/custody/ico_transparency.svg
+img-form2: /assets/img/custody/ico_transparency.svg
 slider: /assets/img/custody/header_transparency.jpg
 sub-header: /assets/img/custody/img_bitcoin.jpg
 permalink: /it/professional-services/consulting.html
@@ -20,4 +24,4 @@ class: middle-home
 sort_ranking: 1000
 ---
 
-IT - CheckSig rejects the “security-by-obscurity” paradigm in favor of a transparent process. Based on a peer-reviewed open standard protocol, our segregated custody provides periodic proof-of-reserve and is audited by external firms.
+Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
