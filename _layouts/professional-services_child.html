@@ -49,19 +49,10 @@
 		</div>
 		{% endif %}
 		<div class="row" style="background:#ccc;">
-			<div class="it-hero-wrapper it-dark it-overlay">
-				<!-- - img-->
-				<div class="img-responsive-wrapper" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: cover;">
-					<div class="img-responsive">
-						<div class="it-hero-text-wrapper bg-dark header-child ">
-							<h1 class="no_toc">{{ page.header }}</h1>
-							<p class="d-none d-lg-block">{{ page.subdesc }}</p>
-						</div>
-					</div>
-				</div>
+			<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
+				<p class="text-description">{{ page.subdesc }}</p>
 			</div>
 		</div>
-
 	</section>
 	<!-- Begin #form-section -->
 	<section id="form-section" class="section-global-wrapper">
