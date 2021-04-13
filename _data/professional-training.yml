@@ -1,0 +1,36 @@
+- name: Vision1
+  size: wide
+  img: /assets/img/home/dummy-01.jpg
+  title: Vision1
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  class: header
+  locale: en
+  tag: pro-training
+- name: Vision2
+  size: wide
+  img: /assets/img/home/dummy-02.jpg
+  title: Vision2
+  sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  class: header
+  locale: en
+  tag: pro-training
+- name: IT - Vision1
+  size: wide
+  img: /assets/img/home/dummy-01.jpg
+  title: Vision1
+  sub-description: IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  class: header
+  locale: it
+  tag: pro-training
+- name: IT - Vision2
+  size: wide
+  img: /assets/img/home/dummy-02.jpg
+  title: Vision2
+  sub-description: IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  class: header
+  locale: it
+  tag: pro-training
