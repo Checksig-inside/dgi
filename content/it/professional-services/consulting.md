@@ -12,8 +12,8 @@ subtitle: How we work with our clients
 subheader: How we work with our clients  Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 subdesc: IT - Lorem ipsum dolores
 description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-titleform1:Book a meeting
-titleform2:Request information
+titleform1: Book a meeting
+titleform2: Request information
 img: /assets/img/custody/ico_transparency.svg
 img-form1: /assets/img/custody/ico_transparency.svg
 img-form2: /assets/img/custody/ico_transparency.svg
