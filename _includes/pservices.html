@@ -24,7 +24,7 @@
 			{% endif %}
             {% endfor %}
             {% for modulo in site.data.professional-speach  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale and modulo.tag == 'pro-speach' %}
+			{% if modulo.locale == page.locale and modulo.tag == 'pro-speach'  and page.tag == 'speech' %}
 			<div class="col-lg-12 col-md-12 text-center">
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
