@@ -1,21 +1,21 @@
 ---
-layout: professional-services_empowering
-title: Empowring know-how/understanding
-header: Custody / Empowring know-how/understanding IT
-tag: empowering/
-uid: empowering
-page-tag: secmid
-subdesc: IT - Lorem ipsum dolores
-description: IT - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem IT - ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
+layout: professional-services_child
+title: EN -Training
+header: Professional services / Training
+tag: training
+uid: training
+subdesc: EN -Lorem ipsum dolores
+description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/custody/header_transparency.jpg
+permalink: /it/professional-services/training/
 locale: it
+page-tag: secmid
 page-category: professional-services
-permalink: /it/professional-services/empowering.html
-sort_ranking: 800
+sort_ranking: 900
 ---
 
-IT - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+EN -Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
 

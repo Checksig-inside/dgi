@@ -1,15 +1,15 @@
 ---
-layout: professional-services_empowering
-title: EN -Empowering
-header: Professional services / Empowering
-tag: empowering
-uid: empowering
+layout: professional-services_child
+title: EN - Partnership
+header: Professional services / Partnership
+tag: partnership
+uid: partnership
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/custody/header_transparency.jpg
-permalink: /professional-services/empowering/
-locale: en
+permalink: /it/professional-services/partnership/
+locale: it
 page-tag: secmid
 page-category: professional-services
 sort_ranking: 800
