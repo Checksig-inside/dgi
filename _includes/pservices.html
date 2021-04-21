@@ -1,6 +1,6 @@
 		<div class="row padding">
 			{% for modulo in site.data.professional-training  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale and modulo.tag == 'pro-training' %}
+			{% if modulo.locale == page.locale and modulo.tag == 'pro-training' and page.tag == 'training' %}
 			<div class="col-lg-12 col-md-12 text-center">
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
@@ -12,7 +12,7 @@
 			{% endif %}
 			{% endfor %}
             {% for modulo in site.data.professional-teaching  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale and modulo.tag == 'pro-teach' %}
+			{% if modulo.locale == page.locale and modulo.tag == 'pro-teach' and page.tag == 'partnership' %}
 			<div class="col-lg-12 col-md-12 text-center">
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
