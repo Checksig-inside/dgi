@@ -1003,6 +1003,12 @@ p.text-description{
     background:transparent !important;
     color: #333;
 }
+#lightSlider li {
+    background-size: 100% auto;
+    background-position: center;	
+}
+
+
 #home-sliders .lSSlideWrapper  {
     max-width: 100%!important;
     overflow: hidden;
