@@ -1040,9 +1040,21 @@ p.text-description{
     color: white;
 }
 #home-sliders h4:before {
-    content:'';
+    background-image: url(/dgi/assets/img/home/ico_slider.png);
+    width: 50px;
+    content: " ";
+    position: relative;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 10000000;
+    background-size: 100%;
 }
-#home-sliders p.text-description {
+
+#home-sliders p.text-description  {
     color: white;
     font-size: 12px;
     line-height: 1.4;
