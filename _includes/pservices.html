@@ -5,19 +5,19 @@
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
-					<p class="description">{{ modulo.description }}</p>
+					<p class="description" style="display:none">{{ modulo.description }}</p>
 					<button type="button" class="btn-info">+</button>
 				</div>
 			</div>
 			{% endif %}
 			{% endfor %}
             {% for modulo in site.data.professional-partnership  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale and modulo.tag == 'pro-teach' and page.tag == 'partnership' %}
+			{% if modulo.locale == page.locale and modulo.tag == 'pro-partnership' and page.tag == 'partnership' %}
 			<div class="col-lg-6 col-md-6 text-center">
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
-					<p class="description">{{ modulo.description }}</p>
+					<p class="description" style="display:none">{{ modulo.description }}</p>
 					<button type="button" class="btn-info">+</button>
                 </div>
             </div>
@@ -29,7 +29,7 @@
 				<div class="module-custody-standard">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
-					<p class="description">{{ modulo.description }}</p>
+					<p class="description" style="display:none">{{ modulo.description }}</p>
 					<button type="button" class="btn-info">+</button>
                 </div>
             </div>
