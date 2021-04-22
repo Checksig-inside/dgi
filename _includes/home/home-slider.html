@@ -3,9 +3,11 @@
 			{% for modulo in site.data.home-slider  | sort: 'sort_ranking' | reverse %}
 			{% if modulo.locale == page.locale %}
             <li class="text-center" style="background-image:url({{ site.baseurl }}{{ modulo.img }})">
+				<div class="content-inner">
                 <h4>{{ modulo.title }}</h4>
                 <p class="text-description">{{ modulo.sub-description }}</p>
 				<p class="text-link"><a href="{{ modulo.link }}">{{ modulo.button }}</a></p>
+				</div>
             </li>
 			{% endif %} 
             {% endfor %}
