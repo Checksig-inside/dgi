@@ -4,6 +4,7 @@ title: About DGI
 header: About DGI
 locale: it
 uid: about-dgi
+page-tag: secbtm
 permalink: /it/about-dgi.html
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores

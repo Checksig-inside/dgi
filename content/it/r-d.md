@@ -5,7 +5,6 @@ header: IT - R&D
 locale: it
 uid: r-d
 permalink: /it/r-d.html
-page-tag: secbtm
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
