@@ -824,9 +824,9 @@ label.form-check-label {
 }
 
 .dropdown.li-contact a.navlabel {
-    background: #60A0BA;
+    background: #fdd365;
     padding: 15px 40px;
-    color: white;
+    color: #000;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
