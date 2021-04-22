@@ -904,7 +904,7 @@ label.form-check-label {
 }
 
 .text-link a {
-    background: #60A0BA;
+    background: #fdd365;
     padding: 10px 40px;
     color: white;
     text-transform: uppercase;
@@ -1033,6 +1033,20 @@ p.text-description{
 }
 #home-sliders .row {
     position: relative;
+}
+
+#home-sliders h4 {
+    font-size: 40px;
+    color: white;
+}
+#home-sliders h4:before {
+    content:'';
+}
+#home-sliders p.description {
+    color: white;
+    font-size: 12px;
+    line-height: 1.4;
+    font-weight: 100;
 }
 
 .section-heading{
