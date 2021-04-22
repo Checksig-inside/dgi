@@ -1000,12 +1000,17 @@ p.text-description{
 }
 
 #lightSlider .active, .lSPager .active {
-    background:transparent !important;
     color: #333;
 }
+#lightSlider {
+	height:400px !important;
+}
+
+
 #lightSlider li {
     background-size: 100% auto;
-    background-position: center;	
+    background-position: center;
+	height:400px;
 }
 
 
