@@ -1003,6 +1003,26 @@ p.text-description{
     background:transparent !important;
     color: #333;
 }
+#home-sliders .lSSlideWrapper  {
+    max-width: 100%!important;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+}
+
+#home-sliders  .lSSlideOuter .lSPager.lSpg {
+    margin: 10px 0 0;
+    padding: 0;
+    text-align: center;
+    position: absolute;
+    /* top: 0px; */
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+#home-sliders .row {
+    position: relative;
+}
 
 .section-heading{
     margin: 30px;
