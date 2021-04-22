@@ -469,7 +469,7 @@ h5 {
     border-radius: 20px;
 }
 #moduli .module-custody button {
-    background-image: url(/multilangsite/assets/img/custody/ico_apri.svg);
+    background-image: url(/dgi/assets/img/custody/ico_apri.svg);
     width: 50px;
     height: 50px;
     background-size: auto 80%;
@@ -488,7 +488,7 @@ h5 {
     bottom: 15px;
 }
 #moduli .module-custody.active button {
-    background-image: url(/multilangsite/assets/img/custody/ico_chiudi.svg);
+    background-image: url(/dgi/assets/img/custody/ico_chiudi.svg);
     width: 50px;
     height: 50px;
     background-size: auto 40%;
@@ -756,13 +756,13 @@ label.form-check-label {
 	color: #ccc;
 }
 .dir  span.loctop {
-    background-image: url(/multilangsite/assets/img/home/ico_sede.svg);
+    background-image: url(/dgi/assets/img/home/ico_sede.svg);
     background-size: 12px;
 	background-repeat: no-repeat;
 	background-position: left center;
 }
 .dir  span.mailtop {
-    background-image: url(/multilangsite/assets/img/home/ico_menu.svg);
+    background-image: url(/dgi/assets/img/home/ico_menu.svg);
     background-size: 12px;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -906,7 +906,7 @@ label.form-check-label {
 .text-link a {
     background: #fdd365;
     padding: 10px 40px;
-    color: white;
+    color: #000;
     text-transform: uppercase;
 	font-size:12px;
 	font-weight:400;
