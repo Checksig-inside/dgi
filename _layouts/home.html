@@ -13,12 +13,15 @@
         </div>
     </section>
 <!-- institutions -->
-<section id="home-sliders" class="institutions"><span class="alert">contenuto da modificare in content/{{ page.locale }}/institutions</span>
+<section id="home-sliders" class="institutions">
     <div class="contain bxslider">
 			{% include home/home-slider.html %}
         <br>
     </div>
-</section>		
+</section>
+<section id="ps" class="custody">
+		{% include professional-services/professional-services.html %}
+</section>
 	{% if site.data.cta[page.uid] %}
 	{% include cta.html uid = page.uid %}
 	{% endif %}
