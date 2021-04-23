@@ -1,3 +1,4 @@
+
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -1187,6 +1188,7 @@ h1, .h1 {
     max-width: 50%;
     margin: 10px auto 15px;
     margin: 20px auto;
+	min-height: 100px;
 }
 
 .container.professional .content-inner p.text-link {
