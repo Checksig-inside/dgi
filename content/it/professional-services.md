@@ -9,7 +9,7 @@ page-tag: sectop
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
-slider: /assets/img/custody/header_custody.jpg
+slider: /assets/img/professional_services/professional/header.jpg
 slider-home: /assets/img/home/header_homepage.jpg
 class: wide-top
 ---
