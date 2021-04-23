@@ -1195,7 +1195,7 @@ h1, .h1 {
     margin: 20px 0 10px;
 }
 
-#industries-row h5 {
+#industries-row h2 {
     font-size: 27px;
     color: white;
     font-weight: 600;
@@ -1206,6 +1206,12 @@ h1, .h1 {
     max-width: 100%;
     margin: 10px auto 15px;
 }
+#industries-row .content-inner {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
 @media (min-width: 1068px) and (max-width: 1400px) { 
  .post-sidebar{
     margin-top: 15px;
