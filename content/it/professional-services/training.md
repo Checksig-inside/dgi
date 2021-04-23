@@ -1,6 +1,6 @@
 ---
 layout: professional-services_child
-title: EN -Training
+title: Formazione
 header: Professional services / Training
 tag: training
 uid: training

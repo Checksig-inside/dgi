@@ -1,12 +1,12 @@
 ---
 layout: professional-services
-title: Professional services Title - IT
-header: Professional services Header - IT
+title: Servizi professionali
+header: Servizi professionali
 locale: it
 uid: professional-services
 permalink: /it/professional-services.html
 page-tag: sectop
-subdesc: IT -Lorem ipsum dolores
+subdesc: Servizi di consulenza, programmi di formazione e soluzioni software
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
 slider: /assets/img/professional_services/professional/header.jpg
