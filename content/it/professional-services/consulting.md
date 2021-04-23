@@ -17,7 +17,7 @@ titleform2: Request information
 img: /assets/img/custody/ico_transparency.svg
 img-form1: /assets/img/custody/ico_transparency.svg
 img-form2: /assets/img/custody/ico_transparency.svg
-slider: /assets/img/custody/header_transparency.jpg
+slider: /assets/img/home/bg_consulting.jpg
 sub-header: /assets/img/custody/img_bitcoin.jpg
 permalink: /it/professional-services/consulting/
 class: middle-home
