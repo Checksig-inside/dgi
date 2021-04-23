@@ -1195,6 +1195,17 @@ h1, .h1 {
     margin: 20px 0 10px;
 }
 
+#industries-row h5 {
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#industries-row p.text-description {
+    line-height: 1.2;
+    max-width: 100%;
+    margin: 10px auto 15px;
+}
 @media (min-width: 1068px) and (max-width: 1400px) { 
  .post-sidebar{
     margin-top: 15px;
