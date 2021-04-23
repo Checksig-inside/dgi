@@ -1,6 +1,6 @@
 ---
 layout: professional-services_child
-title: EN - Speech
+title: Speech
 header: Professional services / Speech
 tag: speech
 uid: speech

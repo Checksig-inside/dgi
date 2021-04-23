@@ -1,11 +1,12 @@
 ---
 layout: professional-services_child
-title: EN - Partnership
+title: Partnership
 header: Professional services / Partnership
 tag: partnership
 uid: partnership
-subdesc: EN -Lorem ipsum dolores
-description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
+subdesc: A strategic partnership with DGI empowers your business with a proper understanding of Bitcoin, crypto assets, and blockchain technology.
+subtitle: Empowering Digital Realm
+description: To leverage the unique opportunities that Bitcoin and the blockchain technology gives, it is strategic to understand the bitcoin phenonym as a whole while avoiding the irrational hype that pollutes these topics.
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg
 permalink: /professional-services/partnership/
@@ -15,12 +16,21 @@ page-category: professional-services
 sort_ranking: 800
 ---
 
-EN -Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+To leverage the unique opportunities that Bitcoin and the blockchain technology gives, it is strategic to understand the bitcoin phenonym as a whole while avoiding the irrational hype that pollutes these topics.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
+To choose DGI Partnership Program means to empower your team with continuous support in terms of consulting, training, research, and development.
 
-Suspendisse facilisis eget lacus eu sollicitudin. Curabitur facilisis turpis urna, eu vehicula enim venenatis ac. Nam facilisis tristique mi at vehicula. Cras interdum tincidunt libero nec convallis. Fusce egestas erat eget tempus tempus. Quisque et nisi a tortor facilisis ullamcorper at non nunc. Quisque ultrices blandit turpis, vel posuere sapien vehicula quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+DGI partnership program is aimed at consulting firms, financial institutions, insurance companies, innovative enterprises, software houses, corporates, lobbying groups, and regulators.
 
-Ut lacinia augue vitae lectus fermentum laoreet. Maecenas vehicula elit a pellentesque iaculis. Praesent sed rutrum lacus, vel venenatis ante. Duis eget tristique arcu, consequat iaculis nisi. Fusce et lorem malesuada, ultricies sapien sit amet, lacinia erat. Donec est turpis, luctus et nisi ut, vehicula egestas libero. Praesent maximus ultrices sapien at aliquet. Aenean sollicitudin posuere eros vitae lacinia. Donec auctor ante non ipsum ornare lacinia. Vestibulum venenatis, tortor pulvinar blandit iaculis, dui elit elementum tellus, sit amet sodales quam enim consectetur dolor. Nam eu nisl eu neque placerat dictum sit amet scelerisque dui. Nulla consectetur eget nibh aliquet malesuada. Integer placerat lacus fermentum erat viverra, luctus auctor libero vehicula. Ut id feugiat orci, quis consequat enim. Suspendisse vestibulum sem nec blandit pretium.
+DGI as a partner starts-up your goals from an early stage until full autonomy, conveying the technical and practical knowledge necessary for the success of your projects, also cooperating with the academic world.
 
-Maecenas dapibus orci mi, in pharetra magna auctor a. Praesent vitae felis elit. Fusce at lacinia nisl. Maecenas tempus est a rhoncus tristique. Nam pretium efficitur tincidunt. Sed dictum nulla sit amet ex ullamcorper, a commodo tortor posuere. Sed fermentum, ipsum non accumsan luctus, augue felis rhoncus eros, sed congue elit nulla id tortor. Nunc sit amet scelerisque turpis, et porta augue. Phasellus ut nulla at ligula pharetra consequat pharetra eu lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque odio nec risus luctus, non volutpat diam maximus. Pellentesque tempor aliquet mi, eget dictum nisi.
+Our basic partnership agreement includes:
+
+- One full day each quarter, to be used as the partner desires
+- Free access for two people to all the initiatives organized by the Institute
+- Exclusive access to our Quarterly Report about market, technology, regulation, and ecosystem
+- Partner’s logo displayed on our website and publications
+- The opportunity to influence our research according to partner’s priorities and interests (respecting, of course, the independence of the Institute's scientific mission)
+- A privileged dialogue with our researchers and students, with early recruitment opportunities
+
+Prospective partners can contact us to discuss the available opportunities.

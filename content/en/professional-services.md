@@ -1,11 +1,11 @@
 ---
 layout: professional-services
-title: Professional services
-header: Professional services
+title: Professional Services
+header: Professional Services
 locale: en
 uid: professional-services
 permalink: /professional-services.html
-slider: /assets/img/custody/header_custody.jpg
+slider: /assets/img/professional_services/professional/header.jpg
 slider-home: /assets/img/home/header_homepage.jpg
 page-tag: sectop
 subdesc: We empower the way you store your Bitcoin

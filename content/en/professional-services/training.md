@@ -1,10 +1,10 @@
 ---
 layout: professional-services_child
-title: EN -Training
+title: Training
 header: Professional services / Training
 tag: training
 uid: training
-subdesc: EN -Lorem ipsum dolores
+subdesc: Empowering Digital Realm
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg
