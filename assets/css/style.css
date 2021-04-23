@@ -1203,14 +1203,17 @@ h1, .h1 {
     margin-bottom: 15px;
 }
 #industries-row p.text-description {
-    line-height: 1.2;
+	line-height: 1.2;
     max-width: 100%;
     margin: 10px auto 15px;
+    min-height: 75px;
 }
 #industries-row .content-inner {
-    background: #333;
+	background: #333;
     color: white;
     padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 1068px) and (max-width: 1400px) { 
