@@ -1,10 +1,10 @@
 ---
 layout: professional-services_child
-title: EN - Partnership
+title: Partnership
 header: Professional services / Partnership
 tag: partnership
 uid: partnership
-subdesc: EN -Lorem ipsum dolores
+subdesc: IT -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg
