@@ -1189,6 +1189,7 @@ h1, .h1 {
     margin: 10px auto 15px;
     margin: 20px auto;
 	min-height: 100px;
+	color:white;
 }
 
 .container.professional .content-inner p.text-link {
