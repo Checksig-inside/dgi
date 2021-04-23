@@ -1169,6 +1169,7 @@ h1, .h1 {
 .container.professional .row  .col-lg-6 {
     padding: 0px!important;
 	background-size: 100% auto;
+	min-height:300px;
 }
 
 .container.professional .content-inner{
