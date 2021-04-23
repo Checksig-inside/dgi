@@ -1,5 +1,5 @@
         <div class="container professional">
-		<div class="row padding" style="padding:20px;">
+		<div class="row padding">
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for item in folder1 %}
 		{% if item.locale == page.locale and item.page-category == 'professional-services' %}
