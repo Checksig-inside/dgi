@@ -4,11 +4,11 @@
 		{% for item in folder1 %}
 		{% if item.locale == page.locale and item.page-category == 'professional-services' %}
             <div class="col-lg-6 col-md-6 text-center back-{{ item.uid }}">
-			<div class="content-inner">
+			<div class="content-inner" style="background-image:url({{ item.slider }})">
                 <h2>{{ item.title }}</h2>
                 </a>
                 <p class="text-description">{{ item.subdesc }}</p>
-                <p class="text-link" style="display:none"><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+                <p class="text-link"><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
             </div>
             </div>
 
