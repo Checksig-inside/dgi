@@ -46,16 +46,16 @@
 				</div>
 			</div>
 		{% endif %}
-		<div class="row" style="background:#ccc;">
-			<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
-				<p class="text-description">{{ page.description }}</p>
-			</div>
-		</div>
 		</div>
 	</section>
 	<section id="moduli" class="pservices">
 		<div class="container">
 			{% include pservices.html %}
+		<div class="row">
+			<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
+				<p class="text-description">{{ page.description }}</p>
+			</div>
+		</div>
 		</div>
 	</section>
 	<!-- Begin #form-section -->
