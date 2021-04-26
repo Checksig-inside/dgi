@@ -1,6 +1,7 @@
 ---
 layout: about-dgi_child
-title: Digital gold is what matters
+title: Vision
+sub-title: Digital gold is what matters
 header: Vision
 subdesc: Bitcoin is the digital equivalent of gold, disruptive for our current digital civilization and the future of money and finance. More a crypto-commodity then a crypto-currency, Bitcoin aims to be world reserve asset.
 sub-title: Lorem ipsum dolores Asset
