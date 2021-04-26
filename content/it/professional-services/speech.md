@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Divulgazione
-header: Professional services / Speech
+header: Speech
 tag: speech
 uid: speech
 subdesc: IT -Lorem ipsum dolores

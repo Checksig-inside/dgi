@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Partnership
-header: Professional services / Partnership
+header: Partnership
 tag: partnership
 uid: partnership
 subdesc: IT -Lorem ipsum dolores
