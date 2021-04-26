@@ -9,12 +9,14 @@
   social_1_link: https://github.com/matteoavigni
   social_2: fab fa-linkedin-in
   social_2_link: www.linkedin.com/in/matteo-avigni-35b2b3140/
+  locale: en
 
 - name: Rocco Sciaraffa
   research: "Portfolio Diversification using Crypto-Assets"
   research_date: February 2020
   social_1: fab fa-linkedin-in
   social_1_link: https://www.linkedin.com/in/rocco-sciaraffa-324222129/
+  locale: en
 
 - name: Simone Colombo
   degree: Master Degree in Electrical Engineerging, Politecnico di Milano
@@ -26,6 +28,7 @@
   social_1_link: https://github.com/simonecolombo
   social_2: fab fa-linkedin-in
   social_2_link: https://www.linkedin.com/in/SimoneColombo1988/
+  locale: en
   
 - name: Samuele Vianello
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -35,6 +38,7 @@
   thesis_date: April 2019
   social_1: fab fa-github
   social_1_link: https://github.com/SamueleVianello
+  locale: en
 
 - name: Andrea Brandoli
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -44,6 +48,7 @@
   thesis_date: April 2019
   social_1: fab fa-github
   social_1_link: https://github.com/AndreaBrandoli90
+  locale: en
 
 - name: Giona Soldati
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -54,6 +59,7 @@
   thesis_date: December 2018
   social_1: fab fa-github
   social_1_link: https://github.com/gionasoldati
+  locale: en
 
 - name: Alessandro Miola
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -64,6 +70,7 @@
   thesis_date: December 2018
   social_1: fab fa-github
   social_1_link: https://github.com/AlessandroMiola
+  locale: en
 
 - name: Leonardo Comandini
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -74,6 +81,7 @@
   thesis_date: April 2018
   social_1: fab fa-github
   social_1_link: https://github.com/LeoComandini
+  locale: en
 
 - name: Daniele Fornaro
   degree: Master Degree in Mathematical Engineerging, Politecnico di Milano
@@ -83,6 +91,7 @@
   thesis_date: April 2018
   social_1: fab fa-github
   social_1_link: https://github.com/danielefornaro
+  locale: en
 
 - name: Chiara Lelli
   degree: Bachelor Degree in Mathematical Engineerging, Politecnico di Milano
@@ -95,3 +104,4 @@
   social_1_link: https://github.com/clelli
   social_2: fab fa-linkedin-in
   social_2_link: https://www.linkedin.com/in/chiara-lelli-5bb648134/
+  locale: en
