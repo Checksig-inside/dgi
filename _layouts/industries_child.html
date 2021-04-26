@@ -10,7 +10,7 @@
     <section id="title-child-section" class="section-global-wrapper"> 
         <div class="container-fluid-kamn">
 			<div class="row celeste">
-			<div class="bcrumbs "><span>INSTITUTIONS / </span><span>{{ page.title }}</span></div>
+			<div class="bcrumbs "><span>INDUSTRIES / </span><span>{{ page.title }}</span></div>
 			</div>
 			<div class="row" style="background:#ccc;">
 				<div class="it-hero-wrapper it-dark it-overlay">
@@ -45,8 +45,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-light   box-inner"
 								style="padding:50px 0px;  margin:0px auto;">
-								<h2 class="no_toc"><span class="alert">[title]</span>{{ page.title }}</h2>
-								<span class="alert">[description]</span>{{ page.description }}
+								<h2 class="no_toc">{{ page.title }}</h2>
+								{{ content }}
 							</div>
 						</div>
 					</div>
@@ -55,14 +55,9 @@
 
 			<br>
 		</div>
-		<div class="container container-content">
-			<div class="row">
-				<div class="content"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
-			</div>
-		</div>
 	</section>
 	<!-- Begin #form-section -->
-	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
+	<section id="form-section" class="section-global-wrapper">
 		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container-fluid-kamn">
 			<div class="row">

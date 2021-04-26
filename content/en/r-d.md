@@ -8,7 +8,7 @@ permalink: /r-d.html
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
-slider: /assets/img/custody/header_custody.jpg
+slider: /assets/img/r-d/header.jpg
 class: wide-bottom
 ---
 

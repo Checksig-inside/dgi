@@ -36,7 +36,7 @@ ul.nav-ul {
 .sub-catmenu .col-lg-12 {
 	
     padding-left: 0px;
-	
+	text-align:center
 }
 li.nav-children-bar.active {
     background: transparent !important;
@@ -73,6 +73,7 @@ li.nav-children-bar.active a {
     max-width: 1300px;
     margin: 0px auto;
 	width: 90%;
+	padding: 20px 0px;
 }
 h4, .h4, h5, .h5  {
 	text-align:center;
@@ -878,7 +879,9 @@ label.form-check-label {
     width: 95%;
     margin: 0px auto;
 	text-align: center;
+	padding: 25px 0px 45px;
 }
+
 #map .content-inner {
     max-width: 100%;
     width: 100%;
@@ -1216,7 +1219,28 @@ h1, .h1 {
     border-radius: 20px;
     margin-bottom: 20px;
 }
-
+.bcrumbs h2 {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.bcrumbs p {
+    color: white;
+    text-align: center;
+	margin-top: 10px;
+}
+.bcrumbs li.nav-children-bar a {
+    color: #fcb600;
+}
+.sub-catmenu .nav-ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0px;
+}
+.sub-catmenu img {
+    vertical-align: middle;
+    width: 35%;
+}
 @media (min-width: 1068px) and (max-width: 1400px) { 
  .post-sidebar{
     margin-top: 15px;

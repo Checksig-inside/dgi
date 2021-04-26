@@ -20,8 +20,8 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="padding:120px 0px; margin:0px auto;">
-								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
-								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+								<h1 class="no_toc">{{ page.header }}</h1>
+								<p class="d-none d-lg-block">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -39,26 +39,18 @@
 					<div class="img-responsive-wrapper" style="">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-light  box-inner">
-								<h2><span class="alert">[title]</span>{{ page.title }}</h2>
-								<p><span class="alert">[description]</span>{{ page.description }}</p>
+								<h2>{{ page.title }}</h2>
+								<p>{{ content }}</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container container-content">
-			<div class="row">
-				<div class="text-link"><span class="alert">[contenuto della pagina]</span>{{ content }}</div>
-			</div>
-		</div>
 	</section>	
-<section id="team" class="team" style="display:none" ><span class="alert">contenuto da modificare in collection _data/team-yml</span>
-    <div class="contain bxslider">
-			{% include company/team.html %}
-        <br>
-    </div>
-</section>	
+	<section id="institution" class="about-dgi">
+		{% include about-dgi.html %}
+	</section>
 	{% if site.data.cta[page.uid] %}
 	{% include cta.html uid = page.uid %}
 	{% endif %}

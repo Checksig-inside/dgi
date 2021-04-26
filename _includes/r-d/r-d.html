@@ -1,0 +1,32 @@
+        
+		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+		{% for item in folder1 %}
+		{% if item.locale == page.locale and item.page-category == 'r-d' %} 
+		<div class="container back-{{ item.uid }}">
+		<p class="dotline"><img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/img/custody/ico_dot.png"  alt="dotline"/></p>
+		<div class="row padding back-{{ item.uid }}" style="padding:20px;">
+            <div class="col-lg-6 col-md-6 text-center">
+			<div class="content-inner">
+                <img class="mx-auto rounded-circle" src="{{ site.baseurl }}{{ item.img }}"
+                    alt="{{ item.title }}" width=130>
+                <h2>{{ item.title }}</h2>
+                </a>
+                <p class="text-description">{{ item.subdesc }}</p>
+                <p class="text-link" style="display:none"><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-6 text-center">
+			<div class="content-inner">
+            </div>
+            </div>
+        </div>
+        </div>
+		{% endif %} 
+		{% endfor %}
+
+		
+		
+		
+		
+		
+		
