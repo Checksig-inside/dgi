@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Speech
-header: Professional services / Speech
+header: Speech
 tag: speech
 uid: speech
 subdesc: EN -Lorem ipsum dolores

@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Consulting
-header: Professional services / Consulting
+header: Consulting
 tag: consulting
 uid: consulting
 locale: en

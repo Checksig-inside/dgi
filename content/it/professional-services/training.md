@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Formazione
-header: Professional services / Training
+header: Training
 tag: training
 uid: training
 subdesc: EN -Lorem ipsum dolores

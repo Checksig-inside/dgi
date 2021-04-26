@@ -1,87 +1,92 @@
-- name: Training1
+ # Language: EN
+
+- name:  Introduction to Bitcoin and Blockchain
   size: wide
   img: /assets/img/home/dummy-01.jpg
-  title: Training1
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 1000
-- name: Training2
+- name: Blockchain, Mining, and Distributed Consensus
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training2
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 900
-- name: Training3
+- name:  Elliptic Curve Digital Signature Algorithm
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training3
+  title:
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 800
-- name: Training4
+- name: Advanced Elliptic Curve Cryptography
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training4
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 700
-- name: Training5
+- name: "Wallets: Key Encodings and Deterministic Sequences"
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training5
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 600
-- name: Training6
+- name: Transactions and Blocks
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training6
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 500
-- name: Training7
+- name: Monetary Engineering
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training7
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 400
-- name: Training8
+- name: "Beyond Bitcoin: Between Hype and Reality"
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: Training8
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
   locale: en
   tag: pro-training
   sort_ranking: 300
+
+# Language: IT
+
 - name: Training1
   size: wide
   img: /assets/img/home/dummy-01.jpg
-  title: IT Training1
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -91,7 +96,7 @@
 - name: Training2
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training2
+  title:
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -101,7 +106,7 @@
 - name: Training3
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training3
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -111,7 +116,7 @@
 - name: Training4
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training4
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -121,7 +126,7 @@
 - name: Training5
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training5
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -131,7 +136,7 @@
 - name: Training6
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training6
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -141,7 +146,7 @@
 - name: Training7
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training7
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
@@ -151,7 +156,7 @@
 - name: Training8
   size: wide
   img: /assets/img/home/dummy-02.jpg
-  title: IT Training8
+  title: 
   sub-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
   class: header
