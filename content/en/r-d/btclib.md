@@ -2,7 +2,7 @@
 layout: r-d_child
 title: btclib
 header: btclib
-subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+subdesc: An open-source Python3 library developed by DGI directors and alumni.
 description: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis malesuada pellentesque. Phasellus turpis enim, dignissim non mollis vel, dictum ut augue. Phasellus commodo luctus elit non porta. Mauris eleifend libero sollicitudin velit lobortis, quis tristique nibh fringilla. Pellentesque eu metus euismod, hendrerit neque sed, pellentesque felis. Nam eget mi et neque congue porttitor. Nunc tincidunt metus nec tortor cursus, id faucibus nisi commodo. Integer condimentum diam odio, in fringilla risus dapibus vitae. Nulla nec odio sit amet risus ullamcorper lobortis. Suspendisse ut nisi a arcu ultrices efficitur. Integer odio eros, consectetur sit amet dui ut, pulvinar tristique velit.   
 sub-title: Lorem ipsum dolores Asset
 sub-header: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
@@ -17,12 +17,42 @@ page-category: r-d
 sort_ranking: 1000
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+[Btclib](https://btclib.org/) is an open-source Python3 library intended for empowering the usage and distribution of bitcoin, its blockchain, and the associated elliptic curve cryptography.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
+Rigorously and extensively tested, btclib is often refactored for improved clarity. Therefore, it is not intended for production environments but for learning purposes only.
 
-Suspendisse facilisis eget lacus eu sollicitudin. Curabitur facilisis turpis urna, eu vehicula enim venenatis ac. Nam facilisis tristique mi at vehicula. Cras interdum tincidunt libero nec convallis. Fusce egestas erat eget tempus tempus. Quisque et nisi a tortor facilisis ullamcorper at non nunc. Quisque ultrices blandit turpis, vel posuere sapien vehicula quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Included features are:
 
-Ut lacinia augue vitae lectus fermentum laoreet. Maecenas vehicula elit a pellentesque iaculis. Praesent sed rutrum lacus, vel venenatis ante. Duis eget tristique arcu, consequat iaculis nisi. Fusce et lorem malesuada, ultricies sapien sit amet, lacinia erat. Donec est turpis, luctus et nisi ut, vehicula egestas libero. Praesent maximus ultrices sapien at aliquet. Aenean sollicitudin posuere eros vitae lacinia. Donec auctor ante non ipsum ornare lacinia. Vestibulum venenatis, tortor pulvinar blandit iaculis, dui elit elementum tellus, sit amet sodales quam enim consectetur dolor. Nam eu nisl eu neque placerat dictum sit amet scelerisque dui. Nulla consectetur eget nibh aliquet malesuada. Integer placerat lacus fermentum erat viverra, luctus auctor libero vehicula. Ut id feugiat orci, quis consequat enim. Suspendisse vestibulum sem nec blandit pretium.
-
-Maecenas dapibus orci mi, in pharetra magna auctor a. Praesent vitae felis elit. Fusce at lacinia nisl. Maecenas tempus est a rhoncus tristique. Nam pretium efficitur tincidunt. Sed dictum nulla sit amet ex ullamcorper, a commodo tortor posuere. Sed fermentum, ipsum non accumsan luctus, augue felis rhoncus eros, sed congue elit nulla id tortor. Nunc sit amet scelerisque turpis, et porta augue. Phasellus ut nulla at ligula pharetra consequat pharetra eu lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque odio nec risus luctus, non volutpat diam maximus. Pellentesque tempor aliquet mi, eget dictum nisi.
+* modulo algebra functions (gcd, inverse, legendre symbol, square root)
+* octets / integer / point / var_int / var_bytes helper functions
+* elliptic curve class
+* fast algebra implemented using Jacobian coordinates
+* double scalar multiplication (Straus’s algorithm, also known as Shamir’s trick)
+* multi scalar multiplication (Bos-coster’s algorithm)
+* point simmetry solution: odd/even, low/high, and quadratic residue
+* elliptic curves: SEC 1 v1 and v2, NIST, Brainpool, and low cardinality test curves
+* ECDSA signature with (transaction) DER encoding
+* ECDSA signature with (message) compact encoding: standard p2pkh and BIP137/Electrum extensions to p2wpkh and p2wpkh-p2sh
+* EC Schnorr signature (according to BIP340 bitcoin standardization)
+* batch validation
+* threshold signature (see test-suite)
+* MuSig multi-signature (see test-suite)
+* Borromean ring signature
+* RFC 6979 to make signature schemes deterministic
+* Sign-to-contract commitment
+* Diffie-Hellman
+* Pedersen committment
+* Base58 encoding/decoding
+* p2pkh/p2sh addresses and WIFs
+* Bech32 encoding/decoding
+* p2wpkh/p2wsh native SegWit addresses and their legacy p2sh-wrapped versions
+* BIP32 hierarchical deterministic key chains
+* SLIP132 key versions (xprv, yprv, zprv, Yprv, Zprv, tprv, uprv, vprv, and Uprv) with corresponding mapping to p2pkh/p2sh, p2wpkh-p2sh, p2wpkh p2wsh-p2sh, and p2wsh addresses
+* BIP39 wordlists and mnemonic for generating deterministic keys
+* Electrum standard for mnemonic
+* Script encoding/decoding
+* nulldata, p2pk, p2ms, p2pkh, p2sh, p2wpkh, and p2wsh ScriptPubKeys
+* BlockHeader and Block data classes
+* OutPoint, TxIn, TxOut, and TX data classes
+* legacy and segwit_v0 transaction hash signatures
+* BIP174 partially signed bitcoin transactions (PSBT): PsbtIn, PbstOut, and Psbt data classes
