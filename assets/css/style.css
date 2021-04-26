@@ -202,6 +202,10 @@ h4, .h4, h5, .h5  {
     margin: 0px auto;
     max-width: 1170px;
 }
+.img-responsive-wrapper {
+    background-size: cover!important;
+}
+
 .alert {
     font-size: 11px!important;
     color: red!important;
@@ -601,9 +605,7 @@ label.form-check-label {
     border-top: 1px solid #888;
 }
 
-p.scrolldown {
-    background: #fbe7b5;
-}
+
 p.scrolldown .logo{
     visibility: hidden;
 }

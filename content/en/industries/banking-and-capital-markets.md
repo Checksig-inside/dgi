@@ -5,7 +5,7 @@ header: Banking and Capital Markets
 subdesc: Lorem ipsum dolores Banking and Capital Markets Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  
 description: Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  
 img: /assets/img/institutions/ico_retail_bank.svg
-slider: /assets/img/institutions/header_institutions.jpg
+slider: /assets/img/industries/header.jpg
 uid: banking-and-capital-markets
 permalink: /industries/banking-and-capital-markets/
 locale: en

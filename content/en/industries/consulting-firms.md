@@ -5,7 +5,7 @@ header: Consulting Firms
 subdesc: Lorem ipsum dolores Consulting Firms Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 description: Lorem ipsum dolores Consulting Firms Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mattis malesuada pellentesque. Phasellus turpis enim, dignissim non mollis vel, dictum ut augue. Phasellus commodo luctus elit non porta. Mauris eleifend libero sollicitudin velit lobortis, quis tristique nibh fringilla. Pellentesque eu metus euismod, hendrerit neque sed, pellentesque felis. Nam eget mi et neque congue porttitor. Nunc tincidunt metus nec tortor cursus, id faucibus nisi commodo. Integer condimentum diam odio, in fringilla risus dapibus vitae. Nulla nec odio sit amet risus ullamcorper lobortis. Suspendisse ut nisi a arcu ultrices efficitur. Integer odio eros, consectetur sit amet dui ut, pulvinar tristique velit.   
 img: /assets/img/institutions/ico_retail_bank.svg
-slider: /assets/img/institutions/header_institutions.jpg
+slider: /assets/img/industries/header.jpg
 uid: consulting-firms
 permalink: /industries/consulting-firms/
 locale: en
