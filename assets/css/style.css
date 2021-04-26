@@ -131,16 +131,16 @@ h4, .h4, h5, .h5  {
 }
 #custody {
     padding-top: 100px;
-    background-color: #67A3BF;
+    background-color: #fcb600;
 }
 #custody  > .container:nth-child(2)  {
-    background-color: #67A3BF;
+    background-color: #fcb600;
 }
 #custody  > .container:nth-child(3)  {
-    background-color: #76ACC4;
+    background-color: #fdd365;
 }
 #custody  > .container:nth-child(4)  {
-    background-color: #85B5CB;
+    background-color: #fbe7b5;
 }
 #custody  > .container:nth-child(5)  {
     background-color: #95BED2;
@@ -159,7 +159,7 @@ h4, .h4, h5, .h5  {
 
 #custody h2 {
 	float: left;
-    color: white;
+    color: #333;
     width: calc(100% - 90px);
     text-align: left;
     font-size: 25px;
@@ -170,7 +170,7 @@ h4, .h4, h5, .h5  {
 #custody p.text-description {
     float: left;
     text-align: left;
-    color: white;
+    color: #333;
     width: calc(100% - 90px);
     text-align: left;
     padding-left: 20px;
@@ -588,9 +588,9 @@ label.form-check-label {
 
 #form-section .btn-primary {
     float: right;
-    background: #60A0BA;
+    background: #fdd365;
     padding: 10px 40px;
-    color: white;
+    color: #333;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 400;
@@ -600,6 +600,14 @@ label.form-check-label {
 #form-section {
     border-top: 1px solid #888;
 }
+
+p.scrolldown {
+    background: #fbe7b5;
+}
+p.scrolldown .logo{
+    visibility: hidden;
+}
+
 #cta-section .container-fluid-kamn{
     padding-bottom 100px;
 }
