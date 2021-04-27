@@ -30,24 +30,31 @@
 	<section id="sub-header" class="institution">
 		<div class="container container-content">
 		<div class="row">
-			<h1 class="no_toc">{{ page.title }}</h1>
+			<h1 class="no_toc">{{ page.subtitle }}</h1>
 			<div class="content">{{ content }}</div>
 		</div>
 		</div>
 	</section>
 	<section id="institution" class="institution">
 		<div class="container container-content">
-		{% if page.sub-header %} 
+		{% if page.sub-image %} 
 			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ site.baseurl }}{{ page.sub-header }})">	
+				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ site.baseurl }}{{ page.sub-image }})">	
 				</div>
 			</div>
 		{% endif %}
 		</div>
 	</section>
+	{% if page.uid == 'partnership' %} 
+	<section id="custody" class="custody">
+			{% include professional-services/professional-partnership.html %}
+	</section>
+	{% endif %}
 	<section id="moduli" class="pservices">
 		<div class="container">
+	{% if page.uid == 'training' %} 
 			{% include pservices.html %}
+	{% endif %}
 		<div class="row">
 			<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
 				<p class="text-description">{{ page.description }}</p>
@@ -55,6 +62,7 @@
 		</div>
 		</div>
 	</section>
+
 	<!-- Begin #form-section -->
 	<section id="form-section" class="section-global-wrapper">
 		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>

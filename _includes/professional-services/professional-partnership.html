@@ -1,6 +1,5 @@
-        
-		{% for modulo in site.data.industries-education  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale and modulo.type == page.uid %}
+		{% for modulo in site.data.professional-partnership  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale and modulo.tag == page.uid %}
 		<div class="container back-{{ modulo.uid }}">
 		<p class="dotline"><img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/img/custody/ico_dot.png"  alt="dotline"/></p>
 		<div class="row padding back-{{ modulo.uid }}" style="padding:20px;">
@@ -29,4 +28,3 @@
 		
 		
 		
-

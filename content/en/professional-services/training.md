@@ -1,10 +1,11 @@
 ---
 layout: professional-services_child
 title: Training
-header: Training
+header: Professional services/Training
 tag: training
 uid: training
-subdesc: Empowering Digital Realm
+subdesc: EN -Lorem ipsum dolores
+subtitle: Training - subtitle
 description: The training material includes slides, reference books, open-source code and software, and additional links and resources for deep-diving. This material remains always available, including its future updates and evolutions. A solid broad introduction comes first, accessible to people with any background, skill level, or learning ambition, gradually stepping up to more advanced tech/dev topics that require an increasingly good attitude for logical, mathematical, and computational thinking.
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg

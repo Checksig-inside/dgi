@@ -1,14 +1,16 @@
 ---
 layout: professional-services_child
 title: Speech
-header: Speech
+header: Professional services/Speech
 tag: speech
 uid: speech
 subdesc: EN -Lorem ipsum dolores
+subtitle: Speach - subtitle
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg
 permalink: /professional-services/speech/
+sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 locale: en
 page-tag: secmid
 page-category: professional-services

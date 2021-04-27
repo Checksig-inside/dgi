@@ -2,8 +2,8 @@
 layout: industries_child
 title: Banking and Capital Markets
 header: Banking and Capital Markets
-subdesc: Lorem ipsum dolores Banking and Capital Markets Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  
-description: Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  Lorem ipsum dolores Banking and Capital Markets  
+subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 img: /assets/img/institutions/ico_retail_bank.svg
 slider: /assets/img/industries/header.jpg
 uid: banking-and-capital-markets

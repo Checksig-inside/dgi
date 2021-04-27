@@ -31,7 +31,7 @@
 		<div class="container container-content">
 			<div class="row">
 				<div class="content">
-				<h2 class="no_toc">{{ page.title }}</h2>
+				<h2 class="no_toc">{{ page.subtitle }}</h2>
 				{{ content }}
 				</div>
 			</div>
@@ -44,11 +44,11 @@
 			</div>
 		</div>
 		{% endif %}
-		{% if page.sub-description %} 
+		{% if page.description %} 
 		<div class="container container-desc">
 			<div class="row">
 				<div>
-					{{ page.sub-description }}
+					{{ page.description }}
 				</div>
 			</div>
 		</div>

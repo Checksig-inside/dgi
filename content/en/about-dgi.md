@@ -1,11 +1,12 @@
 ---
 layout: about-dgi
-title: Scarcity in the Digital Realm
+title: About DGI
 header: About DGI
 locale: en
 uid: about-dgi
 page-tag: secbtm
 permalink: /about-dgi.html
+subtitle: Scarcity in the Digital Realm
 subdesc: R&D center of excellence about Bitcoin,crypto assets and the underlying blockchain technology.
 description: 
 img: https://via.placeholder.com/250x250

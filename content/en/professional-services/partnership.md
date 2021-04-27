@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Partnership
-header: Partnership
+header: Professional services/Partnership
 tag: partnership
 uid: partnership
 subdesc: A strategic partnership with DGI empowers your business with a proper understanding of Bitcoin, crypto assets, and blockchain technology.
@@ -11,6 +11,7 @@ img: /assets/img/custody/ico_technology.svg
 slider: /assets/img/home/bg_empowering_digital_realm.jpg
 permalink: /professional-services/partnership/
 locale: en
+slider-ranking: 1000
 page-tag: secmid
 page-category: professional-services
 sort_ranking: 800

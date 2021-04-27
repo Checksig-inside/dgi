@@ -6,6 +6,7 @@ locale: it
 uid: professional-services
 permalink: /it/professional-services.html
 page-tag: sectop
+subtitle: Servizi professionali - subtitle
 subdesc: Servizi di consulenza, programmi di formazione e soluzioni software
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250

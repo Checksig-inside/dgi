@@ -5,8 +5,8 @@ header: Industries
 locale: en
 uid: industries
 permalink: /industries.html
+subtitle: EN -Lorem ipsum dolores
 subdesc: EN -Lorem ipsum dolores
-description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
 slider: /assets/img/industries/header.jpg
 ---

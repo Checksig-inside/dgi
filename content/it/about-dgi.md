@@ -1,13 +1,13 @@
 ---
 layout: about-dgi
-title: Scarcity in the Digital Realm
+title: About Dgi
 header: Digital Gold Institute
 locale: it
 uid: about-dgi
 page-tag: secbtm
 permalink: /it/about-dgi.html
+subtitle: Scarcity in the Digital Realm
 subdesc: Il principale think tank italiano dedicato al fenomeno bitcoin e alla scarsità in ambito digitale
-description:
 img: https://via.placeholder.com/250x250
 slider: /assets/img/about/header_about.jpg
 ---

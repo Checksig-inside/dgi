@@ -133,6 +133,12 @@ h4, .h4, h5, .h5  {
     padding-top: 100px;
     background-color: #fcb600;
 }
+#custody  > .container  {
+    background-color: #fbe7b5;
+}
+#custody  > .container:nth-child(1)  {
+    background-color: #fcb600;
+}
 #custody  > .container:nth-child(2)  {
     background-color: #fcb600;
 }
@@ -143,13 +149,13 @@ h4, .h4, h5, .h5  {
     background-color: #fbe7b5;
 }
 #custody  > .container:nth-child(5)  {
-    background-color: #95BED2;
+    background-color: #fbe7b5;
 }
 #custody  > .container:nth-child(6)  {
-    background-color: #A4C8D8;
+    background-color: #fbe7b5;
 }
 #custody  > .container:nth-child(7)  {
-    background-color: #B4D1DF;
+    background-color: #fbe7b5;
 }
 
 #custody img {
