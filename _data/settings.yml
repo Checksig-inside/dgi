@@ -29,10 +29,23 @@ social:
 - {show: true, icon: 'twitter', link: 'https://'}
 - {show: true, icon: 'linkedin', link: 'https:'}
 
+info_legal:
+    company: Digital Gold Institute S.R.L.
+    address: Via Massimo Gorki 47
+    region: 20098 San Giuliano Milanese (MI)
+    country: ITALY
+    piva: 10481200961
+    cf: 10481200961
+    rea: MI-2534614
+    mail: info@checksig.io
+    pec: dginst@pec.it
+    phone:
+
 info:
-    company: Checksig s.r.l. 
+    company: Digital Gold Institute S.R.L.
     address: Corso di Porta Romana 61
     region: 20122 Milano (MI)
     country: ITALY
     mail: info@checksig.io
     phone:
+
