@@ -1,12 +1,12 @@
 ---
-layout: crypto-insights
-title: Crypto insights
-header: Crypto insights
+layout: institute-insights
+title: Institute insights
+header: Institute insights
 locale: en
-uid: crypto-insights
-slider: /assets/img/crypto_insights/header_crypto.jpg
+uid: institute-insights
+slider: /assets/img/institute_insights/header_institute.jpg
 sub-header: /assets/img/support/img_bitcoin.jpg
-permalink: /crypto-insights.html
+permalink: /institute-insights.html
 subdesc: EN -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250

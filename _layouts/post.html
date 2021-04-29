@@ -1,17 +1,50 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
 
-<h1>
-  <span class="alert">[title]</span>{{ page.title }}
-</h1>
+{% include head-dgi.html %}
+{% include header-dgi.html %}
+{% include script-dgi.html %}
 
-<div class="post-content">
-  <span class="alert">[contenuto della pagina]</span>{{ content }}
-</div>
+<body>
+  <!-- Begin #title-section -->
+	<section id="title" class="section-global-wrapper">
+		<div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs "><span>ABOUT DGI / </span></div>
+			</div>			
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper"
+						style="background-image:url({{ site.baseurl }}{{ page.img-detail }});background-size: auto 100%; background-position: center;">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:50px 0px; margin:0px auto;">
+								<h1 class="no_toc">{{ page.title }}</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="content" class="content">
+		<div class="container">
+			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+			<div class="row">
+				<div class="post-content">
+				  {{ content }}
+				</div>
+			</div>
+		</div>
+	</section>
 
 <span class="post-date">
   {{ site.data.locales[page.locale].post.date_prefix }}
   {{ page.date | date_to_long_string: "ordinal" }}
 </span>
+</body>
 
+{% include footer-dgi.html %}
+
+</html>

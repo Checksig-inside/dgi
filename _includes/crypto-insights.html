@@ -1,0 +1,18 @@
+		<div class="row padding">
+		{% for category in site.categories %}
+			{% if category[0] != 'en' and category[0] != 'it' and category[0] != 'content' %}
+			  <h2>{{ category[0] }}</h2>
+			  {% for tag in site.tags %}
+			  <h3>{{ tag[0] }}</h3>
+			  <ul>
+				{% for post in tag[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' %}
+					  <li>{{ post.categories[2] }}<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+
+			  </ul>
+			{% endfor %}
+			{% endif %}
+		{% endfor %}
+		</div>
