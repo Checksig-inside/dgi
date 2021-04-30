@@ -28,6 +28,26 @@
 			</div>
 		</div>
 	</section>
+	{% if page.img-top or page.video-top %}
+	<section id="top-content" class="content">
+		<div class="container">
+			{% if page.img-top %}
+			<div class="row">
+				<div class="post-content">
+				  <img class="img-top" src="{{ site.baseurl }}{{ page.img-top }}" alt="Scroll" width="100%">
+				</div>
+			</div>
+			{% endif %}
+			{% if page.video-top  %}
+			<div class="row">
+				<div class="post-content">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-top }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			{% endif %}
+		</div>
+	</section>
+	{% endif %} 
 	<section id="content" class="content">
 		<div class="container">
 			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
@@ -38,7 +58,26 @@
 			</div>
 		</div>
 	</section>
-
+	{% if page.img-bottom or page.video-bottom %}
+	<section id="top-content" class="content">
+		<div class="container">
+			{% if page.img-bottom %}
+			<div class="row">
+				<div class="post-content">
+				  <img class="img-top" src="{{ site.baseurl }}{{ page.img-bottom }}" alt="Scroll" width="100%">
+				</div>
+			</div>
+			{% endif %}
+			{% if page.video-bottom  %}
+			<div class="row">
+				<div class="post-content">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-bottom }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			{% endif %}
+		</div>
+	</section>
+	{% endif %} 
 <span class="post-date">
   {{ site.data.locales[page.locale].post.date_prefix }}
   {{ page.date | date_to_long_string: "ordinal" }}

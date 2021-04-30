@@ -1,15 +1,25 @@
 		<div class="row padding">
 		{% for category in site.categories %}
 			{% if category[0] != 'en' and category[0] != 'it' and category[0] != 'content' %}
-			  <h2>{{ category[0] }}</h2>
+			{% assign total = 0 %}
+			{% for post in category[1] %}
+			{% if post.parent-category == 'institute-insights' %}
+			{% assign total = total | plus: 1 %}
+			{% endif %}
+			{% endfor %}
+			{% if total != 0 %}
+			  <h2>Category: {{ category[0] }} </h2>
+			  
 			  <ul>
 				{% for post in category[1] %}
-					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
 					  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 					{% endif %}
 				{% endfor %}
 
 			  </ul>
+
+			{% endif %}
 			{% endif %}
 		{% endfor %}
 		</div>

@@ -5,8 +5,7 @@ date:   2020-11-21 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg
 img-detail: /assets/img/institute_insights/header_institute.jpg
 parent-category: institute-insights
-categories: crypto week
-tag: altcoin
+categories: ["crypto week"]
 locale: en
 uid: institute-market-news2
 ---

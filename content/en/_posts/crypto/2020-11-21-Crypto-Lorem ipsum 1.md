@@ -1,14 +1,18 @@
 ---
 layout: post
-title:  "Institute Lorem ipsum 8"
+title:  "Lorem ipsum 1"
 date:   2020-11-21 09:07:42 +0100
-img-list: /assets/img/institute_insights/header_institute.jpg
-img-detail: /assets/img/institute_insights/header_institute.jpg
-parent-category: institute-insights
-categories: news
-tag: bitcoin
+img-list: /assets/img/crypto_insights/header_crypto.jpg
+img-detail: /assets/img/crypto_insights/header_crypto.jpg
+img-top: /assets/img/crypto_insights/header_crypto.jpg
+img-bottom: /assets/img/crypto_insights/header_crypto.jpg
+video-top: oZaUZ2iFK0Y
+video-bottom: WMc2hr3Y92A
+parent-category: crypto-insights
+categories: market
+tag: derivatives
 locale: en
-uid: institute-market-news8
+uid: crypto-market-news1
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
