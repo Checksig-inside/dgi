@@ -52,6 +52,16 @@
 		<div class="container">
 			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 			<div class="row">
+			{% if page.date %}
+			<span class="post-date">
+			  	  {{ page.date | date_to_long_string: "ordinal" }}
+			</span>
+			{% endif %}
+			{% if page.author %}
+				<div class="post-content">
+				  {{ page.author }}
+				</div>
+			{% endif %}
 				<div class="post-content">
 				  {{ content }}
 				</div>
@@ -78,10 +88,7 @@
 		</div>
 	</section>
 	{% endif %} 
-<span class="post-date">
-  {{ site.data.locales[page.locale].post.date_prefix }}
-  {{ page.date | date_to_long_string: "ordinal" }}
-</span>
+
 </body>
 
 {% include footer-dgi.html %}

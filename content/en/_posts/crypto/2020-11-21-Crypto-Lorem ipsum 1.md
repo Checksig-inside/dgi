@@ -2,6 +2,7 @@
 layout: post
 title:  "Lorem ipsum 1"
 date:   2020-11-21 09:07:42 +0100
+author: Ferdinando M. Ametrano
 img-list: /assets/img/crypto_insights/header_crypto.jpg
 img-detail: /assets/img/crypto_insights/header_crypto.jpg
 img-top: /assets/img/crypto_insights/header_crypto.jpg
