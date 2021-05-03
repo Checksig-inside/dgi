@@ -1,18 +1,20 @@
-        <div class="row padding">
-		<ul id="lightSlider">
-			{% for modulo in site.data.home-slider  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale %}
-            <li class="text-center" style="background-image:url({{ site.baseurl }}{{ modulo.img }})">
-				<div class="content-inner">
-                <h4>{{ modulo.title }}</h4>
-                <p class="text-description">{{ modulo.sub-description }}</p>
-				<p class="text-link"><a href="{{ modulo.link }}">{{ modulo.button }}</a></p>
-				</div>
+		 <div class="row padding">
+		 <ul id="lightSlider">
+		{% assign folder1 = site.pages | sort: 'slider-ranking' | reverse %}
+		{% for c in folder1 %}
+		{% if c.locale == page.locale and c.slider-ranking %} 
+            <li class="text-center" style="background-image:url({{ site.baseurl }}{{ c.slider }})">
+			<div class="content-inner">
+                <h2>{{ c.title }}</h2>
+                <p class="text-description">{{ c.subdesc }}</p>
+                <p class="text-link"><a href="{{ site.baseurl }}{{ c.permalink }}">READ MORE</a></p>
+            </div>
             </li>
-			{% endif %} 
-            {% endfor %}
+		{% endif %} 
+		{% endfor %}
 		</ul>
         </div>
+		
 		<script type="text/javascript">
 	$(document).ready(function() {
     $("#lightSlider").lightSlider({
@@ -42,7 +44,7 @@
         adaptiveHeight:false,
  
         vertical:false,
-        verticalHeight:400,
+        verticalHeight:450,
         vThumbWidth:100,
  
         thumbItem:10,

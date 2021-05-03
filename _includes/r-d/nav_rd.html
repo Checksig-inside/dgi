@@ -1,0 +1,15 @@
+        <div class="row padding sub-catmenu">
+            <div class="col-lg-12 col-md-12">
+				<h2>{{ site.data.locales[page.locale].glossary['discover-also']}}</h2>
+			</div>
+            <div class="col-lg-12 col-md-12">
+				<ul class="nav-ul">
+				{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+				{% for item in folder1 %}
+				{% if item.locale == page.locale and item.page-category == 'r-d' and item.uid != page.uid %} 
+					<li class="nav-children-bar menu-link {% if item.title == page.title %}active{% endif %}"><img src='{{ site.baseurl }}{{ item.ico-bdc }}'><p>{{ item.title }}</p><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['discover']}}</a></li>
+				{% endif %} 
+				{% endfor %}
+				</ul>
+			</div>
+        </div>

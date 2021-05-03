@@ -975,11 +975,11 @@ p.text-description{
 }
 .lSAction > .lSNext {
     background-position: -32px 0;
-    right: 0px!important;
+    right: 20%!important;
 }
 .lSAction > .lSPrev {
     background-position: 0 0;
-    left: 0px!important;
+    left: 20%!important;
 }
 .lSSlideWrapper {
     max-width: 80%!important;
@@ -1023,7 +1023,7 @@ p.text-description{
     color: #333;
 }
 #lightSlider {
-	height:400px !important;
+	height:450px !important;
 }
 
 
@@ -1041,13 +1041,17 @@ p.text-description{
     margin: 0px auto;
 }
 
+#home-sliders .content-inner {
+    padding: 70px 0px!important;
+}
+
 #home-sliders  .lSSlideOuter .lSPager.lSpg {
     margin: 10px 0 0;
     padding: 0;
     text-align: center;
     position: absolute;
     /* top: 0px; */
-    bottom: 0px;
+	bottom: 10px;
     left: 0px;
     right: 0px;
 }
@@ -1055,11 +1059,11 @@ p.text-description{
     position: relative;
 }
 
-#home-sliders h4 {
+#home-sliders h2 {
     font-size: 40px;
     color: white;
 }
-#home-sliders h4:before {
+#home-sliders h2:before {
     background-image: url(/dgi/assets/img/home/ico_slider.png);
     width: 50px;
     content: " ";
@@ -1079,6 +1083,8 @@ p.text-description{
     font-size: 12px;
     line-height: 1.4;
     font-weight: 100;
+	min-height: 80px;
+	padding: 10px;
 }
 
 .section-heading{
@@ -1188,7 +1194,7 @@ h1, .h1 {
 
 .container.professional .row  .col-lg-6 {
     padding: 0px!important;
-	background-size: 100% auto;
+	background-size: cover;
 	
 }
 
@@ -1759,7 +1765,7 @@ footer .widget i {
     padding-right: 7px;
 }
 footer{
-   margin-top:40px;
+   margin-top:20px;
    left: 0;
    right: 0;
    background: #656665;
@@ -1981,6 +1987,123 @@ footer h3 {
     font-size: 1.3em;
     color: rgb(100, 100, 100);
 }
+
+#crypto-insight {
+    background: #fbe7b5;
+    padding: 20px 0px;
+}
+
+.institute-insights {
+    background: #fdd365;
+	margin-top: 15px;
+	padding: 20px 0px;
+}
+#crypto-insight .text-center > div, .institute-insights .text-center > div {
+    background: #fff;
+    text-align: left;
+    width: calc(100% - 20px);
+    padding: 15px;
+    border-radius: 10px;
+	padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 7px rgb(0 0 0 / 20%);
+}
+#crypto-insight .text-center , .institute-insights .text-center {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+.blog-panel .title-link {
+    display: table;
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 10px;	
+}
+.blog-panel > .container{
+    padding: 30px 0px 50px;
+}
+
+#crypto-insight h3 , .institute-insights h3 {
+    padding: 0px 25px 10px 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.book-meeting-panel .book-meeting, .book-meeting-panel .request-information {
+	display:none;
+}
+
+.book-meeting-panel  {
+	background-image: url(/dgi/assets/img/home/bg_contatti.jpg);
+    background-size: 100% auto;
+    height: 300px;
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+}
+.book-meeting-panel  h4 {
+	color:white;
+	font-size: 30px!important;
+    font-weight: 400!important;
+}
+.book-meeting-panel .meeting-panel h5{
+width: 300px;
+    float: right;
+    font-size: 24px!important;
+    text-align: left;
+    padding: 50px 0px 50px 150px;
+	background-image: url(/dgi/assets/img/home/ico_book_a_meeting.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: left center;
+	font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.book-meeting-panel .info-panel h5{
+	width: 300px;
+    float: left;
+    font-size: 24px!important;
+    text-align: left;
+    padding: 50px 0px 50px 150px;
+	background-image: url(/dgi/assets/img/home/ico_request_information.png);
+    background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: left center;
+	font-weight: 800;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lightSlider li {
+    background-size: cover;
+	height: 450px;
+}
+	
+.lSSlideOuter .lSPager.lSpg > li a {
+    background-color: #999!important;
+    border-radius: 0px!important;
+    display: inline-block;
+    height: 8px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 8px;
+    position: relative;
+    z-index: 99;
+    -webkit-transition: all 0.5s linear 0s;
+    transition: all 0.5s linear 0s;
+    width: 100%!important;
+}	
+.lSSlideOuter .lSPager.lSpg > li:hover a, .lSSlideOuter .lSPager.lSpg > li.active a {
+    background-color: #FFF!important;
+}	
+	
+.lSSlideOuter .lSPager.lSpg > li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 5px!important;
+    width: 80px!important;
+    border-radius: 0px!important;
+}	
+
 /*
 * ==========================================================================
 * Optional Carousel

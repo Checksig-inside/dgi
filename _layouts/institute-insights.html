@@ -51,27 +51,43 @@
 		</div>
 	</section>
 	<!-- Begin #form-section -->
-	<section id="form-section" class="section-global-wrapper"><span class="alert">sezione che incorporerà google forms </span>
-		<p class="scrolldown"><a href="#form-support" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
-		<div class="container-fluid-kamn">
+	<section id="form-section-quarterly" class="form-section section-global-wrapper"> 
+		<div class="container">
 			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay">
-					<!-- - img-->
-					<div class="img-responsive-wrapper">
-						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light box-inner">
-								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['request']}}</h4><h5>{{ site.data.locales[page.locale].glossary['completaform']}}</h5>
-								<p class="d-none d-lg-block">{% include form-support.html %}</p>
-							</div>
-						</div>
-					</div>
+				<div class="col-lg-12 col-md-12 text-center">
+						<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['quarterly']}}</h4>
+				</div>
+			</div>
+			<div class="row">
+				 <div class="col-lg-12 col-md-12 text-center">
+					  <p class="d-none d-lg-block professional-workshop">{% include form-quarterly.html %}</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	{% if site.data.cta[page.uid] %}
-	{% include cta.html uid = page.uid %}
-	{% endif %}
+	<section id="form-section-accordion" class="form-section section-global-wrapper"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+						<h4 class="no_toc">ACCORDION</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="form-section-subscribe" class="form-section section-global-wrapper"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+						<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['subscribe-information']}}</h4>
+				</div>
+			</div>
+			<div class="row">
+				 <div class="col-lg-12 col-md-12 text-center">
+					  <p class="d-none d-lg-block professional-workshop">{% include form-subscribe.html %}</p>
+				</div>
+			</div>
+		</div>
+	</section>
 </body>
 
 {% include footer-dgi.html %}

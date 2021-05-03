@@ -54,40 +54,40 @@
 		</div>
 		{% endif %}
 	</section>
+	<section id="crypto-insight" class="blog-panel crypto">
+		<div class="container">
+			<div class="row">
+				<h3>Crypto Insight</h3>
+			</div>
+			{% include crypto-insights/crypto-insights.html %}
+		</div>
+	</section>
 	<section id="moduli" class="institution" style="background:#000">
 		<div class="container">
 			<div class="row bcrumbs">
-			{% include r-d/nav_r-d.html %}
+			{% include r-d/nav_rd.html %}
 			</div>
 		</div>
 	</section>
-	<section id="formsection" class="section-global-wrapper">
-		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
-		<div class="container-fluid-kamn">
-			<div class="row" style="background:#ccc;">
-				<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
-					<p class="text-description">{{ site.data.locales[page.locale].glossary['claim']}}</p>
+	<section id="form-section" class="form-section section-global-wrapper book-meeting-panel"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+						<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['claim']}}</h4>
 				</div>
 			</div>
-			<div class="row" style="background:#ccc;">		
-				<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
-					<div class="content-inner">
-						<h2>{{ page.titleform1 }}</h2>
-						<p class="d-none d-lg-block">{% include form.html %}</p>
-					</div>
+			<div class="row">
+				 <div class="col-lg-6 col-md-6 text-center  meeting-panel">
+					  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
+					  <p class="d-none d-lg-block el-workshop">{% include form-book.html %}</p>
 				</div>
-				<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
-					<div class="content-inner">
-						<h2>{{ page.titleform2 }}</h2>
-						<p class="d-none d-lg-block">{% include form.html %}</p>
-					</div>
+				 <div class="col-lg-6 col-md-6 text-center  info-panel">
+					 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
+					  <p class="d-none d-lg-block professional-workshop">{% include form-request.html %}</p>
 				</div>
-            </div>
+			</div>
 		</div>
 	</section>
-	{% if site.data.cta[page.uid] %}
-	{% include cta.html uid = page.uid %}
-	{% endif %}
 </body>
 
 {% include footer-dgi.html %}
