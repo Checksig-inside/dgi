@@ -7,11 +7,8 @@
 
 <body>
   <!-- Begin #title-section -->
-	<section id="title" class="section-global-wrapper">
-		<div class="container-fluid-kamn">
-			<div class="row celeste">
-			<div class="bcrumbs "><span>ABOUT DGI / </span></div>
-			</div>			
+	<section id="title-child-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">			
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
@@ -29,16 +26,16 @@
 			</div>
 		</div>
 	</section>
-  <!-- institutions -->
 	<section id="content" class="content">
+		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
-			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
-			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay" id="top">
+			<div class="row" id="top">
+				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper" style="">
 						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light  box-inner">
+							<div class="it-hero-text-wrapper bg-light box-inner"
+								style="padding:50px 0px; margin:0px auto;">
 								<h2>{{ page.subtitle }}</h2>
 								<p>{{ content }}</p>
 							</div>
@@ -47,13 +44,13 @@
 				</div>
 			</div>
 		</div>
-	</section>	
-	<section id="institution" class="about-dgi">
+	</section>
+	<section id="about-dgi" class="about-dgi">
 		{% include about-dgi.html %}
 	</section>
 	<section id="form-section" class="section-global-wrapper">
 		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
-		<div class="container-fluid-kamn">
+		<div class="container">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->

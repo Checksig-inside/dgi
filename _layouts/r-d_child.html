@@ -27,14 +27,12 @@
 			</div>
 		</div>
 	</section>
-	<section id="institution" class="institution">
+	<section id="sub-header" class="institution">
 		<div class="container container-content">
-			<div class="row">
-				<div class="content">
-				<h2 class="no_toc">{{ page.subtitle }}</h2>
-				{{ content }}
-				</div>
-			</div>
+		<div class="row">
+			<h2 class="no_toc">{{ page.subtitle }}</h2>
+			<div class="content">{{ content }}</div>
+		</div>
 		</div>
 		{% if page.sub-image %} 
 		<div class="container container-image">
@@ -54,15 +52,15 @@
 		</div>
 		{% endif %}
 	</section>
-	<section id="crypto-insight" class="blog-panel crypto">
+	<section id="crypto-insight" class="blog-panel crypto crypto-internal">
 		<div class="container">
 			<div class="row">
-				<h3>Crypto Insight</h3>
+				<h3>Crypto Insights</h3>
 			</div>
 			{% include crypto-insights/crypto-insights.html %}
 		</div>
 	</section>
-	<section id="moduli" class="institution" style="background:#000">
+	<section id="moduli" class="institution" style="background: #333; margin-bottom: 20px;">
 		<div class="container">
 			<div class="row bcrumbs">
 			{% include r-d/nav_rd.html %}
@@ -77,13 +75,13 @@
 				</div>
 			</div>
 			<div class="row">
-				 <div class="col-lg-6 col-md-6 text-center  meeting-panel">
+				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
 					  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
-					  <p class="d-none d-lg-block el-workshop">{% include form-book.html %}</p>
+					  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
 				</div>
-				 <div class="col-lg-6 col-md-6 text-center  info-panel">
+				 <div class="col-lg-6 col-md-6 text-center info-panel">
 					 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
-					  <p class="d-none d-lg-block professional-workshop">{% include form-request.html %}</p>
+					  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
 				</div>
 			</div>
 		</div>

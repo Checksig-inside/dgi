@@ -52,16 +52,28 @@ li.nav-children-bar a {
 li.nav-children-bar.active a {
     color: black;
 }
+
 .back-header {
     padding: 200px;
     background-size: auto 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.institution-sub-image .back-header {
+    padding: 200px;
+    background-size: auto 100%;
+    background-position: center;
 	background-repeat: no-repeat;
-	margin-top:30px;
+	margin-top: -200px;
 }
 
 .container-content {
     padding: 0px 15px 50px;
+}
+
+.institution-sub-image .container-content {
+    padding: 0px 15px 0px;
 }
 
 .box-inner {
@@ -140,10 +152,10 @@ h4, .h4, h5, .h5  {
     background-color: #fcb600;
 }
 #custody  > .container:nth-child(2)  {
-    background-color: #fcb600;
+    background-color: #fdd365;
 }
 #custody  > .container:nth-child(3)  {
-    background-color: #fdd365;
+    background-color: #fbe7b5;
 }
 #custody  > .container:nth-child(4)  {
     background-color: #fbe7b5;
@@ -459,7 +471,7 @@ h5 {
 }
 #moduli .module-custody {
     padding: 30px;
-    background: #67A3BF;
+    background: #333;
     padding: 65px 30px;
     text-align: center;
     border-radius: 20px;
@@ -468,7 +480,7 @@ h5 {
 	position: relative;
 }
 #moduli .module-custody p.description {
-    background: #666566;
+    background: orange;
     position: absolute;
     top: 0px;
     height: 100%;
@@ -479,14 +491,15 @@ h5 {
     /* background: rgb(103, 163, 191); */
     padding: 45px 30px;
     border-radius: 20px;
+	color:#333;
 }
 #moduli .module-custody button {
-    background-image: url(/dgi/assets/img/custody/ico_apri.svg);
+	background-image: url(/dgi/assets/img/icons/ico_apri.svg);
     width: 50px;
     height: 50px;
     background-size: auto 80%;
     background-color: transparent;
-    color: white;
+    color: #333;
     font-size: 30px;
     /* padding: 20px; */
     background-position: center;
@@ -496,15 +509,19 @@ h5 {
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
     position: absolute;
-	right: 20px;
+    right: 20px;
     bottom: 15px;
+    background: orange;
+    border-radius: 50%;
 }
 #moduli .module-custody.active button {
-    background-image: url(/dgi/assets/img/custody/ico_chiudi.svg);
+	background-image: url(/dgi/assets/img/icons/ico_chiudi.svg);
     width: 50px;
     height: 50px;
     background-size: auto 40%;
     color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 #moduli .module-custody p.description {
     display:none;
@@ -514,10 +531,80 @@ h5 {
     color: white;
     font-weight: 600;
     margin-bottom: 15px;
+	min-height: 70px;
 }
 #moduli .module-custody p {
     color: white;
+	min-height: 130px;
 }
+
+.pservices {
+    background: #fbe7b5;
+    padding: 50px 0px;
+}
+
+.back-training:before {
+	content: "";
+    background-image: url(/dgi/assets/img/professional_services/training/barra.png);
+	width: 110px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    top: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.back-training:after {
+	content: "";
+    background-image: url(/dgi/assets/img/professional_services/training/barra.png);
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    right: 10%;
+    top: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.back-training p.text-description {
+    line-height: 1.6;
+    max-width: 50%;
+    margin: 10px auto 15px;
+}
+.form-workshop {
+    background: #fdd365;
+}
+
+.form-workshop .row .col-lg-6:nth-child(1){
+	border-right: 5px solid #fff;
+}
+
+.form-workshop .row .col-lg-6:nth-child(2){
+	border-left: 5px solid #fff;
+}
+
+.form-workshop .container {
+    width: 1000px!important;
+}
+.institution-sub-image{
+	background: #fbe7b5;
+    margin-top: 190px;
+}
+
+.container-desc .row > div {
+    line-height: 24px;
+    max-width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+.crypto-internal h3  {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#sub-header .container-content {
+    padding: 0px 15px 0px;
+}
+
 #moduli-child .container{
     width: 100% !important;
     max-width: 100%!important;
@@ -608,7 +695,7 @@ label.form-check-label {
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
 #form-section {
-    border-top: 1px solid #888;
+    border-top: 1px solid #fdd365;
 }
 
 
@@ -678,6 +765,15 @@ p.scrolldown .logo{
 #team  a {
     color: white;
 }
+.section-vision {
+    background: #fbe7b5;
+    margin-top: 180px;
+}
+
+.section-vision img {
+    margin-top: -200px;
+}
+
 #vision .col-lg-6 {
     padding: 50px;
 }
@@ -897,7 +993,16 @@ p.scrolldown .logo{
 	text-align: center;
 	padding: 25px 0px 45px;
 }
-
+.content-page {
+    max-width: 1170px;
+    width: 95%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 25px 0px 45px;
+}
+.content-page img{
+    width: 100%;
+}
 #map .content-inner {
     max-width: 100%;
     width: 100%;
@@ -933,16 +1038,36 @@ p.scrolldown .logo{
 	border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 }
+#industries-row .text-link a{
+    background: #333;
+    padding: 10px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    border: 1px solid #fff;
+}
 
 p.text-description{
-    line-height: 1.2;
-    max-width: 50%;
+    line-height: 24px;
+    max-width: 80%;
     margin: 10px auto 15px;
 }
 .middle-panel{
     max-width: 1200px;
     margin: 0px auto;
 }
+#industries-row {
+    padding: 50px 0px;
+    background-color: #fbe7b5;
+}
+.r-d-row  {
+    background-color: #fff!important;
+}
+
+
 #institution-sections {
 	background:#656665;
 }
@@ -953,6 +1078,14 @@ p.text-description{
 #institution-sections img {
     max-height: 60px;
 }
+
+#sub-header h1, #sub-header h2, #sub-header .content {
+    text-align: center;
+    max-width: 80%;
+    margin: 40px auto 20px;
+}
+
+
 .content-inner p.description{
     line-height: 1.2;
     max-width: 75%;
@@ -975,12 +1108,23 @@ p.text-description{
 }
 .lSAction > .lSNext {
     background-position: -32px 0;
-    right: 20%!important;
+    right: 0!important;
 }
 .lSAction > .lSPrev {
     background-position: 0 0;
+    left: 0!important;
+}
+
+#home-sliders .lSAction > .lSNext {
+    background-position: -32px 0;
+    right: 20%!important;
+}
+#home-sliders .lSAction > .lSPrev {
+    background-position: 0 0;
     left: 20%!important;
 }
+
+
 .lSSlideWrapper {
     max-width: 80%!important;
     overflow: hidden;
@@ -988,6 +1132,18 @@ p.text-description{
     margin: 0px auto;
 }
 
+.sub-catmenu h2, .sub-catmenu li p {
+	color:#fff;
+}
+.sub-catmenu li a {
+	color:#fcb600;
+}
+.sub-catmenu li p {
+    max-width: 80%;
+    margin: 10px auto;
+    line-height: 1.3;
+    min-height: 35px;
+}
 
 #cta-section .content-inner h2,#cta-section .content-inner h4, #cta-section .content-inner p {
 	color:white;
@@ -1025,6 +1181,13 @@ p.text-description{
 #lightSlider {
 	height:450px !important;
 }
+.case-history #lightSlider {
+    height: 400px !important;
+}
+.case-history h3 {
+    text-align: center;
+    padding: 0px 25px 40px 25px!important;
+}
 
 
 #lightSlider li {
@@ -1033,7 +1196,13 @@ p.text-description{
 	height:400px;
 }
 
+.post-excerpt {
+    min-height: 200px;
+}
 
+p.date-post {
+    margin-bottom: 20px;
+}
 #home-sliders .lSSlideWrapper  {
     max-width: 100%!important;
     overflow: hidden;

@@ -2,7 +2,7 @@
 			{% for modulo in site.data.professional-training  | sort: 'sort_ranking' | reverse %}
 			{% if modulo.locale == page.locale and modulo.tag == 'pro-training' and page.tag == 'training' %}
 			<div class="col-lg-6 col-md-6 text-center">
-				<div class="module-custody-standard">
+				<div class="module-custody">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
 					<p class="description" style="display:none">{{ modulo.description }}</p>
@@ -14,7 +14,7 @@
             {% for modulo in site.data.professional-partnership  | sort: 'sort_ranking' | reverse %}
 			{% if modulo.locale == page.locale and modulo.tag == 'pro-partnership' and page.tag == 'partnership' %}
 			<div class="col-lg-6 col-md-6 text-center">
-				<div class="module-custody-standard">
+				<div class="module-custody">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
 					<p class="description" style="display:none">{{ modulo.description }}</p>
@@ -26,7 +26,7 @@
             {% for modulo in site.data.professional-speech  | sort: 'sort_ranking' | reverse %}
 			{% if modulo.locale == page.locale and modulo.tag == 'pro-speech'  and page.tag == 'speech' %}
 			<div class="col-lg-6 col-md-6 text-center">
-				<div class="module-custody-standard">
+				<div class="module-custody">
 					<h3>{{ modulo.name }}</h3>
 					<p class="intro">{{ modulo.sub-description }}</p>
 					<p class="description" style="display:none">{{ modulo.description }}</p>

@@ -30,21 +30,21 @@
 	<section id="sub-header" class="institution">
 		<div class="container container-content">
 		<div class="row">
-			<h1 class="no_toc">{{ page.subtitle }}</h1>
+			<h2 class="no_toc">{{ page.subtitle }}</h2>
 			<div class="content">{{ content }}</div>
 		</div>
 		</div>
 	</section>
-	<section id="institution" class="institution">
+	{% if page.sub-image %} 
+	<section id="institution" class="institution-sub-image">
 		<div class="container container-content">
-		{% if page.sub-image %} 
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay back-header" style="background-image:url({{ site.baseurl }}{{ page.sub-image }})">	
 				</div>
 			</div>
-		{% endif %}
 		</div>
 	</section>
+	{% endif %}
 	{% if page.uid == 'partnership' %} 
 	<section id="custody" class="custody">
 			{% include professional-services/professional-partnership.html %}
@@ -56,14 +56,14 @@
 			{% include pservices.html %}
 	{% endif %}
 		<div class="row">
-			<div class="col-lg-12 col-md-12 text-center back-{{ item.uid }}">
-				<p class="text-description">{{ page.description }}</p>
+			<div class="col-lg-12 col-md-12 text-center back-{{ page.uid }}">
+				<p class="text-description ">{{ page.description }}</p>
 			</div>
 		</div>
 		</div>
 	</section>
-	{% if page.uid == 'training' %} 
-	<section id="form-section" class="form-section section-global-wrapper"> 
+	{% if page.uid != 'training' %} 
+	<section id="form-section" class="form-section section-global-wrapper book-meeting-panel"> 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 text-center">
@@ -71,35 +71,34 @@
 				</div>
 			</div>
 			<div class="row">
-				 <div class="col-lg-6 col-md-6 text-center">
+				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
 					  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
-					  <p class="d-none d-lg-block el-workshop">{% include form-book.html %}</p>
+					  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
 				</div>
-				 <div class="col-lg-6 col-md-6 text-center">
+				 <div class="col-lg-6 col-md-6 text-center info-panel">
 					 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
-					  <p class="d-none d-lg-block professional-workshop">{% include form-request.html %}</p>
+					  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	{% else %}
-	<section id="form-section" class="form-section section-global-wrapper"> 
+	<section id="form-section" class="form-section form-workshop section-global-wrapper"> 
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-12 col-md-12 text-center">
-						<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['claim']}}</h4>
-				</div>
-			</div>
-			<div class="row">
 				 <div class="col-lg-6 col-md-6 text-center">
+					<div>
 					  <h6>{{ site.data.locales[page.locale].glossary['signup-for']}}</h6>
 					  <h5>{{ site.data.locales[page.locale].glossary['entry-level']}}</h5>
 					  <p class="d-none d-lg-block el-workshop">{% include form-el-workshop.html %}</p>
+					</div>
 				</div>
 				 <div class="col-lg-6 col-md-6 text-center">
+					<div>
 					 <h6>{{ site.data.locales[page.locale].glossary['signup-request']}}</h6>
 					 <h5>{{ site.data.locales[page.locale].glossary['personal-workshop']}}</h5>
 					  <p class="d-none d-lg-block professional-workshop">{% include form-personal-workshop.html %}</p>
+					</div>
 				</div>
 			</div>
 		</div>

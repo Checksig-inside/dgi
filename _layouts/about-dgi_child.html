@@ -39,25 +39,18 @@
 	</section>
 	{% if page.uid == 'vision' %} 
 		{% include moduli.html %}
-			<section id="crypto-week"  class="blog-panel insttute-insights">
-				<div class="container">
-					<div class="row">
-						<h3>Institute Insights</h3>
-					</div>
-					{% include institute-insights/institute-insights.html %}
+		<section id="crypto-week"  class="blog-panel institute-insights">
+			<div class="container">
+				<div class="row">
+					<h3>Institute Insights</h3>
 				</div>
-			</section>
+				{% include institute-insights/institute-insights.html %}
+			</div>
+		</section>
 	{% endif %}
 	{% if page.uid == 'team' %} 
 		{% include about-dgi/team.html %}
 	{% endif %}
-	<section id="moduli" class="institution" style="background:#000">
-		<div class="container">
-			<div class="row bcrumbs">
-			{% include about-dgi/nav_about-dgi.html %}
-			</div>
-		</div>
-	</section>
 	{% if page.uid == 'vision' %} 
 	<section id="form-section-subscribe" class="form-section section-global-wrapper"> 
 		<div class="container">

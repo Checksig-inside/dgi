@@ -28,7 +28,7 @@
         </div>
     </section>
 <!-- institutions -->
-	<section id="institution" class="institution">
+	<section id="sub-header" class="institution">
 		{% if page.sub-image %} 
 		<div class="container container-image">
 			<div class="row">
@@ -37,29 +37,17 @@
 			</div>
 		</div>
 		{% endif %}
-		<div class="container">
-			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay">
-					<!-- - img-->
-					<div class="img-responsive-wrapper" style="">
-						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light   box-inner"
-								style="padding:50px 0px;  margin:0px auto;">
-								<h2 class="no_toc">{{ page.subtitle }}</h2>
-								{{ content }}
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<br>
+		<div class="container container-content">
+		<div class="row">
+			<h2 class="no_toc">{{ page.subtitle }}</h2>
+			<div class="content">{{ content }}</div>
+		</div>
 		</div>
 	</section>
 	<section id="custody" class="custody">
 			{% include industries/industries-module.html %}
 	</section>
-	<section id="moduli" class="institution" style="background:#000">
+	<section id="moduli" class="institution" style="background: #333; margin-bottom: 20px;">
 			{% include industries/nav_industries.html %}
 	</section>
 	<section id="form-section" class="form-section section-global-wrapper book-meeting-panel"> 
@@ -70,13 +58,13 @@
 				</div>
 			</div>
 			<div class="row">
-				 <div class="col-lg-6 col-md-6 text-center">
+				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
 					  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
-					  <div class="d-none d-lg-block el-workshop">{% include form-book.html %}</div>
+					  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
 				</div>
-				 <div class="col-lg-6 col-md-6 text-center">
+				 <div class="col-lg-6 col-md-6 text-center info-panel">
 					 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
-					  <div class="d-none d-lg-block professional-workshop">{% include form-request.html %}</divp>
+					  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
 				</div>
 			</div>
 		</div>

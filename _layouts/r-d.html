@@ -6,7 +6,7 @@
 {% include script-dgi.html %}
 
 <body>
-	<section id="title" class="section-global-wrapper">
+	<section id="title-child-section" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
@@ -24,17 +24,16 @@
 			</div>
 		</div>
 	</section>
-	<!-- Begin #title-section -->
-	<section id="institution" class="institution">
-	<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
+	<section id="content" class="content">
+		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
-			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay" id="top">
+			<div class="row" id="top">
+				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper" style="">
 						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light   box-inner"
-								style="padding:50px 0px;margin:0px auto;">
+							<div class="it-hero-text-wrapper bg-light box-inner"
+								style="padding:50px 0px; margin:0px auto;">
 								<h2>{{ page.subtitle }}</h2>
 								<p>{{ content }}</p>
 							</div>
@@ -44,9 +43,10 @@
 			</div>
 		</div>
 	</section>
-	<!-- institutions -->
-	<section id="institution" class="institution">
+	<section id="industries-row" class="institution r-d-row">
+		<div class="container">
 		{% include r-d.html %}
+		</div>
 	</section>
 	{% if site.data.cta[page.uid] %}
 	{% include cta.html uid = page.uid %}
