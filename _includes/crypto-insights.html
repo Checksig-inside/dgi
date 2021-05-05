@@ -1,14 +1,32 @@
-		<div class="row padding">
-		{% for category in site.categories %}
-			{% if category[0] != 'en' and category[0] != 'it' and category[0] != 'content' %}
-			{% assign total = 0 %}
-			{% for post in category[1] %}
+<div class="row padding">
+{% assign cats = 'market,technology,regulation,ecosystem' | split:"," %}
+{% assign tcat = 1 %}
+{% assign class = 'active' %}
+<ul class="nav nav-pills">
+<li class="cat-tab all" id="all">All</li>
+{% for cat in cats %}
+<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}">{{ cat }}</li>
+{% assign tcat = tcat | plus: 1 %}
+{% assign class = '' %}
+{% endfor %}
+</ul>
+{% for category in site.categories %}
+	{% if category[0] == 'market' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
 			{% if post.parent-category == 'crypto-insights' %}
 			{% assign total = total | plus: 1 %}
 			{% endif %}
-			{% endfor %}
-			{% if total != 0 %}
-			  <h2>Category: {{ category[0] }} </h2>
+		{% endfor %}
+
+		{% if total != 0 %}
+	
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} active">
+			<ul class="nav nav-pills">
+				<li class="tab-pane active"><a  href="#1a" data-toggle="tab">All</a></li> 
+				{% assign t = 2 %}
+				{% assign class = 'active' %}
+
 			  {% for tag in site.tags %}
 			  
 				{% assign total2 = 0 %}
@@ -18,18 +36,315 @@
 				{% endif %}
 				{% endfor %}
 			  {% if total2 != 0 %}
-			  <h3>Tag: {{ tag[0] }}</h3>
-			  <ul>
-				{% for post in tag[1] %}
+
+			  <li class="tab-pane"><a  href="#{{ t }}a" data-toggle="tab">{{ tag[0] }}</a></li> 
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %} 
+			  {% endif %}
+			  
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+		{% if total != 0 %}
+			<div class="tab-content clearfix ">
+			<div class="tab-pane active" id="1a">
+				<h3>{{ category[0] }} / All </h3>
+			  <div>
+				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
-					  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+					 <div class="col-lg-6 col-md-6 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
 					{% endif %}
 				{% endfor %}
 
-			  </ul>
+			  </div>
+			  </div> 
+			  
+				{% assign t = 2 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <div class="tab-pane" id="{{ t }}a">
+			  <h3>{{ category[0] }} / {{ tag[0] }}</h3>
+			  <div>
+				{% for post in tag[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					 <div class="col-lg-6 col-md-6 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+			  </div> 
 			  {% endif %}
+
+
+			  
 			{% endfor %}
-			{% endif %}
+			</div>
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'technology' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'crypto-insights' %}
+			{% assign total = total | plus: 1 %}
 			{% endif %}
 		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }}">
+			<ul class="nav nav-pills">
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <li class="tab-pane {{ class }}"><a  href="#{{ t }}b" data-toggle="tab">{{ tag[0] }}</a></li> 
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %} 
+			  {% endif %}
+			  
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+		{% if total != 0 %}
+			<div class="tab-content clearfix ">
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <div class="tab-pane {{ class }}" id="{{ t }}b">
+			  <h3>{{ category[0] }} / {{ tag[0] }}</h3>
+			  <div>
+				{% for post in tag[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					 <div class="col-lg-6 col-md-6 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+			  </div> 
+			  {% endif %}
+
+
+			  
+			{% endfor %}
+			</div>
+		{% endif %}
 		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'regulation' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'crypto-insights' %}
+			{% assign total = total | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }}">
+			<ul class="nav nav-pills">
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <li class="tab-pane {{ class }}"><a  href="#{{ t }}c" data-toggle="tab">{{ tag[0] }}</a></li> 
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %} 
+			  {% endif %}
+			  
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+		{% if total != 0 %}
+			<div class="tab-content clearfix ">
+			  <h2>Category: {{ category[0] }} {{ category[0] | replace: "t", "ts" }}</h2>
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <div class="tab-pane {{ class }}" id="{{ t }}c">
+			  <h3>Tag: {{ tag[0] }}</h3>
+			  <div>
+				{% for post in tag[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					 <div class="col-lg-6 col-md-6 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+			  </div> 
+			  {% endif %}
+
+
+			  
+			{% endfor %}
+			</div>
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'ecosystem' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'crypto-insights' %}
+			{% assign total = total | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }}">
+			<ul class="nav nav-pills">
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <li class="tab-pane {{ class }}"><a  href="#{{ t }}d" data-toggle="tab">{{ tag[0] }}</a></li> 
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %} 
+			  {% endif %}
+			  
+			{% endfor %}
+			</ul>
+		{% endif %}
+		
+		{% if total != 0 %}
+			<div class="tab-content clearfix ">
+			  <h2>Category: {{ category[0] }} {{ category[0] | replace: "t", "ts" }}</h2>
+				{% assign t = 1 %}
+				{% assign class = 'active' %}
+			  {% for tag in site.tags %}
+			  
+				{% assign total2 = 0 %}
+				{% for post in tag[1] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% assign total2 = total2 | plus: 1 %}
+				{% endif %}
+				{% endfor %}
+			  {% if total2 != 0 %}
+
+			  <div class="tab-pane {{ class }}" id="{{ t }}d">
+			  <h3>Tag: {{ tag[0] }}</h3>
+			  <div>
+				{% for post in tag[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					 <div class="col-lg-6 col-md-6 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+			  </div> 
+			  {% endif %}
+
+
+			  
+			{% endfor %}
+			</div>
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+</div>

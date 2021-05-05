@@ -12,12 +12,12 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; padding: 120px 0px; background-position: center;">
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});padding: 30px 0px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="margin:0px auto;">
-								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
-								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+								<h1 class="no_toc" style="visibility:hidden">{{ page.header }}</h1>
+								<p class="d-none d-lg-block" style="visibility:hidden">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -26,7 +26,7 @@
 		</div>
 	</section>
 	<!-- institutions -->
-	<section id="content" class="content">
+	<section id="content" class="content" style="display:none">
 		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
 			<div class="row">
@@ -45,13 +45,12 @@
 		</div>
 	</section>
 	<section id="blog-crypto" class="content blog-crypto">
-		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
 		{% include crypto-insights.html %}
 		</div>
 	</section>
 	<!-- Begin #form-section -->
-	<section id="form-section-quarterly" class="form-section section-global-wrapper"> 
+	<section id="form-section-subscribe" class="form-section quarterly-form section-global-wrapper"> 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 text-center">

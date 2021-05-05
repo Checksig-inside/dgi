@@ -1,0 +1,17 @@
+<section id="moduli" class="moduli-child tre">
+    <div class="container">
+        <div class="row padding">
+            {% for modulo in site.data.about-vision  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale and modulo.type == page.uid %}
+				<div class="col-lg-6 col-md-6 text-center">
+				<div class="module-custody">
+				<div class="image-block" style="display:none"><p style="background-image:url({{ modulo.img }}); width:100px; height:100px; background-size:100%;"></p></div>
+                <h3>{{ modulo.name }}</h3>
+				<p class="intro">{{ modulo.description }}</p>
+                </div>
+            </div>
+			{% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

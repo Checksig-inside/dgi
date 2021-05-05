@@ -7,7 +7,7 @@
 
 <body>
 	<!-- Begin #title-section -->
-	<section id="title-child-section" class="section-global-wrapper">
+	<section id="title-child-section" class="{{ page.uid }}-section section-global-wrapper">
 		<div class="container-fluid-kamn">
 			<div class="row celeste">
 			<div class="bcrumbs "><span>ABOUT DGI / </span><span>{{ page.title }}</span></div>
@@ -18,8 +18,8 @@
 					<div class="img-responsive-wrapper" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: cover;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark header-child ">
-								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
-								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+							<h1 class="no_toc">{{ page.header }}</h1>
+							<p class="d-none d-lg-block">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -38,8 +38,8 @@
 		</div>
 	</section>
 	{% if page.uid == 'vision' %} 
-		{% include moduli.html %}
-		<section id="crypto-week"  class="blog-panel institute-insights">
+		{% include about.html %}
+		<section id="institute-insights"  class="blog-panel iinsight institute-insights">
 			<div class="container">
 				<div class="row">
 					<h3>Institute Insights</h3>
@@ -48,9 +48,13 @@
 			</div>
 		</section>
 	{% endif %}
+	<section id="team"  class="blog-panel iinsight institute-insights">
+			<div class="container">
 	{% if page.uid == 'team' %} 
 		{% include about-dgi/team.html %}
 	{% endif %}
+			</div>
+	</section>
 	{% if page.uid == 'vision' %} 
 	<section id="form-section-subscribe" class="form-section section-global-wrapper"> 
 		<div class="container">
