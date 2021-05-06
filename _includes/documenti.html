@@ -1,0 +1,42 @@
+<div class="row padding lista doc-category">
+{% assign cats = site.data.locales[page.locale].glossary['categorie-documenti'] | split:"," %}
+{% assign tcat = 1 %}
+<ul class="nav nav-pills">
+{% for cat in cats %}
+<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a></li>
+		
+{% assign tcat = tcat | plus: 1 %}
+{% assign class = '' %}
+{% endfor %}
+</ul>
+</div>
+<div class="row padding documents">
+	{% for modulo in site.data.documenti  | sort: 'sort_ranking' | reverse %}
+	{% if modulo.locale == page.locale %}
+	<div class="col-lg-12 col-md-12 tab-doc row-{{ modulo.type | replace: ' ', '-' }} active">
+		<div class="module-doc">
+		<h3>{{ modulo.name }}</h3>
+		<h5>{{ modulo.type }}</h5>
+		<p class="intro">{{ modulo.description }}</p>
+		<p class="doc-block" style="float:right"><a href="{{ modulo.url }}">DOWNLOAD</a></p>
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('.cat-tab a').click(function(event) {
+		console.log('----');
+			event.preventDefault();		
+	});
+    $('.cat-tab').click(function() {
+		var cat_id = $(this).attr('id');
+		console.log(cat_id);
+		$('.tab-doc').removeClass('active');
+		$('.row-' + cat_id ).addClass('active');
+		
+	});
+
+});
+</script>

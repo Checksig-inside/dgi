@@ -12,12 +12,12 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; padding: 120px 0px; background-position: center;">
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; padding: 30px 0px; background-position: center;">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark"
 								style="margin:0px auto;">
-								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
-								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+								<h1 class="no_toc" style="visibility:hidden">{{ page.header }}</h1>
+								<p class="d-none d-lg-block" style="visibility:hidden">{{ page.subdesc }}</p>
 							</div>
 						</div>
 					</div>
@@ -26,7 +26,7 @@
 		</div>
 	</section>
 	<!-- institutions -->
-	<section id="content" class="content">
+	<section id="content" class="content" style="display:none">
 		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
 			<div class="row">
@@ -45,13 +45,12 @@
 		</div>
 	</section>
 	<section id="blog-crypto" class="content blog-crypto">
-		<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container">
 		{% include institute-insights.html %}
 		</div>
 	</section>
 	<!-- Begin #form-section -->
-	<section id="form-section-quarterly" class="form-section section-global-wrapper"> 
+	<section id="form-section-subscribe" class="form-section quarterly-form section-global-wrapper"> 
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 col-md-12 text-center">
@@ -68,8 +67,42 @@
 	<section id="form-section-accordion" class="form-section section-global-wrapper"> 
 		<div class="container">
 			<div class="row">
+				<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['educational-resources']}}</h4>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row tab-li">
 				<div class="col-lg-12 col-md-12 text-center">
-						<h4 class="no_toc">ACCORDION</h4>
+					<button> {{ site.data.locales[page.locale].glossary['video'] }} <i class="fa fa-angle-down"></i></button>
+				</div>
+			</div>
+			<div class="row tab-toggle">
+				<div class="col-lg-12 col-md-12 text-center">
+					{% include video.html %}
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row tab-li">
+				<div class="col-lg-12 col-md-12 text-center">
+					<button> {{ site.data.locales[page.locale].glossary['content-pages'] }} <i class="fa fa-angle-down"></i></button>
+				</div>
+			</div>
+			<div class="row tab-toggle">
+				<div class="col-lg-12 col-md-12 text-center">
+					{% include documenti.html %}
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row tab-li">
+				<div class="col-lg-12 col-md-12 text-center">
+					<button> {{ site.data.locales[page.locale].glossary['faq'] }} <i class="fa fa-angle-down"></i></button>
+				</div>
+			</div>
+			<div class="row tab-toggle">
+				<div class="col-lg-12 col-md-12 text-center">
+					{% include faq/faq.html %}
 				</div>
 			</div>
 		</div>
@@ -89,7 +122,26 @@
 		</div>
 	</section>
 </body>
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('.tab-li button').click(function() {
+		
+		$('.tab-toggle').hide();
+		if ($(this).parent().hasClass( "active" )) {
+			$(this).parent().removeClass('active');
+			$(this).parent().parent().parent().find('.tab-toggle').hide();		
+		} else {
+			$('.tab-li').removeClass('active');
+			$(this).parent().addClass('active');
+			$(this).parent().parent().parent().find('.tab-toggle').show();
+		}
+		
+		
+		
+	});
 
+});
+</script>
 {% include footer-dgi.html %}
 
 </html>

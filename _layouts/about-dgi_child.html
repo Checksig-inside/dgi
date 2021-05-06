@@ -27,14 +27,12 @@
 			</div>
 		</div>
 	</section>
-	<section id="institution" class="institution">
+	<section id="sub-header" class="institution">
 		<div class="container container-content">
-			<div class="row">
-				<div class="content">
-				<h2 class="no_toc">{{ page.subtitle }}</h2>
-				{{ content }}
-				</div>
-			</div>
+		<div class="row">
+			<h2 class="no_toc">{{ page.subtitle }}</h2>
+			<div class="content">{{ content }}</div>
+		</div>
 		</div>
 	</section>
 	{% if page.uid == 'vision' %} 
@@ -48,13 +46,13 @@
 			</div>
 		</section>
 	{% endif %}
-	<section id="team"  class="blog-panel iinsight institute-insights">
-			<div class="container">
 	{% if page.uid == 'team' %} 
-		{% include about-dgi/team.html %}
-	{% endif %}
-			</div>
+	<section id="team"  class="blog-panel iinsight institute-insights">
+		<div class="container">
+			{% include about-dgi/team.html %}
+		</div>
 	</section>
+	{% endif %}
 	{% if page.uid == 'vision' %} 
 	<section id="form-section-subscribe" class="form-section section-global-wrapper"> 
 		<div class="container">

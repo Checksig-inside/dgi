@@ -1,25 +1,207 @@
-		<div class="row padding">
-		{% for category in site.categories %}
-			{% if category[0] != 'en' and category[0] != 'it' and category[0] != 'content' %}
-			{% assign total = 0 %}
-			{% for post in category[1] %}
+<div class="row padding lista">
+{% assign cats = site.data.locales[page.locale].glossary['categorie-institute'] | split:"," %}
+{% assign tcat = 1 %}
+{% assign class = '' %}
+<ul class="nav nav-pills">
+<li class="cat-tab all active" id="all"><a href="#all">All</a></li>
+{% for cat in cats %}
+<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a></li>
+{% assign tcat = tcat | plus: 1 %}
+{% assign class = '' %}
+{% endfor %}
+</ul>
+</div>
+<div class="row padding data-cat">
+<div id="cat-all" class="tabcat cat-all active">
+		<h3> / All </h3>
+		<div>
+		{% for post in site.posts  %}
+			{% if post.parent-category == 'institute-insights' and post.locale == page.locale %}
+			 <div class="col-lg-4 col-md-4 text-center">
+			 <div>
+			  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+			 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+			 <span>{{ post.date }}</span>
+			 <p>{{ post.excerpt }}</p>
+			 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+			 </div>
+			 </div>
+			{% endif %}
+		{% endfor %}
+	  </div>
+</div>
+{% for category in site.categories %}
+	{% if category[0] == 'events' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}
 			{% assign total = total | plus: 1 %}
 			{% endif %}
-			{% endfor %}
-			{% if total != 0 %}
-			  <h2>Category: {{ category[0] }} </h2>
-			  
-			  <ul>
+		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
+				<h3> / {{ category[0] }} </h3>
+				<div>
 				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
-					  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+					 <div class="col-lg-4 col-md-4 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
 					{% endif %}
 				{% endfor %}
-
-			  </ul>
-
-			{% endif %}
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'news' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'institute-insights' %}
+			{% assign total = total | plus: 1 %}
 			{% endif %}
 		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }}">
+				<h3> / {{ category[0] }} </h3>
+				<div>
+				{% for post in category[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
+					 <div class="col-lg-4 col-md-4 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+		{% endif %}
 		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'crypto week' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'institute-insights' %}
+			{% assign total = total | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
+				<h3> / {{ category[0] }} </h3>
+				<div>
+				{% for post in category[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
+					 <div class="col-lg-4 col-md-4 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+{% for category in site.categories %}
+	{% if category[0] == 'case-history' %}
+		{% assign total = 0 %}
+		{% for post in category[1] %}
+			{% if post.parent-category == 'institute-insights' %}
+			{% assign total = total | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+
+		{% if total != 0 %}
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
+				<h3> / {{ category[0] }} </h3>
+				<div>
+				{% for post in category[1] %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
+					 <div class="col-lg-4 col-md-4 text-center">
+					 <div>
+					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+					 <span>{{ post.date }}</span>
+					 <p>{{ post.excerpt }}</p>
+					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+					 </div>
+					 </div>
+					{% endif %}
+				{% endfor %}
+			  </div>
+			  {% assign t = t | plus: 1 %}
+			  {% assign class = '' %}
+		{% endif %}
+		</div>
+	{% endif %}
+{% endfor %}
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('.cat-tab a').click(function(event) {
+			event.preventDefault();		
+	});
+    $('.cat-tab').click(function() {
+		$('.cat-tab').removeClass('active');
+		$(this).addClass('active');
+		var cat_id = $(this).attr('id');
+		console.log
+		$('.tabcat').removeClass('active');
+		$('#cat-' + cat_id ).addClass('active');
+		
+	});
+
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

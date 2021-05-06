@@ -1,5 +1,5 @@
 <div class="row padding lista">
-{% assign cats = site.data.locales[page.locale].glossary['categorie-crypto'] | split:"," %}
+{% assign cats = 'market,technology,regulation,ecosystem' | split:"," %}
 {% assign tcat = 1 %}
 {% assign class = 'active' %}
 <ul class="nav nav-pills">
@@ -59,7 +59,7 @@
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_string }}</span>
+					 <span>{{ post.date }}</span>
 					 <p>{{ post.excerpt }}</p>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
@@ -91,7 +91,7 @@
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_string }}</span>
+					 <span>{{ post.date }}</span>
 					 <p>{{ post.excerpt }}</p>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
@@ -169,7 +169,7 @@
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_string }}</span>
+					 <span>{{ post.date }}</span>
 					 <p>{{ post.excerpt }}</p>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
@@ -248,7 +248,7 @@
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_string }}</span>
+					 <span>{{ post.date }}</span>
 					 <p>{{ post.excerpt }}</p>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
@@ -326,7 +326,7 @@
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_string }}</span>
+					 <span>{{ post.date }}</span>
 					 <p>{{ post.excerpt }}</p>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>

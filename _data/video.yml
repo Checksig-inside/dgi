@@ -1,0 +1,53 @@
+#---Video EN
+- name: Video 1
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 1000
+  locale: en
+- name: Video 2
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 900
+  locale: en
+- name: Video 3
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 800
+  locale: en
+- name: Video 4
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 700
+  locale: en
+  
+ #---Video IT
+
+- name: IT - Video 1
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 1000
+  locale: it
+- name: IT - Video 2
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 800
+  locale: it
+- name: IT - Video3
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 900
+  locale: it
+- name: IT - Video 4 
+  type: video
+  video: oZaUZ2iFK0Y
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 500
+  locale: it
+  

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+
+{% include head-dgi.html %}
+{% include header-dgi.html %}
+{% include script-dgi.html %}
+
+<body class="pillar-page">
+	<section id="pillar-p-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">			
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper"
+						style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: auto 100%; background-position: center;">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-dark"
+								style="padding:120px 0px; margin:0px auto;">
+								<h1 class="no_toc">{{ page.header }}</h1>
+								<p class="d-none d-lg-block ">{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="menu-section" class="section-global-wrapper">
+		<div class="container-fluid-kamn">			
+			<div class="row">
+			<div class="col-lg-6 col-md-6 text-center">
+				<div class="content-inner">
+					<ol class="ol-sx">
+						<li><a href="#ch1">Cos’è Bitcoin</a></li>
+						<li><a href="#ch2">Come funziona Bitcoin</a></li>
+						<li><a href="#ch3">Come è garantito il funzionamento di Bitcoin</a></li>
+						<li><a href="#ch4">La sicurezza di Bitcoin</a></li>
+					</ol>
+				</div>
+            </div>
+			<div class="col-lg-6 col-md-6 text-center">
+				<div class="content-inner">
+					<ol start="5" class="ol-dx">
+						<li><a href="#ch5">La blockchain oltre Bitcoin</a></li>
+						<li><a href="#ch6">Applicazione della blockchain: la notarizzazione</a></li>
+						<li><a href="#ch7">Perché affidarsi a DGI come partner consulenziale</a></li>
+					</ol>
+				</div>
+            </div>
+			</div>
+		</div>
+	</section>
+	<section id="content" class="content">
+		<div class="container" id="ch1">
+			<div class="row" id="top">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light box"
+								style="padding:0px 0px; margin:0px auto;">
+								<h2>{{ page.subtitle }}</h2>
+								<p>{{ content }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="content" class="content orange">
+		<div class="container container-come-funziona" id="ch2">
+			<div class="row" id="top">
+								<h2>{{ page.come-funziona-bitcoin-titolo }}</h2>
+								<p>{{ page.come-funziona-bitcoin-txt-top }}</p>				
+			</div>
+		</div>
+		<div class="container container-come-funziona-bottom">
+			<div class="row" id="bottom">
+								<p class="pillar-image" ><img src="{{ site.baseurl }}{{ page.img1 }}" style="width:100%"></p>
+								<p>{{ page.come-funziona-bitcoin-txt-bottom }}</p>
+			</div>
+		</div>
+	</section>
+	<section id="content" class="content orange">
+		<div class="container container-bottom" id="ch3">
+			<div class="row" id="top">
+								<h2>{{ page.fuzionamento-titolo }}</h2>
+								<p>{{ page.fuzionamento-txt-top }}</p>
+			</div>
+		</div>
+		<div class="container container-up" id="ch4">
+			<div class="row" id="top">
+								<p class="pillar-image"><img src="{{ site.baseurl }}{{ page.img2 }}" style="width:100%"></p>
+								<h2>{{ page.sicurezza-titolo }}</h2>
+								<p>{{ page.sicurezza-txt-top }}</p>
+								<p class="text-link" style="text-align: center; margin: 35px auto 45px;"><a href="{{ page.sicurezza-cta-url }}">{{ page.sicurezza-cta-title }}</a></p>
+			</div>
+		</div>
+		<div class="container"  id="ch5">
+			<div class="row" id="top">
+								<h2>{{ page.blockchain-titolo }}</h2>
+								<p>{{ page.blockchain-txt-top }}</p>
+			</div>
+		</div>
+	</section>
+	<section id="content" class="content">
+		<div class="container" id="ch6">
+			<div class="row" id="top">
+								<h2>{{ page.notarizzazione-titolo }}</h2>
+								<p>{{ page.notarizzazione-txt-top }}</p>
+								<p class="pillar-image"><img src="{{ site.baseurl }}{{ page.img3 }}" style="width:100%"></p>
+			</div>
+		</div>
+		<div class="container" id="ch7">
+			<div class="row" id="top">
+								<h2>{{ page.partner-titolo }}</h2>
+								<p>{{ page.partner-txt-top }}</p>
+			</div>
+			<div class="row" id="top">
+								<p class="cta"><a href="{{ page.cta-url }}"><img src="{{ site.baseurl }}{{ page.cta-img }}"></a></p>
+			</div>
+		</div>
+	</section>
+	<section id="form-section" class="section-global-wrapper" style="display:none">
+		<div class="container">
+			<div class="row">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper">
+						<div class="img-responsive">
+							<div class="it-hero-text-wrapper bg-light box-inner">
+								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['join']}}</h4><h5>{{ site.data.locales[page.locale].glossary['fill-form']}}</h5>
+								<p class="d-none d-lg-block">{% include form-join.html %}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% if site.data.cta[page.uid] %}
+	{% include cta.html uid = page.uid %}
+	{% endif %}
+</body>
+
+{% include footer-dgi.html %}
+
+</html>

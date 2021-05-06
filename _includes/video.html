@@ -1,0 +1,17 @@
+<section id="moduli" class="moduli-child video">
+    <div class="container" style="max-width: 100%;">
+        <div class="row padding">
+            {% for modulo in site.data.video  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale %}
+				<div class="col-lg-6 col-md-6 text-center">
+				<div class="module-video">
+				<h3>{{ modulo.name }}</h3>
+				<p class="intro">{{ modulo.description }}</p>
+				<div class="video-block"><iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ modulo.video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                </div>
+            </div>
+			{% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

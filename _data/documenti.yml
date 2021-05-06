@@ -1,0 +1,53 @@
+#---Video EN
+- name: Documento 1
+  type: documentazione
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 1000
+  locale: en
+- name: Documento 2
+  type: report
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 900
+  locale: en
+- name: Documento 3
+  type: documentazione
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 800
+  locale: en
+- name: Documento 4
+  type: report
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 700
+  locale: en
+  
+ #---Documenti IT
+
+- name: IT - Dcoumento 1
+  type: documentazione
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 1000
+  locale: it
+- name: IT - Dcoumento 2
+  type: report
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 800
+  locale: it
+- name: IT - Dcoumento3
+  type: documentazione
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 900
+  locale: it
+- name: IT - Dcoumento 4 
+  type: report
+  url: /assets/doc/documento.pdf
+  description: Lorem ipsum dolor sit amet
+  sort_ranking: 500
+  locale: it
+  

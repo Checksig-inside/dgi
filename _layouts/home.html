@@ -38,13 +38,26 @@
 		{% include institute-insights/crypto-week.html %}
 	</div>
 </section>
-<section id="slider-loghi"  class="institutions" style="display:none">
-	<div class="container">
-			<div class="row">
-			<h3>SLIDER LOGHI</h3>
-			</div>
+<section id="slider-loghi"  class="institutions" style="background:#ccc">
+	<div class="contain">
+			{% include home/home-loghi-slider.html %}
 	</div>
 </section>
+<div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-form">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+    </div>
+  </div>
+</div>
 	{% if site.data.cta[page.uid] %}
 	{% include cta.html uid = page.uid %}
 	{% endif %}
@@ -57,17 +70,38 @@
 		</div>
 		<div class="row">
 			 <div class="col-lg-6 col-md-6 text-center meeting-panel">
-				  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
+				  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
 				  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
+				  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['book-meeting']}}">
 			</div>
 			 <div class="col-lg-6 col-md-6 text-center info-panel">
-				 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
+				 <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['request-information']}}</button></h5>
 				  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
+				  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['request-information']}}">
 			</div>
 		</div>
 	</div>
 </section>
 </body>
-
+<script type="text/javascript">
+	$(document).ready(function() {
+    $('.meeting-panel button').click(function() {	
+		var form = $('.book-meeting').html();
+		var title = $(this).parent().parent().find('.dataform').val();
+		$('#modal-form .modal-title').html(title);
+		$('#modal-form .modal-body').html(form);
+		$('#modal-form').modal('show'); 
+		
+	});
+    $('.info-panel button').click(function() {	
+		var form = $('.request-information').html();
+		var title = $(this).parent().parent().find('.dataform').val();
+		$('#modal-form .modal-title').html(title);
+		$('#modal-form .modal-body').html(form);
+		$('#modal-form').modal('show'); 
+		
+	});
+});
+</script>
   {% include footer-dgi.html %}
 </html>
