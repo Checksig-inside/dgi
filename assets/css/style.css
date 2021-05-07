@@ -2232,6 +2232,20 @@ a.thesis-pdf {
     font-weight: 600;
 }
 
+.ps-menu .fa:before {
+    color: black;
+    font-weight: bold;
+}
+.ps-menu .menu-link i {
+    display: none;
+    margin: 0px auto 0px;
+}
+.ps-menu .menu-link.active i {
+    display: block!important;
+    margin: 0px auto 0px;
+}
+
+
 
 @media (min-width: 768px) {
 .navtopmenu > li {
