@@ -7,7 +7,7 @@
 				{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 				{% for item in folder1 %}
 				{% if item.locale == page.locale and item.page-category == 'about-dgi' and item.uid != page.uid %} 
-					<li class="nav-children-bar menu-link {% if item.title == page.title %}active{% endif %}"><img src='{{ site.baseurl }}{{ item.ico-bdc }}'><p>{{ item.title }}</p><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['discover']}}</a></li>
+					<li class="nav-children-bar menu-link {% if item.title == page.title %}active{% endif %}"><img src='{{ site.baseurl }}{{ item.img }}'><p>{{ item.title }}</p><a href="{{ site.baseurl }}{{ item.permalink }}">{{ site.data.locales[page.locale].glossary['discover']}}</a></li>
 				{% endif %} 
 				{% endfor %}
 				</ul>

@@ -1,0 +1,72 @@
+<div class="row padding">
+	{% for member in site.data.about-alumni | sort: 'sort_ranking' | reverse %}
+	<div class="col-lg-6 col-md-6 text-center flexrow">
+		<div class="panel-alumni">
+		<h3>{{ member.name }}</h3>
+		{% if member.social_1 %}
+		<ul class="list-inline social-buttons">
+			<li class="list-inline-item">
+				<a href="{{ member.social_1_link }}">
+					<i class="{{ member.social_1 }}"></i>
+				</a>
+			</li>
+			{% if member.social_2 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_2_link }}">
+					<i class="{{ member.social_2 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_3 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_3_link }}">
+					<i class="{{ member.social_3 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_4 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_4_link }}">
+					<i class="{{ member.social_4 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_5 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_5_link }}">
+					<i class="{{ member.social_5 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_6 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_6_link }}">
+					<i class="{{ member.social_6 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+			{% if member.social_7 %}
+			<li class="list-inline-item">
+				<a href="{{ member.social_7_link }}">
+					<i class="{{ member.social_7 }}"></i>
+				</a>
+			</li>
+			{% endif %}
+		</ul>
+		{% endif %}
+		<h4 class="text-h4">{{ member.degree }}</h4>
+		<div class="text-team text-small alumni-label">
+		{% if member.thesis %}
+			<p><span class="thesis">{{ member.thesis }}</span><a class="thesis-pdf" target="_blank" href="{{ member.pdf }}">PDF</a></p>
+			<p><span class="source">{{ member.source }}</span></p>
+			<p><span class="thesis_date">{{ member.thesis_date }}</span></p>
+		{% endif %}
+		{% if member.research %}
+			<p><span class="research">{{ member.research }}</span></p>
+			<p><span class="research_date">{{ member.research_date }}</span></p>
+		{% endif %}
+		</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

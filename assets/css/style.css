@@ -671,7 +671,7 @@ h5 {
 
 .institution-sub-image{
 	background: #fbe7b5;
-    margin-top: 190px;
+    margin-top: 240px;
 }
 
 .container-desc .row > div {
@@ -2168,6 +2168,70 @@ h1.about-dgi, p.about-dgi {
     padding: 0px 20px;
     line-height: 1.4;
 }
+.ps-menu .sub-catmenu {
+    max-width: 1300px;
+    margin: 0px auto;
+    width: 90%;
+    padding: 20px 0px 0px;
+}
+.ps-menu .sub-catmenu .nav-ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.ps-menu .sub-catmenu li a {
+    font-weight: 800;
+    color: gray;
+}
+.ps-menu li.nav-children-bar.active a {
+    color: black;
+}
+.ps-menu .sub-catmenu li p {
+    max-width: 80%;
+    margin: 10px auto;
+    line-height: 1.3;
+    min-height: unset;
+}
+
+.ps-menu .sub-catmenu img {
+    vertical-align: middle;
+    width: 35%;
+}
+.text-h4 {
+    text-align: left;
+}
+a.thesis-pdf {
+    float: right;
+    font-weight: 800;
+}
+.thesis {
+    max-width: 90%;
+    display: table;
+    float: left;
+}
+.panel-alumni {
+    background: transparent!important;
+    text-align: left;
+    width: calc(100% - 20px);
+    padding: 15px;
+    border-radius: 10px;
+    padding: 30px 25px;
+    border-radius: 0px;
+    box-shadow: unset!important;
+	min-height: 330px!important;
+}
+
+.panel-alumni .social-buttons {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.panel-alumni  h3 {
+    padding: 0px 0px 10px 0px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 
 @media (min-width: 768px) {
 .navtopmenu > li {

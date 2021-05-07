@@ -12,9 +12,7 @@ subdesc: subdesc CheckSig rejects the “security-by-obscurity” paradigm in fa
 description: EN -Description - Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 titleform1: Book a meeting
 titleform2: Request information
-img: /assets/img/custody/ico_transparency.svg
-img-form1: /assets/img/custody/ico_transparency.svg
-img-form2: /assets/img/custody/ico_transparency.svg
+img: /assets/img/professional_services/training/ico_training_on.svg
 slider: /assets/img/home/bg_consulting.jpg
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 permalink: /professional-services/consulting/

@@ -1,0 +1,17 @@
+        <div class="row padding sub-catmenu">
+            <div class="col-lg-12 col-md-12">
+				<ul class="nav-ul">
+				{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+				{% for item in folder1 %}
+				{% if item.locale == page.locale and item.page-category == 'professional-services' %} 
+				{% if item.title != page.title %}
+					{% assign imgsrc = item.img | replace: '_on', '_off' %}
+				{% else %}
+					{% assign imgsrc = item.img %}
+				{% endif %}
+					<li class="nav-children-bar menu-link {% if item.title == page.title %}active{% endif %}"><img src='{{ site.baseurl }}{{ imgsrc }}' height=50px ><p><a href="{{ site.baseurl }}{{ item.permalink }}">{{ item.title }}</a></p></li>
+				{% endif %} 
+				{% endfor %}
+				</ul>
+			</div>
+        </div>
