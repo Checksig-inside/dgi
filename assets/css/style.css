@@ -506,7 +506,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 .bcrumbs {
     max-width: 1300px;
     margin: 0px auto;
-	width: 90%;
+	width: 100%;
 }
 .bcrumbs span{
     color: #000;
@@ -514,6 +514,9 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
     font-weight: 500;
     line-height: 3;
 	text-transform: uppercase;
+}
+.navbar-collapse {
+    max-height: unset;
 }
 h5 {
     font-size: 20px;
@@ -2205,6 +2208,7 @@ p.blog-text{
 }
 #navbar-spy ul {
     width: 100%;
+    text-transform: uppercase;
 }
 #navbar-spy ul li {
     width: 100%!important;
