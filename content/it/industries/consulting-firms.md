@@ -4,7 +4,7 @@ title: IT Consulting Firms
 header: Consulting Firms
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-img: /assets/img/institutions/ico_retail_bank.svg
+img: /assets/img/industries/ico_consulting_off.svg
 slider: /assets/img/industries/header.jpg
 uid: consulting-firms
 permalink: /it/industries/consulting-firms/

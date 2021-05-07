@@ -4,7 +4,7 @@ title: Crypto Industry
 header: Crypto Industry
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-img: /assets/img/institutions/ico_retail_bank.svg
+img: /assets/img/industries/ico_crypto_off.svg
 slider: /assets/img/industries/header.jpg
 uid: crypto-industry
 permalink: /industries/crypto-industry/

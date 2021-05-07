@@ -4,7 +4,7 @@ title: IT Asset Management
 header: Asset Management
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.    
-img: /assets/img/institutions/ico_retail_bank.svg
+img: /assets/img/industries/ico_asset_off.svg
 slider: /assets/img/industries/header.jpg
 uid: assets-management
 permalink: /it/industries/assets-management/

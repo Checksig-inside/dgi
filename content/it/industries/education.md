@@ -4,7 +4,7 @@ title: IT Education
 header: Education
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
-img: /assets/img/institutions/ico_retail_bank.svg
+img: /assets/img/industries/ico_education_off.svg
 slider: /assets/img/industries/header.jpg
 slider-ranking: 600
 uid: education

@@ -10,21 +10,45 @@
 	<section id="title" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
 			<div class="row celeste">
-			<div class="bcrumbs "><span>CRYPTO INSIGHT/ </span></div>
+			<div class="bcrumbs "><span>CRYPTO INSIGHT/ <b>{{ page.title }}</b></span></div>
 			</div>			
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper"
-						style="background-image:url({{ site.baseurl }}{{ page.img-detail }});background-size: auto 100%; background-position: center;">
+						style="background-color:orange; color:white">
 						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-dark"
-								style="padding:50px 0px; margin:0px auto;">
-								<h1 class="no_toc">{{ page.title }}</h1>
+							<div class="it-hero-text-wrapper bg-dark title-post-top"
+								style="padding:30px 0px; margin:0px auto;">
+								Crypto Insights
 							</div>
 						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+	</section>
+	<section id="top-content" class="content">
+		<div class="container">
+			<div class="row">
+				<div class="post-content post-top-img">
+				  <img class="img-top img-top-post" src="{{ site.baseurl }}{{ page.img-detail }}" alt="Scroll" width="100%">
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<h1 class="no_toc post-titolo ">{{ page.title }}</h1>
+				{% if page.date %}
+				<span class="post-date">
+					  <i>{{ page.date | date_to_long_string: "ordinal" }}</i>
+				</span>
+				{% endif %}
+				{% if page.author %}
+					<div class="post-content">
+					  <b>{{ page.author }}</b>
+					</div>
+				{% endif %}
 			</div>
 		</div>
 	</section>
@@ -33,14 +57,14 @@
 		<div class="container">
 			{% if page.img-top %}
 			<div class="row">
-				<div class="post-content">
+				<div class="post-content post-content-img">
 				  <img class="img-top" src="{{ site.baseurl }}{{ page.img-top }}" alt="Scroll" width="100%">
 				</div>
 			</div>
 			{% endif %}
 			{% if page.video-top  %}
 			<div class="row">
-				<div class="post-content">
+				<div class="post-content post-content-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-top }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
@@ -48,21 +72,10 @@
 		</div>
 	</section>
 	{% endif %} 
-	<section id="content" class="content">
+	<section id="content-post" class="content">
 		<div class="container">
-			<p class="scrolldown"><a href="#top" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 			<div class="row">
-			{% if page.date %}
-			<span class="post-date">
-			  	  {{ page.date | date_to_long_string: "ordinal" }}
-			</span>
-			{% endif %}
-			{% if page.author %}
-				<div class="post-content">
-				  {{ page.author }}
-				</div>
-			{% endif %}
-				<div class="post-content">
+				<div class="post-content post-txt">
 				  {{ content }}
 				</div>
 			</div>
@@ -73,14 +86,14 @@
 		<div class="container">
 			{% if page.img-bottom %}
 			<div class="row">
-				<div class="post-content">
+				<div class="post-content post-content-img">
 				  <img class="img-top" src="{{ site.baseurl }}{{ page.img-bottom }}" alt="Scroll" width="100%">
 				</div>
 			</div>
 			{% endif %}
 			{% if page.video-bottom  %}
 			<div class="row">
-				<div class="post-content">
+				<div class="post-content post-content-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-bottom }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>

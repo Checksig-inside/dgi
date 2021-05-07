@@ -1,14 +1,14 @@
-<div class="container-inner owide"><span class="alert">pagina con [page-tag]: sectop</span>
+<div class="container-inner owide">
 	<div class="row padding">
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for section in folder1 %}
 		{% if section.locale == page.locale and section.page-tag == 'sectop' %}
 		<div class="col-lg-12 col-md-12 {{ section.class }}"
 			style="background-image:url({{ site.baseurl }}{{ section.slider-home }});">
-			<div class="top">
-				<div class="content-inner">
+			<div class="top top-home">
+				<div class="home-content-inner">
 					<h1>{{ section.title }}</h1>
-					<h3 style="color:white" class="description">{{ section.subdesc }}</h3>
+					<h3 class="description">{{ section.subdesc }}</h3>
 					<br>
 					<p class="text-link"><a href="{{ site.baseurl }}{{ section.permalink }}">DISCOVER MORE</a></p>
 				</div>
@@ -16,6 +16,7 @@
 		</div>
 		{% endif %}
 		{% endfor %}
+		<p class="scrollhome"><a href="#top" class="scrollLink"><img class="logo" style="width:30px" src="{{ site.baseurl }}/assets/img/home/ico_header_scroll.png" alt="Scroll"></a></p>
 	</div>
 </div>
 <div class="container-inner"><span class="alert">pagina con [page-tag]: secbtm</span>
