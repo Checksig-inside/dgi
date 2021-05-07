@@ -2,10 +2,10 @@
 layout: pillar
 title: "Bitcoin: l'emergere della scarsità in ambito digitale"
 header: "Bitcoin:"
-locale: en
+locale: it
 uid: about-dgi
 page-tag: secbtm
-permalink: /pillar.html
+permalink: /it/pillar.html
 subtitle: Cos’è Bitcoin
 subdesc: l'emergere della scarsità in ambito digitale.
 description: 
