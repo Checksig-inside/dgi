@@ -16,7 +16,7 @@
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
 					<div class="img-responsive-wrapper" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: cover;">
-						<div class="img-responsive">
+						<div class="img-responsive" style="padding:50px 0px;">
 							<div class="it-hero-text-wrapper bg-dark header-child ">
 								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
 								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
@@ -76,12 +76,14 @@
 			</div>
 			<div class="row">
 				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
-					  <h5>{{ site.data.locales[page.locale].glossary['book-meeting']}}</h5>
+					  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
 					  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
+					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['book-meeting']}}">
 				</div>
 				 <div class="col-lg-6 col-md-6 text-center info-panel">
-					 <h5>{{ site.data.locales[page.locale].glossary['request-information']}}</h5>
+					 <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['request-information']}}</button></h5>
 					  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
+					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['request-information']}}">
 				</div>
 			</div>
 		</div>

@@ -226,7 +226,6 @@
 		
 		{% if total != 0 %}
 			<div class="tab-content clearfix ">
-			  <h2>Category: {{ category[0] }} {{ category[0] | replace: "t", "ts" }}</h2>
 				{% assign t = 1 %}
 				{% assign class = 'active' %}
 			  {% for tag in site.tags %}

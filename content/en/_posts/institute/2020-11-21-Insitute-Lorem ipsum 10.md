@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-institute
 title:  "Institute Lorem ipsum 10"
 date:   2020-11-27 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg
