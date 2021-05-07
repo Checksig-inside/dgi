@@ -38,9 +38,6 @@
 		{% include institute-insights/crypto-week.html %}
 	</div>
 </section>
-	{% if site.data.cta[page.uid] %}
-	{% include cta.html uid = page.uid %}
-	{% endif %}
 <section id="form-section" class="form-section section-global-wrapper book-meeting-panel"> 
 	<div class="container">
 		<div class="row">
@@ -51,7 +48,13 @@
 		<div class="row">
 			 <div class="col-lg-6 col-md-6 text-center meeting-panel">
 				  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
-				  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
+				  <div class="d-none d-lg-block book-meeting">
+					{% if page.locale == 'en' %}
+					{% include form-book.html %}
+					{% else %}
+					{% include form-book-it.html %}
+					{% endif %}
+				  </div>
 				  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['book-meeting']}}">
 			</div>
 			 <div class="col-lg-6 col-md-6 text-center info-panel">

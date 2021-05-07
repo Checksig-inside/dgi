@@ -111,7 +111,13 @@
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-light box-inner">
 								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
-								<p class="d-none d-lg-block">{% include form.html %}</p>
+								<p class="d-none d-lg-block">
+								{% if page.locale == 'en' %}
+								{% include form.html %}
+								{% else %}
+								{% include form-it.html %}
+								{% endif %}									
+								</p>
 							</div>
 						</div>
 					</div>

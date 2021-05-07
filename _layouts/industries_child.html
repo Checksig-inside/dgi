@@ -60,12 +60,24 @@
 			<div class="row">
 				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
 					  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
-					  <div class="d-none d-lg-block book-meeting">{% include form-book.html %}</div>
+					  <div class="d-none d-lg-block book-meeting">
+					  	{% if page.locale == 'en' %}
+						{% include form-book.html %}
+						{% else %}
+						{% include form-book-it.html %}
+						{% endif %}
+					 </div>
 					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['book-meeting']}}">
 				</div>
 				 <div class="col-lg-6 col-md-6 text-center info-panel">
 					 <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['request-information']}}</button></h5>
-					  <div class="d-none d-lg-block request-information">{% include form-request.html %}</div>
+					  <div class="d-none d-lg-block request-information">
+						{% if page.locale == 'en' %}
+						{% include form-request.html %}
+						{% else %}
+						{% include form-request-it.html %}
+						{% endif %}					  
+					  </div>
 					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['request-information']}}">
 				</div>
 			</div>

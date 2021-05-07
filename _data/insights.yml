@@ -1,31 +1,31 @@
 #---Video EN
 - name: Insights 1
   type: insights
-  img: /assets/img/industries/ambrosetti-logo-orig.jpg
+  img: /assets/img/industries/ambrosetti.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 1000
   locale: en
 - name: Insights 2
   type: insights
-  img: /assets/img/industries/bicocca-logo.jpg
+  img: /assets/img/industries/bicocca-logo.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 900
   locale: en
 - name: Insights 3
   type: insights
-  img: /assets/img/industries/edulab-logo.jpg
+  img: /assets/img/industries/edulab-logo.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 800
   locale: en
 - name: Insights 4
   type: insights
-  img: /assets/img/industries/HESEC-logo.jpg
+  img: /assets/img/industries/HESEC-logo.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 700
   locale: en
 - name: Insights 5
   type: insights
-  img: /assets/img/industries/training.jpg
+  img: /assets/img/industries/training.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 600
   locale: en
@@ -34,31 +34,31 @@
 
 - name: IT - Insights 1
   type: insights
-  img: /assets/img/industries/ambrosetti-logo-orig.jpg
+  img: /assets/img/industries/ambrosetti.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 1000
   locale: it
 - name: IT - Insights 2
   type: insights
-  img: /assets/img/industries/bicocca-logo.jpg
+  img: /assets/img/industries/bicocca-logo.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 800
   locale: it
 - name: IT - Insights3
   type: insights
-  img: /assets/img/industries/edulab-logo.jpg
+  img: /assets/img/industries/edulab-logo.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 900
   locale: it
 - name: IT - Insights 4 
   type: insights
-  img: /assets/img/industries/header_crypto.jpg
+  img: /assets/img/industries/header_crypto.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 500
   locale: it
 - name: IT - Insights 5
   type: insights
-  img: /assets/img/industries/training.jpg
+  img: /assets/img/industries/training.png
   description: Lorem ipsum dolor sit amet
   sort_ranking: 600
   locale: it
