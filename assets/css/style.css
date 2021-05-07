@@ -660,8 +660,15 @@ h5 {
 }
 
 .form-workshop .container {
-    width: 1000px!important;
+	max-width: 1100px!important;
 }
+
+.form-workshop .col-lg-6.col-md-6 > div  {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+
 .institution-sub-image{
 	background: #fbe7b5;
     margin-top: 190px;
@@ -2119,16 +2126,48 @@ h1.about-dgi, p.about-dgi {
 }
 
 
+._form {
+    margin: 0px auto 0!important;
+	width:100%!important;
+	background: transparent!important;
+}
+._form input[type="text"], ._form input[type="date"], ._form select {
+    border: 0px solid!important;
+}
 
+#form-section.form-workshop h6 {
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #333;
+}
+#form-section.form-workshop h5 {
+    text-transform: unset;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+}
 
+._form select {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
 
+._form ._checkbox-radio {
+    float: left;
+    display: table;
+    width: 33%;
+}
 
-
-
-
-
-
-
+.form-desc {
+    text-align: left;
+    padding: 0px 20px;
+    line-height: 1.4;
+}
 
 @media (min-width: 768px) {
 .navtopmenu > li {

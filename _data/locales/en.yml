@@ -28,10 +28,12 @@ glossary:
   discover-also: Discover also
   fill: Fill in the form
   moreinfo: for further information
+  tobook: to book a meeting
   request: Assistance request
   completaform: complete the form
   readalso: Read also
-  dgi: Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus.
+  entry-level-description: Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut.
+  workshop-description: Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut.
   claim: Get in touch with us
   claim-team: Join the team
   subclaim-team: fill in the form
@@ -54,3 +56,6 @@ glossary:
   video: video
   content-pages: content pages
   educational-resources: Educational resources
+  banner: /assets/img/banner/ISP_ON_AIR_LEADERBOARD_728X90.jpg
+  banner-url: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air?utm_campaign=GoldInstitute&utm_source=GoldInstitute&utm_medium=Banner_CPM&utm_content=DisplayAwareness&utm_term=GoldInstitute_Banner_CPM_GoldInstitute_
+  banner-type: crypto-week

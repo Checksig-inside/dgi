@@ -108,7 +108,10 @@
 		{% if total != 0 %}
 		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
 				<h3> / {{ category[0] }} </h3>
-				<div>
+				<div class="row padding" style="padding: 0px 15px 30px;">
+		<p><a target="_blank" href="{{ site.data.locales[page.locale].glossary['banner-url']}}"><img src="{{ site.baseurl }}{{ site.data.locales[page.locale].glossary['banner']}}" width=100%></a></p>
+		</div>
+		<div>
 				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale %}
 					 <div class="col-lg-4 col-md-4 text-center">

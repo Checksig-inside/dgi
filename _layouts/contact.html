@@ -90,16 +90,13 @@
 		<p class="scrolldown"><a href="#form" class="scrollLink"><img class="logo" style="width:50px" src="{{ site.baseurl }}/assets/img/home/down.png" alt="Scroll"></a></p>
 		<div class="container-fluid-kamn">
 			<div class="row">
-				<div class="it-hero-wrapper it-dark it-overlay">
-					<!-- - img-->
-					<div class="img-responsive-wrapper">
-						<div class="img-responsive">
-							<div class="it-hero-text-wrapper bg-light  box-inner">
-								<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
-								<p class="d-none d-lg-block">{% include form.html %}</p>
-							</div>
-						</div>
-					</div>
+				<div class="col-lg-6 col-md-6 text-center further">
+					<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['moreinfo']}}</h5>
+					<p class="d-none d-lg-block">{% include form-contact.html %}</p>
+				</div>
+				<div class="col-lg-6 col-md-6 text-center fillin">
+					<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['fill']}}</h4><h5>{{ site.data.locales[page.locale].glossary['tobook']}}</h5>
+					<p class="d-none d-lg-block">{% include form-contact-fillin.html %}</p>
 				</div>
 			</div>
 		</div>

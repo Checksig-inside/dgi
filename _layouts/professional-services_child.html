@@ -92,14 +92,16 @@
 					<div>
 					  <h6>{{ site.data.locales[page.locale].glossary['signup-for']}}</h6>
 					  <h5>{{ site.data.locales[page.locale].glossary['entry-level']}}</h5>
+					  <p class="form-desc">{{ site.data.locales[page.locale].glossary['entry-level-description']}}</p>
 					  <p class="d-none d-lg-block el-workshop">{% include form-el-workshop.html %}</p>
 					</div>
 				</div>
 				 <div class="col-lg-6 col-md-6 text-center">
 					<div>
-					 <h6>{{ site.data.locales[page.locale].glossary['signup-request']}}</h6>
-					 <h5>{{ site.data.locales[page.locale].glossary['personal-workshop']}}</h5>
-					  <p class="d-none d-lg-block professional-workshop">{% include form-personal-workshop.html %}</p>
+					<h6>{{ site.data.locales[page.locale].glossary['signup-request']}}</h6>
+					<h5>{{ site.data.locales[page.locale].glossary['personal-workshop']}}</h5>
+					<p class="form-desc">{{ site.data.locales[page.locale].glossary['workshop-description']}}</p>
+					<p class="d-none d-lg-block professional-workshop">{% include form-personal-workshop.html %}</p>
 					</div>
 				</div>
 			</div>
