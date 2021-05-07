@@ -2131,7 +2131,7 @@ h1.about-dgi, p.about-dgi {
 	width:100%!important;
 	background: transparent!important;
 }
-._form input[type="text"], ._form input[type="date"], ._form select {
+.form-workshop ._form input[type="text"], .form-workshop ._form input[type="date"], .form-workshop ._form select {
     border: 0px solid!important;
 }
 
