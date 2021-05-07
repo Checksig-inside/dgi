@@ -8,7 +8,7 @@
 					{% assign imgsrc = item.img | replace: '_on', '_off' %}
 				{% else %}
 					{% assign imgsrc = item.img %}
-				{% endif %}
+				{% endif %} 
 					<li class="nav-children-bar menu-link {% if item.title == page.title %}active{% endif %}"><img src='{{ site.baseurl }}{{ imgsrc }}' height=50px ><p><a href="{{ site.baseurl }}{{ item.permalink }}">{{ item.title }}</a><i class="fa fa-angle-down"></i></p></li>
 				{% endif %} 
 				{% endfor %}
