@@ -1,38 +1,18 @@
 <div class="row padding lista">
-{% assign cats = site.data.locales[page.locale].glossary['categorie-institute'] | split:"," %}
+{% assign cats = page.posts-category | split:"," %}
 {% assign tcat = 1 %}
 {% assign class = '' %}
 <ul class="nav nav-pills">
-<li class="cat-tab all active" id="all"><a href="#all">All</a><i class="fa fa-angle-down"></i></li>
 {% for cat in cats %}
-<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a><i class="fa fa-angle-down"></i></li>
+<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a></li>
 {% assign tcat = tcat | plus: 1 %}
 {% assign class = '' %}
 {% endfor %}
 </ul>
 </div>
 <div class="row padding data-cat">
-<div id="cat-all" class="tabcat cat-all active">
-		<h3> / All </h3>
-		<div>
-		{% for post in site.posts  %}
-			{% if post.parent-category == 'institute-insights' and post.locale == page.locale %}
-			 <div class="col-lg-4 col-md-4 text-center">
-			 <div>
-			  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
-			 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-			 <span>{{ post.date | date_to_long_string: "ordinal" }}</span>
-			 <p>{{ post.excerpt }}</p>
-			 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
-			 </div>
-			 </div>
-			{% endif %}
-		{% endfor %}
-	  </div>
-</div>
-{% for cat in cats %}
 {% for category in site.categories %}
-	{% if category[0] == cat %}
+	{% if category[0] == page.posts-category %}
 		{% assign total = 0 %}
 		{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}
@@ -41,7 +21,7 @@
 		{% endfor %}
 
 		{% if total != 0 %}
-		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} active ">
 				<h3> / {{ category[0] }} </h3>
 				<div>
 				{% for post in category[1] %}
@@ -63,7 +43,6 @@
 		{% endif %}
 		</div>
 	{% endif %}
-{% endfor %}
 {% endfor %}
 </div>
 <script type="text/javascript">

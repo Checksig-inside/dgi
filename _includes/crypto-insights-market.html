@@ -1,11 +1,11 @@
 <div class="row padding lista">
-{% assign cats = site.data.locales[page.locale].glossary['categorie-crypto'] | split:"," %}
+{% assign cats = page.posts-category | split:"," %}
 {% assign tcat = 1 %}
 {% assign class = 'active' %}
 <ul class="nav nav-pills">
-<li class="cat-tab all" id="all" style="display:none"><a href="#all">All</a><i class="fa fa-angle-down"></i></li>
+<li class="cat-tab all" id="all" style="display:none"><a href="#all">All</a></li>
 {% for cat in cats %}
-<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a><i class="fa fa-angle-down"></i></li>
+<li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a></li>
 {% assign tcat = tcat | plus: 1 %}
 {% assign class = '' %}
 {% endfor %}
@@ -13,10 +13,9 @@
 </div>
 <div class="row padding data-cat">
 {% assign catactive = 'active' %}
-{% for cat in cats %}
 {% assign catslug = cat | replace: " ", "-" %}
 {% for category in site.categories %}
-	{% if category[0] == cat %}
+	{% if category[0] == page.posts-category %}
 		{% assign total = 0 %}
 		{% for post in category[1] %}
 			{% if post.parent-category == 'crypto-insights' %}
@@ -26,7 +25,7 @@
 
 		{% if total != 0 %}
 	
-		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} {{ catactive }}">
+		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} active ">
 			<ul class="nav nav-pills">
 				<li class="tab-pane active"><a  href="#1-{{ catslug }}" data-toggle="tab">All</a><i class="fa fa-angle-down"></i></li> 
 				{% assign t = 2 %}
@@ -115,9 +114,9 @@
 		{% endif %}
 		</div>
 	{% endif %}
-{% endfor %}
 	{% assign catactive = '' %}
 {% endfor %}
+	
 
 
 </div>
