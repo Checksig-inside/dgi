@@ -649,14 +649,17 @@ h5 {
 }
 .form-workshop {
     background: #fdd365;
+	margin-top: 20px;
 }
 
 .form-workshop .row .col-lg-6:nth-child(1){
-	border-right: 5px solid #fff;
+	border-right: 10px solid #fff;
+    padding: 20px 15px;
 }
 
 .form-workshop .row .col-lg-6:nth-child(2){
-	border-left: 5px solid #fff;
+	border-left: 0px solid #fff;
+	padding: 20px 15px;
 }
 
 .form-workshop .container {
@@ -664,8 +667,8 @@ h5 {
 }
 
 .form-workshop .col-lg-6.col-md-6 > div  {
-    padding-top: 60px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -1695,6 +1698,84 @@ h1, .h1 {
     color: #333;
     font-weight: 900;
 }
+
+
+#form-section-subscribe ._form_element._field3._inline-style  {
+    clear:both;
+}
+
+#form-section-subscribe select {
+    padding: 12px 20px;
+}
+#form-section-subscribe ._form-content {
+    width: 80%;
+    display: table;
+    margin: 0px auto;
+}
+#form-section-subscribe ._checkbox-radio {
+    color: #333;
+    width: 90px;
+    border: 0px solid;
+}
+#form-section-subscribe.quarterly-form ._checkbox-radio {
+    color: white!important;
+}
+#form-section-subscribe legend {
+    display:none!important;
+}
+#form-section-subscribe ._form_element._inline-style {
+    float: left!important;
+    width: 48.5%!important;
+    margin-left: 10px!important;
+}
+#form-section-subscribe.quarterly-form ._form_element._inline-style {
+    float: left!important;
+    width: 32%!important;
+    margin-left: 10px!important;
+}
+
+#form-section-subscribe ._inline-style input[type="text"] {
+    width: 95%!important;
+}
+
+#form-section-subscribe  ._inline-style ._button-wrapper {
+    position: relative;
+    margin: 0px 30px 0 20px!important;
+    float: right;
+}
+#form-section-subscribe.quarterly-form  ._inline-style ._button-wrapper {
+    position: relative;
+    margin: 0px 5px 0 20px!important;
+    float: right;
+}
+#form-section ._submit,
+#modal-form ._submit {
+	-webkit-appearance: none;
+    cursor: pointer;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background: #f8b517 !important;
+    border: 0 !important;
+    -moz-border-radius: 4px !important;
+    -webkit-border-radius: 4px !important;
+    border-radius: 4px !important;
+    color: #211f1f !important;
+    padding: 10px !important;
+    min-width: 190px;
+    background: #fcb600!important;
+    padding: 10px 40px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    float: right;
+}
+
+
+
 @media (min-width: 1068px) and (max-width: 1400px) { 
  .post-sidebar{
     margin-top: 15px;
@@ -2193,7 +2274,22 @@ h1.about-dgi, p.about-dgi {
     padding: 0px 20px;
     font-size: 20px;
     font-weight: 900;
-    color: #333;
+    color: #666;
+    line-height: 1;
+    margin-bottom: 0px;
+}
+#form-section.form-workshop h6:before {
+	background-image: url(/dgi/assets/img/professional_services/training/ico_form.png);
+    width: 45px;
+    content: " ";
+    position: relative;
+    left: 0px;
+    height: 45px;
+    display: block;
+    z-index: 10000000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
 }
 #form-section.form-workshop h5 {
     text-transform: unset;
@@ -2204,7 +2300,13 @@ h1.about-dgi, p.about-dgi {
     font-weight: 800;
     color: black;
 }
-
+#form-section.form-workshop .container-fluid-kamn {
+    padding: 0px 0px 0px;
+    background-image: none;
+    background-size: 76px;
+    background-repeat: no-repeat;
+    background-position: center 60px;
+}
 ._form select {
     padding-top: 7px;
     padding-bottom: 7px;
