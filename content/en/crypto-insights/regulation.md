@@ -1,6 +1,6 @@
 ---
 layout: crypto-insights_child
-title: Crypto insights Regulation
+title: Regulation
 header: Crypto insights Regulation
 locale: en
 uid: crypto-insights-regulation
