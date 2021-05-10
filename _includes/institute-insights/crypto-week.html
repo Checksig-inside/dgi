@@ -1,6 +1,7 @@
 		<div class="row padding">
 		{% for category in site.categories %}
 			{% if category[0] == 'crypto week' %}
+			<div class="view-all"><a href="{{ site.baseurl }}/institute-insights/{{ category[0] | replace: ' ', '-' }}">View All</a></div>
 			{% assign total = 0 %}
 			{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}

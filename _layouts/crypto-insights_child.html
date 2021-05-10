@@ -8,6 +8,14 @@
 <body>
 	<section id="title" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs ">
+			{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+			{% for item in site.data.settings.menu[page.locale] %}
+			{% if page.page-category == item.uid %}<a class="navlabel " href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a>{% endif %}
+			{% endfor %} / <span><b>{{ page.title }}</b></span>
+			</div>
+			</div>
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->

@@ -1,39 +1,23 @@
-		<div class="row padding">
-		<div class="view-all"><a href="{{ site.baseurl }}/institute-insights/{{ category[0] | replace: ' ', '-' }}">View All</a></div>
-		<ul id="lightSlider">
-		{% for category in site.categories %}
-			{% if category[0] == 'case history' %}
-			{% assign total = 0 %}
-			{% for post in category[1] %}
-			{% if post.parent-category == 'institute-insights' %}
-			{% assign total = total | plus: 1 %}
-			{% endif %}
-			{% endfor %}
-			{% if total != 0 %}
-				{% for post in category[1] %}
-					
-					{% if post.parent-category == 'institute-insights' and post.locale == page.locale %}
-					 <li class="text-center">
-					 <div>
-					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <p class="date-post">{{ post.date | date_to_long_string: "ordinal" }}</p>
-					 <div class="post-excerpt">{{ post.excerpt }}</div>
-					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
-					 </div>
-					 </li>
-					{% endif %}
-					
-					
-				{% endfor %}
-			{% endif %}
-			{% endif %}
-		{% endfor %}
-		</ul>
+        <div class="row padding insights-title" style="margin-top: 20px;">
+			<h2>Insights</h2>
 		</div>
+        <div class="row padding" style="margin-top: 20px;">
+		<ul id="lightSlider_loghi">
+		{% for modulo in site.data.insights | sort: 'sort_ranking' | reverse %}
+		{% if modulo.locale == page.locale %} 
+            <li class="text-center">
+                <img class="mx-auto rounded-circle" src="{{ site.baseurl }}{{ modulo.img }}"
+                    alt="{{ modulo.name }}" width=130>
+                </a>
+            </li>
+			{% endif %} 
+            {% endfor %}
+		</ul>
+        </div>
 		<script type="text/javascript">
 	$(document).ready(function() {
-    $("#lightSlider").lightSlider({
-        item: 2,
+    $("#lightSlider_loghi").lightSlider({
+        item: 4,
         autoWidth: false,
         slideMove: 1, // slidemove will be 1 if loop is true
         slideMargin: 10,
@@ -59,7 +43,7 @@
         adaptiveHeight:false,
  
         vertical:false,
-        verticalHeight:450,
+        verticalHeight:500,
         vThumbWidth:100,
  
         thumbItem:10,

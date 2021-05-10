@@ -69,6 +69,14 @@
 				</div>
 			</div>
 			{% endif %}
+			{% if page.podcast-top  %}
+			<div class="row">
+				<div class="post-content post-content-video">
+				<div id='buzzsprout-large-player-{{ page.podcast-top }}'></div>
+				<script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/{{ page.podcast-top }}.js?container_id=buzzsprout-large-player-{{ page.podcast-top }}&player=large'></script>
+				</div>
+			</div>
+			{% endif %}
 		</div>
 	</section>
 	{% endif %} 
@@ -95,6 +103,14 @@
 			<div class="row">
 				<div class="post-content post-content-video">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.video-bottom }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			{% endif %}
+			{% if page.podcast-bottom  %}
+			<div class="row">
+				<div class="post-content post-content-video">
+				<div id='buzzsprout-large-player-{{ page.podcast-bottom }}'></div>
+				<script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/{{ page.podcast-bottom }}.js?container_id=buzzsprout-large-player-{{ page.podcast-bottom }}&player=large'></script>
 				</div>
 			</div>
 			{% endif %}

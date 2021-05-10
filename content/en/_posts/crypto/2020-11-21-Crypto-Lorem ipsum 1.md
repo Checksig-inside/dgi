@@ -9,6 +9,8 @@ img-top: /assets/img/crypto_insights/header_crypto.jpg
 img-bottom: /assets/img/crypto_insights/header_crypto.jpg
 video-top: oZaUZ2iFK0Y
 video-bottom: WMc2hr3Y92A
+podcast-top: 1686991
+podcast-bottom: 1686991
 parent-category: crypto-insights
 categories: market
 tag: derivatives
