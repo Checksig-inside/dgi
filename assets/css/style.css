@@ -135,7 +135,7 @@ h4, .h4, h5, .h5  {
     max-width:100%!important;
     width:100%!important;
 	position: relative;
-	background-image: url(../img/custody/ico_timeline.png);
+	background-image: url(../img/home/ico_timeline.png);
     background-position: center;
     background-repeat: no-repeat;
     background-repeat-y: repeat
@@ -1095,6 +1095,7 @@ p.scrolldown .logo{
     width: 100%;
     margin: 0px auto;
     text-align: center;
+	padding: 0px;
 }
 
 .content-inner h2 {
