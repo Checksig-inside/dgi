@@ -1623,6 +1623,7 @@ h1, .h1 {
 	position: relative;
     display: block;
     padding: 10px 15px 0px;
+	font-weight: 800;
 }
 #blog-crypto .nav-pills > li > a, #blog-crypto .nav-pills > li > a:hover, #blog-crypto .nav-pills > li > a:focus {
     color: #666;
