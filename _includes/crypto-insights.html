@@ -55,7 +55,7 @@
 			<div class="tab-content clearfix ">
 			<div class="tab-pane active" id="1-{{ catslug }}">
 				<h3>{{ category[0] }} / All </h3>
-			  <div>
+			  <div class="loadmore">
 				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
 					 <div class="col-lg-4 col-md-4 text-center">
@@ -87,7 +87,7 @@
 
 			  <div class="tab-pane" id="{{ t }}-{{ catslug }}">
 			  <h3>{{ category[0] }} / {{ tag[0] }}</h3>
-			  <div>
+			  <div class="loadmore">
 				{% for post in tag[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
 					 <div class="col-lg-4 col-md-4 text-center">
@@ -135,7 +135,6 @@
 		$('#cat-' + cat_id ).addClass('active');
 		
 	});
-
 });
 </script>
 

@@ -57,6 +57,7 @@
 <link rel='stylesheet' id='slick-css'  href='{{ site.baseurl }}/assets/css/slick.css' type='text/css' media='all' />
 <script type='text/javascript' src='{{ site.baseurl }}/assets/js/slick.js' id='slick.js-js'></script>
 <script type='text/javascript' src='{{ site.baseurl }}/assets/js/slick.product.js' id='slick-product.js-js'></script> 
+<script src="{{ site.baseurl }}/assets/js/jquery.simpleLoadMore.js"></script>
 <script>
 $(document).ready(function(){
   $("#show").click(function(){
@@ -71,6 +72,26 @@ $(document).ready(function(){
   $( this ).parent().toggleClass( "active" );
 });
 
+$('.loadmore').simpleLoadMore({
+  item: 'div.col-lg-4',
+  count: 1,
+  counterInBtn: false,
+  btnText: 'View More',
+});
+$('#custody').simpleLoadMore({
+  item: 'div.container',
+  count: 2,
+  counterInBtn: false,
+  btnText: 'View More',
+});
+
+$( "#industries-row .content-inner" ).mouseover(function( event ) {
+	$( "#industries-row .content-inner" ).removeClass('active');
+	$( this ).addClass('active');
+});
+$( "#industries-row .content-inner" ).mouseout(function( event ) {
+	$( "#industries-row .content-inner" ).removeClass('active');
+});
 $('#form').submit(function(event) {
    var field1 = $('#firstname').val();
    var field2 = $('#lastname').val();

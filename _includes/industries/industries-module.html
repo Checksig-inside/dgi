@@ -1,4 +1,5 @@
-	<section id="custody" class="custody">        
+	<section id="custody" class="custody"> 
+		<div class="morescroll">
 		{% for modulo in site.data.industries-education  | sort: 'sort_ranking' | reverse %}
 			{% if modulo.locale == page.locale and modulo.type == page.uid %}
 		<div class="container back-{{ modulo.uid }}">
@@ -22,6 +23,7 @@
         </div>
 		{% endif %} 
 		{% endfor %}
+        </div>
 	</section>
 
 		

@@ -161,6 +161,7 @@ h4, .h4, h5, .h5  {
 #custody {
     padding-top: 100px;
     background-color: #fcb600;
+	margin-bottom: 20px;
 }
 #custody  > .container  {
     background-color: #fbe7b5;
@@ -1618,7 +1619,7 @@ h1, .h1 {
 
 #blog-crypto .nav.nav-pills li {
     text-align: center;
-    padding: 0px 60px;
+    padding: 10px 60px;
 }
 #blog-crypto .nav-pills > li.active > a, #blog-crypto .nav-pills > li.active > a:hover, #blog-crypto .nav-pills > li.active > a:focus {
 	position: relative;
@@ -1630,6 +1631,8 @@ h1, .h1 {
     color: #666;
     background-color: transparent;
 	text-transform: uppercase;
+	font-size: 15px;
+	color:#333;
 }
 .tabcat .tab-content {
     min-height: 700px;
@@ -1681,7 +1684,12 @@ h1, .h1 {
     vertical-align: middle;
     width: 100%;
 }
-
+#banner-intesa p {
+    text-align: center;
+}
+#banner-intesa img {
+    width: auto;
+}
 .content-txt{
     padding: 30px 0px;
 }
@@ -2040,6 +2048,75 @@ margin-bottom: 30px;
     margin-top:0px;
 }
 
+.load-more__btn:before {
+	content: '+';
+    position: relative;
+    top: -5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    width: 30px;
+    background: #fcb600;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 20px;
+}
+.load-more__btn {
+    position: relative;
+    margin: 0px auto;
+    display: table;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 15px;
+    padding: 40px 0px;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+#industries-row h2 {
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: none;
+    color: #333;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+
+
+#industries-row .content-inner {
+    transform: scale(1);
+	box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+	transition: transform .2s;
+}
+
+#industries-row .content-inner.active img {
+    filter: invert(1);
+}
+
+#industries-row .content-inner.active  {
+    background: #fcb600;
+	transform: scale(1.1);
+}
+#industries-row .content-inner.active  p.text-description, #industries-row .content-inner.active  h3  {
+    color: #333;
+}
+
+#industries-row .content-inner.active .text-link a {
+    background: #fff;
+    padding: 10px 40px;
+    color: #333;
+}
+.container.professional .section-heading {
+    margin: 10px 10px 30px;
+    font-weight: 700;
+    text-transform: none;
+}
 
 .header h1 {
     float: left;
@@ -2254,6 +2331,10 @@ margin-bottom: 30px;
 }
 h1.about-dgi, p.about-dgi {
 	color:#333!important;
+	max-width: 50%;
+}
+.colorwhite h1, .colorwhite p {
+	color:#fff!important;
 	max-width: 50%;
 }
 

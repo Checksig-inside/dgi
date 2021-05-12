@@ -1,6 +1,6 @@
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Institutions</h2>
+                <h2 class="section-heading">{{ site.data.locales[page.locale].glossary['institutions']}}</h2>
             </div>
         </div>
         <div class="row padding">
@@ -14,7 +14,7 @@
                 <h4>{{ c.title }}</h4>
                 </a>
                 <p class="text-description">{{ c.subdesc }}</p>
-				<p class="text-link"><a href="{{ site.baseurl }}{{ c.permalink }}">READ MORE</a></p>
+				<p class="text-link"><a href="{{ site.baseurl }}{{ c.permalink }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
             </li>
 			{% endif %} 
             {% endfor %}
