@@ -1,6 +1,8 @@
 ---
 layout: post-institute
 title:  "IT Institute Lorem ipsum 10"
+subtitle: "IT Institute Lorem ipsum 8"
+author: "Staff"
 date:   2020-11-27 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg
 img-detail: /assets/img/institute_insights/header_institute.jpg
@@ -8,8 +10,8 @@ parent-category: institute-insights
 categories: events
 locale: it
 uid: institute-events-1
-
 published: false
+comments: false
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
