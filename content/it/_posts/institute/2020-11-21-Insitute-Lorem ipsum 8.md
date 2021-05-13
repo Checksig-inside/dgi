@@ -7,7 +7,8 @@ img-detail: /assets/img/institute_insights/header_institute.jpg
 parent-category: institute-insights
 categories: news
 locale: it
-uid: institute-market-news8
+uid: institute-news-1
+published: false
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
