@@ -8,7 +8,7 @@ subtitle: Divulgazione subtitle
 subdesc: IT -Lorem ipsum dolores
 description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
-slider: /assets/img/home/bg_empowering_digital_realm.jpg
+slider: /assets/img/professional_services/speech/bg_speech.jpg
 permalink: /it/professional-services/speech/
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 locale: it

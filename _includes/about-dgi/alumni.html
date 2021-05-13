@@ -1,8 +1,9 @@
-<div class="row padding">
+<div class="row padding alumni-hof">
 	{% for member in site.data.about-alumni | sort: 'sort_ranking' | reverse %}
 	<div class="col-lg-6 col-md-6 text-center flexrow">
-		<div class="panel-alumni">
-		<h3>{{ member.name }}</h3>
+	<div class="panel-sx">
+		<img class="mx-auto rounded-circle" src="{{ site.baseurl }}{{ page.img }}"
+			alt="{{ member.photo_name }}" width=130>
 		{% if member.social_1 %}
 		<ul class="list-inline social-buttons">
 			<li class="list-inline-item">
@@ -54,6 +55,9 @@
 			{% endif %}
 		</ul>
 		{% endif %}
+	</div>
+		<div class="panel-alumni panel-dx">
+		<h3>{{ member.name }}</h3>
 		<h4 class="text-h4">{{ member.degree }}</h4>
 		<div class="text-team text-small alumni-label">
 		{% if member.thesis %}

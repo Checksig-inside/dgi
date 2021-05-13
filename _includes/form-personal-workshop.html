@@ -262,23 +262,20 @@
 
             </option>
 
-            <option value="SELECT THE DAY" selected>
+            <option value="{{ site.data.locales[page.locale].glossary['select-the-day']}}" selected>
 
-              SELECT THE DAY
-
-            </option>
-
-            <option value="1 opzione" >
-
-              1 opzione
+              {{ site.data.locales[page.locale].glossary['select-the-day']}}
 
             </option>
+            {% for modulo in site.data.campo-select-pworkshop  | sort: 'date' | reverse %}
+			{% if modulo.locale == page.locale %}
+				<option value='{{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}' >
 
-            <option value="2 opzione" >
+				  {{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}
 
-              2 opzione
-
-            </option>
+				</option>
+			{% endif %}
+            {% endfor %}
 
           </select>
 
@@ -326,109 +323,39 @@
 
             <legend for="field[6][]" class="_form-label">
 
-              Select our modules*
+              {{ site.data.locales[page.locale].glossary['select-module']}}*
 
             </legend>
 
           </div>
 
           <input data-autofill="false" type="hidden" id="field[6][]" name="field[6][]" value="~|">
-
+		   {% assign t = 1 %}
+           {% for modulo in site.data.campo-checkb-modules  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale %}
+			{% if t == 1 %}
+			{% assign required = 'required' %}
+			{% else %}
+			{% assign required = '' %}
+			{% endif %}
           <div class="_row _checkbox-radio">
 
-            <input id="field_6MODULE NAME 1" type="checkbox" name="field[6][]" value="MODULE NAME 1" class="any"  required>
+            <input id="field_6{{ modulo.name }}" type="checkbox" name="field[6][]" value="{{ modulo.name }}" class="any"  {{ required }}>
 
             <span>
 
-              <label for="field_6MODULE NAME 1">
+              <label for="field_6{{ modulo.name }}">
 
-                MODULE NAME 1
+				  {{ modulo.name }}
 
               </label>
 
             </span>
 
           </div>
-
-          <div class="_row _checkbox-radio">
-
-            <input id="field_6MODULE NAME 2" type="checkbox" name="field[6][]" value="MODULE NAME 2"   >
-
-            <span>
-
-              <label for="field_6MODULE NAME 2">
-
-                MODULE NAME 2
-
-              </label>
-
-            </span>
-
-          </div>
-
-          <div class="_row _checkbox-radio">
-
-            <input id="field_6MODULE NAME 3" type="checkbox" name="field[6][]" value="MODULE NAME 3"   >
-
-            <span>
-
-              <label for="field_6MODULE NAME 3">
-
-                MODULE NAME 3
-
-              </label>
-
-            </span>
-
-          </div>
-
-          <div class="_row _checkbox-radio">
-
-            <input id="field_6MODULE NAME 4" type="checkbox" name="field[6][]" value="MODULE NAME 4"   >
-
-            <span>
-
-              <label for="field_6MODULE NAME 4">
-
-                MODULE NAME 4
-
-              </label>
-
-            </span>
-
-          </div>
-
-          <div class="_row _checkbox-radio">
-
-            <input id="field_6MODULE NAME 5" type="checkbox" name="field[6][]" value="MODULE NAME 5"   >
-
-            <span>
-
-              <label for="field_6MODULE NAME 5">
-
-                MODULE NAME 5
-
-              </label>
-
-            </span>
-
-          </div>
-
-          <div class="_row _checkbox-radio">
-
-            <input id="field_6MODULE NAME 6" type="checkbox" name="field[6][]" value="MODULE NAME 6"   >
-
-            <span>
-
-              <label for="field_6MODULE NAME 6">
-
-                MODULE NAME 6
-
-              </label>
-
-            </span>
-
-          </div>
+		  {% assign t = t | plus: 1 %}
+			{% endif %}
+            {% endfor %}
 
         </fieldset>
 

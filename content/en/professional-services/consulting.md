@@ -13,7 +13,7 @@ description: EN -Description - Lorem ipsum doloresLorem ipsum doloresLorem ipsum
 titleform1: Book a meeting
 titleform2: Request information
 img: /assets/img/professional_services/training/ico_training_on.svg
-slider: /assets/img/home/bg_consulting.jpg
+slider: /assets/img/professional_services/consulting/bg_consulting.jpg
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 permalink: /professional-services/consulting/
 claim: Get in touch with us

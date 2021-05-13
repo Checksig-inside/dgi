@@ -8,7 +8,7 @@ subdesc: A strategic partnership with DGI empowers your business with a proper u
 subtitle: Empowering Digital Realm
 description: To leverage the unique opportunities that Bitcoin and the blockchain technology gives, it is strategic to understand the bitcoin phenonym as a whole while avoiding the irrational hype that pollutes these topics.
 img: /assets/img/professional_services/training/ico_teaching_on.svg
-slider: /assets/img/home/bg_empowering_digital_realm.jpg
+slider: /assets/img/professional_services/professional/bg_partnership.jpg
 permalink: /professional-services/partnership/
 locale: en
 slider-ranking: 1000

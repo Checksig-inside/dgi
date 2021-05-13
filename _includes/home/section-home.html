@@ -1,16 +1,14 @@
 <div class="container-inner owide">
 	<div class="row padding">
-		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
-		{% for section in folder1 %}
-		{% if section.locale == page.locale and section.page-tag == 'sectop' %}
+		{% for modulo in site.data.home-cover | sort: 'sort_ranking' | reverse %}
+		{% if modulo.locale == page.locale %} 
 		<div class="col-lg-12 col-md-12 {{ section.class }}"
-			style="background-image:url({{ site.baseurl }}{{ section.slider-home }});">
+			style="background-image:url({{ site.baseurl }}{{ modulo.img }});background-size: cover;background-repeat: no-repeat;">
 			<div class="top top-home">
 				<div class="home-content-inner">
-					<h1>{{ section.title }}</h1>
-					<h3 class="description">{{ section.subdesc }}</h3>
-					<br>
-					<p class="text-link"><a href="{{ site.baseurl }}{{ section.permalink }}">DISCOVER MORE</a></p>
+					<h5>{{ modulo.intro }}</h5>
+					<h1>{{ modulo.title }}</h1>
+					<h3 class="description">{{ modulo.description }}</h3>
 				</div>
 			</div>
 		</div>

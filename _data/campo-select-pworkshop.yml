@@ -1,0 +1,42 @@
+- name: Evento 1
+  date: 2021/09/01
+  locale: en
+- name: Evento 2
+  date: 2021/09/02
+  locale: en
+- name: Evento 3
+  date: 2021/09/03
+  locale: en
+- name: Evento 4
+  date: 2021/09/04
+  locale: en
+- name: Evento 5
+  date: 2021/09/05
+  locale: en
+- name: Evento 6
+  date: 2021/09/06
+  locale: en
+- name: Evento 7
+  date: 2021/09/07
+  locale: en
+- name: Evento 1
+  date: 2021/09/01
+  locale: it
+- name: Evento 2
+  date: 2021/09/02
+  locale: it
+- name: Evento 3
+  date: 2021/09/03
+  locale: it
+- name: Evento 4
+  date: 2021/09/04
+  locale: it
+- name: Evento 5
+  date: 2021/09/05
+  locale: it
+- name: Evento 6
+  date: 2021/09/06
+  locale: it
+- name: Evento 7
+  date: 2021/09/07
+  locale: it

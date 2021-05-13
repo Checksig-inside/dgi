@@ -106,7 +106,7 @@ h4, .h4, h5, .h5  {
 .header-child .d-lg-block {
     max-width: 50%;
 }
-.vision-section .img-responsive-wrapper, .team-section .img-responsive-wrapper, .alummi-section .img-responsive-wrapper {
+.vision-section .img-responsive-wrapper, .team-section .img-responsive-wrapper, .alumni-section .img-responsive-wrapper {
     background-size: 100% auto!important;
     background-position: right!important;
     background-repeat: no-repeat!important;
@@ -1188,7 +1188,7 @@ p.text-description{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    z-index: 10000000;
+    z-index: 100;
     background-size: 100%;
 }
 #sub-header h1, #sub-header h2, #sub-header .content {
@@ -1330,7 +1330,7 @@ p.text-description{
 
 
 .case-history #lightSlider {
-    height: 400px !important;
+    height: 460px !important;
 }
 .case-history h3 {
     text-align: center;
@@ -1715,7 +1715,7 @@ h1, .h1 {
 }
 
 #form-section-subscribe select {
-    padding: 12px 20px;
+    padding: 12px 20px!important;
 }
 #form-section-subscribe ._form-content {
     width: 80%;
@@ -1741,7 +1741,7 @@ h1, .h1 {
 #form-section-subscribe.quarterly-form ._form_element._inline-style {
     float: left!important;
     width: 32%!important;
-    margin-left: 10px!important;
+    margin-left: 7px!important;
 }
 
 #form-section-subscribe ._inline-style input[type="text"] {
@@ -1783,27 +1783,21 @@ h1, .h1 {
     box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
     float: right;
 }
-
-
-
-@media (min-width: 1068px) and (max-width: 1400px) { 
- .post-sidebar{
-    margin-top: 15px;
-    border:1px solid #DDD;
-    padding: 5px;
-  }
- 
+._half_width {
+    width: 50%;
+    padding: 0px 10px;
+	float: left;
 }
-@media (min-width: 750px) and (max-width: 1060px) { 
- .post-sidebar{
-    width:204px;
-    margin-top: 15px;
-    border:1px solid #DDD;
-    padding: 5px;
-    float: right;
-
- }
+._full_width {
+    width: 100%;
+    padding: 0px 10px;
+    display: table;
 }
+
+
+
+
+
 .tales {
   width: 100%;
 }
@@ -1900,7 +1894,24 @@ strong { font-weight: bold; }
 address {
     margin-top: 28px;
     }
+@media (min-width: 1068px) and (max-width: 1400px) { 
+ .post-sidebar{
+    margin-top: 15px;
+    border:1px solid #DDD;
+    padding: 5px;
+  }
+ 
+}
+@media (min-width: 750px) and (max-width: 1060px) { 
+ .post-sidebar{
+    width:204px;
+    margin-top: 15px;
+    border:1px solid #DDD;
+    padding: 5px;
+    float: right;
 
+ }
+}
 	
 @media (max-width: 992px) {
 .container {
@@ -1908,13 +1919,8 @@ address {
 	max-width: 750px!important;
 }
 }
-@media (max-width: 768px) {
-.container {
-    width: 100%!important;
-	max-width: 750px!important;
-	padding: 0px!important;
-}
-}
+
+
 @media (min-width: 50px) and (max-width: 988px) { 
  
  address {
@@ -2043,7 +2049,7 @@ background-image:url('../img/slider/1.jpg');
 height:450px;
 margin-bottom: 30px;
 }
- }
+}
 #banner{
     margin-top:0px;
 }
@@ -2077,15 +2083,27 @@ margin-bottom: 30px;
     background: #fff;
     text-align: center;
 }
+.pservices .load-more__btn {
+
+    background: transparent;
+
+}
+
 #industries-row h2 {
     font-size: 30px;
     color: white;
     font-weight: 600;
     margin-bottom: 15px;
     text-transform: none;
-    color: #333;
     margin-bottom: 40px;
     margin-top: 0px;
+}
+#industries-row h2.heading-grey {
+    color: #333;
+}
+
+#industries-row .content-inner.active h2 {
+    color: #333;
 }
 
 
@@ -2094,8 +2112,10 @@ margin-bottom: 30px;
 	box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
 	transition: transform .2s;
 }
-
-#industries-row .content-inner.active img {
+#moduli {
+    padding: 20px 0px;
+}
+#moduli .module-custody.active img, #industries-row .content-inner.active img {
     filter: invert(1);
 }
 
@@ -2103,14 +2123,23 @@ margin-bottom: 30px;
     background: #fcb600;
 	transform: scale(1.1);
 }
-#industries-row .content-inner.active  p.text-description, #industries-row .content-inner.active  h3  {
+#moduli .module-custody.active p.intro, #moduli .module-custody.active h3, #industries-row .content-inner.active  p.text-description, #industries-row .content-inner.active  h3  {
     color: #333;
 }
 
-#industries-row .content-inner.active .text-link a {
+#moduli .module-custody.active .text-link a, #industries-row .content-inner.active .text-link a {
     background: #fff;
     padding: 10px 40px;
     color: #333;
+}
+
+#moduli .module-custody.active {
+    background: #fcb600;
+    transform: scale(1.08);
+}
+
+#moduli.pservices .module-custody.active {
+    transform: scale(1);
 }
 .container.professional .section-heading {
     margin: 10px 10px 30px;
@@ -2342,11 +2371,36 @@ h1.about-dgi, p.about-dgi {
     margin: 50px 0px;
 }
 
+.top.top-home {
+    padding: 120px 0px;
+    max-width: 1170px;
+    margin: 0px auto;
+	padding-right: 50%;
+}
+.top.top-home h1 {
+    margin-top: 7px;
+}
+.top.top-home h3 {
+    font-size: 12px;
+	font-weight: 600;
+}
 
+.top.top-home h5 {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    color: white;
+	font-weight: 600;
+    font-size: 14px;
+}
 ._form {
     margin: 0px auto 0!important;
 	width:100%!important;
 	background: transparent!important;
+}
+._form_element * {
+    font-size: 14px;
+    color: #666!important;
 }
 .form-workshop ._form input[type="text"], .form-workshop ._form input[type="date"], .form-workshop ._form select {
     border: 0px solid!important;
@@ -2355,7 +2409,7 @@ h1.about-dgi, p.about-dgi {
 #form-section.form-workshop h6 {
     text-align: left;
     padding: 0px 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 900;
     color: #666;
     line-height: 1;
@@ -2374,14 +2428,20 @@ h1.about-dgi, p.about-dgi {
     background-repeat: no-repeat;
     margin-bottom: 5px;
 }
+#form-section.form-workshop ._full_width {
+    width: 100%;
+    padding: 0px 0px; */
+    display: table;
+}
 #form-section.form-workshop h5 {
     text-transform: unset;
     margin-bottom: 10px;
     text-align: left;
     padding: 0px 20px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 800;
     color: black;
+    margin-top: 0px;
 }
 #form-section.form-workshop .container-fluid-kamn {
     padding: 0px 0px 0px;
@@ -2394,7 +2454,10 @@ h1.about-dgi, p.about-dgi {
     padding-top: 7px;
     padding-bottom: 7px;
 }
-
+._form_element input[type="text"], ._form_element input[type="date"], ._form_element select, ._form_element textarea:not(.g-recaptcha-response) {
+    padding: 10px 20px!important;
+	text-transform: uppercase;
+}
 ._form ._checkbox-radio {
     float: left;
     display: table;
@@ -2456,8 +2519,28 @@ a.thesis-pdf {
     padding: 30px 25px;
     border-radius: 0px;
     box-shadow: unset!important;
-	min-height: 330px!important;
+	min-height: 250px!important;
 }
+.alumni-hof img {
+    max-width: 75px;
+    margin: 0px auto;
+    display: table;
+}
+.alumni-hof .social-buttons {
+    margin-left: 0px!important;
+}
+.alumni-label p {
+    margin: 0 0 10px;
+    display: table;
+    line-height: 1.2;
+}
+
+.alumni-label p span.source {
+    word-break: break-all;
+	max-width: 90%;
+    display: table;
+}
+
 
 .panel-alumni .social-buttons {
     text-align: left;
@@ -2552,10 +2635,162 @@ p.blog-text{
 }
 
 @media (max-width: 768px){ 
-    .office-logo{
-      height: 100px;
-      width: 60px;
-  }
+.container {
+    width: 100%!important;
+	max-width: 750px!important;
+}
+.container.professional .content-inner p.text-description {
+    line-height: 1.2;
+    max-width: 100%;
+    margin: 10px auto 15px;
+    margin: 20px auto;
+    min-height: 100px;
+    color: white;
+}
+.view-all {
+    height: 35px;
+    width: 125px;
+    position: absolute;
+    z-index: 10000;
+    top: 0px;
+    right: 20px;
+}
+.book-meeting-panel {
+    background-size: 100% auto;
+    height: auto!important;
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-color: #fcb600;
+}
+#title-child-section .bg-dark h1, #title-child-section .bg-dark p {
+    word-break: break-word;
+}
+.institution-sub-image .back-header {
+    padding: unset;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -200px;
+    height: 200px;
+    width: 100%;
+}
+#sub-header .back-header {
+    padding: 200px;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    height: 200px;
+    width: 100%;
+    padding: unset;
+}
+#blog-crypto .nav.nav-pills li {
+    text-align: center;
+    padding: 0px;
+    width: 48%;
+    float: left;
+	min-height: 50px;
+	display: table;
+}
+#form-section-subscribe.quarterly-form ._form_element._inline-style {
+    float: left!important;
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+#form-section-subscribe ._inline-style input[type="text"] {
+    width: 100%!important;
+}
+#form-section-subscribe ._form_element._inline-style {
+    float: left!important;
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+#form-section-subscribe ._button-wrapper._inline-style{
+    float: left!important;
+    width: 100%!important;
+    margin-left: 0px!important;
+}
+.post-content-video iframe {
+    width: 100%;
+    max-width: 560px;
+}
+.vision-section .img-responsive-wrapper, .team-section .img-responsive-wrapper, .alumni-section .img-responsive-wrapper {
+    background-size: 100% auto!important;
+    background-position: 0px 20px!important;
+    background-repeat: no-repeat!important;
+    background-color: #fcb600;
+}
+.book-meeting-panel .meeting-panel h5, .book-meeting-panel .info-panel h5 {
+    width: 100%;
+}
+.back-training p.text-description {
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 30px auto 15px;
+}
+.form-workshop .row .col-lg-6:nth-child(1) {
+    border-right: 0px solid #fff;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-bottom: 10px solid #fff;
+}
+.pservices .back-training:before {
+    content: "";
+    background-image: none;
+    width: 110px;
+    height: 200px;
+    position: absolute;
+    left: 10%;
+    top: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.pservices .back-training:after {
+    content: "";
+    background-image: none;
+}
+
+a.thesis-pdf {
+    display: table;
+    width: 100%;
+    text-align: right;
+    padding: 5px 0px;
+}
+
+
+#top .row.padding {
+    max-width: 100%!important;
+    margin: 0px auto;
+    float: none;
+}
+.header-child .d-lg-block {
+    max-width: 100%;
+}
+p.text-description {
+    line-height: 24px;
+    max-width: 95%;
+    margin: 10px auto 15px;
+}
+li.nav-children-bar {
+    float: left;
+    padding: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    width: 50%;
+    min-height: 120px;
+}
+#banner-intesa img {
+    width: 100%;
+}
+.top.top-home {
+    padding: 120px 0px;
+    max-width: 1170px;
+    margin: 0px auto;
+    padding-right: auto;
+}
+.office-logo{
+  height: 100px;
+  width: 60px;
+}
 .masthead-title {
     display: table;
     width: 95%;
@@ -2578,9 +2813,11 @@ p.blog-text{
     width: 100%!important;
     display: table!important;
 }
-#navbar-spy > ul li:nth-child(1) {
+
+#navbar-spy > ul li.li-home {
     display: none!important;
 }
+
 #navbar-spy > ul li a  {
 	color: #fff;
 }
@@ -2596,6 +2833,146 @@ p.blog-text{
 }
 #footer .navcategory > li {
     width: 100%;
+}
+.container.professional .row .col-lg-6 {
+    padding: 30px!important;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#crypto-insight .text-center > div, .institute-insights .text-center > div {
+    background: #fff;
+    text-align: left;
+    width: calc(100% - 47px);
+    padding: 15px;
+    border-radius: 10px;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 7px rgb(0 0 0 / 20%);
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+#banner-intesa {
+    margin-left: 0px;
+    margin-top: 30px;
+}
+
+#custody .container:nth-child(odd) > .row {
+    display: -webkit-flex;
+    -webkit-flex-direction: row-reverse;
+    display: flex;
+    flex-direction: row;
+}
+#custody .container > .row .col-lg-6:nth-child(2) {
+    display: none;
+}
+#custody .container {
+    max-width: 100%!important;
+    width: 100%!important;
+    position: relative;
+    background-image: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-repeat-y: repeat;
+}
+#custody img {
+    float: none;
+    max-width: 75px;
+    display: table;
+    margin: 0px auto;
+}
+#custody .content-inner {
+    display: table;
+    padding: 0px;
+}
+#custody h2 {
+    float: left;
+    color: #333;
+    width: 100%;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 0px;
+}
+#custody p.text-description {
+    float: left;
+    text-align: left;
+    color: #333;
+    width: 100%;
+    text-align: left;
+    padding-left: 0px;
+}
+.dotline {
+    display: none;
+}
+#custody {
+    padding-top: 10px;
+    background-color: #fcb600;
+    margin-bottom: 20px;
+}
+.sub-catmenu li p {
+    max-width: 80%;
+    margin: 10px auto;
+    line-height: 1.3;
+    min-height: 40px;
+}
+.sub-catmenu li.nav-children-bar {
+    float: left;
+    padding: 0px 0px 30px 0px;
+    text-transform: uppercase;
+    width: 50%;
+    min-height: 120px;
+}
+.book-meeting-panel .meeting-panel h5 {
+    float: none!important;
+
+}
+.it-hero-text-wrapper.bg-dark {
+    margin: 0px auto;
+    max-width: 90%;
+}
+#sub-header h1, #sub-header h2, #sub-header .content {
+    text-align: center;
+    max-width: 95%;
+    margin: 40px auto 20px;
+}
+.bcrumbs {
+    max-width: 1300px;
+    margin: 0px auto;
+    width: 90%;
+}
+
+.contact-header .row {
+    display: table;
+    color: white;
+    text-align: left;
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 0px;
+}
+.contact-header .col-lg-4 {
+    padding-top: 5px;
+    display: table;
+    clear: both;
+}
+.contact-header .content-c {
+    border-left: 2px solid #fff;
+    padding-left: 15px;
+    min-height: unset;
+}
+.contact-header .content-c a {
+    color: white;
+}
+#footer .navcategory {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+#footer .navcategory > li {
+    width: 50%;
+    float: left;
+}
+#footer .navbar-nav {
+    margin: 10px 0px;
 }
 }
 

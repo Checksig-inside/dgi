@@ -84,13 +84,25 @@ $('#custody').simpleLoadMore({
   counterInBtn: false,
   btnText: 'View More',
 });
-
+$('#moduli .row.padding').simpleLoadMore({
+  item: 'div.col-lg-6',
+  count: 6,
+  counterInBtn: false,
+  btnText: 'View More',
+});
 $( "#industries-row .content-inner" ).mouseover(function( event ) {
 	$( "#industries-row .content-inner" ).removeClass('active');
 	$( this ).addClass('active');
 });
 $( "#industries-row .content-inner" ).mouseout(function( event ) {
 	$( "#industries-row .content-inner" ).removeClass('active');
+});
+$( "#moduli.moduli-child .module-custody" ).mouseover(function( event ) {
+	$( "#moduli .module-custody" ).removeClass('active');
+	$( this ).addClass('active');
+});
+$( "#moduli.moduli-child .module-custody" ).mouseout(function( event ) {
+	$( "#moduli .module-custody" ).removeClass('active');
 });
 $('#form').submit(function(event) {
    var field1 = $('#firstname').val();

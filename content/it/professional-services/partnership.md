@@ -8,7 +8,7 @@ subtitle: Partnership subtitle
 subdesc: IT -Lorem ipsum dolores
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/custody/ico_technology.svg
-slider: /assets/img/home/bg_empowering_digital_realm.jpg
+slider: /assets/img/professional_services/professional/bg_partnership.jpg
 permalink: /it/professional-services/partnership/
 slider-ranking: 1000
 locale: it

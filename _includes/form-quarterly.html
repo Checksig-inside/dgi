@@ -238,63 +238,20 @@
 
             <select name="field[7]" id="field[7]" required>
 
-              <option selected>
+           <option value="{{ site.data.locales[page.locale].glossary['select-the-day']}}" selected>
 
-              </option>
+              {{ site.data.locales[page.locale].glossary['select-the-quarterly']}}
 
-              <option value="2021-Q1" selected>
+            </option>
+            {% for modulo in site.data.campo-select-quarterly  | sort: 'sort_ranking' | reverse %}
+			{% if modulo.locale == page.locale %}
+				<option value='{{ modulo.name }}' >
 
-                2021-Q1
-
-              </option>
-
-              <option value="2020-Q4" >
-
-                2020-Q4
-
-              </option>
-
-              <option value="2020-Q3" >
-
-                2020-Q3
-
-              </option>
-
-              <option value="2020-Q2" >
-
-                2020-Q2
-
-              </option>
-
-              <option value="2020-Q1" >
-
-                2020-Q1
-
-              </option>
-
-              <option value="2019-Q4" >
-
-                2019-Q4
-
-              </option>
-
-              <option value="2019-Q3" >
-
-                2019-Q3
-
-              </option>
-
-              <option value="2019-Q2" >
-
-                2019-Q2
-
-              </option>
-
-              <option value="2019-Q1" >
-
-                2019-Q1
-
-              </option>
+				  {{ modulo.name }}
+				  
+				</option>
+			{% endif %}
+            {% endfor %}
 
             </select>
 

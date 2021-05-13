@@ -262,23 +262,20 @@
 
             </option>
 
-            <option value="SELEZIONA IL GIORNO" selected>
+            <option value="{{ site.data.locales[page.locale].glossary['select-the-day']}}" selected>
 
-              SELEZIONA IL GIORNO
-
-            </option>
-
-            <option value="1 opzione" >
-
-              1 opzione
+              {{ site.data.locales[page.locale].glossary['select-the-day']}}
 
             </option>
+            {% for modulo in site.data.campo-select-elworkshop  | sort: 'date' | reverse %}
+			{% if modulo.locale == page.locale %}
+				<option value='{{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}' >
 
-            <option value="2 opzione" >
+				  {{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}
 
-              2 opzione
-
-            </option>
+				</option>
+			{% endif %}
+            {% endfor %}
 
           </select>
 

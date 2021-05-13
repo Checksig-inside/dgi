@@ -1,0 +1,14 @@
+- name: Titolo 1
+  intro: Vision makes a difference
+  title: Scarcity in the Digital Realm
+  description: latea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus. 
+  img: /assets/img/home/header_homepage.jpg
+  sort_ranking: 1000
+  locale: en
+- name: Titolo 1
+  intro: Vision makes a difference
+  title: Scarcity on the Digital Realm
+  description: latea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Dictum sit amet justo donec enim diam vulputate ut. Eu nisl nunc mi ipsum faucibus.
+  img: /assets/img/home/header_homepage.jpg
+  sort_ranking: 1000
+  locale: it
