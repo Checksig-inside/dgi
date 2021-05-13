@@ -25,14 +25,14 @@ defaults:
     values:
       layout: post
       locale: en
-      permalink: /posts/:title
+      permalink: /:year/:month/:day/:title:output_ext
   - scope:
       path: content/it/_posts/**
       type: posts
     values:
       layout: post
       locale: it
-      permalink: /it/posts/:title
+      permalink: /it/:day/:month/:year/:title:output_ext
   # config pages
   - scope: 
       path: content/en/**
