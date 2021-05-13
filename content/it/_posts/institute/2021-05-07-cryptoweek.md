@@ -15,6 +15,7 @@ categories: ["crypto week"]
 locale: it
 uid: institute-cryptoweek-13
 published: true
+comments: false
 ---
 
 Ospite della puntata il Dott. Francesco Avella, LL.M. che presenta l'Instant-book de Il Sole 24 Ore da lui curato su aspetti fiscali e dichiarazione dei redditi per bitcoin e crypto-asset.
