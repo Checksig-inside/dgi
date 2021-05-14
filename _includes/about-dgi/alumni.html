@@ -55,13 +55,14 @@
 			{% endif %}
 		</ul>
 		{% endif %}
+		<p><a class="thesis-pdf" target="_blank" href="{{ member.pdf }}">DOWNLOAD</a></p>
 	</div>
 		<div class="panel-alumni panel-dx">
 		<h3>{{ member.name }}</h3>
 		<h4 class="text-h4">{{ member.degree }}</h4>
 		<div class="text-team text-small alumni-label">
 		{% if member.thesis %}
-			<p><span class="thesis">{{ member.thesis }}</span><a class="thesis-pdf" target="_blank" href="{{ member.pdf }}">PDF</a></p>
+			<p><span class="thesis">{{ member.thesis }}</span></p>
 			<p><span class="source">{{ member.source }}</span></p>
 			<p><span class="thesis_date">{{ member.thesis_date }}</span></p>
 		{% endif %}

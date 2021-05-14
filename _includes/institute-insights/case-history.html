@@ -2,7 +2,7 @@
 		<div class="view-all"><a href="{{ site.baseurl }}/institute-insights/{{ category[0] | replace: ' ', '-' }}">View All</a></div>
 		<ul id="lightSlider">
 		{% for category in site.categories %}
-			{% if category[0] == 'case history' %}
+			{% if category[0] == 'crypto week' %}
 			{% assign total = 0 %}
 			{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}
@@ -32,7 +32,39 @@
 		</div>
 		<script type="text/javascript">
 	$(document).ready(function() {
-    $("#lightSlider").lightSlider({
+	
+	$("#lightSlider").slick({
+		dots: true,
+		infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+
+  ]
+	  });
+	  
+    $("#lightSliders").lightSlider({
         item: 2,
         autoWidth: false,
         slideMove: 1, // slidemove will be 1 if loop is true

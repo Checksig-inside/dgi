@@ -1311,12 +1311,12 @@ p.text-description{
 	height:450px !important;
 }
 #lightSlider.alumni-slider {
-    height: 180px !important;
+    height: 200px !important;
 }
 
 #lightSlider.alumni-slider h2 {
 	padding-top: 45px;
-    font-size: 25px;
+	font-size: 20px;
     font-weight: 900;
 }
 
@@ -1646,17 +1646,30 @@ h1, .h1 {
 }
 
 #blog-crypto .title-link {
-    width: 100%;
+	width: 100%;
     display: table;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 600;
-    padding: 10px 0px 20px;
-	line-height: 1.2;
+    padding: 10px 0px 10px;
+    line-height: 1.2;
+    min-height: 95px;
+    display: block;
+}
+#blog-crypto div.excerpt-news {
+    min-height: 110px;
 }
 #blog-crypto .text-link {
 	margin-top: 30px;
 }
-
+#blog-crypto div.excerpt-news h2 {
+    margin-top: 0px;
+    font-size: 15px;
+    line-height: 24px;
+}
+#blog-crypto span.date-news {
+    padding-bottom: 5px;
+    display: table;
+}
 #blog-crypto .fa:before {
 	color: #333;
     position: relative;
@@ -1669,6 +1682,14 @@ h1, .h1 {
 }
 #blog-crypto li.active i {
 	display:block;
+}
+.post-section .content .container {
+	max-width:800px;
+}
+.post-content-video iframe {
+
+    width: 100%;
+    height: 420px;
 }
 
 
@@ -1707,6 +1728,87 @@ h1, .h1 {
     font-size: 35px;
     color: #333;
     font-weight: 900;
+}
+
+.slick-dotted.slick-slider {
+    margin: 20px 100px!important;
+}
+
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: black!important;
+}
+.slick-prev:before {
+    content: "\f053"!important;
+    font-family: FontAwesome!important;
+}
+.slick-next:before {
+    content: "\f054"!important;
+    font-family: FontAwesome!important;
+}
+.slick-slide img {
+    display: block;
+    margin: 0px auto;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 30px!important;
+    max-width: 95%!important;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 80px!important;
+    height: 20px!important;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 80px!important;
+    height: 10px!important;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: rgba(255,255,255,0.5 )!important;
+}
+.slick-dots li.slick-active button {
+    background: rgba(255,255,255,1)!important;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: transparent!important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -2166,7 +2268,6 @@ margin-bottom: 30px;
 .alumni-top-slider > div{
     max-width: 80%;
     margin: 0px auto;
-    background: #fcb600;
     border-radius: 45px;
     padding: 20px;
 }
@@ -2182,6 +2283,20 @@ margin-bottom: 30px;
     border-top: 1px solid #fdd365;
 }
 
+.alumni-top-slider #lightSlider {
+    background: #fcb600;
+    border-radius: 20px;
+}
+.alumni-top-slider p.text-description {
+    line-height: 1.2;
+    font-size: 14px;
+}
+.alumni-top-slider .slick-prev {
+    left: -40px;
+}
+.alumni-top-slider .slick-next {
+    right: -40px;
+}
 .alumni-top-slide {
     margin-top: 50px;
 }
@@ -2502,8 +2617,11 @@ h1.about-dgi, p.about-dgi {
     text-align: left;
 }
 a.thesis-pdf {
-    float: right;
-    font-weight: 800;
+    float: none;
+    font-weight: 500;
+    margin: 0px auto;
+    display: table;
+    color: white!important;
 }
 .thesis {
     max-width: 90%;
@@ -2569,6 +2687,8 @@ a.thesis-pdf {
 
 
 @media (min-width: 768px) {
+	
+
 .navtopmenu > li {
     float: left;
     text-transform: uppercase;
@@ -2635,6 +2755,21 @@ p.blog-text{
 }
 
 @media (max-width: 768px){ 
+#lightSlider.alumni-slider {
+    height: 300px !important;
+}
+
+.slick-dotted.slick-slider {
+    margin: 20px 0px!important;
+	width: 100%;
+	padding: 20px;
+}
+.alumni-top-slider > div {
+    max-width: 80%;
+    margin: 0px auto;
+    border-radius: 45px;
+    padding: 20px;
+}
 .container {
     width: 100%!important;
 	max-width: 750px!important;

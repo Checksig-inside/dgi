@@ -16,7 +16,14 @@
         </div>
 		<script type="text/javascript">
 	$(document).ready(function() {
-    $("#lightSlider_loghi").lightSlider({
+		 $("#lightSlider_loghi").slick({
+		dots: true,
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1
+	  });
+  
+    $("#lightSliderloghi").lightSlider({
         item: 4,
         autoWidth: false,
         slideMove: 1, // slidemove will be 1 if loop is true

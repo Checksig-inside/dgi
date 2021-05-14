@@ -21,7 +21,13 @@
 		
 		<script type="text/javascript">
 	$(document).ready(function() {
-    $("#lightSlider").lightSlider({
+	$("#lightSlider").slick({
+		dots: true,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1
+	  });
+    $("#lightSliders").lightSlider({
         item: 1,
         autoWidth: false,
         slideMove: 1, // slidemove will be 1 if loop is true
