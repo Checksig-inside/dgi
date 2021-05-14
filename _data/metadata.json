@@ -5,28 +5,40 @@
   "locale":"en"
 },
 {
-  "uid":"custody",
-  "title":"Custody",
+  "uid":"professional-services",
+  "title":"professional-services",
   "description":"EN -Lorem ipsum dolores",
   "locale":"en"
 },
 {
-  "uid":"institutions",
-  "title":"Institutions",
+  "uid":"industries",
+  "title":"industries",
   "description":"EN -Lorem ipsum dolores",
   "locale":"en"
 },
 {
-  "uid":"why-bitcoin",
-  "title":"Why bitcoin",
+  "uid":"r-d",
+  "title":"r-d",
   "description":"EN -Lorem ipsum dolores",
   "locale":"en"
 },
 {
-  "uid":"company",
-  "title":"Company",
+  "uid":"crypto-insights",
+  "title":"crypto-insights",
   "description":"EN -Lorem ipsum dolores",
   "locale":"en"
+},
+{
+  "uid":"about-dgi",
+  "title":"about-dgi",
+  "description":"EN - Lorem ipsum dolores",
+  "locale":"en"
+},
+{
+  "uid":"institute-insights",
+  "title":"institute-insights",
+  "description":"EN - Lorem ipsum dolores",
+  "locale":"it"
 },
 {
   "uid":"contacts",
@@ -41,26 +53,38 @@
   "locale":"it"
 },
 {
-  "uid":"custody",
-  "title":"Custody",
+  "uid":"professional-services",
+  "title":"professional-services",
   "description":"IT - Lorem ipsum dolores",
   "locale":"it"
 },
 {
-  "uid":"institutions",
-  "title":"Institutions",
+  "uid":"industries",
+  "title":"industries",
   "description":"IT - Lorem ipsum dolores",
   "locale":"it"
 },
 {
-  "uid":"why-bitcoin",
-  "title":"Why bitcoin",
+  "uid":"r-d",
+  "title":"r-d",
   "description":"IT - Lorem ipsum dolores",
   "locale":"it"
 },
 {
-  "uid":"company",
-  "title":"Company",
+  "uid":"crypto-insights",
+  "title":"crypto-insights",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"about-dgi",
+  "title":"about-dgi",
+  "description":"IT - Lorem ipsum dolores",
+  "locale":"it"
+},
+{
+  "uid":"institute-insights",
+  "title":"institute-insights",
   "description":"IT - Lorem ipsum dolores",
   "locale":"it"
 },
