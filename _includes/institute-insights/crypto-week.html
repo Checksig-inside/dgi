@@ -16,8 +16,8 @@
 					 <div class="col-lg-6 col-md-6 text-center">
 					 <div>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-					 <span>{{ post.date | date_to_long_string: "ordinal" }}</span>
-					 <p>{{ post.excerpt }}</p>
+					 <span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
+					 <div class="excerpt-news">{{ post.excerpt }}</div>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
 					 </div>
