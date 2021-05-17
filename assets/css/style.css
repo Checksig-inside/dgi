@@ -2758,7 +2758,6 @@ a.thesis-pdf {
 	
 	
 @media (min-width: 768px) {
-	
 
 .navtopmenu > li {
     float: left;
@@ -2829,7 +2828,14 @@ p.blog-text{
 #lightSlider.alumni-slider {
     height: 300px !important;
 }
-
+.language-selector a {
+	color:white
+}
+.searchbar:before {
+    content: "\f002"!important;
+    font-family: FontAwesome!important;
+    color: white;
+}
 .slick-dotted.slick-slider {
     margin: 20px 0px!important;
 	width: 100%;
