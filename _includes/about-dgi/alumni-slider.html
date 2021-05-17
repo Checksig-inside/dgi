@@ -2,7 +2,6 @@
 		 <div>
 		 <ul id="lightSlider" class="alumni-slider">
 		{% for modulo in site.data.about-alumni  | sort: 'sort_ranking' | reverse %}
-			{% if modulo.locale == page.locale %}
             <li class="text-center">
 			<div class="content-inner">
                 <h2>{{ modulo.name }}</h2>
@@ -13,7 +12,6 @@
 				</p>
             </div>
             </li>
-		{% endif %} 
 		{% endfor %}
 		</ul>
         </div>

@@ -57,7 +57,7 @@
 				<h3>{{ category[0] }} / All </h3>
 			  <div class="loadmore">
 				{% for post in category[1] %}
-					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale  and post.published == true %}
 					 <div class="col-lg-4 col-md-4 text-center">
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
@@ -89,7 +89,7 @@
 			  <h3>{{ category[0] }} / {{ tag[0] }}</h3>
 			  <div class="loadmore">
 				{% for post in tag[1] %}
-					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale %}
+					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale   and post.published == true %}
 					 <div class="col-lg-4 col-md-4 text-center">
 					 <div>
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>

@@ -301,7 +301,12 @@ a#show {
 	padding-left: 20px;
 	margin: 0px;
 }
-
+.language-selector {
+    float: right;
+    padding-left: 20px;
+    margin: 0px;
+    padding: 15px 0px;
+}
 .faq {
 width: 90%;
     border: 0px solid #222;
@@ -2684,8 +2689,74 @@ a.thesis-pdf {
     margin: 0px auto 0px;
 }
 
+#search-results {
+    margin: 0px;
+}
 
+#search-container {
+    position: absolute;
+    background: #fff;
+    z-index: 1000;
+    width: 100%;
+	display:none;
+	transition:.4s; 
+}
+#search-container.active {
+	display:block;
+	transition:.4s; 
+}
+#search-box {
+    font-size: 24px;
+}
+#search-container form {
+    text-align: center;
+}
+.search-label {
+    display: table;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 25px;
+}
+.searchbar:before {
+    content: "\f002"!important;
+    font-family: FontAwesome!important;
+}
+.searchbar{
+	float: right;
+    padding-left: 20px;
+    margin: 0px;
+    padding: 15px 0px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 25px;
+}
+#search-container #search-box {
+    float: left;
+}
 
+#search-container #submit-box {
+    float: left;
+    line-height: 2.2;
+    background: #fcb600;
+    padding: 0px 20px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+    margin-left: 10px;
+    border: 0px solid;
+}
+
+#search-container .form-container {
+    display: table;
+    float: none;
+    margin: 25px auto;
+}
+	
+	
 @media (min-width: 768px) {
 	
 

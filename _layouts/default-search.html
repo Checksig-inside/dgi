@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+	{% include head-dgi.html %}
+	{% include header-dgi.html %}
+	{% include script-dgi.html %}
+	<body>
+	<section id="title" class="section-global-wrapper"> 
+		<div class="content">
+		{{ page.locale }}
+			{{ content }}
+		</div>
+	</section> 
+	 {% include footer-dgi.html %}
+	</body>
+</html>

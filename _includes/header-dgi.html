@@ -1,10 +1,5 @@
 <!-- Header -->
 <nav id="navbar-section" class="navbar navbar-default navbar-static-top navbar-sticky" role="navigation">
-  <div class="container container-top">
-    <div class="masthead-title">
-	{% include language-selector.html %}
-	</div>
-  </div>
 <div class="container menu-container" style="width: 100%;border-top: 4px solid #fcb600;">
   <div class="inner-content">
   <div class="navbar-header">
@@ -19,7 +14,7 @@
 
   <div id="navbar-spy" class="collapse navbar-collapse navbar-responsive-collapse">
 
-    <ul class="nav navbar-nav navtopmenu pull-right">
+    <ul class="nav navbar-nav navtopmenu pull-left">
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for item in site.data.settings.menu[page.locale] %}
 		<li class="dropdown li-{{ item.uid }}">
@@ -33,9 +28,13 @@
 			</ul>
 		</li>
 		{% endfor %}
-    </ul> 
+    </ul>
+	{% include language-selector.html %}
+	<div class="searchbar">&nbsp;</div>
+
   </div>
   </div>
   </div>
 </nav>
+{% include search.html %}
 <!-- End Header -->

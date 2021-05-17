@@ -1,0 +1,29 @@
+<div id="search-container">
+<form action="" method="get">
+  <div class="form-container">
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="{{site.data.locales[page.locale].glossary['search']}}" id="submit-box">
+  </div>
+</form>
+
+<ul id="search-results"></ul>
+</div>
+<script>
+  window.store = {
+    {% for post in site.posts %}
+		{% if post.locale == page.locale %} 
+		  "{{ post.url | slugify }}": {
+			"title": "{{ post.title | xml_escape }}",
+			"author": "{{ post.author | xml_escape }}",
+			"category": "{{ post.category | xml_escape }}",
+			"content": {{ post.content | strip_html | strip_newlines | jsonify }},
+			"img-list": {{ post.img-list | strip_html | strip_newlines | jsonify }},
+			"url": "{{ post.url | xml_escape }}"
+		  }
+		  {% unless forloop.last %},{% endunless %}
+		{% endif %}
+    {% endfor %}
+  };
+</script>
+<script src="{{ site.baseurl }}/assets/js/lunr.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>

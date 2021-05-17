@@ -60,102 +60,128 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.simpleLoadMore.js"></script>
 <script>
 $(document).ready(function(){
-  $("#show").click(function(){
-    $(".alert").toggle();
-  });
+	let searchParams = new URLSearchParams(window.location.search);
+	console.log(searchParams.has('query'));
+	
+	if (searchParams.has('query')) {
+		$('#search-container').toggleClass( "active" );
+	}
+	
+	$("#show").click(function(){
+		$(".alert").toggle();
+	});
     $( "a.scrollLink" ).click(function( event ) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);
     });
+	
 	$( ".btn-info" ).click(function() {
-  $( this ).parent().find('.description').toggle();
-  $( this ).parent().toggleClass( "active" );
-});
+	  $( this ).parent().find('.description').toggle();
+	  $( this ).parent().toggleClass( "active" );
+	});
 
-$('.loadmore').simpleLoadMore({
-  item: 'div.col-lg-4',
-  count: 6,
-  counterInBtn: false,
-  btnText: 'View More',
-});
-$('#custody').simpleLoadMore({
-  item: 'div.container',
-  count: 2,
-  counterInBtn: false,
-  btnText: 'View More',
-});
-$('#moduli .row.padding').simpleLoadMore({
-  item: 'div.col-lg-6',
-  count: 6,
-  counterInBtn: false,
-  btnText: 'View More',
-});
-$( "#industries-row .content-inner" ).mouseover(function( event ) {
-	$( "#industries-row .content-inner" ).removeClass('active');
-	$( this ).addClass('active');
-});
-$( "#industries-row .content-inner" ).mouseout(function( event ) {
-	$( "#industries-row .content-inner" ).removeClass('active');
-});
-$( "#moduli.moduli-child .module-custody" ).mouseover(function( event ) {
-	$( "#moduli .module-custody" ).removeClass('active');
-	$( this ).addClass('active');
-});
-$( "#moduli.moduli-child .module-custody" ).mouseout(function( event ) {
-	$( "#moduli .module-custody" ).removeClass('active');
-});
-$('#form').submit(function(event) {
-   var field1 = $('#firstname').val();
-   var field2 = $('#lastname').val();
-   var field3 = $('#email').val();
-   var field4 = $('#phone').val();
-   var field5 = $('#company').val();
-   var field6 = $('#message').val();
-   var field7 = $("#privacy").val();
-  event.preventDefault();
-  console.log('submit');
-  $('#feedback').html('');
-  setTimeout(function() {
-  	// Get data
-    var data = {
-       "entry.2005620554": field1,
-       "entry.449231263": field2,
-       "entry.1045781291": field3,
-       "entry.1166974658": field4,
-       "entry.1851324921": field5,
-       "entry.839337160": field6
-    };
-  console.log(data);
-    // Validate form
-    var formSuccess = true;
-    Object.keys(data).forEach(function(key, index) {
-      if (!data[key]) {
-        formSuccess = false;
-        $('#feedback').html('<label class="text-danger">Please complete all fields</label>');
-      }
-    });
+	$( ".searchbar" ).click(function() {
+	  $('#search-container').toggleClass( "active" );
+	});
 
-    if (formSuccess) {
-	console.log('submit');
-      // Send request
-      $.ajax({
-        url: 'https://docs.google.com/forms/d/e/1dUs7ZZ1zgyMgkZTtN2EIZuErTvYJapgXqkLymeWNf2w/formResponse',
-        type: 'POST',
-        crossDomain: true,
-        dataType: "xml",
-        data: data,
-        success: function(jqXHR, textStatus, errorThrown) {
-          console.log('Enter on success');
-          $('#feedback').html('<label class="text-success">Message sent!</label>');
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-          console.log('Enter on error');
-          $('#feedback').html('<label class="text-success">Message sent!</label>');
-        }
-      });
-    }
-  }, 300);
-});
+	$('.loadmore').simpleLoadMore({
+	  item: 'div.col-lg-4',
+	  count: 6,
+	  counterInBtn: false,
+	  btnText: 'View More',
+	});
+	
+	$('#custody').simpleLoadMore({
+	  item: 'div.container',
+	  count: 2,
+	  counterInBtn: false,
+	  btnText: 'View More',
+	});
+	
+	$('#search-results').simpleLoadMore({
+	  item: 'li',
+	  count: 6,
+	  counterInBtn: false,
+	  btnText: 'View More',
+	});
+	
+	$('#moduli .row.padding').simpleLoadMore({
+	  item: 'div.col-lg-6',
+	  count: 6,
+	  counterInBtn: false,
+	  btnText: 'View More',
+	});
+	
+	$( "#industries-row .content-inner" ).mouseover(function( event ) {
+		$( "#industries-row .content-inner" ).removeClass('active');
+		$( this ).addClass('active');
+	});
+	
+	$( "#industries-row .content-inner" ).mouseout(function( event ) {
+		$( "#industries-row .content-inner" ).removeClass('active');
+	});
+	
+	$( "#moduli.moduli-child .module-custody" ).mouseover(function( event ) {
+		$( "#moduli .module-custody" ).removeClass('active');
+		$( this ).addClass('active');
+	});
+	
+	$( "#moduli.moduli-child .module-custody" ).mouseout(function( event ) {
+		$( "#moduli .module-custody" ).removeClass('active');
+	});
+	
+	$('#form').submit(function(event) {
+	   var field1 = $('#firstname').val();
+	   var field2 = $('#lastname').val();
+	   var field3 = $('#email').val();
+	   var field4 = $('#phone').val();
+	   var field5 = $('#company').val();
+	   var field6 = $('#message').val();
+	   var field7 = $("#privacy").val();
+	  event.preventDefault();
+	  console.log('submit');
+	  $('#feedback').html('');
+	  setTimeout(function() {
+		// Get data
+		var data = {
+		   "entry.2005620554": field1,
+		   "entry.449231263": field2,
+		   "entry.1045781291": field3,
+		   "entry.1166974658": field4,
+		   "entry.1851324921": field5,
+		   "entry.839337160": field6
+		};
+	  console.log(data);
+		// Validate form
+		var formSuccess = true;
+		Object.keys(data).forEach(function(key, index) {
+		  if (!data[key]) {
+			formSuccess = false;
+			$('#feedback').html('<label class="text-danger">Please complete all fields</label>');
+		  }
+		});
+
+		if (formSuccess) {
+		console.log('submit');
+		  // Send request
+		  $.ajax({
+			url: 'https://docs.google.com/forms/d/e/1dUs7ZZ1zgyMgkZTtN2EIZuErTvYJapgXqkLymeWNf2w/formResponse',
+			type: 'POST',
+			crossDomain: true,
+			dataType: "xml",
+			data: data,
+			success: function(jqXHR, textStatus, errorThrown) {
+			  console.log('Enter on success');
+			  $('#feedback').html('<label class="text-success">Message sent!</label>');
+			},
+			error: function(jqXHR, textStatus, errorThrown) {
+			  console.log('Enter on error');
+			  $('#feedback').html('<label class="text-success">Message sent!</label>');
+			}
+		  });
+		}
+	  }, 300);
+	});
 
 });
 

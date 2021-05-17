@@ -10,6 +10,7 @@ subtitle: Cos’è Bitcoin
 subdesc: l'emergere della scarsità in ambito digitale.
 description: 
 date:   2021-05-06
+published: true
 img-list: /assets/img/pillar/dgi-pillar1-header.jpg
 img-detail: /assets/img/pillar/dgi-pillar1-header.jpg
 parent-category: crypto-insights
@@ -36,8 +37,8 @@ notarizzazione-titolo: "Applicazione della blockchain: la notarizzazione"
 notarizzazione-txt-top: "Il sistema di sicurezza che impedisce la manipolazione della transazione bitcoin garantisce anche l’immutabilità e la datazione (marcatura temporale) non ripudiabile dell’hash-value. L’hash-value di una base dati, cioè un identificativo equivalente ad una univoca impronta digitale, viene associato ad una transazione bitcoin, come se venisse scritto nel campo “causale” della transazione. <br><br>La notarizzazione è l’implicita certificazione dell’esistenza di quella base dati, e ne consente la pubblica verifica di mancata alterazione e di datazione.<br><br>Esiste anche un protocollo aperto, OpenTimestamps, che definisce uno standard di notarizzazione estremamente scalabile che non impatta negativamente sul funzionamento del network bitcoin. <br><br>La notarizzazione può sembrare banale... in realtà è molto potente poiché nel futuro il mondo potrebbe “parassitare” la sicurezza di bitcoin per mettere in sicurezza tutte le basi dati ed altri sistemi transazionali: ha quindi una applicazione industriale. Se bitcoin è oro digitale, la notarizzazione è l’equivalente della gioielleria: inessenziale per l’oro, ma efficacissima nel mostrarne la bellezza."
 partner-titolo: Perché affidarsi a DGI come partner consulenziale
 partner-txt-top: "Bitcoin combina in maniera inedita e creativa elementi di crittografia, teoria monetaria ed economica, sistemi distribuiti e teoria dei giochi: Bitcoin è un esperimento ardito che potrebbe ancora fallire, ma culturalmente fondato e tecnologicamente robusto.<br><br>La sua resilienza sta convincendo un numero crescente di persone che l’esperimento possa aver successo, ma il fenomeno Bitcoin è finora frainteso nelle sue caratteristiche e ambizioni anche dalle autorità di regolamentazione.<br><br>Il Digital Gold Institute promuove queste tematiche nel dibattito pubblico e nel mondo accademico attraverso ricerca e sviluppo, formazione, consulenza operativa e strategica dal 2018, affermandosi il principale think tank italiano dedicato al fenomeno Bitcoin inteso come esperimento per la creazione della scarsità in ambito digitale.<br><br>In partnership con l’Università degli Studi di Milano-Bicocca, DGI è membro fondatore del Crypto Asset Lab, la cui conferenza annuale è co-organizzata assieme alla direzione generale Joint Research Center (JRC) della Commissione Europea<br><br>L’attività di divulgazione curata anche personalmente dal fondatore dell’Istituto Ferdinando Ametrano, professore di “Bitcoin e Blockchain” all’Università Milano Bicocca, mira proprio a promuovere l’informazione sulla vera natura di Bitcoin, la sua rilevanza in questo momento storico e culturale per la storia della moneta ed il diritto alla privacy, a favore del contrasto ai criminali che utilizzassero bitcoin per truffe o frodi.<br><br>Siamo di fronte a un cambiamento di paradigma culturale, non ad una semplice innovazione tecnologica. Ed è per questo che occorre valutare l’applicabilità di progetti ed investimenti con partner affidabili, garantiti da credenziali istituzionali e riconoscibilità accademica, tra i quali si distingue il Digital Gold Institute."
-cta-img: /assets/img/pillar/dgi-spazio cta1.jpg
-cta-link: https://link.it
+cta-img: /assets/img/pillar/DGI-CTA1-report-2020Q1_B02.jpg
+cta-link: #
 
 
 
