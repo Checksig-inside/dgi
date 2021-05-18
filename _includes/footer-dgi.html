@@ -82,6 +82,23 @@ $(document).ready(function(){
 	$("#show").click(function(){
 		$(".alert").toggle();
 	});
+	$(".choose-day").change(function(){
+		var selectedDay = $(this).children("option:selected").val();
+		$(this).parent().find('input').val(selectedDay);
+	});	
+	
+	$('.field-module').change(function( event ) {
+		var opt_select = '';
+		$('.field-module').each(function() 
+		{    
+			if($(this).is(':checked'))
+			  opt_select += $(this).val() + ',';
+		});
+		console.log(opt_select.slice(0,-1));
+		$(this).parent().parent().find('input[data-name=\'select_modules\']').val();
+		$(this).parent().parent().find('input[data-name=\'select_modules\']').val(opt_select.slice(0,-1));
+	});	
+	
     $( "a.scrollLink" ).click(function( event ) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 500);

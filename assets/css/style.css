@@ -1661,6 +1661,9 @@ h1, .h1 {
     min-height: 130px;
     display: block;
 }
+.quarterly-form ._form-thank-you {
+	color: white!important;
+}
 #blog-crypto div.excerpt-news {
     min-height: 110px;
 }
@@ -2872,6 +2875,28 @@ p.blog-text{
   width: 100px;
 }
 
+.float-right .fa:before {
+    color: #333;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+	position: relative;
+    top: 1px;
+}
+.float-right  {
+    float:right;
+	
+}
+.bcrumbs .float-right span {
+    font-weight: 800;
+}
+.contact-header .row.celeste {
+
+    max-width: 100%;
+
+}
 @media (max-width: 768px){ 
 .pull-left {
     float: none !important;

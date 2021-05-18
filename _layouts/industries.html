@@ -8,8 +8,20 @@
 	<section id="title-child-section" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
 			<div class="row celeste">
-			<div class="bcrumbs "><span>INDUSTRIES / </span></div>
-			</div>
+				<div class="bcrumbs ">
+					{% if page.locale == 'en' %}
+					<a class="navlabel " href="{{ site.baseurl }}"><span class="nav-label">HOME</span></a> <span>/</span>
+					{% else %}
+					<a class="navlabel " href="{{ site.baseurl }}/{{ page.locale  }}"><span class="nav-label">HOME</span></a> <span>/</span>
+					{% endif %}	
+					<span><b>{{ page.title }}</b></span>
+					{% if page.locale == 'en' %}
+					<a class="navlabel float-right " href="{{ site.baseurl }}"><span class="nav-label"><i class="fa fa-angle-left"></i> BACK</span></a>
+					{% else %}
+					<a class="navlabel float-right" href="{{ site.baseurl }}/{{ page.locale  }}"><span class="nav-label"><i class="fa fa-angle-right"></i> BACK</span></a>
+					{% endif %}	
+				</div>
+			</div>		
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
 					<!-- - img-->
