@@ -3,7 +3,7 @@ layout: institute-insights_child
 title: Events
 header: Institute insights
 locale: it
-uid: institute-insights-news
+uid: institute-insights-events
 slider: /assets/img/institute_insights/header_institute.jpg
 sub-header: /assets/img/support/img_bitcoin.jpg
 permalink: /it/institute-insights/events.html
@@ -12,6 +12,7 @@ description: it -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 img: https://via.placeholder.com/250x250
 page-category: institute-insights
 posts-category: events
+published: true
 sort_ranking: 1000
 ---
 

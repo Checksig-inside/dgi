@@ -1031,7 +1031,8 @@ p.scrolldown .logo{
 }
 
 .dropdown.li-contact a.navlabel {
-    background: #fdd365;
+    background: #fcb600;
+	background-color: #fcb600!important;
     padding: 15px 40px;
     color: #000;
     text-transform: uppercase;
@@ -1044,7 +1045,7 @@ p.scrolldown .logo{
 }
 
 .navbar-nav a, .navbar-nav a:hover, .navbar-nav a:focus {
-    background-color: transparent;
+    background-color: transparent!important;
 }
 .navbar-nav > li > .dropdown-menu {
     margin-top: 0;
@@ -1170,7 +1171,7 @@ p.text-description{
 	color:white;
 }
 #institution-sections img {
-    max-width: 100px;
+    max-width: 75%;
 }
 #institution-sections .lSPager.lSpg {
 	display:none;
@@ -1237,8 +1238,8 @@ p.text-description{
     margin: 0px auto;
 	border-radius: 20px;
 }
-#lightSlider {
-
+#lightSlider_loghi li a {
+    display: inline-block;
 }
 .lSAction > .lSNext {
     background-position: -32px 0;
@@ -1316,7 +1317,7 @@ p.text-description{
 	height:450px !important;
 }
 #lightSlider.alumni-slider {
-    height: 200px !important;
+    height: 220px !important;
 }
 
 #lightSlider.alumni-slider h2 {
@@ -2284,6 +2285,38 @@ margin-bottom: 30px;
     background-repeat: no-repeat;
 }
 
+.alumni-top-slider #lightSlider .slick-dots li {
+	height: 40px!important;
+    background-image: none;
+    background-size: auto;
+    background-position: center 15px;
+    background-repeat: no-repeat;
+}
+
+.alumni-top-slider #lightSlider .slick-dots li {
+    width: 49px!important;
+    height: 20px!important;
+}
+.alumni-top-slider #lightSlider .slick-dots li a {
+    width: 49px!important;
+    height: 20px!important;
+}
+
+.alumni-top-slider #lightSlider .slick-dots li button {
+    width: 50px!important;
+    height: 10px!important;
+}
+.alumni-top-slider #lightSlider .slick-dots {
+    position: absolute;
+    bottom: 5px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    width: 90%;
+}
 .section-alumni {
     border-top: 1px solid #fdd365;
 }
@@ -2700,6 +2733,7 @@ a.thesis-pdf {
     width: 100%;
 	display:none;
 	transition:.4s; 
+	z-index: 100;
 }
 #search-container.active {
 	display:block;
@@ -2757,6 +2791,20 @@ a.thesis-pdf {
 }
 	
 	
+@media (min-width: 1600px) {
+.top.top-home {
+	width: 100%!important;
+    padding-right: 0px;
+    max-width: 1300px;
+}
+.home-content-inner {
+    width: 50%;
+	margin: 0px;
+}
+p.scrollhome {
+    top: 370px;
+}
+}
 @media (min-width: 768px) {
 
 .navtopmenu > li {
@@ -2825,6 +2873,38 @@ p.blog-text{
 }
 
 @media (max-width: 768px){ 
+.pull-left {
+    float: none !important;
+    margin: 0px;
+    padding: 10px;
+}
+
+#search-results {
+    margin: 0px;
+    padding: 15px;
+}
+#search-container #search-box {
+    float: none;
+}
+#search-container #submit-box {
+    float: none;
+    margin-top: 15px;
+}
+
+#home-sliders .lSAction > .lSNext {
+    background-position: -32px 0;
+    right: 0px!important;
+}
+#home-sliders .lSAction > .lSPrev {
+    background-position: 0 0;
+    left: 0px!important;
+}
+.slick-next {
+    right: 5px!important;
+}
+.slick-prev {
+    left: 5px!important;
+}
 #lightSlider.alumni-slider {
     height: 300px !important;
 }
@@ -3013,9 +3093,10 @@ li.nav-children-bar {
     display: none;
 }
 #navbar-spy{
-    position: absolute;
+	position: absolute;
     background: rgba(0, 0, 20, 0.8);
-    width: 90%;
+    width: 100%;
+    left: 0px;
 }
 #navbar-spy ul {
     width: 100%;
@@ -3036,8 +3117,8 @@ li.nav-children-bar {
 .dropdown.li-contact a.navlabel {
     padding: 15px 5px;
     border-radius: 4px;
-    font-size: 15px;
-	background: transparent;
+    font-size: 14px;
+	background: transparent!important;
 	text-transform:unset;
 }
 .middle-home .middle {
@@ -3064,7 +3145,7 @@ li.nav-children-bar {
     margin-bottom: 20px;
 }
 #banner-intesa {
-    margin-left: 0px;
+    margin-left: 15px;
     margin-top: 30px;
 }
 

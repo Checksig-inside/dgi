@@ -10,6 +10,7 @@ uid: assets-management
 permalink: /it/industries/assets-management/
 locale: it
 page-category: industries
+published: true
 sort_ranking: 800
 ---
 

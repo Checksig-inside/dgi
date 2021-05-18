@@ -12,6 +12,7 @@ uid: ots
 permalink: /r-d/ots/
 locale: en
 page-category: r-d
+published: true
 sort_ranking: 800
 ---
 

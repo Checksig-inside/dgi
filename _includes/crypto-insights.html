@@ -3,7 +3,7 @@
 {% assign tcat = 1 %}
 {% assign class = 'active' %}
 <ul class="nav nav-pills">
-<li class="cat-tab all" id="all" style="display:none"><a href="#all">All</a><i class="fa fa-angle-down"></i></li>
+<li class="cat-tab all" id="all" style="display:none"><a href="#all">{{site.data.locales[page.locale].glossary['all']}}</a><i class="fa fa-angle-down"></i></li>
 {% for cat in cats %}
 <li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a><i class="fa fa-angle-down"></i></li>
 {% assign tcat = tcat | plus: 1 %}
@@ -19,7 +19,7 @@
 	{% if category[0] == cat %}
 		{% assign total = 0 %}
 		{% for post in category[1] %}
-			{% if post.parent-category == 'crypto-insights' %}
+			{% if post.parent-category == 'crypto-insights' and post.locale == page.locale and post.published == true %}
 			{% assign total = total | plus: 1 %}
 			{% endif %}
 		{% endfor %}
@@ -28,7 +28,7 @@
 	
 		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} {{ catactive }}">
 			<ul class="nav nav-pills">
-				<li class="tab-pane active"><a  href="#1-{{ catslug }}" data-toggle="tab">All</a><i class="fa fa-angle-down"></i></li> 
+				<li class="tab-pane active"><a  href="#1-{{ catslug }}" data-toggle="tab">{{site.data.locales[page.locale].glossary['all']}}</a><i class="fa fa-angle-down"></i></li> 
 				{% assign t = 2 %}
 				{% assign class = 'active' %}
 
@@ -36,7 +36,7 @@
 			  
 				{% assign total2 = 0 %}
 				{% for post in tag[1] %}
-				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] and post.locale == page.locale and post.published == true %}
 				{% assign total2 = total2 | plus: 1 %}
 				{% endif %}
 				{% endfor %}
@@ -54,7 +54,7 @@
 		{% if total != 0 %}
 			<div class="tab-content clearfix ">
 			<div class="tab-pane active" id="1-{{ catslug }}">
-				<h3>{{ category[0] }} / All </h3>
+				<h3>{{ category[0] }} / {{site.data.locales[page.locale].glossary['all']}} </h3>
 			  <div class="loadmore">
 				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'crypto-insights' and post.locale == page.locale  and post.published == true %}
@@ -79,7 +79,7 @@
 			  
 				{% assign total2 = 0 %}
 				{% for post in tag[1] %}
-				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] %}
+				{% if post.parent-category == 'crypto-insights' and category[0] == post.categories[2] and post.locale == page.locale   and post.published == true %}
 				{% assign total2 = total2 | plus: 1 %}
 				{% endif %}
 				{% endfor %}

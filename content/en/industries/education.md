@@ -11,6 +11,7 @@ uid: education
 permalink: /industries/education/
 locale: en
 page-category: industries
+published: true
 sort_ranking: 600
 ---
 

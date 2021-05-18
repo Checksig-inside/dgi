@@ -12,6 +12,7 @@ uid: btclib
 permalink: /it/r-d/btclib/
 locale: it
 page-category: r-d
+published: true
 sort_ranking: 1000
 ---
 

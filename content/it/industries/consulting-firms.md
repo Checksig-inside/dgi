@@ -10,6 +10,7 @@ uid: consulting-firms
 permalink: /it/industries/consulting-firms/
 locale: it
 page-category: industries
+published: true
 sort_ranking: 700
 ---
 

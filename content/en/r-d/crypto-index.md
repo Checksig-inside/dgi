@@ -13,6 +13,7 @@ uid: crypto-index
 permalink: /r-d/crypto-index/
 locale: en
 page-category: r-d
+published: true
 sort_ranking: 1000
 ---
 

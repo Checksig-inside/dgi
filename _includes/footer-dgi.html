@@ -8,8 +8,20 @@
 				{% include social-icons.html %}
 			</div>
 			<div class="col-lg-6 col-md-6 text-right">
-				<p class="textlink"><a href="#">Privacy policy</a></p>
-				<p class="textlink"><a href="#">Company Info</a></p>
+				<p class="textlink">
+				{% if page.locale == 'en' %} 
+						<a href="{{ site.baseurl }}/privacy.html">Privacy Policy</a>
+					{% else if %} 
+						<a href="{{ site.baseurl }}/it/privacy.html">Privacy</a>
+					{% endif %} 
+				</p>
+				<p class="textlink">
+					{% if page.locale == 'en' %} 
+						<a href="{{ site.baseurl }}/contact.html">Contact</a>
+					{% else if %} 
+						<a href="{{ site.baseurl }}/it/contact.html">Contatti</a>
+					{% endif %} 
+				</p>
 			</div>
 		</div>
 	</div>
@@ -82,6 +94,7 @@ $(document).ready(function(){
 
 	$( ".searchbar" ).click(function() {
 	  $('#search-container').toggleClass( "active" );
+	  $('#navbar-spy').removeClass( "in" );
 	});
 
 	$('.loadmore').simpleLoadMore({

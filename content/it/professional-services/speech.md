@@ -14,6 +14,7 @@ sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 locale: it
 page-tag: secmid
 page-category: professional-services
+published: true
 sort_ranking: 700
 ---
 

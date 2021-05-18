@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Consulting
-header: Professional services/Consulting
+header: Consulting
 tag: consulting
 uid: consulting
 locale: en
@@ -18,6 +18,7 @@ sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 permalink: /professional-services/consulting/
 claim: Get in touch with us
 class: middle-home
+published: true
 sort_ranking: 1000
 ---
 

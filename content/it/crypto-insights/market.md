@@ -12,6 +12,7 @@ description: it -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 img: https://via.placeholder.com/250x250
 page-category: crypto-insights
 posts-category: market
+published: true
 sort_ranking: 1000
 ---
 

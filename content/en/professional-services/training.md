@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Training
-header: Professional services/Training
+header: Training
 tag: training
 uid: training
 subdesc: EN -Lorem ipsum dolores
@@ -13,6 +13,7 @@ permalink: /professional-services/training/
 locale: en
 page-tag: secmid
 page-category: professional-services
+published: true
 sort_ranking: 900
 ---
 

@@ -12,6 +12,7 @@ uid: cal
 permalink: /it/r-d/cal/
 locale: it
 page-category: r-d
+published: true
 sort_ranking: 700
 ---
 

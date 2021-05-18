@@ -62,11 +62,13 @@
 	{% if page.uid == 'training' %} 
 			{% include pservices.html %}
 	{% endif %}
+	{% if page.uid != 'partnership' %} 
 		<div class="row">
 			<div class="col-lg-12 col-md-12 text-center back-{{ page.uid }}">
 				<p class="text-description ">{{ page.description }}</p>
 			</div>
 		</div>
+	{% endif %}
 		</div>
 	</section>
 	{% if page.uid != 'training' %} 

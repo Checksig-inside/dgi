@@ -1,7 +1,7 @@
 ---
 layout: professional-services_child
 title: Speech
-header: Professional services/Speech
+header: Speech
 tag: speech
 uid: speech
 subdesc: EN -Lorem ipsum dolores
@@ -14,6 +14,7 @@ sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 locale: en
 page-tag: secmid
 page-category: professional-services
+published: true
 sort_ranking: 700
 ---
 

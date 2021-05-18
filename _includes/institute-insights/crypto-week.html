@@ -1,7 +1,6 @@
 		<div class="row padding">
 		{% for category in site.categories %}
 			{% if category[0] == 'crypto week' %}
-			<div class="view-all"><a href="{{ site.baseurl }}/institute-insights/{{ category[0] | replace: ' ', '-' }}">View All</a></div>
 			{% assign total = 0 %}
 			{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}
@@ -9,6 +8,14 @@
 			{% endif %}
 			{% endfor %}
 			{% if total != 0 %}
+			<div class="view-all">
+				{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+				{% for section in folder1 %}
+					{% if section.locale == page.locale and section.posts-category == 'crypto week' %}
+					<a href="{{ site.baseurl }}{{ section.permalink }}">View All</a>
+					{% endif %}
+				{% endfor %}
+			</div>
 				{% assign limit = 1 %}
 				{% for post in category[1] %}
 					

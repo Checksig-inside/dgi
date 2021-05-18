@@ -21,7 +21,7 @@
 		<a class="navlabel {% if page.uid == item.uid %} active {% endif %}" href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a><a "#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
 				{% for subitem in folder1 %}
-				{% if subitem.locale == page.locale and subitem.page-category == item.uid %} 
+				{% if subitem.locale == page.locale and subitem.page-category == item.uid and subitem.published == true %} 
 						<li><a class="{% if page.uid == subitem.uid %} active {% endif %}" href="{{ site.baseurl }}{{ subitem.permalink }}">{{ subitem.title }}</a></li>
 				{% endif %} 
 				{% endfor %}

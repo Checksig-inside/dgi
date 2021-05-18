@@ -13,6 +13,7 @@ uid: vision
 permalink: /it/about-dgi/vision/
 locale: it
 page-category: about-dgi
+published: true
 sort_ranking: 1000
 ---
 

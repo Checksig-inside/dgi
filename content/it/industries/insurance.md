@@ -10,6 +10,7 @@ uid: insurance
 permalink: /it/industries/insurance/
 locale: it
 page-category: industries
+published: true
 sort_ranking: 900
 ---
 

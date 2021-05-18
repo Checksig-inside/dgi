@@ -1,8 +1,5 @@
-		<div class="row padding">
-		<div class="view-all"><a href="{{ site.baseurl }}/institute-insights/{{ category[0] | replace: ' ', '-' }}">View All</a></div>
-		<ul id="lightSlider">
 		{% for category in site.categories %}
-			{% if category[0] == 'crypto week' %}
+			{% if category[0] == 'case history' %}
 			{% assign total = 0 %}
 			{% for post in category[1] %}
 			{% if post.parent-category == 'institute-insights' %}
@@ -10,8 +7,25 @@
 			{% endif %}
 			{% endfor %}
 			{% if total != 0 %}
+		<section id="case-history"  class="blog-panel case-history institute-insights">
+			<div class="container">
+				<div class="row">
+					<h3>Our case history</h3>
+				</div>
+				<div class="row padding">
+				<div class="view-all">
+				{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+				{% for section in folder1 %}
+					{% if section.locale == page.locale and section.posts-category == 'crypto week' %}
+					<a href="{{ site.baseurl }}{{ section.permalink }}">View All</a>
+					{% endif %}
+				{% endfor %}
+				
+				</div>
+				<ul id="lightSlider">
+				{% assign t = 1 %}
 				{% for post in category[1] %}
-					
+					{% if t <= 4 %}
 					{% if post.parent-category == 'institute-insights' and post.locale == page.locale %}
 					 <li class="text-center">
 					 <div>
@@ -21,15 +35,17 @@
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
 					 </li>
+					{% assign t = t | plus: 1 %}
 					{% endif %}
-					
-					
+					{% endif %}
 				{% endfor %}
+				</ul>
+				</div>
+			</div>
+		</section>
 			{% endif %}
 			{% endif %}
 		{% endfor %}
-		</ul>
-		</div>
 		<script type="text/javascript">
 	$(document).ready(function() {
 	

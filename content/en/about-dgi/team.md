@@ -12,6 +12,7 @@ uid: team
 permalink: /about-dgi/team/
 locale: en
 page-category: about-dgi
+published: true
 sort_ranking: 900
 ---
 

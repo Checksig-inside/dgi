@@ -12,6 +12,7 @@ description: it -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 img: https://via.placeholder.com/250x250
 page-category: institute-insights
 posts-category: 'crypto week'
+published: true
 sort_ranking: 800
 ---
 

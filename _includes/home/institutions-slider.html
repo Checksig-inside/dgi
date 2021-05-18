@@ -1,5 +1,5 @@
         <div class="row padding insights-title" style="margin-top: 20px;">
-			<h2>Insights</h2>
+			<h2>Partnership</h2>
 		</div>
         <div class="row padding" style="margin-top: 20px;">
 		<ul id="lightSlider_loghi">
@@ -7,7 +7,7 @@
 		{% if modulo.locale == page.locale %} 
             <li class="text-center">
                 <a href="{{ modulo.url }}" target="_blank"><img class="mx-auto rounded-circle" src="{{ site.baseurl }}{{ modulo.img }}"
-                    alt="{{ modulo.name }}" title="{{ modulo.name }}" width=130>
+                    alt="{{ modulo.name }}" title="{{ modulo.name }}">
                 </a>
             </li>
 			{% endif %} 
@@ -17,11 +17,35 @@
 		<script type="text/javascript">
 	$(document).ready(function() {
 		 $("#lightSlider_loghi").slick({
-		dots: true,
-		infinite: true,
-		slidesToShow: 4,
-		slidesToScroll: 1
-	  });
+			dots: true,
+			infinite: true,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			responsive: [
+			{
+				breakpoint: 1024,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1
+				}
+			}
+
+			]
+		  });
   
     $("#lightSliderloghi").lightSlider({
         item: 4,

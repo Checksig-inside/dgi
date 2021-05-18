@@ -12,6 +12,7 @@ uid: alumni
 permalink: /about-dgi/alumni/
 locale: en
 page-category: about-dgi
+published: true
 sort_ranking: 700
 ---
 

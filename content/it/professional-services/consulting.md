@@ -20,6 +20,7 @@ slider: /assets/img/home/bg_consulting.jpg
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 permalink: /it/professional-services/consulting/
 class: middle-home
+published: true
 sort_ranking: 1000
 ---
 

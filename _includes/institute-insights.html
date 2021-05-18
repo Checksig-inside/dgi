@@ -3,7 +3,7 @@
 {% assign tcat = 1 %}
 {% assign class = '' %}
 <ul class="nav nav-pills">
-<li class="cat-tab all active" id="all"><a href="#all">All</a><i class="fa fa-angle-down"></i></li>
+<li class="cat-tab all active" id="all"><a href="#all">{{site.data.locales[page.locale].glossary['all']}}</a><i class="fa fa-angle-down"></i></li>
 {% for cat in cats %}
 <li class="cat-tab {{ class }}" id="{{ cat | replace: ' ', '-' }}"><a href="#{{ cat }}">{{ cat }}</a><i class="fa fa-angle-down"></i></li>
 {% assign tcat = tcat | plus: 1 %}
@@ -13,7 +13,7 @@
 </div>
 <div class="row padding data-cat">
 <div id="cat-all" class="tabcat cat-all active">
-		<h3> / All </h3>
+		<h3> / {{site.data.locales[page.locale].glossary['all']}} </h3>
 		<div class="loadmore">
 		{% for post in site.posts  %}
 			{% if post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true %}
@@ -35,7 +35,7 @@
 	{% if category[0] == cat %}
 		{% assign total = 0 %}
 		{% for post in category[1] %}
-			{% if post.parent-category == 'institute-insights' %}
+			{% if post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true %}
 			{% assign total = total | plus: 1 %}
 			{% endif %}
 		{% endfor %}

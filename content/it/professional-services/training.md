@@ -13,6 +13,7 @@ permalink: /it/professional-services/training/
 locale: it
 page-tag: secmid
 page-category: professional-services
+published: true
 sort_ranking: 900
 ---
 

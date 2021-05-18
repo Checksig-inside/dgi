@@ -1,5 +1,12 @@
 		<div class="row padding">
-			<div class="view-all"><a href="{{ site.baseurl }}/crypto-insights">View All</a></div>
+			<div class="view-all">
+			{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+				{% for section in folder1 %}
+					{% if section.locale == page.locale and section.uid == 'crypto-insights' %}
+					<a href="{{ site.baseurl }}{{ section.permalink }}">View All</a>
+					{% endif %}
+			{% endfor %}
+			</div>
 			{% assign limit = 1 %}
 			{% for post in site.posts %}
 				{% if post.parent-category == 'crypto-insights' and post.locale == page.locale and limit < 3 %}
