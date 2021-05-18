@@ -8,11 +8,11 @@ blog:
 menu: 
   professional-services: Professional services
   industries: Industries
+  crypto-insights: Insights
+  institute-insights: Activities
   r-d: R&D
-  crypto-insights: Crypto insights
-  about-dgi: About DGI
-  institute-insights: Institute Insights
-  contact: contact
+  about-dgi: About
+  contact: Get in touch
 page:
   next: Newer
   prev: Older
