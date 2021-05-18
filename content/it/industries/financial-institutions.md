@@ -1,17 +1,17 @@
 ---
 layout: industries_child
-title: Crypto Industry
-header: Crypto Industry
-subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-img: /assets/img/industries/ico_crypto_off.svg
+title: Financial Institutions
+header: Financial Institutions
+subtitle: Lorem ipsum dolores Financial Institutions Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+subdesc: Lorem ipsum dolores Financial Institutions Lorem ipsum dolor sit amet, consectetur adipiscing elit.    
+img: /assets/img/industries/ico_asset_off.svg
 slider: /assets/img/industries/header.jpg
-uid: crypto-industry
-permalink: /it/industries/crypto-industry/
+uid: assets-management
+permalink: /it/industries/assets-management/
 locale: it
 page-category: industries
 published: true
-sort_ranking: 700
+sort_ranking: 800
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.

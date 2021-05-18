@@ -1,6 +1,6 @@
 ---
 layout: industries_child
-title: IT Consulting Firms
+title: Consulting Firms
 header: Consulting Firms
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
