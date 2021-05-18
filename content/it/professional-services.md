@@ -6,13 +6,17 @@ locale: it
 uid: professional-services
 permalink: /it/professional-services.html
 page-tag: sectop
-subtitle: Servizi professionali - subtitle
 subdesc: Servizi di consulenza, programmi di formazione e soluzioni software
-description: IT -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
 slider: /assets/img/professional_services/professional/header.jpg
 slider-home: /assets/img/home/header_homepage.jpg
 class: wide-top
 ---
 
-IT - CheckSig provides transparent Bitcoin custody solutions for institutional investors and high-net-worth individuals. Ensuring security, regulatory compliance, smooth inheritance, and privacy, we enjoy industry’s leading insurance policy. If requested, we can customize our custody services according to client's requirements: long term safe storage, inheritance plan, or arbitrage trading.
+Il Digital Gold Institute è il **principale think tank italiano dedicato al fenomeno bitcoin** inteso come esperimento per la creazione della scarsità in ambito digitale.
+
+L’Istituto promuove queste tematiche nel dibattito pubblico e nel mondo accademico attraverso **ricerca e sviluppo**, **formazione**, **consulenza operativa e strategica**.
+
+### Il tuo partner ideale
+
+Garantito da credenziali istituzionali e riconoscibilità accademica, affianca diversi settori industriali nella valutazione ed implementazione di progetti ed investimenti in ambito bitcoin e blockchain.
