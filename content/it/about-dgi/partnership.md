@@ -1,20 +1,24 @@
 ---
-layout: industries_child
-title: Asset Management
-header: Asset Management
-subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-img: /assets/img/industries/ico_asset_off.svg
-slider: /assets/img/industries/header.jpg
-uid: assets-management
-permalink: /industries/assets-management/
-locale: en
-page-category: industries
-published: false
+layout: professional-services_child
+title: Partnership
+header: Partnership
+tag: partnership
+uid: partnership
+subtitle: Partnership subtitle
+subdesc: IT -Lorem ipsum dolores
+description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
+img: /assets/img/custody/ico_technology.svg
+slider: /assets/img/professional_services/professional/bg_partnership.jpg
+permalink: /it/professional-services/partnership/
+slider-ranking: 1000
+locale: it
+page-tag: secmid
+page-category: about-dgi
+published: true
 sort_ranking: 800
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+EN -Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
 
 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
 

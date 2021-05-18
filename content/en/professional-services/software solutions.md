@@ -1,21 +1,21 @@
 ---
 layout: professional-services_child
-title: Partnership
-header: Partnership
-tag: partnership
-uid: partnership
-subtitle: Partnership subtitle
-subdesc: IT -Lorem ipsum dolores
+title: Software Solutions
+header: Software Solutions
+tag: Software Solutions
+uid: Software Solutions
+subdesc: EN -Lorem ipsum dolores
+subtitle: Speach - subtitle
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
-img: /assets/img/custody/ico_technology.svg
-slider: /assets/img/professional_services/professional/bg_partnership.jpg
-permalink: /it/professional-services/partnership/
-slider-ranking: 1000
-locale: it
+img: /assets/img/professional_services/training/ico_speach_on.svg
+slider: /assets/img/professional_services/Software Solutions/bg_Software Solutions.jpg
+permalink: /professional-services/Software Solutions/
+sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
+locale: en
 page-tag: secmid
 page-category: professional-services
-published: false
-sort_ranking: 800
+published: true
+sort_ranking: 700
 ---
 
 EN -Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.

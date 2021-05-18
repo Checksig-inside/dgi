@@ -1,7 +1,7 @@
 ---
 layout: industries_child
-title: Education
-header: Education
+title: Educational Services
+header: Educational Services
 subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
 img: /assets/img/industries/ico_education_off.svg

@@ -10,7 +10,7 @@ uid: banking-and-capital-markets
 permalink: /industries/banking-and-capital-markets/
 locale: en
 page-category: industries
-published: true
+published: false
 sort_ranking: 1000
 ---
 

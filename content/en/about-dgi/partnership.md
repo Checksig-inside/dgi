@@ -13,7 +13,7 @@ permalink: /professional-services/partnership/
 locale: en
 slider-ranking: 1000
 page-tag: secmid
-page-category: professional-services
+page-category: about-dgi
 published: true
 sort_ranking: 800
 ---
