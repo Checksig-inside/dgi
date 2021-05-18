@@ -1,6 +1,6 @@
 ---
 layout: about-dgi
-title: About Dgi
+title: About DGI
 header: Digital Gold Institute
 locale: it
 uid: about-dgi

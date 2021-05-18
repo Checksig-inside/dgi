@@ -1,7 +1,7 @@
 ---
 layout: crypto-insights
-title: IT - Crypto insights
-header: IT - Crypto insights
+title: Insights
+header: Insights
 locale: it
 uid: crypto-insights
 permalink: /it/crypto-insights.html
