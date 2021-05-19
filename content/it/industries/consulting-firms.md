@@ -2,8 +2,8 @@
 layout: industries_child
 title: Consulting Firms
 header: Consulting Firms
-subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+subtitle: Al tuo fianco in progetti ad alto contenuto innovativo e tecnologico   
+subdesc: Integriamo il tuo team con vision e capacità esecutiva
 img: /assets/img/industries/ico_consulting_off.svg
 slider: /assets/img/industries/header.jpg
 uid: consulting-firms
@@ -14,7 +14,7 @@ published: true
 sort_ranking: 700
 ---
 
-### Cresce la domanda di know-how specifico su bitcoin e crypto-asset in genere
+### Cresce la domanda di know-how specifico su bitcoin e crypto-asset
 
 L'evoluzione del mercato della consulenza impone alle *consulting firms* la capacità di rispondere a 360° ai bisogni dei loro clienti, affiancandoli nel day-to-day così come nei progetti più innovativi e strategici.
 
@@ -23,12 +23,14 @@ Il settore dei digital assets è tuttavia uno di quegli ambiti di avanguardia in
 - il passo evolutivo accelerato impone un osservatorio costante, con personale dedicato
 - è difficile, se non impossibile, attrarre e ritenere reali talenti in ambito digital assets
 
+
 ### Digital Gold Institute è il partner ideale per integrare i tuoi servizi di consulenza
 
 DGI fornisce consulenza, assistendo la tua azienda e i tuoi clienti nel disegno e realizzazione di progetti di innovazione in area bitcoin e blockchain.
 - Studi di fattibilità e pareri tecnici
 - Sviluppo di prototipi e soluzioni in produzione
 - Crypto system integration
+
 
 ### Perchè DGI?
 
