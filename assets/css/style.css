@@ -2923,7 +2923,26 @@ p.blog-text{
     max-width: 100%;
 }
 
+.form-workshop ._row._checkbox-radio span {
+    max-width: 80%;
+    float: right;
+    line-height: 1.2;
+}
+.form-workshop ._row._checkbox-radio span {
+    max-width: 80%;
+    float: right;
+    line-height: 1.2;
+}
 
+.form-workshop ._form ._checkbox-radio {
+    min-height: 80px;
+}
+.form-workshop legend {
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #666!important;
+}
 @media (max-width: 768px){ 
 .pull-left {
     float: none !important;

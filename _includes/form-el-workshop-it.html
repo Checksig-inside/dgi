@@ -139,11 +139,11 @@
               {{ site.data.locales[page.locale].glossary['select-the-day']}}
 
             </option>
-            {% for modulo in site.data.campo-select-elworkshop  | sort: 'date' | reverse %}
+            {% for modulo in site.data.campo-select-elworkshop  %}
 			{% if modulo.locale == page.locale %}
-				<option value='{{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}' >
+				<option value='{{ modulo.date }}' >
 
-				  {{ modulo.name }} - {{ modulo.date | date_to_long_string: "ordinal" }}
+				  {{ modulo.date }}
 
 				</option>
 			{% endif %}
