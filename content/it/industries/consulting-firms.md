@@ -19,17 +19,19 @@ sort_ranking: 700
 L'evoluzione del mercato della consulenza impone alle *consulting firms* la capacità di rispondere a 360° ai bisogni dei loro clienti, affiancandoli nel day-to-day così come nei progetti più innovativi e strategici.
 
 Il settore dei digital assets è tuttavia uno di quegli ambiti di avanguardia in cui il passo acceletato di evoluzione tecnologica e finanziaria rende complesso disporre di risorse interne con la giusta profondità di know how.
-- le informazioni pubbliche sono numerose e non di rado superficiali e contradditorie. Solo la combinazione di profonda competenza tecnologica e di business permette di distinguere hype e reali potenzialità
-- il passo evolutivo accelerato impone un osservatorio costante, con personale dedicato
-- è difficile, se non impossibile, attrarre e ritenere reali talenti in ambito digital assets
++ le informazioni pubbliche sono numerose e non di rado superficiali e contradditorie. Solo la combinazione di profonda competenza tecnologica e di business permette di distinguere hype e reali potenzialità
++ il passo evolutivo accelerato impone un osservatorio costante, con personale dedicato
++ è difficile, se non impossibile, attrarre e ritenere reali talenti in ambito digital assets
 
 ***
-### Digital Gold Institute è il partner ideale per integrare i tuoi servizi di consulenza
+### DGI è il partner ideale per integrare i tuoi servizi di consulenza
 
 DGI fornisce consulenza, assistendo la tua azienda e i tuoi clienti nel disegno e realizzazione di progetti di innovazione in area bitcoin e blockchain.
-> Studi di fattibilità e pareri tecnici
-> Sviluppo di prototipi e soluzioni in produzione
-> Crypto system integration
+> **Studi di fattibilità e pareri tecnici**
+> 
+> **Sviluppo di prototipi e soluzioni in produzione**
+> 
+> **Crypto system integration**
 
 ***
 ### Perchè DGI?
