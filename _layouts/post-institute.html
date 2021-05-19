@@ -9,7 +9,22 @@
 	<section id="title" class="section-global-wrapper">
 		<div class="container-fluid-kamn">
 			<div class="row celeste">
-			<div class="bcrumbs "><span>INSTITUTE INSIGHT/ <b>{{ page.title }}</b></span></div>
+			<div class="bcrumbs ">
+			{% if page.locale == 'en' %}
+					<a class="navlabel " href="{{ site.baseurl }}"><span class="nav-label">HOME</span></a> <span>/</span>
+					{% else %}
+					<a class="navlabel " href="{{ site.baseurl }}/{{ page.locale  }}"><span class="nav-label">HOME</span></a> <span>/</span>
+			{% endif %}	
+			{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+			{% for item in site.data.settings.menu[page.locale] %}
+			{% if page.parent-category == item.uid %}{% assign urlback = item.url %} <a class="navlabel " href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a>{% endif %}
+			{% endfor %} <span>/</span> <span><b>{{ page.title }}</b></span>
+			{% if page.locale == 'en' %}
+			<a class="navlabel float-right " href="{{ site.baseurl }}/{{ urlback  }}"><span class="nav-label"><i class="fa fa-angle-left"></i> BACK</span></a>
+			{% else %}
+			<a class="navlabel float-right" href="{{ site.baseurl }}/{{ urlback  }}"><span class="nav-label"><i class="fa fa-angle-left"></i> BACK</span></a>
+			{% endif %}	
+			</div>
 			</div>			
 			<div class="row">
 				<div class="it-hero-wrapper it-dark it-overlay">
@@ -18,7 +33,7 @@
 						style="background-color:#fcb600; color:white">
 						<div class="img-responsive">
 							<div class="it-hero-text-wrapper bg-dark title-post-top"
-								style="padding:30px 0px; margin:0px auto;">
+								style="padding:30px 15px; margin:0px auto;">
 								Institute Insights
 							</div>
 						</div>
@@ -140,6 +155,31 @@
 				</div>
 			</div>
 		</div>
+	</section>
+	<section id="navpost-section" class="navpost-section-global-wrapper">
+	
+	<div class="PageNavigation" style="background:#fbe7b5; width: 100%; display: table;">	
+	{% assign articles = site.posts | where_exp:"item", "item.locale == page.locale" %}
+	{% assign arts = articles | where_exp:"item", "item.parent-category == page.parent-category" %}
+	{% for article in arts %}
+	  {% if article.uid == page.uid %}
+		{% assign currIndex = forloop.index0 %}
+		{% assign prevIndex = currIndex | minus: 1 %}
+		{% assign nextIndex = currIndex | plus: 1 %}
+		{% assign articleIndexLength = forloop.length | minus: 1 %}
+		<div class="page-navigation">
+		  {% if currIndex == 0 %}
+			<a class="next0 float-right" href="{{ site.url }}{{ site.baseurl }}{{ articles[prevIndex].url }}">NEXT <i class="fa fa-angle-right"></i></a>
+		  {% elsif currIndex < articleIndexLength and currIndex != 0 %}
+			<a class="prev float-left" href="{{ site.url }}{{ site.baseurl }}{{ articles[nextIndex].url }}"><i class="fa fa-angle-left"></i> BACK</a>
+			<a class="next float-right" href="{{ site.url }}{{ site.baseurl }}{{ articles[prevIndex].url }}">NEXT <i class="fa fa-angle-right"></i></a>
+		  {% elsif currIndex == articleIndexLength %}
+			<a class="prev  float-left" href="{{ site.url }}{{ site.baseurl }}{{ articles[nextIndex].url }}"><i class="fa fa-angle-left"></i> BACK</a>
+		  {% endif %}
+		</div>
+	  {% endif %}
+	{% endfor %}
+		 </div>
 	</section>
 </body>
 

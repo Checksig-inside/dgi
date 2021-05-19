@@ -1,7 +1,7 @@
 		<div class="row padding">
 			{% assign limit = 1 %}
 			{% for post in site.posts %}
-				{% if post.parent-category == 'institute-insights' and post.locale == page.locale and limit < 3 %}
+				{% if post.parent-category == 'institute-insights' and post.published == true and post.locale == page.locale and limit < 3 %}
 				 <div class="col-lg-6 col-md-6 text-center">
 				 <div>
 				 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

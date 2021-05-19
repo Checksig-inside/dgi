@@ -1,36 +1,48 @@
-- name: Module name 1
+- name: Introduction to Bitcoin and Blockchain
   sort_ranking: 1000
   locale: en
-- name: Module name 2
+- name: Blockchain, Mining, and Distributed Consensus
   sort_ranking: 900
   locale: en
-- name: Module name 3
+- name: Elliptic Curve Digital Signature Algorithm
   sort_ranking: 800
   locale: en
-- name: Module name 4
+- name: Advanced Elliptic Curve Cryptography
   sort_ranking: 700
   locale: en
-- name: Module name 5
+- name: 'Wallets: Key Encodings and Deterministic Sequences'
   sort_ranking: 600
   locale: en
-- name: Module name 6
+- name: Transactions and Blocks
   sort_ranking: 500
   locale: en
-- name: Module name 1
+- name: Monetary Engineering
+  sort_ranking: 400
+  locale: en
+- name: 'Beyond Bitcoin: Between Hype and Reality'
+  sort_ranking: 300
+  locale: en
+- name: Introduction to Bitcoin and Blockchain
   sort_ranking: 1000
   locale: it
-- name: Module name 2
+- name: Blockchain, Mining, and Distributed Consensus
   sort_ranking: 900
   locale: it
-- name: Module name 3
+- name: Elliptic Curve Digital Signature Algorithm
   sort_ranking: 800
   locale: it
-- name: Module name 4
+- name: Advanced Elliptic Curve Cryptography
   sort_ranking: 700
   locale: it
-- name: Module name 5
+- name: 'Wallets: Key Encodings and Deterministic Sequences'
   sort_ranking: 600
   locale: it
-- name: Module name 6
+- name: Transactions and Blocks
   sort_ranking: 500
+  locale: it
+- name: Monetary Engineering
+  sort_ranking: 400
+  locale: it
+- name: 'Beyond Bitcoin: Between Hype and Reality'
+  sort_ranking: 300
   locale: it
