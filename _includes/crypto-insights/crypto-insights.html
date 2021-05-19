@@ -1,3 +1,8 @@
+<section id="crypto-insight" class="blog-panel crypto">
+    <div class="container">
+		<div class="row">
+			<h3>Crypto Insight</h3>
+		</div>
 		<div class="row padding">
 			<div class="view-all">
 			{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
@@ -9,7 +14,7 @@
 			</div>
 			{% assign limit = 1 %}
 			{% for post in site.posts %}
-				{% if post.parent-category == 'crypto-insights' and post.locale == page.locale and limit < 3 %}
+				{% if post.parent-category == 'crypto-insights'  and post.locale == page.locale  and post.published == true and limit < 3 %}
 				 <div class="col-lg-6 col-md-6 text-center">
 				 <div>
 				 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -22,3 +27,5 @@
 				{% endif %}
 			{% endfor %}
 		</div>
+	</div>
+</section>

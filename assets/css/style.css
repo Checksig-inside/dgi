@@ -4,9 +4,10 @@
     margin-left: 0px;
 }
 .menu-container .inner-content {
-    padding: 15px 0px;
+	padding: 15px 15px;
     max-width: 1300px;
     margin: 0px auto;
+    width: 95%;
 }
 #title-section .col-lg-12.col-md-12, #title-section .col-lg-6.col-md-6{
     background-size: auto 100%;
@@ -235,9 +236,10 @@ h4, .h4, h5, .h5  {
 }
 
 .it-hero-text-wrapper.bg-dark{
-    margin: 0px auto;
-    /*modifica max-width: 1170px; */
-	max-width: 1300px;
+	margin: 0px auto;
+    max-width: 1300px;
+    width: 95%;
+    padding: 0px 15px;
 }
 .post-top-img {
 	margin-top:20px;
@@ -509,17 +511,20 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
     border-radius: 10px;
     box-shadow: none;
 }
-.bcrumbs {
+.bcrumbs, .PageNavigation .page-navigation {
     max-width: 1300px;
     margin: 0px auto;
-	width: 100%;
+	width: 95%;
+    display: table;
+    padding: 0px 15px;
 }
 .bcrumbs span{
-    color: #000;
+	color: #000;
     font-size: 10px;
     font-weight: 500;
     line-height: 3;
-	text-transform: uppercase;
+    text-transform: uppercase;
+    padding: 0px 3px;
 }
 .navbar-collapse {
     max-height: unset;
@@ -790,7 +795,9 @@ label.form-check-label {
 #form-section {
     border-top: 1px solid #fdd365;
 }
-
+.section-global-wrapper {
+	margin-bottom: 20px;
+}
 
 p.scrolldown .logo{
     visibility: hidden;
@@ -980,7 +987,7 @@ p.scrolldown .logo{
 	border-top:1px solid #888;
 }
 #footer .container .row {
-	width: 90%;
+	width: 95%;
     max-width: 1300px;
     margin: 0px auto;
 }
@@ -2884,19 +2891,39 @@ p.blog-text{
     margin: 0px;
 	position: relative;
     top: 1px;
+    padding-right: 3px;
 }
 .float-right  {
     float:right;
+	font-size: 10px;
+    font-weight: 800;
+	
+}
+.float-left .fa:before {
+    color: #333;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0px;
+    margin: 0px;
+	position: relative;
+    top: 1px;
+    padding-left: 3px;
+}
+.float-left  {
+    float:left;
+	font-size: 10px;
+    font-weight: 800;
 	
 }
 .bcrumbs .float-right span {
     font-weight: 800;
 }
 .contact-header .row.celeste {
-
     max-width: 100%;
-
 }
+
+
 @media (max-width: 768px){ 
 .pull-left {
     float: none !important;
@@ -3415,7 +3442,7 @@ footer .widget i {
     padding-right: 7px;
 }
 footer{
-   margin-top:20px;
+   margin-top:0px;
    left: 0;
    right: 0;
    background: #656665;
