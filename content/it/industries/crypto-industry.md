@@ -10,7 +10,7 @@ uid: crypto-industry
 permalink: /it/industries/crypto-industry/
 locale: it
 page-category: industries
-published: true
+published: false
 sort_ranking: 700
 ---
 
