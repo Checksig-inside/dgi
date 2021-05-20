@@ -2,8 +2,8 @@
 layout: industries_child
 title: Financial Institutions
 header: Financial Institutions
-subtitle: Lorem ipsum dolores Financial Institutions Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-subdesc: Lorem ipsum dolores Financial Institutions Lorem ipsum dolor sit amet, consectetur adipiscing elit.    
+subtitle: <p>DGI vanta un track record pluriennale nell'accompagnare<br> istituzioni finanziarie nel lancio delle loro soluzioni sulmarcato dei digital assets</p>   
+subdesc: Uno specialista di Digital Assets al fianco di banche, asset manager e compagnie assicurative    
 img: /assets/img/industries/ico_asset_off.svg
 slider: /assets/img/industries/header.jpg
 uid: assets-management
@@ -13,13 +13,34 @@ page-category: industries
 published: true
 sort_ranking: 800
 ---
+***
+### Una nuova asset class
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+L'invenzione di bitcoin ha rivoluzionato l'intero sistema finanziario, dando impulso alla creazione di una vera e propria nuova asset class.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
+Il settore dei digital assets è tuttavia un fenomeno di non semplice lettura per gli incumbent del settore, per via della sua costante evoluzione e della complessità tecnica e regolamentare.
 
-Suspendisse facilisis eget lacus eu sollicitudin. Curabitur facilisis turpis urna, eu vehicula enim venenatis ac. Nam facilisis tristique mi at vehicula. Cras interdum tincidunt libero nec convallis. Fusce egestas erat eget tempus tempus. Quisque et nisi a tortor facilisis ullamcorper at non nunc. Quisque ultrices blandit turpis, vel posuere sapien vehicula quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-Ut lacinia augue vitae lectus fermentum laoreet. Maecenas vehicula elit a pellentesque iaculis. Praesent sed rutrum lacus, vel venenatis ante. Duis eget tristique arcu, consequat iaculis nisi. Fusce et lorem malesuada, ultricies sapien sit amet, lacinia erat. Donec est turpis, luctus et nisi ut, vehicula egestas libero. Praesent maximus ultrices sapien at aliquet. Aenean sollicitudin posuere eros vitae lacinia. Donec auctor ante non ipsum ornare lacinia. Vestibulum venenatis, tortor pulvinar blandit iaculis, dui elit elementum tellus, sit amet sodales quam enim consectetur dolor. Nam eu nisl eu neque placerat dictum sit amet scelerisque dui. Nulla consectetur eget nibh aliquet malesuada. Integer placerat lacus fermentum erat viverra, luctus auctor libero vehicula. Ut id feugiat orci, quis consequat enim. Suspendisse vestibulum sem nec blandit pretium.
+***
+### Un partner al vostro fianco
+DGI è il partner ideale di banche, asset manager e compagnie assicurative che intendono sviluppare e offrire nuovi servizi alla propria clientela retail e istituzionale
 
-Maecenas dapibus orci mi, in pharetra magna auctor a. Praesent vitae felis elit. Fusce at lacinia nisl. Maecenas tempus est a rhoncus tristique. Nam pretium efficitur tincidunt. Sed dictum nulla sit amet ex ullamcorper, a commodo tortor posuere. Sed fermentum, ipsum non accumsan luctus, augue felis rhoncus eros, sed congue elit nulla id tortor. Nunc sit amet scelerisque turpis, et porta augue. Phasellus ut nulla at ligula pharetra consequat pharetra eu lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque odio nec risus luctus, non volutpat diam maximus. Pellentesque tempor aliquet mi, eget dictum nisi.
+> **Assitenza nella strutturazione di prodotti di investimento (e.g. ETF, ETP)**
+>
+> **Wallet integrati all'interno dell'esperienza di home banking**
+> 
+> **Funzionalità di acquisto e vendita in ottica di best execution**
+> 
+> **Servizi professionali di custodia sicura**
+> 
+> **Soluzioni di finanzialmento controgarantite da digital assets**
+>
+> **Disegno di soluzioni assicurative contro il rischio di frodi e furti**
+
+***
+### Perchè DGI?
+
+- Solido track record del team DGI nell'industria dei servizi finanziari e nella consulenza di processo e strategica. **[Scopri il team](https://checksig-inside.github.io/it/about-dgi/team/)**
+- Reale capacità implementativa, sviluppando soluzioni software industriali e processi efficienti e compliant con la normativa **[Scopri btclib, la libreria Python3 di DGI per la gestione dei protocollo crittografico Bitcoin](https://checksig-inside.github.io/it/about-dgi/team/)**
+- Accesso a un network esteso di professionisti specializzati in ambito fiscale e regolamentare
+- Approccio di lavoro integrato, a fianco del vostro team nella realizzaione dei progetti
