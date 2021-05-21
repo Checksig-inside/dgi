@@ -24,7 +24,7 @@ Il settore dei digital assets è tuttavia un fenomeno di non semplice lettura pe
 ### Un partner al vostro fianco
 DGI è il partner ideale di banche, asset manager e compagnie assicurative che intendono sviluppare e offrire nuovi servizi alla propria clientela retail e istituzionale
 
-> **Assitenza nella strutturazione di prodotti di investimento (e.g. ETF, ETP)**
+> **Asssitenza nella strutturazione di prodotti di investimento (e.g. ETF, ETP)**
 
 > **Wallet integrati all'interno dell'esperienza di home banking**
 
@@ -34,7 +34,7 @@ DGI è il partner ideale di banche, asset manager e compagnie assicurative che i
 
 > **Soluzioni di finanzialmento controgarantite da digital assets**
 
-> **Disegno di soluzioni assicurative contro il rischio di frodi e furti**
+> **Valutazioni tecniche per soluzioni assicurative contro il rischio di frodi e furti**
 
 ***
 ### Perchè DGI?

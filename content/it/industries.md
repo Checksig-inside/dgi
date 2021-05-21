@@ -11,4 +11,6 @@ img: https://via.placeholder.com/250x250
 slider: /assets/img/industries/header.jpg
 ---
 
-## CheckSig mette a disposizione la sua esperienza e le sue competenze al servizio dell'industria dei servizi finanziari, di aziende di consulenza e del mondo accademico. **Scopri [la nostra vision](https://checksig-inside.github.io/dgi/it/about-dgi/vision/) e come possiamo affiancare la tua azienda nel suo percorso di esplorazione di bitcoin, digital assets e blockchain.**
+### CheckSig mette a disposizione la sua esperienza e le sue competenze al servizio dell'industria dei servizi finanziari, di aziende di consulenza e del mondo accademico.
+
+Scopri [la nostra vision](https://checksig-inside.github.io/dgi/it/about-dgi/vision/) e come possiamo affiancare la tua azienda nel suo percorso di esplorazione di bitcoin, digital assets e blockchain.
