@@ -2,7 +2,7 @@
 layout: logo
 title: "Digital Gold Institute S.R.L"
 subtitle: "Company information"
-permalink: /en/info/
+permalink: /info/
 locale: en
 ---
 
