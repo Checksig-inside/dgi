@@ -2,8 +2,8 @@
 layout: industries_child
 title: Educational Services
 header: Educational Services
-subtitle: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-subdesc: Lorem ipsum dolores Asset Management Lorem ipsum dolor sit amet, consectetur adipiscing elit.   
+subtitle: Formazione multidisciplinare  
+subdesc: Approccio multidisciplinare per arricchire la tua offerta formativa   
 img: /assets/img/industries/ico_education_off.svg
 slider: /assets/img/industries/header.jpg
 slider-ranking: 600
@@ -11,16 +11,33 @@ uid: education
 permalink: /it/industries/education/
 locale: it
 page-category: industries
-published: false
+published: true
 sort_ranking: 600
 ---
+***
+### Bitcoin, crocevia di discipline
+La comprensione del fenomeno bitcoin richiede un approccio multidisciplinare, all'incrocio di teoria economica, crittografia, teoria dei giochi e tecnologia.  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
 
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec convallis leo vitae lorem volutpat bibendum. In orci purus, bibendum eget sodales non, lobortis vel est. Vestibulum quis sem tincidunt, accumsan purus sed, vestibulum augue. Sed vel velit vel leo vulputate tincidunt eget eu erat. Vivamus neque ante, tincidunt id enim et, sollicitudin lobortis nulla. Proin quis nisi diam. Cras euismod porttitor faucibus. Integer vel fermentum metus, ac vestibulum lectus.
+***
+### Il partner ideale di istituti di ricerca superiore ed accademia 
 
-Suspendisse facilisis eget lacus eu sollicitudin. Curabitur facilisis turpis urna, eu vehicula enim venenatis ac. Nam facilisis tristique mi at vehicula. Cras interdum tincidunt libero nec convallis. Fusce egestas erat eget tempus tempus. Quisque et nisi a tortor facilisis ullamcorper at non nunc. Quisque ultrices blandit turpis, vel posuere sapien vehicula quis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+> **Laboratori e sessioni di sviluppo applicato**
 
-Ut lacinia augue vitae lectus fermentum laoreet. Maecenas vehicula elit a pellentesque iaculis. Praesent sed rutrum lacus, vel venenatis ante. Duis eget tristique arcu, consequat iaculis nisi. Fusce et lorem malesuada, ultricies sapien sit amet, lacinia erat. Donec est turpis, luctus et nisi ut, vehicula egestas libero. Praesent maximus ultrices sapien at aliquet. Aenean sollicitudin posuere eros vitae lacinia. Donec auctor ante non ipsum ornare lacinia. Vestibulum venenatis, tortor pulvinar blandit iaculis, dui elit elementum tellus, sit amet sodales quam enim consectetur dolor. Nam eu nisl eu neque placerat dictum sit amet scelerisque dui. Nulla consectetur eget nibh aliquet malesuada. Integer placerat lacus fermentum erat viverra, luctus auctor libero vehicula. Ut id feugiat orci, quis consequat enim. Suspendisse vestibulum sem nec blandit pretium.
+> **Format formativi modulari, da 1 a 40 ore**
 
-Maecenas dapibus orci mi, in pharetra magna auctor a. Praesent vitae felis elit. Fusce at lacinia nisl. Maecenas tempus est a rhoncus tristique. Nam pretium efficitur tincidunt. Sed dictum nulla sit amet ex ullamcorper, a commodo tortor posuere. Sed fermentum, ipsum non accumsan luctus, augue felis rhoncus eros, sed congue elit nulla id tortor. Nunc sit amet scelerisque turpis, et porta augue. Phasellus ut nulla at ligula pharetra consequat pharetra eu lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus pellentesque odio nec risus luctus, non volutpat diam maximus. Pellentesque tempor aliquet mi, eget dictum nisi.
+> **Adeguamento all'audience, da facoltà umanistiche a STEM**
+
+> **Creazione ed erogazione di contenuti formativi su misura**  
+
+***
+### Perchè DGI?      
+
+- **Contenuti formativi di livello postgrad, sviluppati e testati sul campo dal 2016**
+*[Esplora il nostro corso Bitcoin and Blockchain Technology sviluppato presso l'Università Milano-Bicocca](http://www.ametrano.net/bbt)*     
+
+- **Solido track record del team DGI in ambito accademico e formativo**
+*[Conosci il team](https://checksig-inside.github.io/it/about-dgi/team/)*         
+
+- **Approccio "hands-on" all'apprendimento, con moduli formativi applicati**
+*[Scopri btclib, la libreria Python3 di DGI per la gestione dei protocollo crittografico Bitcoin](https://checksig-inside.github.io/it/about-dgi/team/)* 

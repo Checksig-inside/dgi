@@ -15,7 +15,6 @@ sort_ranking: 700
 ---
 ***
 ### Cresce la domanda di know-how specifico su bitcoin e crypto-asset
-
 L'evoluzione del mercato della consulenza impone alle *consulting firms* la capacità di rispondere a 360° ai bisogni dei loro clienti, affiancandoli nel day-to-day così come nei progetti più innovativi e strategici.
 
 Il settore dei digital assets è tuttavia uno di quegli ambiti di avanguardia in cui il passo acceletato di evoluzione tecnologica e finanziaria rende complesso disporre di risorse interne con la giusta profondità di know how.
@@ -36,6 +35,10 @@ DGI fornisce consulenza, assistendo la tua azienda e i tuoi clienti nel disegno 
 ***
 ### Perchè DGI?
 
-- Solido track record del team DGI nell'industria dei servizi finanziari e nella consulenza di processo e strategica. **[Scopri il team](https://checksig-inside.github.io/it/about-dgi/team/)**
-- Reale capacità implementativa, sviluppando soluzioni software industriali e processi efficienti e compliant con la normativa **[Scopri btclib, la libreria Python3 di DGI per la gestione dei protocollo crittografico Bitcoin](https://checksig-inside.github.io/it/about-dgi/team/)**
-- Approccio di lavoro integrato, a fianco del tuo team e del tuo cliente
+- **Solido track record del team DGI nell'industria dei servizi finanziari e nella consulenza di processo e strategica.**
+*[Scopri il team](https://checksig-inside.github.io/it/about-dgi/team/)*  
+
+- **Reale capacità implementativa, sviluppando soluzioni software industriali e processi efficienti e compliant con la normativa**
+*[Scopri btclib, la libreria Python3 di DGI per la gestione dei protocollo crittografico Bitcoin](https://checksig-inside.github.io/it/about-dgi/team/)*  
+
+- **Approccio di lavoro integrato, a fianco del tuo team e del tuo cliente**
