@@ -2939,7 +2939,9 @@ p.blog-text{
 .office-logo {
   width: 100px;
 }
-
+#ps {
+    margin-bottom: 20px;
+}
 .float-right .fa:before {
     color: #333;
     font-weight: 800;
