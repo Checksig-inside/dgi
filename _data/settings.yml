@@ -30,10 +30,8 @@ social:
 - {show: true, icon: 'linkedin', link: 'https://www.linkedin.com/school/digital-gold-institute'}
 - {show: true, icon: 'github', link: 'https://www.github.com/dginst'}
 - {show: true, icon: 'podcast', link: 'https://dgi.buzzsprout.com/'}
-- {show: true, icon: 'feed', link: '{{ site base.url }}/rss-feed.xml'}
-
-#if path: 'it', link: 'https://dgi.io/it/info', else path: 'en', link: 'https://dgi.io/en/info
-# - {show: true, icon: 'info', link: 'https://dgi.io/info'}
+- {show: true, icon: 'rss', link: '/rss-feed.xml'}
+- {show: true, icon: 'info', link: '/info'}
 
 info_legal:
     company: Digital Gold Institute S.R.L.

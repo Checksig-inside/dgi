@@ -257,7 +257,10 @@ p.scrollhome {
     float: none;
     text-align: center;
     z-index: 50;
-    top: 430px;
+    bottom: 10px;
+}
+.owide {
+    position: relative;
 }
 .home-content-inner {
     max-width: 1300px;
@@ -388,6 +391,41 @@ div.panel.show {
     padding-left: 15px;
 	min-height: 100px;
 }
+.socialbar a {
+    padding: 0px 7px;
+}
+.contact-contact {
+
+    float: right;
+    padding-left: 20px;
+    margin: 0px;
+    padding: 10px 0px;
+    font-size: 25px;
+    font-weight: 100;
+    margin-right: 25px;
+}
+.contact-contact  a {
+	padding: 15px 5px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-right: 0px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-weight: 500;
+    text-decoration: none;
+    background: #fcb600;
+    background-color: #fcb600!important;
+    padding: 10px 40px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    display: table;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 20%);
+}
+
 #footer ul,
 #footer li,
 #footer a,
@@ -2004,6 +2042,29 @@ a {
     -ms-transition: all .3s;
 	font-size: 16px;
 }
+.post-txt a {
+	font-size:15px;
+}
+.fa-podcast:before {
+    content: "\f2ce";
+}
+
+#sub-header .container-content p {
+	text-align:left;
+}
+#sub-header .container-content h2 p {
+	text-align:center;
+}
+
+.container-content li {
+    list-style: disc;
+    text-align: left;
+	padding-bottom: 7px;
+}
+.container-content li a {
+    clear: both;
+    display: table;
+}
 
 a:hover { color: #888; text-decoration: none; }
 
@@ -2811,9 +2872,7 @@ a.thesis-pdf {
     width: 50%;
 	margin: 0px;
 }
-p.scrollhome {
-    top: 370px;
-}
+
 }
 @media (min-width: 768px) {
 
@@ -2821,8 +2880,7 @@ p.scrollhome {
     float: left;
     text-transform: uppercase;
 }
-.navtopmenu {
-    width: 75%;
+.navtopmenu {;
 }
 
 
@@ -2944,6 +3002,10 @@ p.blog-text{
     color: #666!important;
 }
 @media (max-width: 768px){ 
+p.scrollhome {
+
+    top: 390px;
+}
 .pull-left {
     float: none !important;
     margin: 0px;
@@ -3203,6 +3265,13 @@ li.nav-children-bar {
     background-size: cover;
     margin-bottom: 20px;
 }
+.container.professional .row .col-lg-4 {
+    padding: 30px!important;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+
 #crypto-insight .text-center > div, .institute-insights .text-center > div {
     background: #fff;
     text-align: left;

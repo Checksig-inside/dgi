@@ -17,6 +17,7 @@
     <ul class="nav navbar-nav navtopmenu pull-left">
 		{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 		{% for item in site.data.settings.menu[page.locale] %}
+		{% if item.uid != 'contact' %} 
 		<li class="dropdown li-{{ item.uid }}">
 		<a class="navlabel {% if page.uid == item.uid %} active {% endif %}" href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a><a "#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
 			<ul class="dropdown-menu">
@@ -27,11 +28,19 @@
 				{% endfor %}
 			</ul>
 		</li>
+		{% endif %} 
 		{% endfor %}
     </ul>
 	{% include language-selector.html %}
 	<div class="searchbar">&nbsp;</div>
-
+	{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+	{% for item in site.data.settings.menu[page.locale] %}
+	{% if item.uid == 'contact' %} 
+	<div class="contact-{{ item.uid }}">
+	<a class="navlabel {% if page.uid == item.uid %} active {% endif %}" href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a>
+	</div>
+	{% endif %} 
+	{% endfor %}
   </div>
   </div>
   </div>
