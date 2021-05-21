@@ -2948,7 +2948,7 @@ p.blog-text{
     padding: 0px;
     margin: 0px;
 	position: relative;
-    top: 1px;
+	top: 8.5px;
     padding-right: 3px;
 }
 .float-right  {
@@ -2965,7 +2965,7 @@ p.blog-text{
     padding: 0px;
     margin: 0px;
 	position: relative;
-    top: 1px;
+	top: 8.5px;
     padding-left: 3px;
 }
 .float-left  {
