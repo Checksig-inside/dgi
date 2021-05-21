@@ -18,7 +18,7 @@ url: "checksig-inside.github.io" # the base hostname & protocol for your site, e
 defaults:
   # default en
   - values:
-      locale: en
+      locale: it
   # config posts
   - scope:
       path: content/en/_posts/**
