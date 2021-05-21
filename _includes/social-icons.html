@@ -9,7 +9,7 @@
 	{% endif %}
   {% else %}
     {% if item.icon == 'twitter' or item.icon == 'facebook-f' or item.icon == 'github' or item.icon == 'linkedin-in' %}
-    <a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
+    <a href="{{ item.link }}" target="_blank"><i class="fab fa-{{ item.icon }}" aria-hidden="true"></i></a>
   {% else %}
     <a href="{{ item.link }}" target="_blank"><i class="fa fa-{{ item.icon }}" aria-hidden="true"></i></a>
   {% endif %}

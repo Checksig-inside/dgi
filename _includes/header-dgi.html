@@ -32,7 +32,7 @@
 		{% endfor %}
     </ul>
 	{% include language-selector.html %}
-	<div class="searchbar">&nbsp;</div>
+	<div class="searchbar"><i class="fa fa-search" aria-hidden="true"></i></div>
 	{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
 	{% for item in site.data.settings.menu[page.locale] %}
 	{% if item.uid == 'contact' %} 

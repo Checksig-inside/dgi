@@ -26,8 +26,8 @@ menu:
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
 - {show: true, icon: 'twitter', link: 'https://www.twitter.com/DigitalGoldInst'}
-- {show: true, icon: 'facebook', link: 'https://www.facebook.com/DigitalGoldInstitute'}
-- {show: true, icon: 'linkedin', link: 'https://www.linkedin.com/school/digital-gold-institute'}
+- {show: true, icon: 'facebook-f', link: 'https://www.facebook.com/DigitalGoldInstitute'}
+- {show: true, icon: 'linkedin-in', link: 'https://www.linkedin.com/school/digital-gold-institute'}
 - {show: true, icon: 'github', link: 'https://www.github.com/dginst'}
 - {show: true, icon: 'podcast', link: 'https://dgi.buzzsprout.com/'}
 - {show: true, icon: 'rss', link: '/rss-feed.xml'}

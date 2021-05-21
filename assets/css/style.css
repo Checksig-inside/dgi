@@ -615,7 +615,7 @@ h5 {
 	color:#333;
 }
 #moduli .module-custody button {
-	background-image: url(/dgi/assets/img/icons/ico_apri.svg);
+	background-image: url(../img/icons/ico_apri.svg);
     width: 50px;
     height: 50px;
     background-size: auto 80%;
@@ -636,7 +636,7 @@ h5 {
     border-radius: 50%;
 }
 #moduli .module-custody.active button {
-	background-image: url(/dgi/assets/img/icons/ico_chiudi.svg);
+	background-image: url(../img/icons/ico_chiudi.svg);
     width: 50px;
     height: 50px;
     background-size: auto 40%;
@@ -671,7 +671,7 @@ h5 {
 
 .pservices .back-training:before {
 	content: "";
-    background-image: url(/dgi/assets/img/professional_services/training/barra.png);
+    background-image: url(../img/professional_services/training/barra.png);
 	width: 110px;
     height: 200px;
     position: absolute;
@@ -682,7 +682,7 @@ h5 {
 }
 .pservices .back-training:after {
 	content: "";
-    background-image: url(/dgi/assets/img/professional_services/training/barra.png);
+    background-image: url(../img/professional_services/training/barra.png);
     width: 110px;
     height: 200px;
     position: absolute;
@@ -1008,13 +1008,13 @@ p.scrolldown .logo{
 	color: #ccc;
 }
 .dir  span.loctop {
-    background-image: url(/dgi/assets/img/home/ico_sede.svg);
+    background-image: url(../img/home/ico_sede.svg);
     background-size: 12px;
 	background-repeat: no-repeat;
 	background-position: left center;
 }
 .dir  span.mailtop {
-    background-image: url(/dgi/assets/img/home/ico_menu.svg);
+    background-image: url(../img/home/ico_menu.svg);
     background-size: 12px;
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -1229,7 +1229,7 @@ p.text-description{
 }
 
 #institution-sections h2:before {
-    background-image: url(/dgi/assets/img/home/ico_slider.png);
+    background-image: url(../img/home/ico_slider.png);
     width: 50px;
     content: " ";
     position: relative;
@@ -1248,7 +1248,7 @@ p.text-description{
     margin: 40px auto 20px;
 }
 .view-all {
-    background-image: url(/dgi/assets/img/home/ico_read_all.svg);
+    background-image: url(../img/home/ico_read_all.svg);
 	background-repeat: no-repeat;
     height: 35px;
     width: 125px;
@@ -1436,7 +1436,7 @@ p.date-post {
     color: white;
 }
 #home-sliders h2:before {
-    background-image: url(/dgi/assets/img/home/ico_slider.png);
+    background-image: url(../img/home/ico_slider.png);
     width: 50px;
     content: " ";
     position: relative;
@@ -1799,11 +1799,11 @@ h1, .h1 {
     color: black!important;
 }
 .slick-prev:before {
-    content: "\f053"!important;
+    content: ""!important;
     font-family: FontAwesome!important;
 }
 .slick-next:before {
-    content: "\f054"!important;
+    content: ""!important;
     font-family: FontAwesome!important;
 }
 .slick-slide img {
@@ -2350,7 +2350,7 @@ margin-bottom: 30px;
 }
 .alumni-top-slider #lightSlider li {
 	height: 180px!important;
-    background-image: url(/dgi/assets/img/about/ico_alumni.png);
+    background-image: url(../img/about/ico_alumni.png);
     background-size: 50px auto;
     background-position: center 15px;
     background-repeat: no-repeat;
@@ -2404,7 +2404,7 @@ margin-bottom: 30px;
     left: -40px;
 }
 .alumni-top-slider .slick-next {
-    right: -40px;
+    right: -20px;
 }
 .alumni-top-slide {
     margin-top: 50px;
@@ -2640,7 +2640,7 @@ h1.about-dgi, p.about-dgi {
     margin-bottom: 0px;
 }
 #form-section.form-workshop h6:before {
-	background-image: url(/dgi/assets/img/professional_services/training/ico_form.png);
+	background-image: url(../img/professional_services/training/ico_form.png);
     width: 45px;
     content: " ";
     position: relative;
@@ -2825,7 +2825,7 @@ a.thesis-pdf {
     padding: 15px 25px;
 }
 .searchbar:before {
-    content: "\f002"!important;
+    content: ""!important;
     font-family: FontAwesome!important;
 }
 .searchbar{
@@ -2974,6 +2974,30 @@ p.blog-text{
     font-weight: 800;
 	
 }
+.fa-angle-right:before {
+    height: 20px;
+    width: 10px;
+    display: table;
+    color: #333!important;
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.fa-angle-left:before {
+    height: 20px;
+    width: 10px;
+    display: table;
+    color: #333!important;
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.fa-search:before {
+    content: "\f002";
+    color: #333!important;
+}
 .bcrumbs .float-right span {
     font-weight: 800;
 }
@@ -3045,7 +3069,7 @@ p.scrollhome {
 	color:white
 }
 .searchbar:before {
-    content: "\f002"!important;
+    content: ""!important;
     font-family: FontAwesome!important;
     color: white;
 }
@@ -3789,7 +3813,7 @@ footer h3 {
     display: inline-block;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(/dgi/assets/img/crypto_insights/ico_insights.png);
+    background-image: url(../img/crypto_insights/ico_insights.png);
     width: 100px;
     height: 100px;
     position: absolute;
@@ -3806,7 +3830,7 @@ footer h3 {
     display: inline-block;
     cursor: pointer;
     background-repeat: no-repeat;
-    background-image: url(/dgi/assets/img/crypto_insights/ico_quarterly.png);
+    background-image: url(../img/crypto_insights/ico_quarterly.png);
     width: 70px;
     height: 70px;
     position: absolute;
@@ -3910,7 +3934,7 @@ footer h3 {
 }
 
 .book-meeting-panel  {
-	background-image: url(/dgi/assets/img/home/bg_contatti.jpg);
+	background-image: url(../img/home/bg_contatti.jpg);
     background-size: 100% auto;
     height: 300px;
     padding: 20px 0px;
@@ -3927,7 +3951,7 @@ width: 300px;
     font-size: 24px!important;
     text-align: left;
     padding: 50px 0px 50px 150px;
-	background-image: url(/dgi/assets/img/home/ico_book_a_meeting.png);
+	background-image: url(../img/home/ico_book_a_meeting.png);
     background-size: 130px;
     background-repeat: no-repeat;
     background-position: left center;
@@ -3947,7 +3971,7 @@ width: 300px;
     font-size: 24px!important;
     text-align: left;
     padding: 50px 0px 50px 150px;
-	background-image: url(/dgi/assets/img/home/ico_request_information.png);
+	background-image: url(../img/home/ico_request_information.png);
     background-size: 130px;
     background-repeat: no-repeat;
     background-position: left center;
