@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="{{page.locale}}">
+
+  {% include head-dgi.html %}
+  {% include header-dgi.html %}
+  {% include script-dgi.html %}
+
+    <section id="title-child-section" class="section-global-wrapper"> 
+        <div class="container-fluid-kamn">
+			<div class="row celeste">
+			<div class="bcrumbs ">
+			{% if page.locale == 'en' %}
+					<a class="navlabel " href="{{ site.baseurl }}"><span class="nav-label">HOME</span></a> <span>/</span>
+					{% else %}
+					<a class="navlabel " href="{{ site.baseurl }}/{{ page.locale  }}"><span class="nav-label">HOME</span></a> <span>/</span>
+			{% endif %}	
+			{% assign folder1 = site.pages | sort: 'sort_ranking' | reverse %}
+			{% for item in site.data.settings.menu[page.locale] %}
+			{% if page.page-category == item.uid %}{% assign urlback = item.url %}<a class="navlabel " href="{{ '/' | append: item.url | relative_url}}"><span class="nav-label">{{ site.data.locales[page.locale].menu[item.uid] }}</span></a>{% endif %}
+			{% endfor %} / <span><b>{{ page.title }}</b></span>
+			{% if page.locale == 'en' %}
+			<a class="navlabel float-right " href="{{ site.baseurl }}/{{ urlback  }}"><span class="nav-label"><i class="fa fa-angle-left"></i> BACK</span></a>
+			{% else %}
+			<a class="navlabel float-right" href="{{ site.baseurl }}/{{ urlback  }}"><span class="nav-label"><i class="fa fa-angle-left"></i> BACK</span></a>
+			{% endif %}	
+			</div>
+			</div>
+			<div class="row" style="background:#ccc;">
+				<div class="it-hero-wrapper it-dark it-overlay">
+					<!-- - img-->
+					<div class="img-responsive-wrapper" style="background-image:url({{ site.baseurl }}{{ page.slider }});background-size: cover;">
+						<div class="img-responsive" style="padding:50px 0px;">
+							<div class="it-hero-text-wrapper bg-dark header-child ">
+								<h1 class="no_toc"><span class="alert">[header]</span>{{ page.header }}</h1>
+								<p class="d-none d-lg-block"><span class="alert">[subdesc]</span>{{ page.subdesc }}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </section>
+<!-- institutions -->
+	<section id="sub-header" class="institution">
+		<div class="container container-content">
+		<div class="row">
+			<h2 class="no_toc">{{ page.subtitle }}</h2>
+			<div class="content">{{ page.description }}</div>
+		</div>
+		</div>
+	</section>
+	{% if page.uid == 'education' %} 
+	<section id="module" class="institution" style="background:#FCB600;">
+		<div class="container container-content">
+			<div class="row">
+				<h2 class="no_toc">{{ page.module-title }}</h2>
+			</div>
+		</div>
+		{% include industries/industries-module.html %}
+	</section>
+	{% endif %}
+	<!--section id="moduli" class="institution industries-menu" style="background: #333; margin-bottom: 20px;">
+			{% include industries/nav_industries.html %}
+	</section-->
+	<section id="sub-header" class="institution">
+		<div class="container container-content">
+		<div class="row">
+			<div class="content">{{ content }}</div>
+		</div>
+		</div>
+	</section> 
+	<section id="form-section" class="form-section section-global-wrapper book-meeting-panel"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 text-center">
+						<h4 class="no_toc">{{ site.data.locales[page.locale].glossary['claim']}}</h4>
+				</div>
+			</div>
+			<div class="row">
+				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
+					  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
+					  <div class="d-none d-lg-block book-meeting">
+					  	{% if page.locale == 'en' %}
+						{% include form-book.html %}
+						{% else %}
+						{% include form-book-it.html %}
+						{% endif %}
+					 </div>
+					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['book-meeting']}}">
+				</div>
+				 <div class="col-lg-6 col-md-6 text-center info-panel">
+					 <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['request-information']}}</button></h5>
+					  <div class="d-none d-lg-block request-information">
+						{% if page.locale == 'en' %}
+						{% include form-request.html %}
+						{% else %}
+						{% include form-request-it.html %}
+						{% endif %}					  
+					  </div>
+					  <input type="hidden" class="dataform" value="{{ site.data.locales[page.locale].glossary['request-information']}}">
+				</div>
+			</div>
+		</div>
+	</section>
+  </body>
+
+  {% include footer-dgi.html %}
+</html>

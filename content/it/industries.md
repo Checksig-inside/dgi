@@ -5,7 +5,7 @@ header: Settori industriali
 locale: it
 uid: industries
 permalink: /it/industries.html
-subtitle: <p>Profonda esperienza di settore in ambito<br> financial services, consulting ed education</p>
+subtitle: Profonda esperienza di settore in ambito<br> financial services, consulting ed education
 subdesc: Al tuo fianco nel percorso di esplorazione ed implementazione 
 img: https://via.placeholder.com/250x250
 slider: /assets/img/industries/header.jpg

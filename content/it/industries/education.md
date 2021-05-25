@@ -1,10 +1,13 @@
 ---
-layout: industries_child
+layout: industries_child_education
 title: Educational Services
 header: Educational Services
-subtitle: Formazione multidisciplinare  
-subdesc: Approccio multidisciplinare per arricchire la tua offerta formativa   
+subtitle: Bitcoin, crocevia di discipline
+subdesc: Formazione multidisciplinare
+description: La comprensione del fenomeno bitcoin richiede un approccio multidisciplinare, all'incrocio di teoria economica, crittografia, teoria dei giochi e tecnologia.
+module-title: Approccio multidisciplinare per arricchire la tua offerta formativa
 img: /assets/img/industries/ico_education_off.svg
+page.sub-image: /assets/img/industries/header.jpg
 slider: /assets/img/industries/header.jpg
 slider-ranking: 600
 uid: education
@@ -14,23 +17,6 @@ page-category: industries
 published: true
 sort_ranking: 600
 ---
-
-### Bitcoin, crocevia di discipline
-La comprensione del fenomeno bitcoin richiede un approccio multidisciplinare, all'incrocio di teoria economica, crittografia, teoria dei giochi e tecnologia.  
-
-***
-
-### Il partner ideale di istituti di ricerca superiore ed accademia
-
-- **Laboratori e sessioni di sviluppo applicato**
-
-- **Format formativi modulari, da 1 a 40 ore**
-
-- **Adeguamento all'audience, da facoltà umanistiche a STEM**
-
-- **Creazione ed erogazione di contenuti formativi su misura**  
-
-***
 
 ### Perchè DGI?
 
