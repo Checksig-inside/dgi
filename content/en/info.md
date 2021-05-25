@@ -11,7 +11,7 @@ locale: en
 - Name: Digital Gold Institute S.R.L.
 - Type: Limited Liability Company (LLC)
 - Registered address: Via Massimo Gorki 47, 20098 San Giuliano Milanese (MI) - ITALY
-- Office: Corso di Porta Romana 61, 20122 Milano (MI) - ITALY
+- Office: Via Pirelli 11, 20124 Milano (MI) - ITALY
 - VAT number: IT10481200961
 - iscal code, Business Register Office number: 10481200961
 - (Chamber of Commerce) Economic and Administrative Index: MI-2534614

@@ -11,7 +11,7 @@ locale: it
 - Nome: Digital Gold Institute S.R.L.
 - Tipo: Società a Responsabilità Limitata
 - Sede legale: Via Massimo Gorki 47, 20098 San Giuliano Milanese (MI)
-- Sede operativa: Corso di Porta Romana 61, 20122 Milano (MI)
+- Sede operativa: Via Pirelli 11, 20124 Milano (MI)
 - Partita IVA: 10481200961
 - Codice fiscale e numero nel Registro Imprese: 10481200961
 - Repertorio Economico Amministrativo (REA) CCIAA: MI-2534614
