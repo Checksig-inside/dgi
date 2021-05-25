@@ -1,13 +1,13 @@
-- name: Titolo 1
+- name: DGI_home
   intro: Scarcity in the Digital Realm
   title: Digital Gold Institute
   description: 
   img: /assets/img/home/header_homepage.jpg
   sort_ranking: 1000
   locale: en
-- name: Titolo 1
-  intro: Vision makes a difference
-  title: Scarcity on the Digital Realm
+- name:   DGI_home
+  intro: "Bitcoin: la scarsità in ambito digitale"
+  title: Digital Gold Institute
   description: 
   img: /assets/img/home/header_homepage.jpg
   sort_ranking: 1000

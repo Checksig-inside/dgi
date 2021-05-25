@@ -1,3 +1,33 @@
+#---Education IT
+
+- name: Laboratori e sessioni di sviluppo applicato
+  type: education
+  img: /assets/img/industries/ico_education_on.svg
+  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  sort_ranking: 1000
+  locale: it
+- name: Format formativi modulari, da 1 a 40 ore
+  type: education
+  img: /assets/img/industries/ico_education_on.svg
+  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  sort_ranking: 800
+  locale: it
+- name: Adeguamento all'audience, da facoltà umanistiche a STEM
+  type: education
+  img: /assets/img/industries/ico_education_on.svg
+  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  sort_ranking: 900
+  locale: it
+- name: Creazione ed erogazione di contenuti formativi su misura
+  type: education
+  img: /assets/img/industries/ico_education_on.svg
+  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  sort_ranking: 900
+  locale: it
 
 #---Education EN
 
@@ -23,27 +53,3 @@
   sort_ranking: 800
   locale: en
   
- 
-#---Education IT
-
-- name: IT - Modulo1
-  type: education
-  img: /assets/img/industries/ico_education_on.svg
-  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
-  sort_ranking: 1000
-  locale: it
-- name: IT - Modulo2
-  type: education
-  img: /assets/img/industries/ico_education_on.svg
-  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
-  sort_ranking: 800
-  locale: it
-- name: IT - Modulo3
-  type: education
-  img: /assets/img/industries/ico_education_on.svg
-  subdesc: IT -  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. 
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
-  sort_ranking: 900
-  locale: it
