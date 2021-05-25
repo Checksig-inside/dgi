@@ -2,14 +2,14 @@
 layout: professional-services_child
 title: Soluzioni software
 header: Soluzioni software
-tag: software
-uid: software
+tag: software-solutions
+uid: software-solutions
 subtitle: La tecnologia Bitcoin è al centro di un ecosistema in continua evoluzione
 subdesc: Soluzioni bitcoin industriali, che scalano e si integrano con i tuoi sistemi
 description: Soluzioni bitcoin industriali, che scalano e si integrano con i tuoi sistemi
 img: /assets/img/custody/ico_technology.svg
-slider: /assets/img/professional_services/speech/bg_speech.jpg
-permalink: /it/professional-services/speech/
+slider: /assets/img/professional_services/software-solutions/bg_speech.jpg
+permalink: /it/professional-services/software-solutions/
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 locale: it
 page-tag: secmid

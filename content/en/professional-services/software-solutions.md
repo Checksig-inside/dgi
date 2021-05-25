@@ -11,7 +11,7 @@ subdesc: EN -Lorem ipsum dolores
 subtitle: Speach - subtitle
 description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: /assets/img/professional_services/training/ico_speach_on.svg
-slider: /assets/img/professional_services/Software Solutions/bg_speech.jpg
+slider: /assets/img/professional_services/software-solutions/bg_speech.jpg
 permalink: /professional-services/software-solutions/
 sub-image: /assets/img/professional_services/consulting/img_consulting.jpg
 published: true
