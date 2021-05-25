@@ -1,6 +1,6 @@
 ---
 layout: crypto-insights_child
-title: Market
+title: Mercato
 header: Crypto insights Market
 locale: it
 uid: crypto-insights-market

@@ -1,6 +1,6 @@
 ---
 layout: crypto-insights_child
-title: Ecosystem
+title: Ecosistema
 header: Crypto insights Ecosystem
 locale: it
 uid: crypto-insights-ecosystem

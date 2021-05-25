@@ -1,6 +1,6 @@
 ---
 layout: crypto-insights_child
-title: Technology
+title: Tecnologia
 header: Crypto insights Technology
 locale: it
 uid: crypto-insights-technology
