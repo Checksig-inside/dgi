@@ -14,14 +14,16 @@ published: true
 sort_ranking: 800
 ---
 ***
+
 ### Una nuova asset class
 
 L'invenzione di bitcoin ha rivoluzionato l'intero sistema finanziario, dando impulso alla creazione di una vera e propria nuova asset class.
 Il settore dei digital assets è tuttavia un fenomeno di non semplice lettura per gli incumbent del settore, per via della sua costante evoluzione e della complessità tecnica e regolamentare.  
 
-
 ***
+
 ### Un partner al vostro fianco
+
 DGI è il partner ideale di banche, asset manager e compagnie assicurative che intendono sviluppare e offrire nuovi servizi alla propria clientela retail e istituzionale
 
 > **Assistenza nella strutturazione di prodotti di investimento (e.g. ETF, ETP)**
@@ -37,6 +39,7 @@ DGI è il partner ideale di banche, asset manager e compagnie assicurative che i
 > **Valutazioni tecniche per soluzioni assicurative contro il rischio di frodi e furti**
 
 ***
+
 ### Perchè DGI?
 
 - **Solido track record del team DGI nell'industria dei servizi finanziari e nella consulenza di processo e strategica.**
@@ -47,4 +50,4 @@ DGI è il partner ideale di banche, asset manager e compagnie assicurative che i
 
 - **Accesso a un network esteso di professionisti specializzati in ambito fiscale e regolamentare**  
 
-- **Approccio di lavoro integrato, a fianco del vostro team nella realizzaione dei progetti**  
+- **Approccio di lavoro integrato, a fianco del vostro team nella realizzaione dei progetti**
