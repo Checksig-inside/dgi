@@ -4,15 +4,15 @@ disqus:
   disqus_shortname: 'diabled-disqus'
 
 menu:
-#  en: 
-# - {uid: 'home', path: 'en', url: 'index.html'}
-# - {uid: 'professional-services', path: 'en', url: 'professional-services.html'}
-# - {uid: 'industries', path: 'en', url: 'industries.html'}
-# - {uid: 'crypto-insights', path: 'en', url: 'crypto-insights.html'}
-# - {uid: 'institute-insights', path: 'en', url: 'institute-insights.html'}
-# - {uid: 'r-d', path: 'en', url: 'r-d.html'}
-# - {uid: 'about-dgi', path: 'en', url: 'about-dgi.html'}
-# - {uid: 'contact', path: 'en', url: 'it/contact.html'}
+  en: 
+  - {uid: 'home', path: 'en', url: 'index.html'}
+  - {uid: 'professional-services', path: 'en', url: 'professional-services.html'}
+  - {uid: 'industries', path: 'en', url: 'industries.html'}
+  - {uid: 'crypto-insights', path: 'en', url: 'crypto-insights.html'}
+  - {uid: 'institute-insights', path: 'en', url: 'institute-insights.html'}
+  - {uid: 'r-d', path: 'en', url: 'r-d.html'}
+  - {uid: 'about-dgi', path: 'en', url: 'about-dgi.html'}
+  - {uid: 'contact', path: 'en', url: 'it/contact.html'}
   it:
   - {uid: 'home', path: 'it', url: 'it/index.html'}
   - {uid: 'professional-services', path: 'it', url: 'it/professional-services.html'}
