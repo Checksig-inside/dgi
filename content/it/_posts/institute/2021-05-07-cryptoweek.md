@@ -3,7 +3,7 @@ layout: post-institute
 title:  "CryptoWeek #13 con Francesco Avella"
 date:   2021-05-07 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/cryptoweek-post-thumb.jpg
+img-list: /assets/img/institute_insights/2021-04-30-cryptoweek-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-05-07-cryptoweek.jpg
 img-bottom: /assets/img/institute_insights/ISP_ON_AIR_LEADERBOARD_728X90.jpg
 img-bottom-link: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air?utm_campaign=GoldInstitute&utm_source=GoldInstitute&utm_medium=Banner_CPM&utm_content=DisplayAwareness&utm_term=GoldInstitute_Banner_CPM_GoldInstitute_

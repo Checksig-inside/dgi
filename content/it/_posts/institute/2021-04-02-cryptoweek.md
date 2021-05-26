@@ -3,7 +3,7 @@ layout: post-institute
 title:  "CryptoWeek #8"
 date:   2021-04-02 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/cryptoweek-post-thumb.jpg
+img-list: /assets/img/institute_insights/2021-04-02-cryptoweek-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-04-02-cryptoweek.jpg
 video-top: L7xo8xIHKYo
 podcast-top: 1686991

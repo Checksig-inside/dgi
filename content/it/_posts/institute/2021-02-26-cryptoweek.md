@@ -3,7 +3,7 @@ layout: post-institute
 title:  "CryptoWeek #3"
 date:   2021-02-26 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/cryptoweek-post-thumb.jpg
+img-list: /assets/img/institute_insights/2021-02-26-cryptoweek-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-02-26-cryptoweek.jpg
 video-top: DAQlSecIwd8
 podcast-top: 1686991
