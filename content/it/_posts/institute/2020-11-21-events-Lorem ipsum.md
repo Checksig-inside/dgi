@@ -7,7 +7,7 @@ date:   2020-11-27 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg
 img-detail: /assets/img/institute_insights/header_institute.jpg
 parent-category: institute-insights
-categories: events
+categories: eventi
 locale: it
 uid: institute-events-1
 published: false

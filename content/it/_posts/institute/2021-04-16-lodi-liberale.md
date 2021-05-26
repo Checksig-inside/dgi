@@ -7,7 +7,7 @@ date:   2020-04-16 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-16-lodi-liberale-thumb.jpg
 video-top: PvNkZexoWik
 parent-category: institute-insights
-categories: events
+categories: eventi
 locale: it
 uid: 20210416-institute-events
 published: true
