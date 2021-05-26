@@ -18,7 +18,7 @@ published: true
 comments: false
 ---
 
-Ospite della puntata il Dott. Francesco Avella, LL.M. che presenta l'Instant-book de Il Sole 24 Ore da lui curato su aspetti fiscali e dichiarazione dei redditi per bitcoin e crypto-asset.
+Ospite della puntata il Dott. Francesco Avella.
 
 Di seguito i link alle news commentate.
 
@@ -70,7 +70,7 @@ Di seguito i link alle news commentate.
 
 ### Instant-book de Il Sole 24 Ore
 
-- [Guest: Francesco Avella](https://www.linkedin.com/posts/ferdinandoametrano_cryptoweek-bitcoin-activity-6796311659150413824-kg-z)
+- [Guest: Francesco Avella](https://www.linkedin.com/posts/ferdinandoametrano_cryptoweek-bitcoin-activity-6796311659150413824-kg-z), LL.M. che presenta l'Instant-book de Il Sole 24 Ore da lui curato su aspetti fiscali e dichiarazione dei redditi per bitcoin e crypto-asset.
 
 ### DGI Events
 
