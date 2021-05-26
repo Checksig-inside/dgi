@@ -10,7 +10,7 @@ parent-category: institute-insights
 categories: ["rassegna stampa"]
 locale: it
 uid: institute-news-1
-published: true
+published: false
 comments: false
 ---
 

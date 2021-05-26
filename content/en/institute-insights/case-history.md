@@ -12,7 +12,7 @@ description: EN -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem 
 img: https://via.placeholder.com/250x250
 page-category: institute-insights
 posts-category: 'case history'
-published: true
+published: false
 sort_ranking: 700
 ---
 

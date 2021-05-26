@@ -7,7 +7,7 @@ date:   2021-05-11 09:07:42 +0100
 img-list: /assets/img/institute_insights/2020-10-28-ilsole24ore-thumb.png
 img-detail: /assets/img/institute_insights/2021-05-11-il-sole-24-ore.jpg
 parent-category: institute-insights
-categories: news
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210511-institute-news
 published: true

@@ -7,7 +7,7 @@ date:   2020-04-22 09:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-22-smartmoney-thumb.png
 img-detail: /assets/img/institute_insights/2021-04-22-smartmoney.jpg
 parent-category: institute-insights
-categories: news
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210422-institute-news
 published: true

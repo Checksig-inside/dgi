@@ -1,17 +1,17 @@
 ---
 layout: institute-insights_child
-title: News
+title: Eventi
 header: Institute insights
 locale: it
-uid: institute-insights-news
+uid: institute-insights-events
 slider: /assets/img/institute_insights/header_institute.jpg
 sub-header: /assets/img/support/img_bitcoin.jpg
-permalink: /it/institute-insights/news.html
+permalink: /it/institute-insights/events.html
 subdesc: it -Lorem ipsum dolores
 description: it -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
 page-category: institute-insights
-posts-category: news
+posts-category: eventi
 published: true
 sort_ranking: 1000
 ---
