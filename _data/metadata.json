@@ -49,7 +49,7 @@
 {
   "uid":"home",
   "title":"Digital Gold Institute",
-  "description":"Scarcity in the digital realm.",
+  "description":"Bitcoin: la scarsità in ambito digitale.",
   "locale":"it"
 },
 {
@@ -91,6 +91,6 @@
 {
   "uid":"contacts",
   "title":"Contattaci",
-  "description":"Prendi appuntamento con i nostri esperti o richiedi maggiori informazioni",
+  "description":"Prendi appuntamento con i nostri esperti o richiedi maggiori informazioni.",
   "locale":"it"
 }]
