@@ -16,7 +16,7 @@ url: "checksig-inside.github.io" # the base hostname & protocol for your site, e
 
 # multiple language
 defaults:
-  # default en
+  # default it
   - values:
       locale: it
   # config posts
@@ -33,38 +33,38 @@ defaults:
     values:
       layout: post
       locale: en
-      permalink: en/:year/:month/:day/:title:output_ext
+      permalink: /:year/:month/:day/:title:output_ext
   
   # config pages
-  - scope: 
-      path: content/it/**
-      type: pages
-    values: 
-      locale: it   
-      permalink: /
   - scope: 
       path: content/en/**
       type: pages
     values: 
       locale: en
-      permalink: en/
+      permalink: /
+  - scope: 
+      path: content/it/**
+      type: pages
+    values: 
+      locale: it   
+      permalink: it/
 
   # config collections 
-
-  - scope:
-      path: content/it/_custody/**
-      type: custody
-    values:
-      layout: custody
-      locale: it
-      permalink: "/:collection/:path/"
   - scope:
       path: content/en/custody/**
       type: custody
     values:
       layout: custody
       locale: en
-      permalink: "en/:collection/:path/"
+      permalink: "/:collection/:path/"
+  - scope:
+      path: content/it/_custody/**
+      type: custody
+    values:
+      layout: custody
+      locale: it
+      permalink: "it/:collection/:path/"
+
             
 
 github: [metadata]
