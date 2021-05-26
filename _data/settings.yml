@@ -1,10 +1,10 @@
 # Change 'comments' to true for Disqus comments
 disqus:
   comments: false
-  disqus_shortname: 'diabled-disqus'
+  disqus_shortname: 'diabxeled-disqus'
 
 menu:
-   en: 
+en: 
   - {uid: 'home', path: 'en', url: 'index.html'}
   - {uid: 'professional-services', path: 'en', url: 'professional-services.html'}
   - {uid: 'industries', path: 'en', url: 'industries.html'}
@@ -13,7 +13,7 @@ menu:
   - {uid: 'r-d', path: 'en', url: 'r-d.html'}
   - {uid: 'about-dgi', path: 'en', url: 'about-dgi.html'}
   - {uid: 'contact', path: 'en', url: 'contact.html'}
-  it:
+it:
   - {uid: 'home', path: 'it', url: 'it/index.html'}
   - {uid: 'professional-services', path: 'it', url: 'it/professional-services.html'}
   - {uid: 'industries', path: 'it', url: 'it/industries.html'}
