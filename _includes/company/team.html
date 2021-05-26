@@ -4,7 +4,7 @@
 	</div>
 </div>
 <div class="row padding">
-	{% for member in site.data.team | sort: 'sort_ranking' | reverse %}
+	{% for member in site.data.about-team | sort: 'sort_ranking' | reverse %}
 	<div class="col-lg-6 col-md-6 text-center flexrow">
 		<div class="panel-sx">
 		<img class="mx-auto rounded-circle" src="{{ site.baseurl }}/assets/{{ member.photo }}"
