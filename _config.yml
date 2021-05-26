@@ -21,47 +21,50 @@ defaults:
       locale: it
   # config posts
   - scope:
-      path: content/en/_posts/**
-      type: posts
-    values:
-      layout: post
-      locale: en
-      permalink: /:year/:month/:day/:title:output_ext
-  - scope:
       path: content/it/_posts/**
       type: posts
     values:
       layout: post
       locale: it
-      permalink: /it/:day/:month/:year/:title:output_ext
-  # config pages
-  - scope: 
-      path: content/en/**
-      type: pages
-    values: 
+      permalink: /:year/:month/:day/:title:output_ext
+  - scope:
+      path: content/en/_posts/**
+      type: posts
+    values:
+      layout: post
       locale: en
-      permalink: /
+      permalink: en/:year/:month/:day/:title:output_ext
+  
+  # config pages
   - scope: 
       path: content/it/**
       type: pages
     values: 
       locale: it   
-      permalink: it/
-  # config collections 
-  - scope:
-      path: content/en/custody/**
-      type: custody
-    values:
-      layout: custody
+      permalink: /
+  - scope: 
+      path: content/en/**
+      type: pages
+    values: 
       locale: en
-      permalink: "/:collection/:path/"
+      permalink: en/
+
+  # config collections 
+
   - scope:
       path: content/it/_custody/**
       type: custody
     values:
       layout: custody
       locale: it
-      permalink: "it/:collection/:path/"
+      permalink: "/:collection/:path/"
+  - scope:
+      path: content/en/custody/**
+      type: custody
+    values:
+      layout: custody
+      locale: en
+      permalink: "en/:collection/:path/"
             
 
 github: [metadata]
