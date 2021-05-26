@@ -18,7 +18,7 @@ defaults:
   - values:
       locale: it
   # config posts
-    - scope:
+  - scope:
       path: content/en/_posts/**
       type: posts
     values:
