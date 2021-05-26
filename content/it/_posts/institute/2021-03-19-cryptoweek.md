@@ -3,8 +3,8 @@ layout: post-institute
 title:  "CryptoWeek #6"
 date:   2021-03-19 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-03-19-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/2021-03-19-cryptoweek.jpg
+img-list: /assets/img/institute_insights/cryptoweek/2021-03-19-cryptoweek-thumb.jpg
+img-detail: /assets/img/institute_insights/cryptoweek/2021-03-19-cryptoweek.jpg
 video-top: 6PlJV7a_FG0
 podcast-top: 1686991
 podcast-bottom: 1686991

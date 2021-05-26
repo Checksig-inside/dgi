@@ -3,8 +3,8 @@ layout: post-institute
 title:  "CryptoWeek #5"
 date:   2021-03-12 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-03-12-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/2021-03-12-cryptoweek.jpg
+img-list: /assets/img/institute_insights/cryptoweek/2021-03-12-cryptoweek-thumb.jpg
+img-detail: /assets/img/institute_insights/cryptoweek/2021-03-12-cryptoweek.jpg
 video-top: AJZIAN-TNDQ
 podcast-top: 1686991
 podcast-bottom: 1686991

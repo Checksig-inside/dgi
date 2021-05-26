@@ -3,8 +3,8 @@ layout: post-institute
 title:  "CryptoWeek #2"
 date:   2021-02-19 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-02-19-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/2021-02-19-cryptoweek.jpg
+img-list: /assets/img/institute_insights/cryptoweek/2021-02-19-cryptoweek-thumb.jpg
+img-detail: /assets/img/institute_insights/cryptoweek/2021-02-19-cryptoweek.jpg
 video-top: RCz99O-Xszk
 podcast-top: 1686991
 podcast-bottom: 1686991
