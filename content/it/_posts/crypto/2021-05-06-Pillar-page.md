@@ -14,7 +14,7 @@ published: true
 img-list: /assets/img/pillar/dgi-pillar1-header.jpg
 img-detail: /assets/img/pillar/dgi-pillar1-header.jpg
 parent-category: crypto-insights
-categories: market
+categories: mercato
 tag: bitcoin
 uid: crypto-market-pillar-bitcoin
 slider: /assets/img/pillar/dgi-pillar1-header.jpg
