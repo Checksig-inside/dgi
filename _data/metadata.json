@@ -1,7 +1,7 @@
 [{
   "uid":"home",
   "title":"Home",
-  "description":"EN -Lorem ipsum dolores",
+  "description":"Digital Gold Institute",
   "locale":"en"
 },
 {
@@ -48,49 +48,49 @@
 },
 {
   "uid":"home",
-  "title":"Home",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"Digital Gold Institute",
+  "description":"Scarcity in the digital realm.",
   "locale":"it"
 },
 {
   "uid":"professional-services",
-  "title":"professional-services",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"DGI - Servizi professionali",
+  "description":"DGI: servizi di consulenza, programmi di formazione e soluzioni software.",
   "locale":"it"
 },
 {
   "uid":"industries",
-  "title":"industries",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"DGI - Settori industriali",
+  "description":"Profonda esperienza di settore in ambito financial services, consulting ed education.",
   "locale":"it"
 },
 {
   "uid":"r-d",
-  "title":"r-d",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"DGI - Ricerca e sviluppo",
+  "description":"Il riconoscimento di Bitcoin in termini di rilevanza multidisciplinare: crittografia, teoria monetaria ed economica, sistemi distribuiti, teoria dei giochi.",
   "locale":"it"
 },
 {
   "uid":"crypto-insights",
-  "title":"crypto-insights",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"Crypto Insights",
+  "description":"Approfondimenti sulla rilevanza di Bitcoin in questo momento storico e culturale.",
   "locale":"it"
 },
 {
   "uid":"about-dgi",
-  "title":"about-dgi",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"About DGI",
+  "description":"DGI: il principale think tank italiano dedicato al fenomeno bitcoin",
   "locale":"it"
 },
 {
   "uid":"institute-insights",
-  "title":"institute-insights",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"DGI - Attività dell'Istituto",
+  "description":"L’Istituto promuove la scarsità in ambito digitale nel dibattito pubblico e nel mondo accademico.",
   "locale":"it"
 },
 {
   "uid":"contacts",
-  "title":"Contacts",
-  "description":"IT - Lorem ipsum dolores",
+  "title":"Contattaci",
+  "description":"Prendi appuntamento con i nostri esperti o richiedi maggiori informazioni",
   "locale":"it"
 }]
