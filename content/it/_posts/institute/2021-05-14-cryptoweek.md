@@ -14,7 +14,7 @@ parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
 uid: institute-cryptoweek-14
-published: false
+published: true
 comments: false
 ---
 Ospite della puntata il Dott. Carlo Clerici
