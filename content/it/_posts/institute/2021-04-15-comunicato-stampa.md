@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title:  "Presentazione del report trimestrale del Digital Gold Institute"
-subtitle: "Comunicato stampa" 
 author: "Staff"
 date:   2020-04-15 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-14-2021Q1-report-thumb.jpg
@@ -13,6 +12,7 @@ uid: 20210415-institute-events
 published: true
 comments: false
 ---
+Comunicato stampa
 
 Si è svolta ieri la presentazione della nona edizione del report trimestrale su ecosistema Bitcoin, crypto-asset e blockchain curato dal Digital Gold Institute (DGI), il principale think tank italiano dedicato al fenomeno Bitcoin e alla scarsità in ambito digitale. La registrazione dell’evento e le slide presentate sono disponibili sul sito dell’Istituto ([https://dgi.io/reports]({{site.baseurl}}/reports)), dove entro fine mese sarà disponibile il report 2021-Q1 completo.
 

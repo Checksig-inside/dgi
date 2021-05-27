@@ -1,11 +1,10 @@
 ---
 layout: post-institute
 title: "Cryptovalute e nuovi player nel mercato dei Pagamenti"
-subtitle: "Tavola rotonda moderata da Ferdinando M. Ametrano" 
 date: 2019-11-08 17:30:42 +0100
 author: "Lucia Mandelli"
-img-list: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti.jpg
-img-detail: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti-thumb.jpg
+img-list: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti-thumb.jpg
+img-detail: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti.jpg
 parent-category: institute-insights
 categories: eventi
 locale: it
@@ -13,6 +12,7 @@ uid: 20191108-institute-events
 published: true
 comments: false
 ---
+Tavola rotonda moderata da Ferdinando M. Ametrano
 
 In occasione de [Il Salone dei Pagamenti - Payvolution](http://www.salonedeipagamenti.com//) si è parlato di cryptovalute. All'interno del panel *[Cryptovalute e nuovi player nel mercato dei Pagamenti: uno sguardo sul mondo](http://www.salonedeipagamenti.com/agenda/sessione-cryptovalute-e-nuovi-player-nel-mercato-dei-pagamenti-impatti-regolamentazione-privacy?fbclid=IwAR1zg1pLavCB65NjnCPTc4XrHEeGou_Mz1jS0zAHW_1RFHUxpb7fGkHo6-0//)*, il direttore del nostro centro di ricerca [Ferdinando M. Ametrano](http://www.ametrano.net/) ha guidato il confronto tra i partecipanti sul tema del cambiamento del sistema finanziario tradizionale, a seguito dell'introduzione delle cryptovalute nel mondo dei pagamenti.
 

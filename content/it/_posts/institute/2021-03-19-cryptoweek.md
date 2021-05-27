@@ -4,7 +4,6 @@ title:  "CryptoWeek #6"
 date:   2021-03-19 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-19-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/cryptoweek/2021-03-19-cryptoweek.jpg
 video-top: 6PlJV7a_FG0
 podcast-top: 1686991
 podcast-bottom: 1686991
@@ -22,21 +21,6 @@ Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quant
 
 Di seguito i link alle news commentate
 
----
-layout: cryptoweek
-comments: false
-title: "CryptoWeek #6"
-subtitle: "Il commento alle news della settimana" 
-author: "Staff"
-image:
-    thumb: cryptoweek-post-thumb.jpg
-youtube: 6PlJV7a_FG0
-published: true
-cryptoweek: true
-podcast:
-    id: buzzsprout-player-8173333
-    src: https://www.buzzsprout.com/1686991/8173333-cryptoweek-6-19-marzo-2021.js?container_id=buzzsprout-player-8173333&player=small
----
 
 ### CBDC
 

@@ -1,14 +1,15 @@
 ---
-layout: post-institute
+layout: post
 title: "Real Volume: The Rock Trading Exchange"
 subtitle: "A supplement to the Bitwise report presented in March 2019 to SEC"
 date: 2019-04-23 17:30:42 +0100
 author: "Marcello Pichini"
-img-list: /assets/img/institute_insights/2019-04-23-trt-volumes.jpg
-img-detail: /assets/img/institute_insights/2019-04-23-trt-volumes-thumb.jpg
-parent-category: institute-insights
-categories: eventi
-locale: it
+img-list: /assets/img/crypto_insights//2019-04-23-trt-volumes.jpg
+img-detail: /assets/img/crypto_insights//2019-04-23-trt-volumes-thumb.jpg
+parent-category: crypto-insights
+categories: market
+tag: bitcoin
+locale: en
 uid: 20190423-institute-events
 published: true
 comments: false

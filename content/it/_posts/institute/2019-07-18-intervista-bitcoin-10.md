@@ -1,24 +1,22 @@
 ---
 layout: post-institute
-title: "Bitcoin: oro digitale, finanza e tulipani (puntata 10 di 11)"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+title: "Bitcoin: oro digitale, finanza e tulipani"
 date: 2019-07-18 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-07-18-intervista-bitcoin-10-thumb.jpg
-img-detail: /assets/img/institute_insights/2019-07-18-intervista-bitcoin-10-thumb.jpg
 video-top: IhIw8Z5vsTQ
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20190718-institute-events
 published: true
 comments: false
 ---
-
 Decima puntata dell'intervista al nostro direttore
 [*Ferdinando M. Ametrano*](https://www.ametrano.net)
-sul tema Bitcoin,
-a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+sul tema Bitcoin.
+
+Rassegna a cura di *Nicole Vismara* (manager di Deloitte Consulting).
 Le successive puntate verranno pubblicate con cadenza regolare
 ogni martedì e giovedì, in coda sono presenti i link alle puntate precedenti.
 Di seguito la trascrizione di questa puntata.

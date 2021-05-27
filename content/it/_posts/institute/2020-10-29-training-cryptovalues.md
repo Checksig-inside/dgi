@@ -1,11 +1,10 @@
 ---
 layout: post-institute
 title: "Presente e Futuro"
-subtitle: "Bitcoin, blockchain e cryptoasset: verso una finanza decentralizzata (DeFi)." 
 date:   2020-10-29 17:30:42 +0100
 author: "Lucia Mandelli"
-img-list: /assets/img/institute_insights/ 2020-11-04-cryptovalues.jpg
-img-detail: /assets/img/institute_insights/2020-11-04-cryptovalues-thumb.jpg
+img-list: /assets/img/institute_insights/2020-10-29-cryptovalues-thumb.jpg
+img-detail: /assets/img/institute_insights/2020-10-29-cryptovalues.jpg.jpg
 parent-category: institute-insights
 categories: eventi
 locale: it
@@ -13,6 +12,7 @@ uid: 20201029-institute-events
 published: true
 comments: false
 ---
+Bitcoin, blockchain e cryptoasset: verso una finanza decentralizzata (DeFi)
 
 Abbiamo il piacere di invitarvi al webinar ["**Presente e Futuro**"](https://cryptovalues.eu/events/4-5-novembre-2020-cryptovalues-corso-introduttivo) organizzato dal nostro partner [CryptoValues](https://cryptovalues.eu//) che si terrà il 4 e 5 novembre 2020,
 dalle 15:00 alle 18:30 in modalità live streaming su Zoom.  

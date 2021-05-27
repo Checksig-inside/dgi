@@ -1,11 +1,10 @@
 ---
 layout: post-institute
-title: "CRIPTO-ATTIVITÀ: tra recenti sviluppi e Digital Finance Package"
-subtitle: "Intervento di Ferdinando M. Ametrano al Webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset (MiCA)" 
+title: "Webinar promosso dal Parlamento Europeo"
 date:   2021-03-31 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png
-img-detail: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
+img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
+img-detail: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png
 video-top: QLC_qGeZBR8
 parent-category: institute-insights
 categories: eventi
@@ -14,6 +13,7 @@ uid: 20210331-institute-events
 published: true
 comments: false
 ---
+Intervento di Ferdinando M. Ametrano al Webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset (MiCA)
 
 La proposta di regolamentazione dei mercati in crypto-asset (MiCA):
 il punto della situazione a livello nazionale ed europeo,
@@ -51,5 +51,3 @@ Moderato da **Pierangelo Soldavini**, *Il Sole 24 Ore*, il webinar è stato cos�
 L’evento è stato trasmesso in diretta su [www.ilsole24ore.com](www.ilsole24ore.com),
 sul sito del [Parlamento Europeo](https://www.europarl.europa.eu/italy/it/succede-al-pe/cripto-attivit%C3%A0-tra-recenti-sviluppi-e-digital-finance-package)
 e sul canale YouTube di [FASI](https://youtu.be/QLC_qGeZBR8).
-
----

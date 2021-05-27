@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title:  "Presentazione del report trimestrale del Digital Gold Institute"
-subtitle: "Comunicato stampa" 
 author: "Staff"
 date:   2020-04-1 11:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-14-2021Q1-report-thumb.jpg
@@ -13,6 +12,7 @@ uid: 20210414-institute-events
 published: true
 comments: false
 ---
+Comunicato stampa
 
 Verrà presentato domani 14 aprile alle 17:30
 in diretta [YouTube](https://youtu.be/pgAlv1ufZdk)

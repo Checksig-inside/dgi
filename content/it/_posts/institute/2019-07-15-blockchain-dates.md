@@ -1,21 +1,21 @@
 ---
 layout: post-institute
 title: "₿lockchain Dates"
-subtitle: "Workshop sull’internet del valore, tra Bitcoin e blockchain"
 date: 2019-07-16 17:30:42 +0100
 author: "Paolo Mazzocchi"
-img-list: /assets/img/institute_insights/2019-07-15-blockchain-dates.jpg
-img-detail: /assets/img/institute_insights/2019-07-15-blockchain-dates-thumb.jpg
+img-list: /assets/img/institute_insights/2019-07-15-blockchain-dates-thumb.jpg
+img-detail: /assets/img/institute_insights/2019-07-15-blockchain-dates.jpg
 video-top: scgIByUGbyc
 parent-category: institute-insights
-categories: news
+categories: eventi
 locale: it
 uid: 20190716-institute-news
 published: true
 comments: false
 ---
+₿lockchain Dates: workshop sull’internet del valore, tra Bitcoin e blockchain
 
-₿lockchain Dates è un workshop organizzato in collaborazione con [Craon](https://www.craon.it/), per indagare con chiarezza cosa sono Bitcoin e Blockchain e come stanno cambiando il mondo digitale.
+Organizzato in collaborazione con [Craon](https://www.craon.it/), il workshop intende indagare con chiarezza cosa sono Bitcoin e Blockchain e come stanno cambiando il mondo digitale.
 
 Il workshop sarà guidato da [Ferdinando M. Ametrano]({{ site.baseurl }}/full-team/) e [Paolo Mazzocchi]({{ site.baseurl }}/full-team/). Per partecipare è necessaria l'iscrizione tramite il modulo presente al seguente [link](https://www.craon.it/blockchain-dates-early-bird/). Fino a fine luglio il corso è in promozione al 30% di sconto.
 

@@ -1,11 +1,10 @@
 ---
 layout: post-institute
 title: "Bitcoin: un nuovo strumento finanziario per la normativa tedesca?"
-subtitle: "Come si inserisce questa novità nel quadro europeo di MIFID II" 
 date:   2020-06-03 17:30:42 +0100
 author: "Lucia Mandelli"
-img-list: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca.jpg
-img-detail: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca-thumb.jpg
+img-list: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca-thumb.jpg
+img-detail: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca.jpg
 parent-category: institute-insights
 categories: eventi
 locale: it
@@ -13,6 +12,7 @@ uid: 20200603-institute-events
 published: true
 comments: false
 ---
+Come si inserisce bitcoin quale strumento finanziario nel quadro europeo di MIFID II
 
 Abbiamo il piacere di invitarvi al webinar **"Bitcoin: un nuovo strumento finanziario per la normativa tedesca?"** organizzato dai nostri partner [A&C Law](https://aclaw.eu/it/home/), [CryptoValues](https://cryptovalues.eu//) e [CheckSig](https:/checksig.io/) che si terrà domani, giovedì 4 giugno 2020,
 dalle 17:30 alle 19:00 in modalità live streaming.  

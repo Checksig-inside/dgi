@@ -1,6 +1,6 @@
 ---
 layout: institute-insights
-title: attività dell'istituto
+title: news dell'istituto
 header: Institute insights
 locale: it
 uid: institute-insights

@@ -1,18 +1,18 @@
 ---
 layout: post-institute
-title: "New btclib release"
-subtitle: "A python3 library for Bitcoin cryptography"
+title: "Btclib new release"
 date: 2020-04-06 17:30:42 +0100
 author: "Ferdinando M. Ametrano"
-img-list: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo.jpg
-img-detail: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo-thumb.jpg
+img-list: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo-thumb.jpg
+img-detail: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo.jpg
 parent-category: institute-insights
-categories: news
+categories: ["rassegna stampa"]
 locale: it
 uid: 20200406-institute-news
 published: true
 comments: false
 ---
+Comunicato stampa
 
 [btclib](https://github.com/dginst/btclib)
 is a python3 type annotated library intended for teaching and

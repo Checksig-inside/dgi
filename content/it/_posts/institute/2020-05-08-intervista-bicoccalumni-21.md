@@ -5,7 +5,7 @@ title: "The Blockchain Series: Bitcoin First (puntata 21 di 25)"
 subtitle: "Intervista a F. Ametrano e A. Preti"
 author: "Staff"
 image:
-    thumb: 2020-02-25-intervista-bicoccalumni-thumb.png
+    thumb: 2020-05-08-intervista-bicoccalumni-thumb.png
 youtube: Ana1kxofKbo
 published: true
 newsfeed: false

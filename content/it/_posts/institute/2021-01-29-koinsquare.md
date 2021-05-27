@@ -1,19 +1,19 @@
 ---
 layout: post-institute
 title: "Koinsquare"
-subtitle: "Bitcoin Italia, Crypto & Blockchain" 
 date:   2021-01-29 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-01-29-koinsquare.jpg
-img-detail: /assets/img/institute_insights/2021-01-29-koinsquare-thumb.jpg
+img-list: /assets/img/institute_insights/2021-01-29-koinsquare-thumb.jpg
+img-detail: /assets/img/institute_insights/2021-01-29-koinsquare.jpg
 video-top: vQLJoBy5UcU
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210129-institute-events
 published: true
 comments: false
 ---
+Bitcoin Italia, Crypto & Blockchain
 
 [**Koinsquare**](https://koinsquare.com/) è la community di riferimento in Italia per Bitcoin, Criptovalute e Blockchain.
 

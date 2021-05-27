@@ -1,26 +1,24 @@
 ---
 layout: post-institute
-title: "Bitcoin: oro digitale, finanza e tulipani (puntata 6 di 11)"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+title: "Bitcoin: oro digitale, finanza e tulipani"
 date: 2019-07-04 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-07-04-intervista-bitcoin-06-thumb.jpg
-img-detail: /assets/img/institute_insights/2019-07-04-intervista-bitcoin-06-thumb.jpg
 video-top: M77hvBBan9I
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20190704-institute-events
 published: true
 comments: false
 ---
+Sesta puntata dell'intervista al nostro direttore [*Ferdinando M. Ametrano*](https://www.ametrano.net) sul tema Bitcoin.
 
-Sesta puntata dell'intervista al nostro direttore
-[*Ferdinando M. Ametrano*](https://www.ametrano.net)
-sul tema Bitcoin,
-a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+Rassegna a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+
 Le successive puntate verranno pubblicate con cadenza regolare
 ogni martedì e giovedì, in coda sono presenti i link alle puntate precedenti.
+
 Di seguito la trascrizione di questa puntata.
 
 ### 6 - Ico, forkcoin e altcoin
