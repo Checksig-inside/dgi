@@ -4,8 +4,8 @@ title: "Presente e Futuro"
 subtitle: "Bitcoin, blockchain e cryptoasset: verso una finanza decentralizzata (DeFi)." 
 date:   2020-10-29 17:30:42 +0100
 author: "Lucia Mandelli"
-img-list: /assets/img/institute_insights/ 2020-11-04-cryptovalues.jpg
-img-detail: /assets/img/institute_insights/2020-11-04-cryptovalues-thumb.jpg
+img-list: /assets/img/institute_insights/2020-10-29-cryptovalues-thumb.jpg
+img-detail: /assets/img/institute_insights/2020-10-29-cryptovalues.jpg.jpg
 parent-category: institute-insights
 categories: eventi
 locale: it
