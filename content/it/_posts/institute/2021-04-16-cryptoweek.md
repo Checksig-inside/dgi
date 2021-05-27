@@ -1,5 +1,5 @@
 ---
-layout: post-institute
+layout: post-cryptoweek
 title:  "CryptoWeek #10"
 date:   2021-04-16 17:30:42 +0100
 author: Staff

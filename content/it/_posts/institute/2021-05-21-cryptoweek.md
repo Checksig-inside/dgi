@@ -1,5 +1,5 @@
 ---
-layout: post-institute
+layout: post-cryptoweek
 title:  "CryptoWeek #15 con Emanuele Cisbani"
 date:   2021-05-21 18:00:42 +0100
 author: Staff

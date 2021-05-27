@@ -1,5 +1,5 @@
 ---
-layout: post-institute
+layout: post-cryptoweek
 title:  "CryptoWeek #13 con Francesco Avella"
 date:   2021-05-07 17:30:42 +0100
 author: Staff
