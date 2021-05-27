@@ -10,6 +10,9 @@ img-bottom-link: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-s
 video-top: FR4e9rMO2g4
 podcast-top: 1686991
 podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8521206
+    src: https://www.buzzsprout.com/1686991/8521206-cryptoweek-14-con-carlo-clerici-14-maggio-2021.js?container_id=buzzsprout-player-8521206&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -17,6 +20,7 @@ uid: institute-cryptoweek-14
 published: true
 comments: false
 ---
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata il Dott. Carlo Clerici
 
 Di seguito i link alle news commentate.

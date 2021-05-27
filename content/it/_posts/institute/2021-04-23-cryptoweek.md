@@ -10,6 +10,9 @@ img-bottom-link: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-s
 video-top: GT9DbDmUrmk
 podcast-top: 1686991
 podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8391448
+    src: https://www.buzzsprout.com/1686991/8391448-cryptoweek-11-23-aprile-2021.js?container_id=buzzsprout-player-8391448&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -17,7 +20,10 @@ uid: institute-cryptoweek-11
 published: true
 comments: false
 ---
-## Di seguito i link alle news commentate
+
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
+
+Di seguito i link alle news commentate
 
 ### Market
 

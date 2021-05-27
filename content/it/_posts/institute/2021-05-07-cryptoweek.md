@@ -10,6 +10,9 @@ img-bottom-link: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-s
 video-top: iLuGCfH0mV4
 podcast-top: 1686991
 podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8478494
+    src: https://www.buzzsprout.com/1686991/8478494-cryptoweek-13-con-francesco-avella-07-maggio-2021.js?container_id=buzzsprout-player-8478494&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -17,7 +20,7 @@ uid: institute-cryptoweek-13
 published: true
 comments: false
 ---
-
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata il Dott. Francesco Avella.
 
 Di seguito i link alle news commentate.
