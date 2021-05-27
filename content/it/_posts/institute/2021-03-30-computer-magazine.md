@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title: "Ametrano: “Bitcoin a 400mila dollari entro fine anno, sono come l'oro”"
-subtitle: Articolo a cura di Roberto Mazzucchelli per Computer Magazine.
 date:   2021-03-30 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-30-computer-magazine.jpg
@@ -13,6 +12,7 @@ uid: 20210330-institute-events
 published: true
 comments: false
 ---
+Articolo a cura di Roberto Mazzucchelli per Computer Magazine
 
 Gli spunti di maggiore attualità sul mondo Bitcoin nella sintesi degli interventi pubblici di [Ferdinando M. Ametrano](http://ametrano.net/), direttore scientifico DGI.
 

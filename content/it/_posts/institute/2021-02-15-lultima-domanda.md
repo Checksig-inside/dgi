@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title: "L'Ultima Domanda"
-subtitle: "Intervista a Paolo Mazzocchi" 
 date:   2021-02-15 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-02-15-lultima-domanda.jpg
@@ -14,6 +13,7 @@ uid: 20210215-institute-events
 published: true
 comments: false
 ---
+Intervista a Paolo Mazzocchi
 
 [L’Ultima Domanda](https://www.ultimadomanda.com/) è un podcast in cui si esplorano temi che spaziano dallo scientifico-tecnologico al socio-culturale. Ogni puntata consiste in una lunga conversazione ininterrotta tra l'intervistatore ed un ospite esperto nel suo campo.
 

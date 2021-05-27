@@ -4,10 +4,8 @@ title:  "CryptoWeek #5"
 date:   2021-03-12 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-12-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/cryptoweek/2021-03-12-cryptoweek.jpg
 video-top: AJZIAN-TNDQ
-podcast-top: 1686991
-podcast-bottom: 1686991
+podcast: https://www.buzzsprout.com/1686991/8129122-cryptoweek-5-12-marzo-2021.js?container_id=buzzsprout-player-8129122&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -17,20 +15,6 @@ comments: false
 ---
 ## Di seguito i link alle news commentate
 
----
-layout: cryptoweek
-comments: false
-title: "CryptoWeek #5"
-subtitle: "Il commento alle news della settimana" 
-author: "Staff"
-image:
-    thumb: cryptoweek-post-thumb.jpg
-youtube: AJZIAN-TNDQ
-published: true
-cryptoweek: true
-podcast:
-    id: buzzsprout-player-8129122
-    src: https://www.buzzsprout.com/1686991/8129122-cryptoweek-5-12-marzo-2021.js?container_id=buzzsprout-player-8129122&player=small
 ---
 ### JPMorgan
 

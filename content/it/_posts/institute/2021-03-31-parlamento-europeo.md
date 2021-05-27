@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title: "CRIPTO-ATTIVITÀ: il webinar promosso dal Parlamento Europeo"
-subtitle: "Intervento di Ferdinando M. Ametrano al Webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset (MiCA)" 
 date:   2021-03-31 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png
@@ -14,6 +13,7 @@ uid: 20210331-institute-events
 published: true
 comments: false
 ---
+Intervento di Ferdinando M. Ametrano al Webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset (MiCA)
 
 La proposta di regolamentazione dei mercati in crypto-asset (MiCA):
 il punto della situazione a livello nazionale ed europeo,

@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title: "Moneta digitale e dintorni"
-subtitle: Lo scorso 12 marzo si è svolto il webinar "Moneta digitale e dintorni", organizzato da Grandanolo, il Centro di Ricerca Interdipartimentale sul Diritto Europeo della Banca e della Finanza “Paolo Ferro-Luzzi", che ha illustrato la portata dei rilevanti cambiamenti normativi che hanno interessato il settore della finanza in Europa a seguito della nascita ed adozione delle cryptovalute.
 date:   2021-03-24 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-24-centro-ferro-luzzi.jpg

@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title:  "Bitcoin e Criptovalute"
-subtitle: "I direttori DGI per l'instant-book de Il Sole 24 Ore"
 author: "Staff"
 date:   2021-05-11 09:07:42 +0100
 img-list: /assets/img/institute_insights/2020-10-28-ilsole24ore-thumb.png
@@ -14,6 +13,7 @@ published: true
 comments: false
 ---
 
+I direttori DGI per l'instant-book de Il Sole 24 Ore
 
 È da oggi disponibile l’instant-book [**Bitcoin e Criptovalute**](https://www.shopping24.ilsole24ore.com/sh4/collateral/products/libri-r.jsp?productId=prod2650197) de Il Sole 24 Ore.
 

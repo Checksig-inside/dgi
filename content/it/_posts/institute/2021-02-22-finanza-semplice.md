@@ -1,7 +1,6 @@
 ---
 layout: post-institute
 title: "Finanza Semplice"
-subtitle: "Alfonso Selva intervista F. M. Ametrano" 
 date:   2021-02-22 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-02-22-finanza-semplice.jpg
@@ -13,6 +12,7 @@ uid: 20210222-institute-events
 published: true
 comments: false
 ---
+Alfonso Selva intervista F. M. Ametrano
 
 [Alfonso Selva](https://www.alfonsoselva.it/), di professione consulente finanziario, è attivo nel trasmettere un'educazione finanziaria online, tramite i suoi canali social ed il suo blog.
 

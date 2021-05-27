@@ -4,10 +4,8 @@ title:  "CryptoWeek #7"
 date:   2021-03-26 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-26-cryptoweek-thumb.jpg
-img-detail: /assets/img/institute_insights/cryptoweek/2021-03-26-cryptoweek.jpg
 video-top: cWLIYVkZECc
-podcast-top: 1686991
-podcast-bottom: 1686991
+podcast: 1686991
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
