@@ -1,0 +1,801 @@
+- title: "CryptoWeek"
+  subtitle: Il commento alle news della settimana
+  lang: it
+  city: online
+  date: 2021-05-28
+  date2:
+  hours: 18:00-18:45
+  organizer: Digital Gold Institute
+  address: live streaming
+  info:
+    text: YouTube
+    url: https://www.youtube.com/watch?v=FR4e9rMO2g4
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2021-cryptoweek.jpg
+    size: 200
+    thumb: cryptoweek-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title: "3nd Crypto Asset Lab Conference"
+  subtitle: 
+  lang: en
+  city: Online
+  date: 2021-11-04
+  date2: 2021-11-05
+  hours: 
+  organizer: Crypto Asset Lab (University of Milano-Bicocca)
+  address: Milan and in web streaming
+  info:
+    text: conference web-page
+    url: https://cryptoassetlab.diseade.unimib.it/calconf/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20211104-cal2021.jpg
+    size: 200
+    thumb: 
+  eventfeed: false
+  published: true
+
+- title: "Presentazione Report 2021-Q2"
+  subtitle: "Il report trimestrale del Digital Gold Institute sull'ecosistema Bitcoin, crypto-asset e blockchain."
+  lang: it
+  city: online
+  date: 2021-07-14
+  date2:
+  hours: 17:30-19:00
+  organizer: Digital Gold Institute
+  address: 
+    text: live streaming
+    url: https://youtube.com/playlist?list=PLTLa2tRY91LLDuy9lg50Jf3iZaVOg3mkL
+  info:
+    text: i dettagli saranno disponibili nei prossimi mesi.
+    url: 
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210714-2021Q2-report.jpg
+    size: 200
+    thumb: 20210714-2021Q2-report-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "La custodia dei cripto-asset nel sistema finanziario"
+  subtitle: "Business stories with “law”"
+  lang: it
+  city: online
+  date: 2021-06-24
+  date2:
+  hours: 8:45-9:30
+  organizer: Annunziata&Conso
+  address: webinar
+  info:
+    text: Informazioni
+    url: https://annunziataconso.eu/it/business-stories-with-law/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210624-refink.png
+    size: 200
+    thumb: 
+  eventfeed: false
+  published: true  
+
+- title: "Bitcoin & Blockchain"
+  subtitle: Training su Bitcoin, crypto-asset, blockchain, distributed ledger, smart contract, crittografia; analisi e applicazioni per i protagonisti di industria e informazione.
+  lang: it
+  city: online
+  date: 2021-06-22
+  date2: 2021-06-23
+  hours: 09:00-18:00
+  organizer: Digital Gold Institute
+  address: webinar
+  info:
+    text: programma e registrazione
+    url: https://dgi.io/workshop
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210622-workshop.jpg
+    size: 200
+    thumb: 20210126-workshop-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Validazione temporale a lungo termine e Blockchain"
+  subtitle: "Un confronto tra Emanuele Cisbani e Ferdinando M. Ametrano sugli sviluppi tecnologici del settore"
+  lang: it
+  city: online
+  date: 2021-05-27
+  date2:
+  hours: 11:00
+  organizer: INTESI GROUP
+  address: webinar
+  info:
+    text: pagina di registrazione
+    url: https://www.intesigroup.com/it/webinar-validazione-temporale-blockchain/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210527-webinar.jpg
+    size: 200
+    thumb: 20210527-webinar-thumb.png
+  eventfeed: true
+  published: true  
+  
+- title: "Allianz Bank Business Forum 2021"
+  subtitle: "Valute digitali: pubbliche e private – scontro di signoraggio"
+  lang: it
+  city: online
+  date: 2021-04-15
+  date2:
+  hours: 18:30-19:00
+  organizer: Allianz Bank Financial Advisors e Kairos
+  address: live streaming
+  info:
+    text: Informazioni e registrazione
+    url: http://dgi.io/docs/20210415-allianz-bank-business-forum.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210415-allianz-bank-business-forum.png
+    size: 200
+    thumb: 20210415-allianz-bank-business-forum-thumb.png
+  eventfeed: true
+  published: true
+
+- title: "Presentazione Report 2021-Q1"
+  subtitle: "In diretta streaming, la presentazione del report trimestrale del Digital Gold Institute sull'ecosistema Bitcoin, crypto-asset e blockchain a cura di Ferdinando M. Ametrano. Ospite speciale: il prof. Filippo Annunziata su MiCA (Markets in Crypto-Assets)"
+  lang: it
+  city: online
+  date: 2021-04-14
+  date2:
+  hours: 17:30-19:00
+  organizer: Digital Gold Institute
+  address: 
+    text: live streaming
+    url: https://www.youtube.com/watch?v=pgAlv1ufZdk
+  info:
+    text: agenda
+    url: https://dgi.io/docs/reports/2021Q1-agenda.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210414-2021Q1-report.jpg
+    size: 200
+    thumb: 20210414-2021Q1-report-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Presentazione del libro: DAL SESTERZIO AL BITCOIN"
+  subtitle: Vecchie e nuove dimensioni del denaro
+  lang: it
+  city: online
+  date: 2021-04-12
+  date2:
+  hours: 21:00
+  organizer: Lodi Liberale
+  address: webinar
+  info:
+    text: link Zoom
+    url: https://us02web.zoom.us/j/83336300484
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210412-lodi-liberale.jpg
+    size: 200
+    thumb: 20210412-lodi-liberale-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Cripto-attività"
+  subtitle: Tra recenti sviluppi e digital finance package
+  lang: it
+  city: online
+  date: 2021-03-26
+  date2: 
+  hours: 10:00-12:30
+  organizer: Parlamento europeo
+  address: live streaming
+  info:
+    text: programma e indicazioni per la partecipazione
+    url: https://www.europarl.europa.eu/italy/it/succede-al-pe/cripto-attivit%C3%A0-tra-recenti-sviluppi-e-digital-finance-package
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210326-parlamento-europeo.png
+    size: 200
+    thumb: 20210326-parlamento-europeo-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title:  "Alla frontiera degli standard monetari"
+  subtitle: Tra Bitcoin, Libra e Euro digitale
+  lang: it
+  city: online
+  date: 2021-03-25
+  date2: 
+  hours: 14:30 - 16:30
+  organizer: ibicocca
+  address: live streaming
+  info:
+    text: evento riservato agli iscritti al portale ibicocca
+    url: http://ibicocca.it/evento/iknow-alla-frontiera-degli-standard-monetari-tra-bitcoin-libra-e-euro-digitale/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210325-ibicocca.png
+    size: 200
+    thumb: 20210325-ibicocca-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Moneta digitale e dintorni"
+  subtitle: Webinar in Microsoft Teams
+  lang: it
+  city: online
+  date: 2021-03-12
+  date2:
+  hours: 13:00-15:00
+  organizer: Centro di ricerca Paolo Ferro-Luzzi
+  address: online 
+  info:
+    text: programma e registrazione
+    url: http://dgi.io/docs/20210312-webinar-moneta-digitale-e-dintorni.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210312-webinar.jpg
+    size: 200
+    thumb: 20210312-webinar-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title: "L'evoluzione delle tecniche di Information Forensics"
+  subtitle: Webinar
+  lang: it
+  city: online
+  date: 2021-03-12
+  date2:
+  hours: 15:30-16:30
+  organizer: IISFA - Associazione Italiana Digital Forensics
+  address: online 
+  info:
+    text: informazioni
+    url: http://iisfa.it
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210312-iisfa.jpg
+    size: 200
+    thumb: 20210312-iisfa-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title: "Presentazione del Report 2020-Q4"
+  subtitle:
+  lang: it
+  city: Milan
+  date: 2021-02-05
+  date2:
+  hours: 17:30-19:00
+  organizer: Digital Gold Institute
+  address: streaming
+  info:
+    text: maggiori informazioni
+    url: https://dgi.io/2020q4
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210205-2020Q4-report.jpg
+    size: 200
+    thumb: 20210205-2020Q4-report-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title: "Bitcoin & Blockchain"
+  subtitle: Training
+  lang: it
+  city: Milano
+  date: 2021-01-26
+  date2: 2021-01-27
+  hours: 
+  organizer: Digital Gold Institute
+  address: 
+  info:
+    text: programma e registrazione
+    url: https://dgi.io/workshop
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20210126-workshop.jpg
+    size: 200
+    thumb: 20210126-workshop-thumb.jpg
+  eventfeed: false
+  published: true
+
+- title: "Presente e futuro: l'innovazione digitale"
+  subtitle: Corso di formazione
+  lang: it
+  city: Milano
+  date: 2020-11-04
+  date2:
+  hours: 
+  organizer: CryptoValues
+  address: 
+  info:
+    text: "iscrizioni: info@cryptovalues.eu"
+    url: https://cryptovalues.eu/events/4-5-novembre-2020-cryptovalues-corso-introduttivo
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-11-04-cryptovalues.jpg
+    size: 200
+    thumb: 2020-11-04-cryptovalues-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Presentazione del Report 2020-Q3"
+  subtitle:
+  lang: it
+  city: Milano
+  date: 2020-10-29
+  date2:
+  hours: 16:00-18:00
+  organizer: Digital Gold Institute
+  address: 
+  info:
+    text: evento ad invito
+    url:
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20201029-report2020q3.jpg
+    size: 200
+    thumb: 20201029-report2020q3-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "2nd Crypto Asset Lab Conference"
+  subtitle: 
+  lang: en
+  city: Milan (Italy)
+  date: 2020-10-27
+  date2:
+  hours: 9:30-17:30
+  organizer: Crypto Asset Lab (University of Milano-Bicocca)
+  address: University of Milano-Bicocca, Online Streaming
+  info:
+    text: conference web-page
+    url: https://cryptoassetlab.diseade.unimib.it/cal2020/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-10-27-cal2020.jpg
+    size: 200
+    thumb: 2020-10-27-cal2020-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Bitcoin e blockchain"
+  subtitle: "1. Introduzione<br>2. Aspetti tecnici"
+  lang: it
+  city: Milano
+  date: 2020-10-20
+  date2: 2020-10-21
+  hours: 9:00-17:30
+  organizer: Digital Gold Institute
+  address: Online streaming
+  info:
+    text: vedi programma
+    url: http://dgi.io/workshop
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20201020-workshop.jpg
+    size: 200
+    thumb: 20201020-workshop-thumb.jpg
+  eventfeed: true
+  published: true
+  
+
+- title: "Bitcoin, blockchain e crypto-assets: <br> impatti nei settori finanziari e assicurativi"
+  subtitle: Evento annullato
+  lang: it
+  city: Milano
+  date: 2020-09-15
+  date2:
+  hours: 9:30-17:30
+  organizer: Borsa Italiana Academy
+  address: Borsa Italiana, Piazza degli Affari 6, 20123 Milano
+  info:
+    text: iscrizione sul sito Borsa Italiana Academy
+    url: https://www.lseg.com/it/Blockchain2020
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200915-borsa-italiana.jpg
+    size: 200
+    thumb: 20200915-borsa-italiana-thumb.jpg
+  eventfeed: false
+  published: true
+  
+- title: "Bitcoin e blockchain"
+  subtitle: "Introduzione e aspetti tecnici"
+  lang: it
+  city: Milano
+  date: 2020-07-21
+  date2: 2020-07-22
+  hours: 9:00-17:30
+  organizer: Digital Gold Institute
+  address: Milano
+  info:
+    text: vedi programma
+    url: http://dgi.io/workshop
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200721-workshop.jpg
+    size: 
+    thumb: 20200721-workshop-thumb.jpg
+  eventfeed: true
+  published: true
+    
+- title: "Blockchain Days"
+  subtitle:
+  lang: it
+  city: Online streaming
+  date: 2020-07-17
+  date2: 
+  hours: 17:30-19:00
+  organizer: Associazione BlockchainEdu
+  address: 
+  info:
+    text: dettagli ed iscrizioni nella pagina dedicata
+    url: https://www.rinascitadigitale.it/blockchain-days/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200717-ben.png
+    size: 
+    thumb: 20200717-ben-thumb.png
+  eventfeed: true
+  published: true
+
+- title: "Presentazione del Report 2020-Q2"
+  subtitle:
+  lang: it
+  city: Online streaming
+  date: 2020-07-16
+  date2: 
+  hours: 17:30-19:00
+  organizer: Digital Gold Institute
+  address: Milano
+  info:
+    text: evento ad invito
+    url: 
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200716-report2020q2.jpg
+    size: 
+    thumb: 20200716-report2020q2-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "GDF Travel Rule Summit"
+  subtitle: Travel rule interpretation, implementation and compliance.
+  lang: it
+  city: Online streaming
+  date: 2020-07-15
+  date2: 
+  hours: 14:30-15:30
+  organizer: Associazione BlockchainEdu
+  address: 
+  info:
+    text: dettagli ed iscrizioni nella pagina dedicata
+    url: https://www.gdf.io/mem_event/gdf-travel-rule-summit/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200715-gdf-travel-rule-summit-thumb.png
+    size: 
+    thumb: 20200715-gdf-travel-rule-summit-thumb.png
+  eventfeed: false
+  published: true
+  
+- title: "Bitcoin e i modelli di custodia dei cryptoasset: tra rischio di frode, AML e perdita di asset"
+  subtitle: Modera M. Chiratti<br>Relatori F. Ametrano, A. Medri, D. Varani, A. Berruto
+  lang: it
+  city: Live Streaming
+  date: 2020-06-25
+  date2:
+  hours: 17:30-19:00
+  organizer: A&C Law
+  address: Zoom meeting 
+  info:
+    text: Agenda e registrazione disponibili qui
+    url: http://dgi.io/docs/20200625-bitcoin-e-custodia.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-06-25-bitcoin-e-custodia.jpg
+    size: 
+    thumb: 2020-06-25-bitcoin-e-custodia-thumb.jpg
+  eventfeed: true
+  published: true
+  
+- title: "Bitcoin, criptovalute e risparmio gestito: asset eligible anche
+per Fondi e gestioni di portafoglio?"
+  subtitle: Modera M.Chiratti<br>Relatori F. Ametrano, A. Conso, A. Medri, F. Berneri, F. Frontini
+  lang: it
+  city: Live Streaming
+  date: 2020-06-11
+  date2:
+  hours: 17:30-19:00
+  organizer: A&C Law
+  address: Zoom meeting 
+  info:
+    text: Agenda e registrazione disponibili qui    
+    url: http://dgi.io/docs/20200611-bitcoin-e-risparmio-gestito.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-06-11-bitcoin-e-risparmio-gestito.jpg
+    size: 
+    thumb: 2020-06-11-bitcoin-e-risparmio-gestito-thumb.jpg
+  eventfeed: true
+  published: false
+
+- title: "Bitcoin: un nuovo strumento finanziario per la normativa tedesca?"
+  subtitle: Modera M.Chiratti<br>Relatori F. Ametrano, A. Conso, A. Medri e M. Scopsi
+  lang: it
+  city: Live Streaming
+  date: 2020-06-04
+  date2:
+  hours: 17:30-19:00
+  organizer: A&C Law
+  address: Zoom meeting 
+  info:
+    text: Agenda e registrazione disponibili qui
+    url: http://dgi.io/docs/20200604-bitcoin-e-normativa-tedesca.pdf
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-06-04-bitcoin-e-normativa-tedesca.jpg
+    size: 
+    thumb: 2020-06-04-bitcoin-e-normativa-tedesca-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Cryptoasset e allocazione di portafoglio"
+  subtitle: "Una nuova asset class"
+  lang: it
+  city: Streaming
+  date: 2020-05-14
+  date2:
+  hours: 19:00-19:45
+  organizer: Digital Gold Institute
+  address:
+  info:
+    text: consulta l'agenda
+    url: https://youtu.be/DodQZa1HdW8
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200514-tesi-avigni.jpg
+    size: 
+    thumb: 20200514-tesi-avigni-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Dal sesterzio a Bitcoin"
+  subtitle:
+  lang: it
+  city: Padova
+  date: 2020-05-05
+  date2: 2020-05-06
+  hours: 10:00-13:00
+  organizer: Museo Bottacin
+  address: Sala del Medagliere, Museo Bottacin, Corso Garibaldi 33, 35121 Padova
+  info:
+    text: tramite Museo Bottacin
+    url:
+  discount_code:
+  discount_code_publish:
+  image:
+    main:
+    size: 
+    thumb:
+  eventfeed: false
+  published: false
+
+- title: "Bitcoin e blockchain"
+  subtitle: "1. Introduzione<br>2. Aspetti tecnici"
+  lang: it
+  city: Milano
+  date: 2020-04-21
+  date2: 2020-04-22
+  hours: 9:00-17:30
+  organizer: Digital Gold Institute
+  address: Live streaming
+  info:
+    text: vedi programma
+    url: http://dgi.io/workshop
+  image:
+    main: 20200421-eventbrite-streaming.png
+    size: 
+    thumb:
+  eventfeed: false
+  published: true
+
+- title: "Dal sesterzio a Bitcoin"
+  subtitle: Evento RINVIATO A DATA DA STABILIRSI
+  lang: it
+  city: Padova
+  date: 2020-04-18
+  date2:
+  hours: 10:00-12:00
+  organizer: Museo Bottacin
+  address: Sala del Romanino, Musei agli Eremitani, Piazza Eremitani 8, 35121 Padova
+  info:
+    text: tramite Museo Bottacin
+    url:
+  discount_code:
+  discount_code_publish:
+  image:
+    main:
+    size: 
+    thumb:
+  eventfeed: false
+  published: false
+
+- title: "Presentazione del Report 2020-Q1"
+  subtitle: 
+  lang: it
+  city: Live streaming
+  date: 2020-04-17
+  date2:
+  hours: 16:00-18:00
+  organizer: Digital Gold Institute
+  address: Piattaforma Youtube
+  info:
+    text: Agenda e contenuti disponibili qui
+    url: http://dgi.io/2020q1
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 2020-04-17-2020Q1-report.jpg
+    size: 200
+    thumb: 2020-04-17-2020Q1-thumb.jpg
+  eventfeed: true
+  published: true
+
+- title: "Virtual Bitcoin Meetup"
+  subtitle:
+  lang: it
+  city: Milano
+  date: 2020-03-11
+  date2:
+  hours: 20:00-21:30
+  organizer: Interlogica
+  address: Online
+  info:
+    text: live streaming accessibile qui
+    url: https://www.interlogica.it/news/virtual-bitcoin-meetup/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200311-virtual-bitcoin-meetup.jpg
+    size: 200
+    thumb: 20200311-virtual-bitcoin-meetup-thumb.jpg
+  eventfeed: true
+  published: true
+  
+- title: "Bitcoin Venezia Meetup | Re-Start"
+  subtitle: Evento RIMANDATO A DATA DA STABILIRSI in seguito all'ordinanza del Ministero della Salute e della Regione del Veneto
+  lang: it
+  city: Mestre
+  date: 2020-02-28
+  date2:
+  hours: 19:00-22:30
+  organizer: Interlogica
+  address: Auditorium Mainardi, Campus Scientifico Ca' Foscari, Via Torino 155, 30172 Mestre (VE)
+  info:
+    text: iscrizione online
+    url: https://www.tickettailor.com/events/interlogicasrl/338816
+  discount_code: B1tco1nM33tup
+  discount_code_publish: true
+  image:
+    main: 20200228-ametrano.jpg
+    size: 200
+    thumb: 20200228-ametrano.jpg
+  eventfeed: false
+  published: false
+
+- title: "Blockchain: l'innovazione parte dalle Università"
+  subtitle: Evento RIMANDATO A DATA DA STABILIRSI 
+  lang: it
+  city: Roma
+  date: 2020-02-25
+  date2:
+  hours: 10:30-13:00
+  organizer: Blockchain Education Network
+  address: Sala delle Conferenze Stampa di Palazzo Montecitorio, Piazza di Monte Citorio, 00186 Roma (RM)
+  info:
+    text: iscrizione online
+    url: https://partecipa.ilblogdellestelle.it/t/eventi-portavoce/c/camera-dei-deputati/blockchain-linnovazione-parte-dalle-universita/
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200225-ben.jpg
+    size: 200
+    thumb: 20200225-ben-thumb.jpg
+  eventfeed: false
+  published: false
+
+- title: "Il futuro del denaro"
+  subtitle:
+  lang: it
+  city: Milano
+  date: 2020-02-17
+  date2:
+  hours: 17:30-19:00
+  organizer: Università IULM
+  address: Aula Seminari IULM 1
+  info:
+    text: Evento aperto al pubblico
+    url: https://www.iulm.it/it/news-ed-eventi/news/Il+futuro+del+denaro
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200217-iulm.png
+    size: 200
+    thumb:
+  eventfeed: false
+  published: true
+
+- title: "Presentazione del Report 2019-Q4"
+  subtitle:
+  lang: it
+  city: Milano
+  date: 2020-01-28
+  date2:
+  hours: 16:00-18:00
+  organizer: Digital Gold Institute
+  address: Copernico-Isola S32, Via Filippo Sassetti 32, 20124 Milano
+  info:
+    text: evento ad invito
+    url: http://dgi.io/2020/01/31/report-q4.html
+  discount_code:
+  discount_code_publish:
+  image:
+    main:
+    size: 
+    thumb:
+  eventfeed: false
+  published: true
+
+- title: "Conferenza di presentazione del Crypto Asset Lab"
+  subtitle:
+  lang: it
+  city: Milano
+  date: 2019-06-05
+  date2:
+  hours: 14:30-18:00
+  organizer: Crypto Asset Lab (Università di Milano-Bicocca)
+  address: Università di Milano-Bicocca, Edificio U12, Via Vizzola 5, 20126 Milano
+  info:
+    text: tramite il Crypto Asset Lab
+    url: https://cryptoassetlab.diseade.unimib.it/2019/06/12/conference.html
+  discount_code:
+  discount_code_publish:
+  image:
+    main: 20200610-cal2020.png
+    size: 
+    thumb:
+  eventfeed: false
+  published: true
