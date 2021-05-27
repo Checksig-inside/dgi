@@ -1,11 +1,15 @@
 ---
 layout: post-institute
-title:  "CryptoWeek #15 con Emanuel Cisbani"
+title:  "CryptoWeek #15 con Emanuele Cisbani"
 date:   2021-05-21 18:00:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-05-21-cryptoweek-thumb.jpg
 video-top: FR4e9rMO2g4
-podcast: 1686991
+podcast-top: 1686991
+podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8563383
+    src: https://www.buzzsprout.com/1686991/8563383-cryptoweek-15-con-emanuele-cisbani-21-maggio-2021.js?container_id=buzzsprout-player-8563383&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -15,12 +19,8 @@ comments: false
 ---
 
 
-Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain, rispondendo anche alle domande del pubblico.
-
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata Emanuele Cisbani, Technology Evangelist, Intesi Group S.p.A.
-
-Il venerdì alle 18:00, in diretta streaming YouTube,ì e Facebook.
-Successivamente disponibile anche sulle principali piattaforme podcast.
 
 ## Di seguito i link alle news commentate.
 

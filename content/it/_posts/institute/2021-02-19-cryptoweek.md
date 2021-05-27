@@ -5,7 +5,11 @@ date:   2021-02-19 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-02-19-cryptoweek-thumb.jpg
 video-top: RCz99O-Xszk
-podcast: 1686991
+podcast-top: 1686991
+podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-7966633
+    src: https://www.buzzsprout.com/1686991/7966633-cryptoweek-2-19-febbraio-2021.js?container_id=buzzsprout-player-7966633&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -13,7 +17,9 @@ uid: institute-cryptoweek-2
 published: true
 comments: false
 ---
-## Di seguito i link alle news commentate
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain. 
+
+Di seguito i link alle news commentate
 
 - [Bitcoin Market Value Tops $1T as Price Passes $53,697](https://www.coindesk.com/bitcoin-1-trillion-market-value)
 - [UK Trading Firm BCB Launches Bitcoin Treasury Service for Crypto-Curious CFOs](https://www.coindesk.com/uk-trading-firm-bcb-launches-bitcoin-treasury-service-for-crypto-curious-cfos)

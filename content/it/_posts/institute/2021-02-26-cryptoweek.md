@@ -5,7 +5,11 @@ date:   2021-02-26 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-02-26-cryptoweek-thumb.jpg
 video-top: DAQlSecIwd8
-podcast: 1686991
+podcast-top: 1686991
+podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8035698
+    src: https://www.buzzsprout.com/1686991/8035698-cryptoweek-3-26-febbraio-2021.js?container_id=buzzsprout-player-8035698&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -13,7 +17,9 @@ uid: institute-cryptoweek-3
 published: true
 comments: false
 ---
-## Di seguito i link alle news commentate
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain. 
+
+Di seguito i link alle news commentate
 
 ### Elon Musk
 

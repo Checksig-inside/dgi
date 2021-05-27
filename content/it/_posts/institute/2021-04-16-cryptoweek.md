@@ -5,7 +5,11 @@ date:   2021-04-16 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-16-cryptoweek-thumb.jpg
 video-top: siJwCvgIgnk
-podcast: 1686991
+podcast-top: 1686991
+podcast-bottom: 1686991
+podcast:
+    id: buzzsprout-player-8346988
+    src: https://www.buzzsprout.com/1686991/8346988-cryptoweek-10-16-aprile-2021.js?container_id=buzzsprout-player-8346988&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
@@ -13,7 +17,9 @@ uid: institute-cryptoweek-10
 published: true
 comments: false
 ---
-## Di seguito i link alle news commentate
+Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
+
+Di seguito i link alle news commentate
 
 ### All-Time High
 
