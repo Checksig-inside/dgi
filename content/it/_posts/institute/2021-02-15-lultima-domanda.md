@@ -3,8 +3,8 @@ layout: post-institute
 title: "L'Ultima Domanda"
 date:   2021-02-15 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-02-15-lultima-domanda.jpg
-img-detail: /assets/img/institute_insights/2021-02-15-lultima-domanda-thumb.png
+img-list: /assets/img/institute_insights/2021-02-15-lultima-domanda-thumb.png
+img-detail: /assets/img/institute_insights/2021-02-15-lultima-domanda.jpg
 video-top: lnwROMhWF5E
 parent-category: institute-insights
 categories: ["rassegna stampa"]

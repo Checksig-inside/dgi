@@ -1,10 +1,10 @@
 ---
 layout: post-institute
-title: "CRIPTO-ATTIVITÀ: il webinar promosso dal Parlamento Europeo"
+title: "Webinar promosso dal Parlamento Europeo"
 date:   2021-03-31 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png
-img-detail: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
+img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
+img-detail: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png
 video-top: QLC_qGeZBR8
 parent-category: institute-insights
 categories: eventi

@@ -4,7 +4,6 @@ title: "Breakfast with BNP Paribas"
 date:   2021-03-17 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-17-bnp-paribas-thumb.png
-img-detail: /assets/img/institute_insights/2021-03-17-bnp-paribas-thumb.png
 video-top: TBP5t7Cd640
 parent-category: institute-insights
 categories: eventi

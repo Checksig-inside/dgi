@@ -3,8 +3,8 @@ layout: post-institute
 title: "Ametrano: “Bitcoin a 400mila dollari entro fine anno, sono come l'oro”"
 date:   2021-03-30 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2021-03-30-computer-magazine.jpg
-img-detail: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg
+img-list: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg
+img-detail: /assets/img/institute_insights/2021-03-30-computer-magazine.jpg
 parent-category: institute-insights
 categories: ["rassegna stampa"]
 locale: it
