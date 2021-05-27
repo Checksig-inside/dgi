@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "IT Crypto Lorem ipsum 8"
+title:  "IT Crypto Lorem ipsum 2"
 date:   2020-11-21 09:07:42 +0100
 img-list: /assets/img/crypto_insights/header_crypto.jpg
 img-detail: /assets/img/crypto_insights/header_crypto.jpg
 parent-category: crypto-insights
-categories: tecnologia
-tag: blockchain
+categories: mercato
+tag: etf e trust
 locale: it
-uid: crypto-market-news8
-published: true
+uid: crypto-market-news2
+published: false
 comments: false
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
