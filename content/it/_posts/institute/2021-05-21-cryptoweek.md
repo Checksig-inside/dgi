@@ -4,7 +4,7 @@ title:  "CryptoWeek #15 con Emanuele Cisbani"
 date:   2021-05-21 18:00:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-05-21-cryptoweek-thumb.jpg
-video-top: FR4e9rMO2g4
+video-top: HNE7XcjRJjA
 podcast-src: https://www.buzzsprout.com/1686991/8563383-cryptoweek-15-con-emanuele-cisbani-21-maggio-2021.js?container_id=buzzsprout-player-8563383&player=small
 parent-category: institute-insights
 categories: ["crypto week"]

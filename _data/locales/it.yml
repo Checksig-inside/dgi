@@ -63,10 +63,12 @@ glossary:
   video: video
   content-pages: content pages
   educational-resources: Educational resources
+  # banner intesa
   banner: /assets/img/banner/ISP_ON_AIR_LEADERBOARD_728X90.jpg
   banner-url: https://group.intesasanpaolo.com/it/sezione-editoriale/intesa-sanpaolo-on-air?utm_campaign=GoldInstitute&utm_source=GoldInstitute&utm_medium=Banner_CPM&utm_content=DisplayAwareness&utm_term=GoldInstitute_Banner_CPM_GoldInstitute_
   banner-type: crypto-week
   banner-start: 2021-04-09
   banner-end: 2021-12-31
+  #podcast cryptoweek
   podcast-cryptoweek: buzzsprout-player-8304476
  
