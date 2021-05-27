@@ -95,11 +95,10 @@
 		{% if page.podcast-top %}
 		<div class="row">
 			<div id="podcast-div" class="post-content post-content-video">
-				<!-- <div id='buzzsprout-large-player-{{ page.podcast-top }}'></div>
+				<div id='buzzsprout-large-player-{{ page.podcast-top }}'></div>
 				<script type='text/javascript' charset='utf-8'
-					src='https://www.buzzsprout.com/{{ page.podcast-top }}.js?container_id=buzzsprout-large-player-{{ page.podcast-top }}&player=large&limit=1'></script> -->
-				<div id="{{ page.podcast.id }}"></div>
-				<script src="{{ page.podcast.src }}" type="text/javascript" charset="utf-8"></script>
+					src='https://www.buzzsprout.com/{{ page.podcast-top }}.js?container_id=buzzsprout-large-player-{{ page.podcast-top }}&player=large&limit=1'>
+				</script>
 			</div>
 		</div>
 		{% endif %}
