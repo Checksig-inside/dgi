@@ -1,19 +1,18 @@
 ---
 layout: post-institute
-title: "The Blockchain Series: Bitcoin First (puntata 19 di 25)"
-subtitle: "Intervista a F. Ametrano e A. Preti"
-date: 2020-04-28 17:30:42 +0100
-author: Staff
-img-list: /assets/img/institute_insights/2020-04-28-intervista-bicoccalumni-thumb.png
-img-detail: /assets/img/institute_insights/2020-04-28-intervista-bicoccalumni-thumb.png
+title: "The Blockchain Series: Bitcoin First"
+author: "Staff"
+date:   2020-04-28 15:07:42 +0100
+image-list: /assets/img/institute_insights/2020-04-28-intervista-bicoccalumni-thumb.png
 video-top: H2Rw8WkIvvo
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
-uid: 20200428-institute-events
+uid: institute-bicocca-19
 published: true
 comments: false
 ---
+Puntata 19: Intervista a F. Ametrano e A. Preti
 
 Se ne discute molto, ma su Bitcoin la divisione è radicale, tra scettici che parlano di bolla ed entusiasti che descrivono una rivoluzione globale. **The Blockchain Series: Bitcoin First** è l'evento organizzato da [BicoccAlumni](https://www.bicoccalumni.it/), [Crypto Asset Lab](https://cryptoassetlab.diseade.unimib.it/) e [Distretto Bicocca](https://www.distrettobicocca.it/), che si è svolto lo scorso 4 luglio allo Spazio MIL di Milano, con lo scopo di fare chiarezza e informazione sul tema Bitcoin e Blockchain.
 

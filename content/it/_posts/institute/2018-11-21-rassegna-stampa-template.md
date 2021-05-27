@@ -12,13 +12,6 @@ uid: institute-news-1
 published: false
 comments: false
 ---
-
----
-layout: post-institute
-title:  "La corsa all'oro digitale del Bitcoin riguarda anche la nostra libertà"
-subtitle: "L'editoriale a cura di Ferdinando Ametrano su Il Foglio Quotidiano"
-
-
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

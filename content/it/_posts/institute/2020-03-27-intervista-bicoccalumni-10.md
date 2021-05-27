@@ -1,19 +1,18 @@
 ---
 layout: post-institute
-title: "The Blockchain Series: Bitcoin First (puntata 10 di 25)"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+title: "The Blockchain Series: Bitcoin First"
 date: 2020-03-27 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2020-03-27-intervista-bicoccalumni-thumb.png
-img-detail: /assets/img/institute_insights/2020-03-27-intervista-bicoccalumni-thumb.png
 video-top: XNoz8Q7WkvQ
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
-uid: 20200327-institute-events
+uid: institute-bicocca-10
 published: true
 comments: false
 ---
+Puntata 10: Intervista a Ferdinando M. Ametrano
 
 Se ne discute molto, ma su Bitcoin la divisione è radicale, tra scettici che parlano di bolla ed entusiasti che descrivono una rivoluzione globale. **The Blockchain Series: Bitcoin First** è l'evento organizzato da [BicoccAlumni](https://www.bicoccalumni.it/), [Crypto Asset Lab](https://cryptoassetlab.diseade.unimib.it/) e [Distretto Bicocca](https://www.distrettobicocca.it/), che si è svolto lo scorso 4 luglio allo Spazio MIL di Milano, con lo scopo di fare chiarezza e informazione sul tema Bitcoin e Blockchain.
 
