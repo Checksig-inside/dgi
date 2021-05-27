@@ -1,11 +1,9 @@
 ---
 layout: post-institute
-title: "Bitcoin: oro digitale, finanza e tulipani (puntata 5 di 11)"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+title: "Bitcoin: oro digitale, finanza e tulipani"
 date: 2019-07-02 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-07-02-intervista-bitcoin-05-thumb.jpg
-img-detail: /assets/img/institute_insights/2019-07-02-intervista-bitcoin-05-thumb.jpg
 video-top: owAwuxfDZe4
 parent-category: institute-insights
 categories: ["rassegna stampa"]
@@ -14,13 +12,13 @@ uid: 20190702-institute-events
 published: true
 comments: false
 ---
+Quinta puntata dell'intervista al nostro direttore [*Ferdinando M. Ametrano*](https://www.ametrano.net) sul tema Bitcoin.
 
-Quinta puntata dell'intervista al nostro direttore
-[*Ferdinando M. Ametrano*](https://www.ametrano.net)
-sul tema Bitcoin,
-a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+Rassegna a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+
 Le successive puntate verranno pubblicate con cadenza regolare
 ogni martedì e giovedì, in coda sono presenti i link alle puntate precedenti.
+
 Di seguito la trascrizione di questa puntata.
 
 ### 5 - Come funzione Bitcoin

@@ -1,11 +1,10 @@
 ---
 layout: post-institute
 title: "Premio tesi Blockchainedu"
-subtitle: "Premiata Chiara Lelli, prima alumna DGI, per la sua tesi del 2017."
 date: 2020-02-12 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2020-02-12-chiara-lelli-thesis.jpg
-img-detail: /assets/img/institute_insights/2020-02-12-chiara-lelli-thesis-thumble.jpg
+img-list: /assets/img/institute_insights/2020-02-12-chiara-lelli-thesis-thumb.jpg
+img-detail: /assets/img/institute_insights/2020-02-12-chiara-lelli-thesis.jpg
 parent-category: institute-insights
 categories: eventi
 locale: it
@@ -13,6 +12,7 @@ uid: 20200212-institute-events
 published: true
 comments: false
 ---
+Premiata Chiara Lelli, prima alumna DGI, per la sua tesi del 2017.
 
 Martedì 25 febbraio a Roma, presso *Montecitorio*,
 si svolgerà la conferenza “**Blockchain: l’innovazione parte dalle università**”,

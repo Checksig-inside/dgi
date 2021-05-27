@@ -1,11 +1,9 @@
 ---
 layout: post-institute
-title: "Bitcoin: oro digitale, finanza e tulipani (puntata 2 di 11)"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+title: "Bitcoin: oro digitale, finanza e tulipani"
 date: 2019-06-20 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-06-20-intervista-bitcoin-02-thumb.jpg
-img-detail: /assets/img/institute_insights/2019-06-20-intervista-bitcoin-02-thumb.jpg
 video-top: 8FnkrTb6qM4
 parent-category: institute-insights
 categories: ["rassegna stampa"]
@@ -14,10 +12,15 @@ uid: 20190620-institute-events
 published: true
 comments: false
 ---
-
 Presentiamo la seconda puntata dell'intervista al nostro direttore
 [*Ferdinando M. Ametrano*](https://www.ametrano.net)
-sul tema Bitcoin, a cura di *Nicole Vismara* (manager di Deloitte Consulting). Le successive puntate verranno pubblicate con cadenza regolare ogni martedì e giovedì, in coda sono presenti i link alle puntate precedenti. Di seguito la trascrizione di questa puntata.
+sul tema Bitcoin.
+
+Rassegna a cura di *Nicole Vismara* (manager di Deloitte Consulting).
+
+Le successive puntate verranno pubblicate con cadenza regolare ogni martedì e giovedì, in coda sono presenti i link alle puntate precedenti.
+
+Di seguito la trascrizione di questa puntata.
 
 ### 2 - Tra truffa e speculazione
 

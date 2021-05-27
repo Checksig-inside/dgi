@@ -1,11 +1,10 @@
 ---
 layout: post-institute
-title: "Rassegna stampa"
-subtitle: "Quarto trimestre 2020" 
+title: "Rassegna stampa: Quarto trimestre 2020"
 date:   2020-12-21 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4.jpg
-img-detail: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4-thumb.jpg
+img-list: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4-thumb.jpg
+img-detail: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4.jpg
 parent-category: institute-insights
 categories: ["rassegna stampa"]
 locale: it
