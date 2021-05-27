@@ -1,15 +1,11 @@
 ---
-layout: post-institute
+layout: post-cryptoweek
 title:  "CryptoWeek #8"
 date:   2021-04-02 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-02-cryptoweek-thumb.jpg
 video-top: L7xo8xIHKYo
-podcast-top: 1686991
-podcast-bottom: 1686991
-podcast:
-    id: buzzsprout-player-8261625
-    src: https://www.buzzsprout.com/1686991/8261625-crytpoweek-8-2-aprile-2021.js?container_id=buzzsprout-player-8261625&player=small
+podcast-src: https://www.buzzsprout.com/1686991/8261625-crytpoweek-8-2-aprile-2021.js?container_id=buzzsprout-player-8261625&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it

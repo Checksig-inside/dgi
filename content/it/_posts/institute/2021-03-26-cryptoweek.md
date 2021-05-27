@@ -1,15 +1,11 @@
 ---
-layout: post-institute
+layout: post-cryptoweek
 title:  "CryptoWeek #7"
 date:   2021-03-26 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-26-cryptoweek-thumb.jpg
 video-top: cWLIYVkZECc
-podcast-top: 1686991
-podcast-bottom: 1686991
-podcast:
-    id: buzzsprout-player-8217722
-    src: https://www.buzzsprout.com/1686991/8217722-cryptoweek-7-26-marzo-2021.js?container_id=buzzsprout-player-8217722&player=small
+podcast-src: https://www.buzzsprout.com/1686991/8217722-cryptoweek-7-26-marzo-2021.js?container_id=buzzsprout-player-8217722&player=small
 parent-category: institute-insights
 categories: ["crypto week"]
 locale: it
