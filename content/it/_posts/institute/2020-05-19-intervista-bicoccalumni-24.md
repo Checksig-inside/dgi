@@ -5,7 +5,7 @@ title: "The Blockchain Series: Bitcoin First (puntata 24 di 25)"
 subtitle: "Intervista a F. Ametrano e A. Preti"
 author: "Staff"
 image:
-    thumb: 2020-02-25-intervista-bicoccalumni-thumb.png
+    thumb: 2020-05-19-intervista-bicoccalumni-thumb.png
 youtube: QJoMidqE6EM
 published: true
 newsfeed: false

@@ -4,8 +4,8 @@ title: "The Blockchain Series: Bitcoin First (puntata 9 di 25)"
 subtitle: "Intervista a Ferdinando M. Ametrano"
 date: 2020-03-23 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2020-02-25-intervista-bicoccalumni-thumb.png
-img-detail: /assets/img/institute_insights/2020-02-25-intervista-bicoccalumni-thumb.png
+img-list: /assets/img/institute_insights/2020-03-23-intervista-bicoccalumni-thumb.png
+img-detail: /assets/img/institute_insights/2020-03-23-intervista-bicoccalumni-thumb.png
 video-top: TISI2MYqrpk
 parent-category: institute-insights
 categories: eventi

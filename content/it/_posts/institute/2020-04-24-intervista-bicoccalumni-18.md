@@ -4,8 +4,8 @@ title: "The Blockchain Series: Bitcoin First (puntata 18 di 25)"
 subtitle: "Intervista a F. Ametrano e A. Preti"
 date: 2020-04-24 17:30:42 +0100
 author: Staff
-img-list: /assets/img/institute_insights/2020-02-25-intervista-bicoccalumni-thumb.png
-img-detail: /assets/img/institute_insights/2020-02-25-intervista-bicoccalumni-thumb.png
+img-list: /assets/img/institute_insights/2020-04-24-intervista-bicoccalumni-thumb.png
+img-detail: /assets/img/institute_insights/2020-04-24-intervista-bicoccalumni-thumb.png
 video-top: LjD9_o-C38U
 parent-category: institute-insights
 categories: eventi
