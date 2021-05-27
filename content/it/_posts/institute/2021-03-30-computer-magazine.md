@@ -1,6 +1,6 @@
 ---
 layout: post-institute
-title: "Ametrano: “Bitcoin a 400mila dollari entro fine anno, sono come l'oro”"
+title: "La sintesi degli interventi pubblici di F.M. Ametrano"
 date:   2021-03-30 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg
@@ -20,8 +20,8 @@ L'articolo [**Ametrano: “Bitcoin a 400mila dollari entro fine anno, no monete 
 
 ---
 
+### Ametrano: Bitcoin a 400mila dollari entro fine anno, no monete ma oro
 
-### Ametrano: “Bitcoin a 400mila dollari entro fine anno, no monete ma oro”
 Roberto Mazzucchelli
 
 >Entro la fine dell’anno la moneta virtuale per eccelenza, i Bitcoin, potrebbero triplicare se non addirittura quadruplicare il proprio valore. “Negli Stati Uniti le banche di investimento descrivono ormai scenari in cui la quotazione di Bitcoin potrebbe essere tra 150 e 400 mila dollari entro la fine dell’anno”, parole di Ferdinando Ametrano, Head of Blockchain and Virtual Currencies in Intesa Sanpaolo e direttore scientifico del Crypto Asset Lab dell’università Milano-Bicocca, dove insegna ‘Bitcoin and Blockchain Technology’, rilasciate ai micrifoni di AdnKronos.
