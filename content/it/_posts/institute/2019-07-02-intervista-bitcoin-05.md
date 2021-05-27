@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2019-07-02-intervista-bitcoin-05-thumb.
 img-detail: /assets/img/institute_insights/2019-07-02-intervista-bitcoin-05-thumb.jpg
 video-top: owAwuxfDZe4
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20190702-institute-events
 published: true

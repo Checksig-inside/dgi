@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2019-06-20-intervista-bitcoin-02-thumb.
 img-detail: /assets/img/institute_insights/2019-06-20-intervista-bitcoin-02-thumb.jpg
 video-top: 8FnkrTb6qM4
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20190620-institute-events
 published: true
