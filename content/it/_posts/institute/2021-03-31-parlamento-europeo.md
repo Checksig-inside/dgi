@@ -1,6 +1,6 @@
 ---
 layout: post-institute
-title: "CRIPTO-ATTIVITÀ: tra recenti sviluppi e Digital Finance Package"
+title: "CRIPTO-ATTIVITÀ: il webinar promosso dal Parlamento Europeo"
 subtitle: "Intervento di Ferdinando M. Ametrano al Webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset (MiCA)" 
 date:   2021-03-31 17:30:42 +0100
 author: Staff
@@ -51,5 +51,3 @@ Moderato da **Pierangelo Soldavini**, *Il Sole 24 Ore*, il webinar è stato cos�
 L’evento è stato trasmesso in diretta su [www.ilsole24ore.com](www.ilsole24ore.com),
 sul sito del [Parlamento Europeo](https://www.europarl.europa.eu/italy/it/succede-al-pe/cripto-attivit%C3%A0-tra-recenti-sviluppi-e-digital-finance-package)
 e sul canale YouTube di [FASI](https://youtu.be/QLC_qGeZBR8).
-
----

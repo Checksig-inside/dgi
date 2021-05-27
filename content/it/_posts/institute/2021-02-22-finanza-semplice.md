@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2021-02-22-finanza-semplice.jpg
 img-detail: /assets/img/institute_insights/2021-02-22-finanza-semplice.jpg
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210222-institute-events
 published: true

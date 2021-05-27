@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "IT Crypto Lorem ipsum 4"
+title:  "IT Crypto Lorem ipsum 5"
 date:   2020-11-21 09:07:42 +0100
 img-list: /assets/img/crypto_insights/header_crypto.jpg
 img-detail: /assets/img/crypto_insights/header_crypto.jpg
 parent-category: crypto-insights
-categories: mercato
+categories: tecnologia
 tag: bitcoin
 locale: it
-uid: crypto-market-news4
+uid: crypto-market-news5
 published: true
 comments: false
 ---

@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2019-07-15-blockchain-dates.jpg
 img-detail: /assets/img/institute_insights/2019-07-15-blockchain-dates-thumb.jpg
 video-top: scgIByUGbyc
 parent-category: institute-insights
-categories: news
+categories: eventi
 locale: it
 uid: 20190716-institute-news
 published: true

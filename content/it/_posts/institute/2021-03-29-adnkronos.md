@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2021-03-29-adnkronos.jpg
 img-detail: /assets/img/institute_insights/2021-03-29-adnkronos-thumb.jpg
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210329-institute-events
 published: true
@@ -20,7 +20,7 @@ Leggi l'intervista completa: [**Ametrano, 'Bitcoin bene rifugio e non strumento 
 
 ---
 
-### Riportiamo sotto il testo dell'intervista completa:
+### Riportiamo sotto il testo dell'intervista completa
 
 Negli Stati Uniti le banche di investimento descrivono ormai scenari in cui la quotazione di Bitcoin potrebbe essere tra 150 e 400 mila dollari entro la fine dell’anno”, valori che fanno impallidire i valori attuali (intorno a quota 55 mila dollari), anche se non è esclusa una forte volatilità, con andamenti da montagne russe come si è visto in questi anni. Lo sottolinea all'Adnkronos Ferdinando M. Ametrano, uno dei 'pionieri' italiani della criptovaluta, ricordando come "il processo per mettere a fuoco il valore di un bene controverso come il Bitcoin è controverso e quindi volatile". "Ma la volatilità - spiega - è comparabile a quella di Apple, Netflix, Amazon e Tesla ovvero gli asset più performanti degli ultimi dieci anni. I rendimenti sono sempre la remunerazione di rischi, è evidente che grandi ritorni finanziari debbano essere collegati a grandi rischi di volatilità”.
 

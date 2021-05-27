@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2021-03-30-computer-magazine.jpg
 img-detail: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210330-institute-events
 published: true

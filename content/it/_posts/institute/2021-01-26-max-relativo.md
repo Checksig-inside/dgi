@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2021-01-26-max-relativo-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-01-26-max-relativo-thumb.jpg
 video-top: oZaUZ2iFK0Y
 parent-category: institute-insights
-categories: eventi
+categories: ["rassegna stampa"]
 locale: it
 uid: 20210126-institute-events
 published: true
