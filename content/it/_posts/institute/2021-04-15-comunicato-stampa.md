@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title:  "Presentazione del report trimestrale del Digital Gold Institute"
+subtitle:
 author: "Staff"
 date:   2020-04-15 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-14-2021Q1-report-thumb.jpg

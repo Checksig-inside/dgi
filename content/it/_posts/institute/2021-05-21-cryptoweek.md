@@ -1,6 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #15 con Emanuele Cisbani"
+subtitle: "Argomenti della settimana: mercato, Coinbase, custodian, CBDC, Tether, ransomware, Testa"
 date:   2021-05-21 18:00:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-05-21-cryptoweek-thumb.jpg

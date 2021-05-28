@@ -1,6 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #8"
+subtitle: "I principali argomenti della settimana:"
 date:   2021-04-02 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-02-cryptoweek-thumb.jpg

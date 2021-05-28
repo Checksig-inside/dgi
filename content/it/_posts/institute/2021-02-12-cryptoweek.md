@@ -1,6 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #1"
+subtitle: "I principali argomenti della settimana:"
 date:   2021-02-12 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-02-12-cryptoweek-thumb.jpg

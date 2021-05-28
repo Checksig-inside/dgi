@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "La sintesi degli interventi pubblici di F.M. Ametrano"
+subtitle: 
 date:   2021-03-30 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg

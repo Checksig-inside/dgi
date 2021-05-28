@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title:  "IT Institute Lorem ipsum 10"
+subtitle:  "Lorem ipsum"
 author: "Staff"
 date:   2020-11-27 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg

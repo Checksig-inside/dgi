@@ -1,6 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #11"
+subtitle: "I principali argomenti della settimana:"
 date:   2021-04-23 17:07:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-23-cryptoweek-thumb.jpg

@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title:  "Dogecoin, che succede? Ametrano: «È il LOL del mondo crypto»"
+subtitle:
 author: "Staff"
 date:   2020-04-22 09:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-22-smartmoney-thumb.png

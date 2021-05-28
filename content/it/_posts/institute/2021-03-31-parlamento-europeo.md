@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Webinar promosso dal Parlamento Europeo"
+subtitle: 
 date:   2021-03-31 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
