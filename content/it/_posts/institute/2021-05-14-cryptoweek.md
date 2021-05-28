@@ -1,6 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #14 con Carlo Clerici"
+subtitle: "I principali argomenti della settimana: ransomware, Tesla, sostenibilità ambientale, CBDC, Diem"
 date:   2021-05-14 17:07:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-05-14-cryptoweek-thumb.jpg
