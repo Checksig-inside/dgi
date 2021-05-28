@@ -1,7 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #13 con Francesco Avella"
-subtitle: "I principali argomenti della settimana:"ecosistema Bitcoin, mercato, CBCD, antiriciclaggio"
+subtitle: "I principali argomenti della settimana: ecosistema Bitcoin, mercato, CBCD, antiriciclaggio."
 date:   2021-05-07 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-05-07-cryptoweek-thumb.jpg

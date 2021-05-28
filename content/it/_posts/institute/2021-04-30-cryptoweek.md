@@ -1,7 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #12"
-subtitle: "I principali argomenti della settimana:"mercato, NFT, DeFi, Altcoin, ecosistema bitcoin"
+subtitle: "I principali argomenti della settimana: mercato, NFT, DeFi, Altcoin, ecosistema bitcoin"
 date:   2021-04-30 17:07:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-30-cryptoweek-thumb.jpg
