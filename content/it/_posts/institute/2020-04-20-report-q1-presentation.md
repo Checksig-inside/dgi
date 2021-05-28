@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Presentazione del report 2020-Q1"
+subtitle: "Aggiornamento sull'ecosistema Bitcoin, crypto-asset e blockchain "
 date: 2020-04-20 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2020-04-17-2020Q1-thumb.jpg
@@ -12,8 +13,6 @@ uid: 20200420-institute-events
 published: true
 comments: false
 ---
-Aggiornamento sull'ecosistema Bitcoin, crypto-asset e blockchain 
-
 Il Digital Gold Institute pubblica un **rapporto trimestrale
 sull'ecosistema Bitcoin, crypto-asset e blockchain**:
 è appena uscito il numero 2020-Q1.

@@ -1,7 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #4"
-subtitle: "I principali argomenti della settimana:"
+subtitle: "I principali argomenti della settimana: bitcoin, coinbase, finanza tradizionale."
 date:   2021-03-05 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-05-cryptoweek-thumb.jpg

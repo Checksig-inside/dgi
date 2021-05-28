@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title:  "Dogecoin, che succede? Ametrano: «È il LOL del mondo crypto»"
-subtitle:
+subtitle: "Intervista a Ferdinando Ametrano per StartupItalia"
 author: "Staff"
 date:   2020-04-22 09:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-22-smartmoney-thumb.png
@@ -13,8 +13,6 @@ uid: 20210422-institute-news
 published: true
 comments: false
 ---
-Intervista a Ferdinando Ametrano per StartupItalia
-
 Questa criptomoneta meme era nata per scherzo: il suo valore è sì salito di oltre il 500% nell’ultimo mese, ma il confronto con bitcoin, la criptomoneta per eccellenza, è ancora impietoso.
 
 [Alessandro di Stefano](https://twitter.com/Distefanoale90) affronta le (enormi) differenze di Dogecoin rispetto a Bitcoin con [Ferdinando Ametrano](http://ametrano.net/) nell'articolo [Dogecoin, che succede? Ametrano (CheckSig): «È il LOL del mondo crypto»](https://smartmoney.startupitalia.eu/economy/67969-20210421-dogecoin-che-succede-ametrano-checksig-e-il-lol-del-mondo-crypto) pubblicato ieri su Smartmoney, rubrica del magazine [StartupItalia](https://startupitalia.eu/):

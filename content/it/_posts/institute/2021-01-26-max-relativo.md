@@ -13,7 +13,6 @@ uid: 20210126-institute-events
 published: true
 comments: false
 ---
-
 **Cos'è Bitcoin? Come funziona, a cosa serve?**
 
 Lo ha chiesto [**M@x Relativo**](https://youtube.com/c/MaxRelativo) al direttore scientifico DGI [**Ferdinando M. Ametrano**](https://ametrano.net/) nella puntata di _30' MAX_ del 20 gennaio.

@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title: "Bitcoin: oro digitale, finanza e tulipani"
-subtitle: "Intervista a Ferdinando M. Ametrano"
+subtitle: "La nona puntata dell'intervista al nostro direttore Ferdinando M. Ametrano sul tema Bitcoin."
 date: 2019-07-16 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-07-16-intervista-bitcoin-09-thumb.jpg

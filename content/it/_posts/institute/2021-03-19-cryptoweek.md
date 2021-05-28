@@ -1,7 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #6"
-subtitle: "I principali argomenti della settimana:"
+subtitle: "I principali argomenti della settimana: CBCD, ETF, Morgan Stanley, NFTs, Ethereum, mining."
 date:   2021-03-19 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-03-19-cryptoweek-thumb.jpg
@@ -17,7 +17,6 @@ comments: false
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 
 Di seguito i link alle news commentate
-
 
 ### CBDC
 

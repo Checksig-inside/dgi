@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Bitcoin: oro digitale, finanza e tulipani"
+subtitle: "La prima puntata di una lunga intervista al nostro direttore Ferdinando M. Ametrano sul tema Bitcoin."
 date: 2019-06-17 17:30:42 +0100
 author: "Staff"
 img-list: /assets/img/institute_insights/2019-06-17-intervista-bitcoin-01-thumb.jpg
@@ -12,10 +13,6 @@ uid: 20190617-institute-events
 published: true
 comments: false
 ---
-Presentiamo la prima puntata di una lunga intervista al nostro direttore
-[*Ferdinando M. Ametrano*](https://www.ametrano.net)
-sul tema Bitcoin.
-
 L'intervista, a cura di *Nicole Vismara* (manager di Deloitte Consulting), è suddivisa in 11 puntate: le successive verranno pubblicate con cadenza regolare ogni martedì e giovedì.
 
 Di seguito la trascrizione di questa puntata.

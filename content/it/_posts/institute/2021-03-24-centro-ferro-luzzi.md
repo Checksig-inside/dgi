@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Moneta digitale e dintorni"
+subtitle: "Lo scorso 12 marzo si è svolto il webinar 'Moneta digitale e dintorni', organizzato da Grandanolo."
 subtitle: 
 date:   2021-03-24 17:30:42 +0100
 author: Staff
@@ -14,9 +15,6 @@ uid: 20210324-institute-events
 published: true
 comments: false
 ---
-
-Lo scorso 12 marzo si è svolto il webinar "**Moneta digitale e dintorni**", organizzato da Grandanolo.
-
 [Grandangolo](https://www.uniroma3.it/ateneo/centri/centri-di-ricerca-interdipartimentali/centro-di-ricerca-interdipartimentale-sul-diritto-europeo-della-banca-e-della-finanza-paolo-ferro-luzzi/) è il Centro di Ricerca Interdipartimentale sul Diritto Europeo della Banca e della Finanza “Paolo Ferro-Luzzi", promosso e costituito da tre dipartimenti dell’Università degli Studi Roma Tre: Giurisprudenza, Economia Aziendale e Scienze Politiche.
 
 Il webinar ha illustrato la portata dei rilevanti cambiamenti normativi che hanno interessato il settore della finanza in Europa a seguito della nascita ed adozione delle cryptovalute. 

@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Economics and Environmental Sustainability of Bitcoin"
+subtitle: "A webinar in collaboration with the Harvard Extension Students Environment Club"
 date: 2019-05-13 17:30:42 +0100
 author: "Paolo Mazzocchi"
 img-list: /assets/img/institute_insights/2019-05-10-cryptoassetlab-thumb.jpg
@@ -13,8 +14,6 @@ uid: 20190513-institute-events
 published: true
 comments: false
 ---
-A webinar in collaboration with the Harvard Extension Students Environment Club
-
 The [Harvard Extension Students Environment Club](https://hesec.extension.harvard.edu/webinars)
 invited
 [Ferdinando M. Ametrano]({{ site.url }}{{ site.baseurl }}/#team)

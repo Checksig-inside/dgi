@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "BLOCKCHAIN&CO" 
+subtitle: "Il programma di BFC Forbes sulla tecnologia blockchain."
 date:   2021-01-20 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-01-20-bfc-forbes-thumb.jpg
@@ -13,8 +14,6 @@ uid: 20210120-institute-events
 published: true
 comments: false
 ---
-Il programma di BFC Forbes sulla tecnologia blockchain.
-
 _BLOCKCHAIN&CO_ è il nuovo programma di approfondimento di BFC sulla tecnologia blockchain. Va in onda onda in prima visione ogni lunedì alle 21, visibile al numero 511 del telecomando Sky, sul canale 61 di Tivùsat e online su [Bfcvideo.com](https://2021-01-20-bfc-forbes.com/category/forbes/blockchain-and-co/).
 
 Nella puntata di ieri 19 gennaio 2021, [**Federico Morgantini**](https://www.linkedin.com/in/federico-morgantini/) ha intervistato il direttore scientifico DGI [**Ferdinando M. Ametrano**](https://ametrano.net/) sul tema Bitcoin e blockchain.

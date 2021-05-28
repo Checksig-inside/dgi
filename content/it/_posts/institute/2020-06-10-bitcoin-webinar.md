@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Bitcoin, criptovalute e risparmio gestito"
+subtitle: "Asset eligible anche per Fondi e gestioni di portafoglio?"
 date:   2020-06-10 17:30:42 +0100
 author: "Lucia Mandelli"
 img-list: /assets/img/institute_insights/2020-06-11-bitcoin-e-risparmio-gestito-thumb.jpg
@@ -12,8 +13,6 @@ uid: 20200610-institute-events
 published: true
 comments: false
 ---
-Asset eligible anche per Fondi e gestioni di portafoglio?
-
 Abbiamo il piacere di invitarvi al webinar "**Bitcoin, criptovalute e risparmio gestito: asset _eligible_ anche per Fondi e gestioni di portafoglio?**" organizzato dai nostri partner [A&C Law](https://aclaw.eu/it/home/), [CryptoValues](https://cryptovalues.eu//) e [CheckSig](https:/checksig.io/) che si terrà domani, giovedì 11 giugno 2020,
 dalle 17:30 alle 19:00 in modalità live streaming.  
 

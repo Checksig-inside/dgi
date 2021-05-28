@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Breakfast with BNP Paribas"
+subtitle: "Andrea Cattaneo, Head of BNP Paribas Securities Services Italy, Switzerland & Iberia, ha intervistato Ferdinando M. Ametrano."
 date:   2021-03-17 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-17-bnp-paribas-thumb.png
@@ -12,8 +13,6 @@ uid: 20210317-institute-events
 published: true
 comments: false
 ---
-Andrea Cattaneo, Head of BNP Paribas Securities Services Italy, Switzerland & Iberia, ha intervistato Ferdinando M. Ametrano.
-
 Tema dell'intervista i recenti sviluppi e le nuove soluzioni per il mondo delle cryptovalute e digital assets.
 
 **Breakfast with BNP Paribas** è l’appuntamento digitale di BNP Paribas durante il quale sono affrontate tematiche di attualità in merito al settore finanziario.

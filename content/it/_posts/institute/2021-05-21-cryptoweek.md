@@ -14,8 +14,6 @@ uid: institute-cryptoweek-15
 published: true
 comments: false
 ---
-
-
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata Emanuele Cisbani, Technology Evangelist, Intesi Group S.p.A.
 

@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title: "Adnkronos"
-subtitle: 
+subtitle: "Intervista a Ferdinando M. Ametrano"
 date:   2021-03-29 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-29-adnkronos-thumb.jpg

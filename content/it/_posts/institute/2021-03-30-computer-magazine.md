@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title: "La sintesi degli interventi pubblici di F.M. Ametrano"
-subtitle: 
+subtitle: "Articolo a cura di Roberto Mazzucchelli per Computer Magazine"
 date:   2021-03-30 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-30-computer-magazine-thumb.jpg
@@ -13,8 +13,6 @@ uid: 20210330-institute-events
 published: true
 comments: false
 ---
-Articolo a cura di Roberto Mazzucchelli per Computer Magazine
-
 Gli spunti di maggiore attualità sul mondo Bitcoin nella sintesi degli interventi pubblici di [Ferdinando M. Ametrano](http://ametrano.net/), direttore scientifico DGI.
 
 L'articolo [**Ametrano: “Bitcoin a 400mila dollari entro fine anno, no monete ma oro”**](https://www.computermagazine.it/2021/03/29/ametrano-bitcoin-400mila-dollari-oro/) è a cura di _Roberto Mazzucchelli_ per __Computer Magazine__.

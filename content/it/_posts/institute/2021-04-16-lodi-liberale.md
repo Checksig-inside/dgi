@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title:  "Il Bitcoin come oro del futuro"
-subtitle:
+subtitle: "Presentazione del libro "Dal sesterzio a Bitcoin"
 author: "Staff"
 date:   2020-04-16 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-16-lodi-liberale-thumb.jpg
@@ -13,8 +13,6 @@ uid: 20210416-institute-events
 published: true
 comments: false
 ---
-Presentazione del libro "Dal sesterzio a Bitcoin
-
 Nel 125esimo evento di Lodi Liberale è stato presentato il libro curato da Angelo Miglietta e Alberto Mingardi “**DAL SESTERZIO AL BITCOIN. Vecchie e nuove dimensioni del denaro**”, pubblicato da Rubbettino Editore, insieme al primo curatore, Maria Pia Paganelli e Ferdinando M. Ametrano.
 
 >

@@ -13,7 +13,7 @@ uid: 20210129-institute-events
 published: true
 comments: false
 ---
-Bitcoin Italia, Crypto & Blockchain
+subtitle: "Bitcoin Italia, Crypto & Blockchain"
 
 [**Koinsquare**](https://koinsquare.com/) è la community di riferimento in Italia per Bitcoin, Criptovalute e Blockchain.
 

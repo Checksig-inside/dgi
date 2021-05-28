@@ -1,7 +1,7 @@
 ---
 layout: post-cryptoweek
 title:  "CryptoWeek #9"
-subtitle: "I principali argomenti della settimana:"
+subtitle: "I principali argomenti della settimana: investimenti, borse di cambio, ETF e futures, decentralized identity."
 date:   2021-04-09 17:07:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-04-09-cryptoweek-thumb.jpg

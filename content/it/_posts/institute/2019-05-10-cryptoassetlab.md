@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Crypto Asset Lab: A Research Initiative on Digital Assets"
+subtitle: "CAL: a joint initiative of University of Milano-Bicocca and Digital Gold Institute"
 date: 2019-05-10 17:30:42 +0100
 author: "Paolo Mazzocchi"
 img-list: /assets/img/institute_insights/2019-05-10-cryptoassetlab-thumb.jpg
@@ -12,8 +13,6 @@ uid: 20190510-institute-events
 published: true
 comments: false
 ---
-CAL: a joint initiative of University of Milano-Bicocca and Digital Gold Institute
-
 We are happy to announce [Crypto Asset Lab](http://cryptoassetlab.diseade.unimib.it/), a research initiative on crypto-assets (Bitcoin *in primis*) as investment opportunity, fintech innovation, and regulatory challenge.
 
 Milano-Bicocca has been offering a

@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Rassegna stampa: Quarto trimestre 2020"
+subtitle: "L'interesse su Bitcoin cresce al crescere della performance di mercato di questo ultimo trimestre dell'anno. Nuovi player, nuovi mercati: un’inarrestabile corsa all’oro."
 date:   2020-12-21 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4-thumb.jpg
@@ -12,9 +13,6 @@ uid: 20201221-institute-events
 published: true
 comments: false
 ---
-
-L'interesse su Bitcoin cresce al crescere della performance di mercato di questo ultimo trimestre dell'anno. Nuovi player, nuovi mercati: un’inarrestabile corsa all’oro.
-
 La confusione con Bitcoin è però ancora grande: la necessità di comprenderne gli scenari di mercato, normativi e tecnologici è rilevante per una corretta interpretazione degli avvenimenti, della volatilità di mercato e delle opportunità/criticità collegate.
 
 Vi proponiamo di seguito due articoli che speriamo possano aiutarvi a fare chiarezza:

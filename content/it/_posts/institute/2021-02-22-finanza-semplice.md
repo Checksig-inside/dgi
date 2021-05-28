@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "Finanza Semplice"
+subtitle: "Alfonso Selva intervista F. M. Ametrano"
 date:   2021-02-22 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-02-22-finanza-semplice-thumb.jpg
@@ -12,8 +13,6 @@ uid: 20210222-institute-events
 published: true
 comments: false
 ---
-Alfonso Selva intervista F. M. Ametrano
-
 [Alfonso Selva](https://www.alfonsoselva.it/), di professione consulente finanziario, è attivo nel trasmettere un'educazione finanziaria online, tramite i suoi canali social ed il suo blog.
 
 Per approfondire in dettaglio Bitcoin e l'ecosistema crypto, nel contesto della finanza tradizionale, Alfonso Selva ha intervistato Ferdinando M. Ametrano nella 77ma puntata del suo podcast "[Finanza semplice](https://www.spreaker.com/user/alfonsoselva/ep-77-ferdinando-ametrano-bitcoin)".

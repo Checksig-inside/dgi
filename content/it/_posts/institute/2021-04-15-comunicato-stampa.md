@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title:  "Presentazione del report trimestrale del Digital Gold Institute"
-subtitle:
+subtitle: "Comunicato stampa"
 author: "Staff"
 date:   2020-04-15 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-14-2021Q1-report-thumb.jpg
@@ -13,8 +13,6 @@ uid: 20210415-institute-events
 published: true
 comments: false
 ---
-Comunicato stampa
-
 Si è svolta ieri la presentazione della nona edizione del report trimestrale su ecosistema Bitcoin, crypto-asset e blockchain curato dal Digital Gold Institute (DGI), il principale think tank italiano dedicato al fenomeno Bitcoin e alla scarsità in ambito digitale. La registrazione dell’evento e le slide presentate sono disponibili sul sito dell’Istituto ([https://dgi.io/reports]({{site.baseurl}}/reports)), dove entro fine mese sarà disponibile il report 2021-Q1 completo.
 
 “I primi tre mesi del 2021 hanno confermato Bitcoin come il campione di una asset class alternativa - ha dichiarato [Ferdinando M. Ametrano](https://ametrano.net/it/about/), Direttore Scientifico del DGI e docente di Bitcoin and Blockchain Technology a Milano-Bicocca - la discesa in campo di vere e proprie istituzioni come JP Morgan, Goldman Sachs, Morgan Stanley e BlackRock ne è il riconoscimento più chiaro. Sul versante retail, anche PayPal si accoda a CashApp dando accesso all’investimento bitcoin per 400 milioni di utenti. Infine, sul fronte delle Corporate Treasuries, l’ingresso di Tesla e MicroStrategy ha confermato l’appetibilità di bitcoin come strumento di diversificazione e di protezione dall’inflazione. Non stupisce quindi affatto vedere una solida dinamica di crescita del prezzo, suggellata anche dallo sbarco al Nasdaq di Coinbase, la principale borsa di scambio bitcoin a livello globale, con un collocamento record da 100 miliardi di dollari. Resta invece da verificare la sostenibilità nel tempo di fenomeni come i cosiddetti NFT - Non Fungible Tokens, che ricordano purtroppo molto da vicino esperimenti al limite del truffaldino come ICO e cryptokitties”.

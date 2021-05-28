@@ -1,7 +1,7 @@
 ---
 layout: post-institute
 title:  "CryptoWeek #2"
-subtitle: "I principali argomenti della settimana:"
+subtitle: "Le principali news crypto della settimana presentate da Ferdinando M. Ametrano"
 date:   2021-02-19 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/cryptoweek/2021-02-19-cryptoweek-thumb.jpg

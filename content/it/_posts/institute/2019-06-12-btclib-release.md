@@ -1,6 +1,7 @@
 ---
 layout: post-institute
 title: "btclib for Bitcoin cryptography"
+subtitle: "New btclib release."
 date: 2019-06-12 17:30:42 +0100
 author: "Ferdinando M. Ametrano"
 img-list: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo-thumb.jpg
@@ -12,8 +13,6 @@ uid: 20190612-institute-news
 published: true
 comments: false
 ---
-New btclib release.
-
 [btclib](https://github.com/dginst/btclib)
 is a python3 type annotated library intended for teaching and
 demonstration of the elliptic curve cryptography used in Bitcoin,
