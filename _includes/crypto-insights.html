@@ -63,7 +63,7 @@
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 					 <span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
-					<div class="excerpt-news">{{ post.excerpt }}</div>
+					<div class="excerpt-news">{{ post.subtitle }}</div>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
 					 </div>
@@ -95,7 +95,7 @@
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 					<span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
-					 <div class="excerpt-news">{{ post.excerpt }}</div>
+					 <div class="excerpt-news">{{ post.subtitle }}</div>
 					 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
 					 </div>
 					 </div>
