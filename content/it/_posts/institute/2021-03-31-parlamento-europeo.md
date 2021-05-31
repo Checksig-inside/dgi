@@ -3,6 +3,7 @@ layout: post-institute
 title: "Webinar promosso dal Parlamento Europeo"
 subtitle: "Intervento di Ferdinando M. Ametrano al webinar del Parlamento Europeo sulla proposta di regolamentazione dei mercati in crypto-asset"
 date:   2021-03-31 17:30:42 +0100
+date-event: 2021-03-26 10:00 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-31-parlamento-europeo-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-03-31-parlamento-europeo.png

@@ -4,6 +4,7 @@ title:  "Il Bitcoin come oro del futuro"
 subtitle: "Presentazione del libro 'Dal sesterzio a Bitcoin'"
 author: "Staff"
 date:   2020-04-16 13:07:42 +0100
+date-event: 2020-04-12 18:00 +0100
 img-list: /assets/img/institute_insights/2021-04-16-lodi-liberale-thumb.jpg
 video-top: PvNkZexoWik
 parent-category: institute-insights

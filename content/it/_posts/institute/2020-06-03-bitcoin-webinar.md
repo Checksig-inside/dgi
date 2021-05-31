@@ -2,7 +2,8 @@
 layout: post-institute
 title: "Bitcoin: un nuovo strumento finanziario per la normativa tedesca?"
 subtitle: "Come si inserisce bitcoin quale strumento finanziario nel quadro europeo di MIFID II"
-date:   2020-06-03 17:30:42 +0100
+date: 2020-06-03 17:30:42 +0100
+date-event: 2020-06-04 17:30:42 +0100
 author: "Lucia Mandelli"
 img-list: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca-thumb.jpg
 img-detail: /assets/img/institute_insights/2020-06-04-bitcoin-e-normativa-tedesca.jpg

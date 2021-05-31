@@ -2,7 +2,8 @@
 layout: post-institute
 title: "Bitcoin, criptovalute e risparmio gestito"
 subtitle: "Asset eligible anche per Fondi e gestioni di portafoglio?"
-date:   2020-06-10 17:30:42 +0100
+date:   2020-06-10 13:30:42 +0100
+date-event:   2020-06-11 17:30:42 +0100
 author: "Lucia Mandelli"
 img-list: /assets/img/institute_insights/2020-06-11-bitcoin-e-risparmio-gestito-thumb.jpg
 img-detail: /assets/img/institute_insights/2020-06-11-bitcoin-e-risparmio-gestito.jpg

@@ -3,6 +3,7 @@ layout: post-institute
 title: "Cryptovalute e nuovi player nel mercato dei Pagamenti"
 subtitle: "Tavola rotonda moderata da Ferdinando M. Ametrano"
 date: 2019-11-08 17:30:42 +0100
+date-event: 2019-11-08 17:30:42 +0100
 author: "Lucia Mandelli"
 img-list: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti-thumb.jpg
 img-detail: /assets/img/institute_insights/2019-11-08-il salone dei pagamenti.jpg

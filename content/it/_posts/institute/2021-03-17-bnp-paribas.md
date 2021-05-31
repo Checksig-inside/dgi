@@ -3,6 +3,7 @@ layout: post-institute
 title: "Breakfast with BNP Paribas"
 subtitle: "Andrea Cattaneo, Head of BNP Paribas Securities Services Italy, Switzerland & Iberia, ha intervistato Ferdinando M. Ametrano."
 date:   2021-03-17 17:30:42 +0100
+date-event:   2021-03-12 13:00:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2021-03-17-bnp-paribas-thumb.png
 video-top: TBP5t7Cd640

@@ -2,7 +2,8 @@
 layout: post-institute
 title: "Bitcoin e i modelli di custodia dei cryptoasset"
 subtitle: "Orientarsi tra rischio di frode, AML e perdita di asset."
-date:   2020-06-23 17:30:42 +0100
+date:   2020-06-23 10:30:42 +0100
+date:   2020-06-25 17:30:42 +0100
 author: "Lucia Mandelli"
 img-list: /assets/img/institute_insights/2020-06-25-bitcoin-e-custodia-thumb.jpg
 img-detail: /assets/img/institute_insights/2020-06-25-bitcoin-e-custodia.jpg
