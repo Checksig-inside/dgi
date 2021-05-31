@@ -55,4 +55,3 @@ Bitcoin è un bene digitale con caratteriste uniche:
 * Bitcoin è un bene scarso, la cui emissione è fissata e limitata alla soglia di 21 milioni
 
 Creato nel gennaio 2009 da un individuo o gruppo di lavoro conosciuto con lo pseudonimo “Satoshi Nakamoto”, Bitcoin si differenzia da ogni altro bene digitale (come ad esempio mail, mp3, etc) perché previene la sua duplicazione in assenza di controllo di un’autorità centrale.
-
