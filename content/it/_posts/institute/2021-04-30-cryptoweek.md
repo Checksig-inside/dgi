@@ -17,6 +17,8 @@ comments: false
 
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 
+La puntata è disponibile in diretta su [Facebook](https://www.facebook.com/2010536319214039/videos/267590895050280) e [Youtube](https://www.youtube.com/watch?v=9U1fMr0Lnp4), successivamente su podcast.
+
 Di seguito i link alle news commentate
 
 ### Market

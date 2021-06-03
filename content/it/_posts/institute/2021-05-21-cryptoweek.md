@@ -17,6 +17,8 @@ comments: false
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata Emanuele Cisbani, Technology Evangelist, Intesi Group S.p.A.
 
+La puntata è disponibile in diretta su [Facebook](https://www.facebook.com/2010536319214039/videos/589830489086930) e [Youtube](https://www.youtube.com/watch?v=HNE7XcjRJjA), successivamente su podcast.
+
 ## Di seguito i link alle news commentate.
 
 ### Markets

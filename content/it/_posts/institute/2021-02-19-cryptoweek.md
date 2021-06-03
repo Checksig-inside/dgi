@@ -20,6 +20,8 @@ comments: false
 ---
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain. 
 
+La puntata è disponibile in diretta su [Facebook](https://fb.watch/5UiGtC9-Ox/) e [Youtube](https://www.youtube.com/watch?v=RCz99O-Xszk), successivamente su podcast.
+
 Di seguito i link alle news commentate
 
 - [Bitcoin Market Value Tops $1T as Price Passes $53,697](https://www.coindesk.com/bitcoin-1-trillion-market-value)

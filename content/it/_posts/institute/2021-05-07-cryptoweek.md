@@ -17,6 +17,9 @@ comments: false
 Ogni venerdì alle 18:00 in live-streaming Ferdinando M. Ametrano commenta quanto di rilevante è accaduto nel corso della settimana in ambito Bitcoin, crypto-asset e blockchain.
 Ospite della puntata il Dott. Francesco Avella.
 
+La puntata è disponibile in diretta su [Facebook](https://www.facebook.com/2010536319214039/videos/929829564471963) e [Youtube](https://www.youtube.com/watch?v=iLuGCfH0mV4), successivamente su podcast.
+
+
 Di seguito i link alle news commentate.
 
 ### Ecosystem
