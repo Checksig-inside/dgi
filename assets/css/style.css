@@ -2860,8 +2860,21 @@ a.thesis-pdf {
     float: none;
     margin: 25px auto;
 }
-	
-	
+.redux > .container > .row {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 80%;
+    width: 80%;
+    margin: 25px auto;
+}
+.redux > .container > .row ul li::before {
+    content: "\2043";
+    color: orange;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}	
 @media (min-width: 1600px) {
 .top.top-home {
 	width: 100%!important;

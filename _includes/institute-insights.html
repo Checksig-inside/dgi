@@ -30,6 +30,7 @@
 		{% endfor %}
 	  </div>
 </div>
+{% assign todaydate = site.time | date: "%F" %}
 {% for cat in cats %}
 {% for category in site.categories %}
 	{% if category[0] == cat %}
@@ -39,10 +40,90 @@
 			{% assign total = total | plus: 1 %}
 			{% endif %}
 		{% endfor %}
-
+		{% if cat == "eventi" %}
+			{% assign total_eventi = 0 %}
+			{% for post in category[1] %}
+				{% if post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true %}
+				{% assign ev_date = post.date-event | date: "%F" %}
+					{% if  ev_date <= todaydate %}
+					{% assign total_eventi = total_eventi | plus: 1 %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+			{% assign total_eventi_future = 0 %}
+			{% for post in category[1] %}
+				{% if post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true %}
+				{% assign ev_date = post.date-event | date: "%F" %}
+					{% if  ev_date > todaydate %}
+					{% assign total_eventi_future = total_eventi_future | plus: 1 %}
+					{% endif %}
+				{% endif %}
+			{% endfor %}			
+		{% endif %}
+		
 		{% if total != 0 %}
 		<div id="cat-{{ category[0] | replace: ' ', '-' }}" class="tabcat cat-{{ category[0] | replace: " ", "-" }} ">
 				<h3> / {{ category[0] }} </h3>
+				
+				
+			{% if cat == "eventi" %}
+				<div class="tab">
+				  <button class="tablinks active" onclick="openTab(event, 'eventi-futuri')">{{ site.data.locales[page.locale].glossary['eventi-futuri']}} <i class="fa fa-angle-down"></i></button>
+				  <button class="tablinks" onclick="openTab(event, 'eventi-passati')">{{ site.data.locales[page.locale].glossary['eventi-passati']}} <i class="fa fa-angle-down"></i></button>
+				</div>
+				<div id="eventi-futuri" class="tabcontent" style="display: block;">
+				{% if total_eventi_future == 0 %}
+				  <p class="empty-tab">{{ site.data.locales[page.locale].glossary['eventi-nessuno']}}</p>
+				 {% else %} 
+					<div class="loadmore">
+					{% for post in category[1] %}
+						{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true and post.date-event %}
+						{% assign ev_date = post.date-event | date: "%F" %}
+							{% if  ev_date > todaydate %}
+								 <div class="col-lg-4 col-md-4 text-center">
+								 <div>				 
+								  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+								 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+								 <span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
+								 <div class="excerpt-news">{{ post.subtitle }}</div>
+								 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+								 </div>
+								 </div>
+							{% endif %}
+						{% endif %}
+						{% endfor %}
+					  </div>
+				 {% endif %} 
+				</div>
+				<div id="eventi-passati" class="tabcontent">
+				{% if total_eventi == 0 %}
+				  <p class="empty-tab">Nessun evento trovato</p>
+				 {% else %} 
+				 
+					<div class="loadmore">
+					{% for post in category[1] %}
+						{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true and post.date-event %}
+						{% assign ev_date = post.date-event | date: "%F" %}
+							{% if  ev_date <= todaydate %}
+								 <div class="col-lg-4 col-md-4 text-center">
+								 <div>				 
+								  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
+								 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+								 <span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
+								 <div class="excerpt-news">{{ post.subtitle }}</div>
+								 <p class="text-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ site.data.locales[page.locale].glossary['readmore']}}</a></p>
+								 </div>
+								 </div>
+							{% endif %}
+						{% endif %}
+						{% endfor %}
+					  </div>
+					  
+				 {% endif %} 
+				</div>
+			
+			{% else %}
+			
 				{% if category[0] == 'crypto week' %}
 				<div id="banner-intesa" class="row padding" style="padding: 0px 15px 25px;">
 				<p><a target="_blank" href="{{ site.data.locales[page.locale].glossary['banner-url']}}"><img src="{{ site.baseurl }}{{ site.data.locales[page.locale].glossary['banner']}}" width=100%></a></p>
@@ -52,7 +133,7 @@
 				{% for post in category[1] %}
 					{% if category[0] == post.categories[2] and post.parent-category == 'institute-insights' and post.locale == page.locale  and post.published == true %}
 					 <div class="col-lg-4 col-md-4 text-center">
-					 <div>
+					 <div>				 
 					  <p><img src="{{ site.baseurl }}{{ post.img-list }}" style="width: 100%;"></p>
 					 <a  class="title-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 					 <span class="date-news">{{ post.date | date_to_long_string: "ordinal" }}</span>
@@ -61,10 +142,13 @@
 					 </div>
 					 </div>
 					{% endif %}
-				{% endfor %}
-			  </div>
-			  {% assign t = t | plus: 1 %}
-			  {% assign class = '' %}
+					{% endfor %}
+				  </div>
+				  {% assign t = t | plus: 1 %}
+				  {% assign class = '' %}
+				  
+			{% endif %}
+			
 		{% endif %}
 		</div>
 	{% endif %}
@@ -86,9 +170,80 @@
 		
 	});
 });
+function openTab(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 </script>
 
+<style>
+p.empty-tab {
+  padding: 120px;
+  text-align: center;
+}
 
+
+.tab {
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0px 40px 30px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	position: relative;
+	font-weight: 800;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+.tab button i {
+    display: none;
+}
+.tab button.active i {
+    display: block;
+}
+</style>
 
 
 
