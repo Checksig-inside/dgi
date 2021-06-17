@@ -1,13 +1,13 @@
 ---
 layout: post-institute
-title: "Rassegna stampa: Quarto trimestre 2020"
+title: "news: Quarto trimestre 2020"
 subtitle: "L'interesse su Bitcoin cresce al crescere della performance di mercato di questo ultimo trimestre dell'anno. Nuovi player, nuovi mercati: un’inarrestabile corsa all’oro."
 date:   2020-12-21 17:30:42 +0100
 author: Staff
 img-list: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4-thumb.jpg
 img-detail: /assets/img/institute_insights/2020-12-21-rassegna-stampa-q4.jpg
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20201221-institute-events
 published: true

@@ -7,7 +7,7 @@ author: "Paolo Mazzocchi"
 img-list: /assets/img/institute_insights/2019-05-10-cryptoassetlab-thumb.jpg
 img-detail: /assets/img/institute_insights/2019-05-10-cryptoassetlab.jpg
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20190510-institute-events
 published: true

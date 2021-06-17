@@ -7,7 +7,7 @@ author: "Staff"
 img-list: /assets/img/institute_insights/2019-06-25-intervista-bitcoin-03-thumb.jpg
 video-top: v_NQkJBycjQ
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20190625-institute-events
 published: true

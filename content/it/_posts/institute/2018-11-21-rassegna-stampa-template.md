@@ -8,7 +8,7 @@ date:   2020-11-21 09:07:42 +0100
 img-list: /assets/img/institute_insights/header_institute.jpg
 img-detail: /assets/img/institute_insights/header_institute.jpg
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: institute-news-1
 published: false

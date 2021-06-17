@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2020-10-31-the-digital-rush-thumb.jpg
 img-detail: /assets/img/institute_insights/2020-10-31-the-digital-rush.jpg
 video-top: 6_kNeztZPM0
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20201031-institute-events
 published: true

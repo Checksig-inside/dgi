@@ -7,7 +7,7 @@ author: "Ferdinando M. Ametrano"
 img-list: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo-thumb.jpg
 img-detail: /assets/img/institute_insights/2019-06-12-btclib-tentative-logo.jpg
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20190612-institute-news
 published: true

@@ -1,6 +1,6 @@
 ---
 layout: institute-insights_child
-title: Rassegna stampa
+title: news
 header: Institute insights
 locale: it
 uid: institute-insights-news
@@ -11,7 +11,7 @@ subdesc: it -Lorem ipsum dolores
 description: it -Lorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum doloresLorem ipsum dolores
 img: https://via.placeholder.com/250x250
 page-category: institute-insights
-posts-category: ["rassegna stampa"]
+posts-category: news
 published: true
 sort_ranking: 600
 ---

@@ -7,7 +7,7 @@ img-list: /assets/img/institute_insights/2021-01-29-koinsquare-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-01-29-koinsquare.jpg
 video-top: vQLJoBy5UcU
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20210129-institute-events
 published: true

@@ -8,7 +8,7 @@ img-list: /assets/img/institute_insights/2021-02-15-lultima-domanda-thumb.png
 img-detail: /assets/img/institute_insights/2021-02-15-lultima-domanda.jpg
 video-top: lnwROMhWF5E
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20210215-institute-events
 published: true

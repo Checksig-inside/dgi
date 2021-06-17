@@ -7,7 +7,7 @@ date:   2020-05-12 15:07:42 +0100
 image-list: /assets/img/institute_insights/2020-05-12-intervista-bicoccalumni-thumb.png
 video-top: qqImOQscBsc
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: institute-bicocca-22
 published: true

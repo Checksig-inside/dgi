@@ -7,7 +7,7 @@ author: "Staff"
 img-list: /assets/img/institute_insights/2019-07-23-intervista-bitcoin-11-thumb.jpg
 video-top: UL9RHSYgZ7A
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20190723-institute-events
 published: true

@@ -7,7 +7,7 @@ date:   2020-04-15 13:07:42 +0100
 img-list: /assets/img/institute_insights/2021-04-14-2021Q1-report-thumb.jpg
 video-top: pgAlv1ufZdk
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20210415-institute-events
 published: true

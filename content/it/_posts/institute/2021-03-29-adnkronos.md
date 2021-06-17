@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2021-03-29-adnkronos-thumb.jpg
 img-detail: /assets/img/institute_insights/2021-03-29-adnkronos.jpg
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20210329-institute-events
 published: true

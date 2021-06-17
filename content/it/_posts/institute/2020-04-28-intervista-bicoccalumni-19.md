@@ -7,7 +7,7 @@ date:   2020-04-28 15:07:42 +0100
 image-list: /assets/img/institute_insights/2020-04-28-intervista-bicoccalumni-thumb.png
 video-top: H2Rw8WkIvvo
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: institute-bicocca-19
 published: true

@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2020-03-06-intervista-bicoccalumni-thumb.png
 video-top: fwLmbZ37qzM
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: institute-bicocca-04
 published: true

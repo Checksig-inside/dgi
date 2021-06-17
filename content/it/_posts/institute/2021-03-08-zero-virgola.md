@@ -7,7 +7,7 @@ author: Staff
 img-list: /assets/img/institute_insights/2021-03-08-zerovirgola-thumb.png
 video-top: 7MfyeCT7tiM
 parent-category: institute-insights
-categories: ["rassegna stampa"]
+categories: news
 locale: it
 uid: 20210308-institute-events
 published: true

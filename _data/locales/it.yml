@@ -8,7 +8,7 @@ blog:
 menu: 
   professional-services: Servizi
   industries: Settori
-  crypto-insights: Analisi
+  crypto-insights: Insights
   institute-insights: News
   r-d: R&D
   about-dgi: About
@@ -58,7 +58,7 @@ glossary:
   fill-form: fill the form
   categorie-documenti: documentazione,report
   categorie-crypto: mercato,tecnologia,regolazione,ecosistema
-  categorie-institute: eventi,crypto week,rassegna stampa
+  categorie-institute: eventi,crypto week,news
   faq: faq
   video: video
   content-pages: content pages
