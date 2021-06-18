@@ -72,7 +72,7 @@
 			</div>
 			<div class="row">
 				 <div class="col-lg-6 col-md-6 text-center meeting-panel">
-					  <h5><button type="button" class="book" data-toggle="modal" data-target="#exampleModal">{{ site.data.locales[page.locale].glossary['book-meeting']}}</button></h5>
+					   <h5><a style="font-size: 24px!important;" class="book" href="https://calendly.com/d/n6ry-dqvr/checksig?month={{ site.time | date: '%Y' }}-{{ site.time | date: '%m' }}" target="_blank">{{ site.data.locales[page.locale].glossary['book-meeting']}}</a></h5>
 					  <div class="d-none d-lg-block book-meeting">
 					  	{% if page.locale == 'en' %}
 						{% include form-book.html %}
