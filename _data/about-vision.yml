@@ -30,7 +30,7 @@
 - name: Bitcoin è oro digitale
   type: vision
   img: /assets/img/vision/ico_bitcoin_off.svg
-  description: "Bitcoin è un asset al portatore che può essere trasferito (su reti informatiche utilizzando la crittografia a chiave privata / pubblica) ma non duplicato. Accessibile illimitatamente, esiste solo come bene scritturale, transazione registrata su un libro mastro digitale, chiamato blockchain, aggiornato con tecniche crittografiche e assicurato da grandi quantità di energia sotto forma di potenza computazionale (mining). Bitcoin è l'equivalente digitale dell'oro: scarso, usato come denaro, accettato volontariamente senza pianificazione centrale. Per quanto l'oro abbia svolto un ruolo cruciale nella nostra civiltà e nella storia del denaro e della finanza, Bitcoin potrebbe essere dirompente per la civiltà digitale e il futuro del denaro e della finanza. Più una crypto-commodity più che crypto-currency, Bitcoin mira ad essere un asset di riserva mondiale: il paradigma di nuove monete private in competizione con le monete a corso legale e le Central Bank Digital Currencies."
+  description: "Bitcoin è l'equivalente digitale dell'oro: scarso, usato come denaro, accettato volontariamente senza pianificazione centrale. Per quanto l'oro abbia svolto un ruolo cruciale nella nostra civiltà e nella storia del denaro e della finanza, Bitcoin potrebbe essere dirompente per la civiltà digitale e il futuro del denaro e della finanza. Più una crypto-commodity più che crypto-currency, Bitcoin mira ad essere un asset di riserva mondiale: il paradigma di nuove monete private in competizione con le monete a corso legale e le Central Bank Digital Currencies."
   sort_ranking: 1000
   locale: it
 - name: "La blockchain senza Bitcoin"
