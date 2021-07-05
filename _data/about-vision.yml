@@ -48,7 +48,7 @@
 - name: La blockchain economy
   type: vision
   img: /assets/img/vision/ico_financial_off.svg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  description: "La finanza non ha davvero bisogno della blockchain, ma l'economia blockchain ha bisogno di nuovi servizi finanziari. Il campo blockchain più promettente è lo sviluppo di servizi finanziari per cripto-asset: i prodotti finanziari, gli indici, gli strumenti, le pratiche e le strutture di custodia necessari agli investitori istituzionali e alle persone ad alta patrimonializzazione."
   sort_ranking: 500
   locale: it
   
