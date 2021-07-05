@@ -16,5 +16,4 @@ Fondato nel 2018, il Digital Gold Institute è il principale think tank italiano
 bitcoin inteso come esperimento per la creazione della scarsità in ambito digitale. L’Istituto promuove queste tematiche nel dibattito pubblico e nel mondo accademico attraverso ricerca e sviluppo, formazione, consulenza operativa e strategica.
 
 In partnership con l’Università degli Studi di Milano-Bicocca, DGI è membro fondatore
-del Crypto Asset Lab, la cui conferenza annuale è co-organizzata assieme alla direzione generale Joint
-Research Center (JRC) della Commissione Europea.
+del Crypto Asset Lab, la cui conferenza annuale è co-organizzata assieme alla direzione generale Joint Research Center (JRC) della Commissione Europea.

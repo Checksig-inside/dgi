@@ -2,8 +2,8 @@
 layout: about-dgi_child
 title: Vision
 header: Vision
-subtitle: Lorem ipsum dolores Vision
-subdesc: Bitcoin is the digital equivalent of gold, disruptive for our current digital civilization and the future of money and finance. More a crypto-commodity then a crypto-currency, Bitcoin aims to be world reserve asset.
+subtitle: "Bitcoin: l’emergere della scarsità in ambito digitale."
+subdesc: Bitcoin è l'equivalente digitale dell'oro, dirompente per la nostra attuale civiltà digitale e il futuro del denaro e della finanza.
 sub-image: /assets/img/r-d/img_crypto.jpg
 img: /assets/img/about/img_vision.jpg
 ico-bdc: /assets/img/about/ico_team.svg
@@ -17,4 +17,8 @@ published: true
 sort_ranking: 1000
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+Se ne discute molto, ma su Bitcoin la divisione è radicale, tra scettici che parlano di bolla ed entusiasti che descrivono una rivoluzione globale.  La sua resilienza sta convincendo un numero crescente di persone che l’esperimento possa aver successo.
+
+Bitcoin non è uno schema Ponzi: è un esperimento ardito che potrebbe fallire ma culturalmente fondato e tecnologicamente robusto. Il valore è dato, come per qualsiasi bene, dall'incontro di domanda e offerta sul mercato. Bitcoin è un bene scarso: l'offerta è deterministicamente fissata e limitata alla soglia di 21 milioni.
+
+Inoltre, Bitcoin è un bene digitale trasferibile ma non duplicabile, cioè “spendibile” una sola volta (a favore di Tizio) ma non due volte (a favore anche di Caio). Per la prima volta in ambito digitale questa caratteristica è intrinseca al protocollo informatico che definisce bitcoin e non è garantita da una autorità o emittente, come capita invece con un titolo azionario o il saldo di un conto corrente: **Bitcoin è il tentativo di maggior successo di creare scarsità in ambito digitale**.

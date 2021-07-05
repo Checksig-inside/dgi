@@ -27,25 +27,25 @@
   
  #---Vision IT
 
-- name: Bitcoin as digital gold
+- name: Bitcoin è oro digitale
   type: vision
   img: /assets/img/vision/ico_bitcoin_off.svg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  description: "Bitcoin è un asset al portatore che può essere trasferito (su reti informatiche utilizzando la crittografia a chiave privata / pubblica) ma non duplicato. Accessibile illimitatamente, esiste solo come bene scritturale, transazione registrata su un libro mastro digitale, chiamato blockchain, aggiornato con tecniche crittografiche e assicurato da grandi quantità di energia sotto forma di potenza computazionale (mining). Bitcoin è l'equivalente digitale dell'oro: scarso, usato come denaro, accettato volontariamente senza pianificazione centrale. Per quanto l'oro abbia svolto un ruolo cruciale nella nostra civiltà e nella storia del denaro e della finanza, Bitcoin potrebbe essere dirompente per la civiltà digitale e il futuro del denaro e della finanza. Più una crypto-commodity più che crypto-currency, Bitcoin mira ad essere un asset di riserva mondiale: il paradigma di nuove monete private in competizione con le monete a corso legale e le Central Bank Digital Currencies."
   sort_ranking: 1000
   locale: it
-- name: "Blockchain: Hype or Reality?"
+- name: "La blockchain senza Bitcoin"
   type: vision
   img: /assets/img/vision/ico_blockchain_off.svg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  description: "La blockchain è una struttura di dati sequenziale append-only: per cambiare un blocco nel mezzo della catena tutti i blocchi successivi devono essere modificati. Molto inefficiente se paragonata a un database relazionale, è per lo più una tecnologia idiosincratica per la scarsità digitale. Infatti, il suo funzionamento non può prescindere da un asset digitale nativo intrinseco, che fornisce gli incentivi economici necessari ad incentivare il comportamento onesto dei suoi manutentori. Senza la remunerazione di signoraggio associata all’asset digitale nativo, un sistema così strutturato dovrebbe ricorrere ad una governance centrale, selezionando e nominando i propri manutentori."
   sort_ranking: 800
   locale: it
-- name: "Beyond Bitcoin: Timestamping"
+- name: "La blockchain oltre Bitcoin"
   type: vision
   img: /assets/img/vision/ico_beyond_off.svg
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
+  description: "La notarizzazione certifica l’immutabilità e la datazione (marcatura temporale) di un documento in uno stato specifico prima di un determinato momento. I dati digitali possono essere certificati in maniera sicura attraverso l’associazione dell’hash-value, identificativo univoco ad essi associato, ad una transazione blockchain. Dal momento che l’esistenza dei dati digitali è verificata, chiunque può verificarne la mancanza di alterazione e la datazione in maniera indipendente. Adatta soprattutto in contesti normativi, la notarizzazione ha un importante applicazione industriale nella sicurezza delle basi dati e di altri sistemi transazionali: OpenTimestamps definisce uno standard di notarizzazione estremamente scalabile che non impatta negativamente sul funzionamento del network bitcoin."
   sort_ranking: 900
   locale: it
-- name: Financial Services
+- name: La blockchain economy
   type: vision
   img: /assets/img/vision/ico_financial_off.svg
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod, eros at lobortis fringilla, nulla ligula vestibulum tellus, luctus maximus elit nisl et est. Suspendisse dapibus neque sit amet sodales egestas. Mauris commodo semper dapibus. Proin odio ex, vehicula et consequat at, faucibus ac eros. Nulla aliquet tortor ut magna molestie molestie. Praesent congue mi quis faucibus fringilla. Sed varius ex vitae est imperdiet pellentesque. Donec non lectus sodales, porttitor orci pharetra, sodales lacus. Phasellus fermentum dolor ut venenatis tempus.
